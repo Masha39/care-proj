@@ -1,0 +1,38 @@
+/// theme variables
+$background: var(--background);
+$color-primary: var(--color-primary);
+$color-secondary: var(--color-secondary);
+$color-button: var(--color-button);
+$orangeGradient: var(--orangeGradient);
+$velvetGradient: var(--velvetGradient);
+$primaryGradient: var(--primaryGradient);
+$bg-primary: var(--bg-primary);
+$border-primary: var(--primary-border);
+$border-primary-active: var(--primary-border-active);
+$bg-secondary: var(--bg-secondary);
+$border-primary-color: var(--border-primary-color);
+$box-shadow-lg: var(--box-shadow-lg);
+$focus-outline-primary: var(--focus-outline-primary);
+$focus-outline-secondary: var(--focus-outline-secondary);
+$primary-border-radius: var(--primary-border-radius);
+
+$box-shadow-primary: var(--box-shadow-primary);
+
+// font size
+$font-size-h1: var(--font-size-h1);
+$font-size-h2: var(--font-size-h2);
+$font-size-h3: var(--font-size-h3);
+$font-size-h4: var(--font-size-h4);
+$font-size-primary: var(--font-size-primary);
+$font-size-secondary: var(--font-size-secondary);
+$font-size-uppercase: var(--font-size-uppercase);
+
+// font color
+$font-color-default: var(--font-color-default);
+$font-color-darkbg: var(--font-color-darkbg);
+$font-color-lightbg: var(--font-color-lightbg);
+$font-color-secondary-darkbg: var(--font-color-secondary-darkbg);
+$font-color-secondary-lightbg: var(--font-color-secondary-lightbg);
+
+$containerMaxWidth: 1365;
+$containerMinWidth: 320;
