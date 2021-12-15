@@ -23,9 +23,9 @@ module.exports = {
   sassOptions: {
     /// Global mixins&variables
     additionalData: [
-      "styles/config/variables",
-      "styles/config/breakpoints",
-      "styles/config/mixins",
+      "src/styles/config/variables",
+      "src/styles/config/breakpoints",
+      "src/styles/config/mixins",
     ]
       .map((path) => `@import '${path}';`)
       .join(""),
