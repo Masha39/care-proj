@@ -1,0 +1,25 @@
+.footer {
+
+}
+
+.footerTop {
+  @include flexBase;
+}
+
+.itemWrapperLeft {
+  @include flexBase; 
+}
+
+.itemWrapperRight {
+  @include flexBase; 
+    margin-left: 65px;
+}
+
+.item {
+  margin-left: 32px;
+}
+
+.itemMt {
+  margin-left: 32px;
+  margin-top: 0.8rem;
+}

@@ -12,6 +12,29 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 22px;
+  @include desktop;
+}
+
+// @media (min-width: $xl) {
+//   .container {
+//     padding-left: 157px;
+//     padding-right: 157px;
+//   }
+// }
