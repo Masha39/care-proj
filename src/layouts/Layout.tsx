@@ -1,18 +1,17 @@
-// import React from 'react'
-// import classNames from 'classnames'
+import React from 'react'
+import Footer from '../components/Footer/Footer'
 
-// import styles from './Layout.module.scss'
+import styles from './Layout.module.scss'
+import Header from '../components/Header/Header'
 
-// const Layout = ({children, className}) => (
-//   <div className={classNames(styles.root, className)}>
-//     <div className={styles.main}>
+const Layout = ({children}) => (
+    <div className={styles.main}>
      
-//       {/* {!disableHeader && <Header />} */}
-     
-//       <div className={styles.content}>{children}</div>
-//       {/* <Footer /> */}
-//     </div>
-//   </div>
-// )
+      <Header />
+      
+      <div className={styles.content}>{children}</div>
+      <Footer/> 
+    </div>
+)
 
-// export default Layout
+export default Layout
