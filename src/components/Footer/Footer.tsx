@@ -1,29 +1,49 @@
 import React from 'react';
 import styles from './Footer.module.scss'
+import Link from 'next/link'
 import Logo1 from '../../../public/svg/footer_logo_1.svg'
 import Logo2 from '../../../public/svg/footer_logo_2.svg'
 import Logo3 from '../../../public/svg/footer_logo_3.svg'
 import Logo4 from '../../../public/svg/footer_logo_4.svg'
+import Socials from '../Socials/Socials';
 
 const Footer = () => {
+  const items = [
+    {value: 'Terms of Use', href: '/terms-of-use'},
+    {value: 'Privacy Policy', href: '/privacy-policy'},
+  ]
   return (
     <div className='container'>
       <footer className={styles.footer}>
         <div className={styles.footerTop}>
           <div className={styles.itemWrapperLeft}>
             <span>Presented by</span>
-              <Logo1 width={79} height={48} className={styles.itemMt}/>
-              <Logo2 width={90} height={32} className={styles.item}/>
+              <div className={styles.logoWrapper}>
+                <Logo1 width={79} height={48} className={styles.itemMt}/>
+                <Logo2 width={90} height={32} className={styles.item}/>
+              </div>
           </div>
           <div className={styles.itemWrapperRight}>
             <span>Supported by</span>
+            <div className={styles.logoWrapper}>
               <Logo3 width={164} height={32} className={styles.item}/>
               <Logo4 width={81} height={32} className={styles.item}/>
-
+            </div>
           </div>
         </div>
-        <hr/>
-        
+        <div className={styles.footerBottom}>
+          <nav>
+            <ul>
+              {items.map((item, i) => (
+                <li key={i}>
+                  <Link href={item.href} >{item.value}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          
+          <Socials/>
+        </div>
       </footer>
     </div>
   );

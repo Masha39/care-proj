@@ -48,11 +48,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div className={styles.socialWrapper}>
-          <span>Find us on</span>
           <Socials/>
-        </div>
-        
       </nav>
   </div>
     

@@ -1,5 +1,7 @@
 
-
+.wrapper {
+  flex: 1 0 auto;
+}
 .header {
   @include flexBase;
   display: flex;
@@ -170,18 +172,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   -o-transition: all 0.3s;
 }
 
-.socialWrapper {
-  span {
-    display: block;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: $text_color;
-    text-align: center;
-    margin-bottom: 32px;
-  }
-}
+
 
 
 @media (min-width: $xl) {

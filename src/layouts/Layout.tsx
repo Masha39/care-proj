@@ -4,16 +4,14 @@ import Footer from '../components/Footer/Footer'
 import styles from './Layout.module.scss'
 import Header from '../components/Header/Header'
 
-const Layout = ({}) => (
-  <div >
+const Layout = ({children}) => (
     <div className={styles.main}>
      
       <Header />
-      {/* <Footer/> */}
-      <div className={styles.content}></div>
-      {/* <Footer /> */}
+      
+      <div className={styles.content}>{children}</div>
+      <Footer/> 
     </div>
-  </div>
 )
 
 export default Layout

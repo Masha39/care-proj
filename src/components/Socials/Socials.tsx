@@ -7,7 +7,7 @@ import Twitter from '../../../public/svg/twitter.svg'
 const Socials = () => {
   return (
     <div className = {styles.wrapper}>
-      
+      <span>Find us on</span>
       <div className={styles.items}>
         <a href='https://www.youtube.com/channel/UCgi1hj3UIkjI2Gv44-V_oZQ?view_as=subscriber'><Youtube/></a>
         <a href='https://www.facebook.com/YourCareplus/'><Facebook/></a>

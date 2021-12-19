@@ -3,6 +3,11 @@
   align-items: center;
 }
 
+@mixin widthBase {
+  max-width: 100%;
+  width: 100%;
+}
+
 
 @mixin desktop {
   @media (min-width: $xl) {

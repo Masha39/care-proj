@@ -1,3 +1,4 @@
+
 .items {
   display: flex;
   align-items: center;
@@ -5,5 +6,28 @@
   margin-left: -24px;
   a {
     margin-left: 24px;
+  }
+}
+
+.wrapper {
+  span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $text_color;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: $xl) {
+ .wrapper {
+  @include flexBase;
+  span {
+    margin-bottom: 0;
+    margin-right: 32px;
+    }
   }
 }
