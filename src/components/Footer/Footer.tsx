@@ -13,8 +13,8 @@ const Footer = () => {
     {value: 'Privacy Policy', href: '/privacy-policy'},
   ]
   return (
-    <div className='container'>
-      <footer className={styles.footer}>
+    <div className={styles.footer}>
+      <footer className='container'>
         <div className={styles.footerTop}>
           <div className={styles.itemWrapperLeft}>
             <span>Presented by</span>
@@ -36,7 +36,7 @@ const Footer = () => {
             <ul>
               {items.map((item, i) => (
                 <li key={i}>
-                  <Link href={item.href} >{item.value}</Link>
+                  <Link href={item.href}><a>{item.value}</a></Link>
                 </li>
               ))}
             </ul>
