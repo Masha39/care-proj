@@ -33,7 +33,7 @@ const Header = () => {
             <ul className={styles.headerList}>
               {items.map((item, i) => (
                 <li key={i} >
-                  <Link href={item.href} >{item.value}</Link>
+                  <Link href={item.href}><a>{item.value}</a></Link>
                 </li>
               ))}
             </ul>
@@ -44,7 +44,7 @@ const Header = () => {
         <ul className={styles.headerList}>
           {items.map((item, i) => (
             <li key={i}>
-              <Link href={item.href} >{item.value}</Link>
+              <Link href={item.href}><a>{item.value}</a></Link>
             </li>
           ))}
         </ul>
