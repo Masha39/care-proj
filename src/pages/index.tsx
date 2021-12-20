@@ -1,8 +1,5 @@
 import type { NextPage } from 'next'
-
 import Layout from '../layouts/Layout'
-import Head from 'next/head'
-
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +10,7 @@ const Home: NextPage = () => {
       </Head> */}
       <Layout/>
     </>
-    
+
   )
 }
 
