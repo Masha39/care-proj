@@ -8,9 +8,10 @@ const Home: NextPage = () => {
         <title>YouCare+</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head> */}
-      <Layout/>
+      <Layout>
+        <h1>Home page</h1>
+      </Layout>
     </>
-
   )
 }
 
