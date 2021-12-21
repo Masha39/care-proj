@@ -1,7 +1,8 @@
 import Layout from '../../layouts/Layout'
-import Image from 'next/image'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { Article } from './types'
+import { Information } from './components/information'
+import { Picture } from './components/picture'
 
 type ArticleProps = {
   article: Article
@@ -17,23 +18,14 @@ const Article = ({ article }: ArticleProps) => {
             switch (item.type) {
               case 'information':
                 return (
-                  <div key={index}>
-                    <h2>{item.title}</h2>
-                    {item.paragraphs.map((el, index) => {
-                      return <p key={index}>{el}</p>
-                    })}
-                  </div>
-                )
-              case 'image':
-                return (
-                  <Image
-                    alt={article.title}
-                    src={item.src}
-                    width="100px"
-                    height="100px"
+                  <Information
                     key={index}
+                    title={item.title}
+                    paragraphs={item.paragraphs}
                   />
                 )
+              case 'image':
+                return <Picture src={item.src} alt={article.title} />
             }
           })}
         </div>
