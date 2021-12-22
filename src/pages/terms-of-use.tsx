@@ -1,12 +1,12 @@
-import React from 'react';
-import Layout from '../layouts/Layout';
+import React from 'react'
+import Layout from '../layouts/Layout'
+
 const termsOfUse = () => {
   return (
-    <>
-      <Layout><h1>Terms Of Use</h1></Layout>
-      
-    </>
-  );
-};
+    <Layout>
+      <h1>Terms Of Use</h1>
+    </Layout>
+  )
+}
 
 export default termsOfUse

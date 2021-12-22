@@ -1,4 +1,4 @@
-export type Article = {
+export type ArticleJson = {
   title: string
   content: ArticleContent[]
 }

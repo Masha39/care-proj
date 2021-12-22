@@ -1,6 +1,4 @@
-
 .wrapper {
-
 }
 .header {
   @include flexBase;
@@ -49,11 +47,11 @@
   -moz-transform: translate(100);
   -ms-transform: translate(100);
   -o-transform: translate(100);
-  background: #F6F8F9;
-box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
+  background: #f6f8f9;
+  box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   .headerList {
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     padding-left: 16px;
     padding-right: 16px;
     li {
@@ -85,7 +83,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
     width: 20px;
     position: absolute;
     top: 14px;
-    background-color: #1D526A;
+    background-color: #1d526a;
     border-radius: 4px;
     height: 4px;
   }
@@ -97,7 +95,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   width: 20px;
   position: absolute;
   top: 7px;
-  background-color: #1D526A;
+  background-color: #1d526a;
   border-radius: 4px;
   height: 4px;
   -webkit-transition: all 0.3s;
@@ -112,7 +110,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   width: 20px;
   position: absolute;
   bottom: 5px;
-  background-color: #1D526A;
+  background-color: #1d526a;
   border-radius: 4px;
   height: 4px;
   -webkit-transition: all 0.3s;
@@ -129,7 +127,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
 }
 
 .burgerBtnActive span {
-	height: 0;
+  height: 0;
 }
 
 .burgerBtnActive:before {
@@ -138,7 +136,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   width: 20px;
   position: absolute;
   bottom: 9px;
-  background-color: #1D526A;
+  background-color: #1d526a;
   border-radius: 4px;
   height: 4px;
   transform: rotate(45deg);
@@ -158,7 +156,7 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   width: 20px;
   position: absolute;
   top: 7px;
-  background-color: #1D526A;
+  background-color: #1d526a;
   border-radius: 4px;
   height: 4px;
   transform: rotate(-45deg);
@@ -171,9 +169,6 @@ box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
-
-
-
 
 @media (min-width: $xl) {
   .desktopMenu {

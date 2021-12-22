@@ -1,14 +1,12 @@
-import React from 'react';
-import Layout from '../layouts/Layout';
+import React from 'react'
+import Layout from '../layouts/Layout'
+
 const privacyPolicy = () => {
   return (
-    <>
-      <Layout>
-        <h1>Privacy Policy</h1>
-      </Layout>
-      
-    </>
-  );
-};
+    <Layout>
+      <h1>Privacy Policy</h1>
+    </Layout>
+  )
+}
 
-export default privacyPolicy;
+export default privacyPolicy

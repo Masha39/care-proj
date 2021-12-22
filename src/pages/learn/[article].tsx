@@ -1,43 +1,43 @@
-import Layout from '../../layouts/Layout'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { Article } from './types'
+import Layout from '../../layouts/Layout'
+import { ArticleJson } from './types'
 import { Information } from './components/information'
 import { Picture } from './components/picture'
 
 type ArticleProps = {
-  article: Article
+  article: ArticleJson
 }
 
 const Article = ({ article }: ArticleProps) => {
   return (
-    <>
-      <Layout>
-        <h1>{article.title}</h1>
-        <div>
-          {article.content.map((item, index) => {
-            switch (item.type) {
-              case 'information':
-                return (
-                  <Information
-                    key={index}
-                    title={item.title}
-                    paragraphs={item.paragraphs}
-                  />
-                )
-              case 'image':
-                return <Picture src={item.src} alt={article.title} />
-            }
-          })}
-        </div>
-      </Layout>
-    </>
+    <Layout>
+      <h1>{article.title}</h1>
+      <div>
+        {article.content.map((item, index) => {
+          switch (item.type) {
+            case 'information':
+              return (
+                <Information
+                  key={index}
+                  title={item.title}
+                  paragraphs={item.paragraphs}
+                />
+              )
+            case 'image':
+              return <Picture src={item.src} alt={article.title} />
+            default:
+              return null
+          }
+        })}
+      </div>
+    </Layout>
   )
 }
 
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   params
 }) => {
-  let data = await import(`../../config/articles/${params?.article}.json`)
+  const data = await import(`../../config/articles/${params?.article}.json`)
 
   return {
     props: {
@@ -47,7 +47,7 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  let data = await import('../../config/articles/articlesList.json')
+  const data = await import('../../config/articles/articlesList.json')
 
   const paths = data.default.map((article) => ({
     params: { article: article.url }
