@@ -8,9 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "i18next": "^21.6.3",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "lint-staged": "^12.1.3",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-i18next": "^11.15.1",
     "sass": "^1.45.0"
   },
   "devDependencies": {
@@ -20,7 +29,19 @@
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^4.3.8",
     "prettier": "2.5.1",
     "typescript": "4.5.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,html,scss,css}": [
+      "yarn lint --fix .",
+      "prettier --write"
+    ]
   }
 }
