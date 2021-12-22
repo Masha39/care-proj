@@ -1,13 +1,12 @@
 .footer {
   margin-top: auto;
   padding-bottom: 24px;
-
 }
 
 .footerTop {
   @include flexBase;
   flex-direction: column;
-  border-bottom: 1px solid #E7ECEF;  
+  border-bottom: 1px solid #e7ecef;
   padding-bottom: 32px;
   span {
     font-style: normal;
@@ -21,7 +20,7 @@
 .itemWrapperLeft {
   @include widthBase;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .itemWrapperRight {
@@ -52,22 +51,21 @@
   nav {
     margin-bottom: 40px;
     ul {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    margin-left: -50px;
-    li {
-      font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 21px;
-      color: $text_color;
-      margin-left: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: -50px;
+      li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: $text_color;
+        margin-left: 50px;
       }
     }
   }
 }
-
 
 @media (min-width: $xl) {
   .footerTop {

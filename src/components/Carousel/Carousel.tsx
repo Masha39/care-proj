@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Item1 from '../../../public/svg/slider/slide_1.svg'
 import Item2 from '../../../public/svg/slider/slide_2.svg'
-import Tool from '../../../public/svg/icons/Tool.svg'
+import Tool from '../../../public/svg/icons/tool.svg'
 
 
 
 const Carousel = () => {
-  const [items, setItems] = useState([
+  const [items] = useState([
     {id: 1, href: '#', image: <Item1/>, tagImage: <Tool/>, tagTitle: 'Tool', textTitle: 'Who is your home care team?' },
     {id: 2, href: '#', image: <Item2/>, tagImage: <Tool/>, tagTitle: 'Tool', textTitle: 'Who is your home care team?' },
     {id: 3,href: '#', image: <Item1/>, tagImage: <Tool/>, tagTitle: 'Tool', textTitle: 'Who is your home care team?' },
@@ -27,7 +27,7 @@ const Carousel = () => {
       slidesToShow: 3,
       slidesToScroll: 2,
       centerMode: true,
-      centerPadding: 0,
+      centerPadding: '0',
       adaptiveHeight: true,
       responsive: [
         {
@@ -46,7 +46,7 @@ const Carousel = () => {
             slidesToScroll: 2,
             initialSlide: 2,
             centerMode: true,
-            centerPadding: 0,
+            centerPadding: '0',
           }
         },
         {
@@ -56,7 +56,7 @@ const Carousel = () => {
             slidesToScroll: 1,
             initialSlide: 1,
             centerMode: true,
-            centerPadding: 0,
+            centerPadding: '0',
           }
         },
         {
@@ -65,11 +65,11 @@ const Carousel = () => {
             slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: true,
-            centerPadding: 0,
+            centerPadding: '0',
           }
         }
       ],
-      customPaging: i => (
+      customPaging: i  => (
         <div
           style={{
             width: "16px",
@@ -79,9 +79,7 @@ const Carousel = () => {
             borderRadius: '7px',
             marginTop: '24px',
           }}
-        >
-          {}
-        </div>
+        />
       ),
       
     }
