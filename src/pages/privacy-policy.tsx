@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../layouts/Layout'
 
-const privacyPolicy = () => {
+const PrivacyPolicy = () => {
   return (
     <Layout>
       <h1>Privacy Policy</h1>
@@ -9,4 +9,4 @@ const privacyPolicy = () => {
   )
 }
 
-export default privacyPolicy
+export default PrivacyPolicy

@@ -93,6 +93,7 @@
         "namedComponents": "arrow-function"
       }
     ],
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-pascal-case": "error"
   }
 }

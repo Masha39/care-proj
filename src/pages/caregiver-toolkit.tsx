@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../layouts/Layout'
 
-const caregiverToolkit = () => {
+const CaregiverToolkit = () => {
   return (
     <Layout>
       <h1>Caregiver Toolkit</h1>
@@ -9,4 +9,4 @@ const caregiverToolkit = () => {
   )
 }
 
-export default caregiverToolkit
+export default CaregiverToolkit
