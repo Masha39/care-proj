@@ -4,9 +4,9 @@ const path = require('path')
 module.exports = {
   reactStrictMode: true,
   i18n: {
-    locales: ['default', 'en', 'ru'],
+    locales: ['default', 'en', 'fr'],
     defaultLocale: 'en',
-    localeDetection: false
+    localeDetection: true
   },
   images: {
     domains: ['media.istockphoto.com']

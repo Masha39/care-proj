@@ -37,7 +37,7 @@ const Article = ({ article }: ArticleProps) => {
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   params
 }) => {
-  const data = await import(`../../config/articles/${params?.article}.json`)
+  const data = await import(`../../config/articles/${params?.slug}.json`)
 
   return {
     props: {
@@ -50,7 +50,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const data = await import('../../config/articles/articlesList.json')
 
   const paths = data.default.map((article) => ({
-    params: { article: article.url }
+    params: { slug: article.url }
   }))
 
   return { paths, fallback: false }
