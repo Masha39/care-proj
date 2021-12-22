@@ -94,11 +94,6 @@
       }
     ],
     "jsx-a11y/anchor-is-valid": "off",
-    "react/jsx-pascal-case": "error",
-    "import/no-unresolved": [
-      2, 
-      { "caseSensitive": false }
-   ]
-
+    "react/jsx-pascal-case": "error"
   }
 }

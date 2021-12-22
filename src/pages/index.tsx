@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Layout>
         <div className="slider-wrapper">
           <div className="container">
-            <Slider/>
+            <Slider />
           </div>
         </div>
       </Layout>
