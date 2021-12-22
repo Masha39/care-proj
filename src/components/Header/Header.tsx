@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import styles from './Header.module.scss'
+import styles from './header.module.scss'
 import Logo from '../../../public/svg/header_logo.svg'
-import Socials from '../Socials/Socials'
+import Socials from '../socials/socials'
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false)
