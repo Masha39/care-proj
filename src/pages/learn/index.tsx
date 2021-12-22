@@ -1,9 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
+import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../layouts/Layout'
-import articles from '../../config/articles/articlesList.json'
+import { ArticlePreview } from './types'
 
-const learn = () => {
+const Learn = () => {
+  const { t } = useTranslation('articles-list')
+
+  const articles = t(
+    'articles-list:articles',
+    { count: 1 },
+    { returnObjects: true }
+  ) as ArticlePreview[]
+
   return (
     <Layout>
       <h1>Learn</h1>
@@ -18,4 +27,4 @@ const learn = () => {
   )
 }
 
-export default learn
+export default Learn

@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 import Layout from '../../layouts/Layout'
 import { ArticleJson } from './types'
-import { Information } from './components/information'
-import { Picture } from './components/picture'
+import { Information } from './components/Information'
+import { Picture } from './components/Picture'
 
 type ArticleProps = {
   article: ArticleJson
@@ -24,7 +24,7 @@ const Article = ({ article }: ArticleProps) => {
                 />
               )
             case 'image':
-              return <Picture src={item.src} alt={article.title} />
+              return <Picture src={item.src} alt={article.title} key={index} />
             default:
               return null
           }
@@ -35,21 +35,23 @@ const Article = ({ article }: ArticleProps) => {
 }
 
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
-  params
+  params,
+  locale
 }) => {
   const data = await import(`../../config/articles/${params?.slug}.json`)
 
   return {
     props: {
-      article: data.default
+      article: data.default,
+      locale
     }
   }
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const data = await import('../../config/articles/articlesList.json')
+  const data = await import('../../../locales/en/articles-list.json')
 
-  const paths = data.default.map((article) => ({
+  const paths = data.default.articles.map((article) => ({
     params: { slug: article.url }
   }))
 

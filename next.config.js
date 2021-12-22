@@ -1,13 +1,9 @@
 const path = require('path')
+const nextTranslate = require('next-translate')
 
 /** @type {import('next').NextConfig} */
-module.exports = {
+module.exports = nextTranslate({
   reactStrictMode: true,
-  i18n: {
-    locales: ['default', 'en', 'fr'],
-    defaultLocale: 'en',
-    localeDetection: true
-  },
   images: {
     domains: ['media.istockphoto.com']
   },
@@ -38,4 +34,4 @@ module.exports = {
       path.join(__dirname, 'assets')
     ]
   }
-}
+})

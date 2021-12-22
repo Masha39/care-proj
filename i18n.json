@@ -1,0 +1,9 @@
+{
+  "locales": ["en", "fr"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/learn": ["learn", "articles-list"],
+    "/learn/home-care-teams": ["home-care-teams"]
+  }
+}

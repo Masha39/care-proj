@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "url": "what-is-home-care",
+      "title": "something french?",
+      "content_type": "information",
+      "article_type": "Understanding Home Care"
+    },
+    {
+      "url": "home-care-teams",
+      "title": "bagets ulala",
+      "content_type": "information",
+      "article_type": "Understanding Home Care"
+    }
+  ]
+}

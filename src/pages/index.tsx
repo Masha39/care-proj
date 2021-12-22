@@ -1,17 +1,14 @@
 import type { NextPage } from 'next'
+import useTranslation from 'next-translate/useTranslation'
 import Layout from '../layouts/Layout'
 
 const Home: NextPage = () => {
+  const { t } = useTranslation('common')
+
   return (
-    <>
-      {/* <Head>
-        <title>YouCare+</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head> */}
-      <Layout>
-        <h1>Home page</h1>
-      </Layout>
-    </>
+    <Layout>
+      <h1>{t('title')}</h1>
+    </Layout>
   )
 }
 

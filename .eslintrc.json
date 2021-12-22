@@ -94,6 +94,7 @@
       }
     ],
     "jsx-a11y/anchor-is-valid": "off",
-    "react/jsx-pascal-case": "error"
+    "react/jsx-pascal-case": "error",
+    "no-unused-expressions": "warn"
   }
 }
