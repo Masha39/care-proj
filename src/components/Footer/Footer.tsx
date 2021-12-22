@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from './Footer.module.scss'
+import styles from './footer.module.scss'
 import Logo1 from '../../../public/svg/footer_logo_1.svg'
 import Logo2 from '../../../public/svg/footer_logo_2.svg'
 import Logo3 from '../../../public/svg/footer_logo_3.svg'
 import Logo4 from '../../../public/svg/footer_logo_4.svg'
-import Socials from '../Socials/Socials'
+import Socials from '../socials/socials'
 
 const Footer = () => {
   const items = [

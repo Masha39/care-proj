@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import Slider from 'react-slick'
-import styles from './Carousel.module.scss'
+import styles from './carousel.module.scss'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Item1 from '../../../public/svg/slider/slide_1.svg'
 import Item2 from '../../../public/svg/slider/slide_2.svg'
 import Tool from '../../../public/svg/icons/tool.svg'
-import { CustomPaging } from './components/custom-paging/CustomPaging'
+import { CustomPaging } from './components/custom-paging/custom_paging'
 
 const Carousel = () => {
   const [items] = useState([

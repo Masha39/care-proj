@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Slider from '../components/Carousel/Carousel'
+import Slider from '../components/carousel/carousel'
 import Layout from '../layouts/Layout'
 
 const Home: NextPage = () => {

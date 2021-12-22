@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Social.module.scss'
+import styles from './socials.module.scss'
 import Youtube from '../../../public/svg/youtube.svg'
 import Facebook from '../../../public/svg/facebook.svg'
 import Instagram from '../../../public/svg/instagram.svg'

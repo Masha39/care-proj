@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/footer/footer'
 import styles from './Layout.module.scss'
-import Header from '../components/Header/Header'
+import Header from '../components/header/header'
 
 const Layout = ({ children }: { children: React.ReactNode }) => (
   <div className={styles.main}>
