@@ -36,24 +36,39 @@ const Article = ({ article }: ArticleProps) => {
 
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   params,
-  locale
+  locale,
+  defaultLocale
 }) => {
-  const data = await import(`../../config/articles/${params?.slug}.json`)
+  const data = await import(
+    `../../../locales/${locale || defaultLocale}/articles/${params?.slug}`
+  )
 
   return {
     props: {
-      article: data.default,
-      locale
+      article: data.default
     }
   }
 }
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const data = await import('../../../locales/en/articles-list.json')
+export const getStaticPaths: GetStaticPaths = async ({
+  locales,
+  defaultLocale
+}) => {
+  const data = await Promise.all(
+    locales
+      ? locales.map(async (locale) => {
+          return import(`../../../locales/${locale}/articles-list.json`)
+        })
+      : await import(`../../../locales/${defaultLocale}/articles-list.json`)
+  )
 
-  const paths = data.default.articles.map((article) => ({
-    params: { slug: article.url }
-  }))
+  const paths = data.flatMap((d) =>
+    d.default.articles.flatMap((article: any) =>
+      locales?.map((locale) => {
+        return { params: { slug: article.url }, locale }
+      })
+    )
+  )
 
   return { paths, fallback: false }
 }

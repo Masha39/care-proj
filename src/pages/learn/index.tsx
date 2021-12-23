@@ -15,7 +15,7 @@ const Learn = () => {
 
   return (
     <Layout>
-      <h1>Learn</h1>
+      <h1>{t('static/learn:title')}</h1>
       {articles.map((item: any, index: any) => {
         return (
           <Link href={`/learn/${item.url}`} key={index}>
