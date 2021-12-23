@@ -2,13 +2,13 @@
   "articles": [
     {
       "url": "what-is-home-care",
-      "title": "something french?",
+      "title": "Qu'est-ce que les soins à domicile?",
       "content_type": "information",
       "article_type": "Understanding Home Care"
     },
     {
       "url": "home-care-teams",
-      "title": "bagets ulala",
+      "title": "Équipes de soins à domicile",
       "content_type": "information",
       "article_type": "Understanding Home Care"
     }
