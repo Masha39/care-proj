@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+import Logo from 'public/svg/header_logo.svg'
 import styles from './header.module.scss'
-import Logo from '../../../public/svg/header_logo.svg'
-import Socials from '../socials/socials'
+import { Socials } from '../socials/socials'
 
-const Header = () => {
+export const Header = () => {
+  const { locales, asPath } = useRouter()
+
   const [menuActive, setMenuActive] = useState(false)
   const [burgerBtnActive, setBurgerBtnActive] = useState(false)
   const items = [
@@ -45,6 +48,13 @@ const Header = () => {
                   </Link>
                 </li>
               ))}
+              {locales?.map((locale) => (
+                <li key={locale}>
+                  <Link href={asPath} locale={locale}>
+                    <a>{locale}</a>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
         </header>
@@ -58,11 +68,16 @@ const Header = () => {
               </Link>
             </li>
           ))}
+          {locales?.map((locale) => (
+            <li key={locale}>
+              <Link href={asPath} locale={locale}>
+                <a>{locale}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
         <Socials />
       </nav>
     </div>
   )
 }
-
-export default Header
