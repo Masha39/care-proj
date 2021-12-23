@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import styles from './Header.module.scss'
+import styles from './header.module.scss'
 import Logo from '../../../public/svg/header_logo.svg'
-import Socials from '../Socials/Socials'
+import { Socials } from '../socials/socials'
 
-const Header = () => {
+export const Header = () => {
   const { locales, asPath } = useRouter()
 
   const [menuActive, setMenuActive] = useState(false)
@@ -81,5 +81,3 @@ const Header = () => {
     </div>
   )
 }
-
-export default Header

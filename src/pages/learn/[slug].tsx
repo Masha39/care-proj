@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
-import Layout from '../../layouts/Layout'
+import Layout from '../../layouts/layout'
 import { ArticleJson } from './types'
-import { Information } from './components/Information'
-import { Picture } from './components/Picture'
+import { Information } from './components/information'
+import { Picture } from './components/picture'
 
 type ArticleProps = {
   article: ArticleJson
