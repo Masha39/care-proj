@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Logo from 'public/svg/header_logo.svg'
+import Logo from '~/assets/svg/header_logo.svg'
 import styles from './header.module.scss'
 import { Socials } from '../socials/socials'
 

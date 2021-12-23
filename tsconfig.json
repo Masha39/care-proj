@@ -23,7 +23,10 @@
       "layouts/*": ["./src/layouts/*"],
       "components/*": ["./src/components/*"],
       "styles/*": ["./src/styles/*"],
-      "util/*": ["./src/util/*"]
+      "util/*": ["./src/util/*"],
+      "images/*": ["./src/assets/images/*"],
+      "icons/*": ["./src/assets/icons/*"],
+      "svg/*": ["./src/assets/svg/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
