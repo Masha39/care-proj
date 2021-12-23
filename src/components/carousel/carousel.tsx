@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import Slider from 'react-slick'
-import styles from './carousel.module.scss'
+import Link from 'next/link'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Item1 from '../../../public/svg/slider/slide_1.svg'
-import Item2 from '../../../public/svg/slider/slide_2.svg'
-import Tool from '../../../public/svg/icons/tool.svg'
+import Item1 from 'public/svg/slider/slide_1.svg'
+import Item2 from 'public/svg/slider/slide_2.svg'
+import Tool from 'public/svg/icons/tool.svg'
+import styles from './carousel.module.scss'
 import { CustomPaging } from './components/custom-paging/custom-paging'
 
-const Carousel = () => {
+export const Carousel = () => {
   const [items] = useState([
     {
       id: 1,
-      href: '#',
+      href: '/learn/what-is-home-care',
       image: <Item1 />,
       tagImage: <Tool />,
       tagTitle: 'Tool',
@@ -119,24 +120,26 @@ const Carousel = () => {
       <p>Introduction to Home Care</p>
       <Slider {...settings}>
         {items.map((item) => (
-          <a href={item.href} key={item.id} className={styles.item}>
-            <div className={styles.itemImage}>
-              {item.image}
+          <div className={styles.item} key={item.id}>
+            <Link href={item.href}>
+              <a>
+                <div className={styles.itemImage}>
+                  {item.image}
 
-              <div className={styles.tag}>
-                <div className={styles.tagLogo}>{item.tagImage}</div>
-                <span>{item.tagTitle}</span>
-              </div>
-            </div>
-            <div className={styles.itemText}>
-              <p>{item.textTitle}</p>
-              <span>Learn more</span>
-            </div>
-          </a>
+                  <div className={styles.tag}>
+                    <div className={styles.tagLogo}>{item.tagImage}</div>
+                    <span>{item.tagTitle}</span>
+                  </div>
+                </div>
+                <div className={styles.itemText}>
+                  <p>{item.textTitle}</p>
+                  <span>Learn more</span>
+                </div>
+              </a>
+            </Link>
+          </div>
         ))}
       </Slider>
     </div>
   )
 }
-
-export default Carousel

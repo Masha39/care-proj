@@ -1,5 +1,5 @@
+import InfoIcon from 'public/svg/icons/info.svg'
 import styles from './banner.module.scss'
-import InfoIcon from '../../../../../public/svg/icons/info.svg'
 
 export const Banner = ({
   title,

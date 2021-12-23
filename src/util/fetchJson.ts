@@ -1,1 +1,1 @@
-export const fetchJson = (path: string) => import(`../../locales/${path}`)
+export const fetchJson = (path: string) => import(`/locales/${path}`)

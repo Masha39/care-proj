@@ -4,13 +4,13 @@
       "url": "what-is-home-care",
       "title": "Qu'est-ce que les soins à domicile?",
       "content_type": "information",
-      "article_type": "Understanding Home Care"
+      "topic": "Understanding Home Care"
     },
     {
       "url": "home-care-teams",
       "title": "Équipes de soins à domicile",
       "content_type": "information",
-      "article_type": "Understanding Home Care"
+      "topic": "Understanding Home Care"
     }
   ]
 }
