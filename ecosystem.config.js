@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'yourcareplus-frontend',
       script: 'npm',
-      args: 'run start',
+      args: 'run start -p 3008',
       time: true,
       instances: 1,
       autorestart: true,
