@@ -9,8 +9,8 @@ module.exports = {
       autorestart: true,
       max_restarts: 50,
       watch: false,
-      max_memory_restart: '500M',
-    },
+      max_memory_restart: '500M'
+    }
   ],
 
   deploy: {
@@ -24,7 +24,7 @@ module.exports = {
       fetch: '--all',
       path: '/home/marvin/yourcareplus/frontend',
       'post-deploy':
-        'git checkout develop && npm install && npm run build && pm2 reload ecosystem.config.js --env production',
-    },
-  },
-};
+        'git checkout develop && npm install --no-optional && npm run build && pm2 reload ecosystem.config.js --env production'
+    }
+  }
+}
