@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
-import Slider from '../components/carousel/carousel'
+import MainPageContent from '../components/main_page_content/main_page_content'
+
 import Layout from '../layouts/Layout'
 
 const Home: NextPage = () => {
@@ -10,11 +11,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head> */}
       <Layout>
-        <div className="slider-wrapper">
-          <div className="container">
-            <Slider />
-          </div>
-        </div>
+        <MainPageContent />
       </Layout>
     </>
   )
