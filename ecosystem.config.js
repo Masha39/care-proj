@@ -18,7 +18,7 @@ module.exports = {
       user: 'marvin',
       host: 'api.42.works',
       key: 'deploy.key',
-      ref: 'origin/dev',
+      ref: 'origin/develop',
       repo: 'git@gitlab.com:your-care-plus/frontend.git',
       ssh_options: ['StrictHostKeyChecking=no', 'PasswordAuthentication=no'],
       fetch: '--all',
