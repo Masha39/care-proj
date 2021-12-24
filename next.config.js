@@ -3,7 +3,7 @@ const nextTranslate = require('next-translate')
 
 /** @type {import('next').NextConfig} */
 module.exports = nextTranslate({
-  swcMinify: true,
+  swcMinify: false,
   reactStrictMode: true,
   images: {
     domains: ['media.istockphoto.com']
