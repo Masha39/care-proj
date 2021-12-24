@@ -12,6 +12,8 @@ build_app:
     name: yourcare-frontend-build
     paths:
       - build
+  only:
+    - develop
 
 staging:
   image: node:14.17-alpine
