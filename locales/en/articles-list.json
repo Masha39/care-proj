@@ -4,13 +4,22 @@
       "url": "what-is-home-care",
       "title": "What is home care?",
       "content_type": "information",
-      "topic": "Understanding Home Care"
+      "topic": "Understanding Home Care",
+      "image": "slide_1.svg"
     },
     {
       "url": "home-care-teams",
-      "title": "Home Care Teams",
+      "title": "What is a home care team?",
       "content_type": "information",
-      "topic": "Understanding Home Care"
+      "topic": "Understanding Home Care",
+      "image": "slide_2.svg"
+    },
+    {
+      "url": "what-is-caregiver",
+      "title": "What is a Caregiver?",
+      "content_type": "information",
+      "topic": "Caregiver Wellness",
+      "image": "slide_1.svg"
     }
   ]
 }
