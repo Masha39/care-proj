@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
+import Layout from 'layouts/layout'
 import MainPageContent from '../components/main_page_content/main_page_content'
-
-import Layout from '../layouts/Layout'
+// import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {
+  // const { t } = useTranslation('common')
+
   return (
     <>
       {/* <Head>

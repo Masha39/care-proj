@@ -1,16 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
-import Slider from '../carousel/carousel'
 import styles from './main_page_content.module.scss'
-import MenIcon from '../../../public/svg/main_page/men_icon.svg'
-import CircleDiagram from '../../../public/svg/main_page/circle_diagram.svg'
+import MenIcon from '../../assets/main_page/men_icon.svg'
+import CircleDiagram from '../../assets/main_page/circle_diagram.svg'
+import { Carousel } from '../carousel/carousel'
+import ChatIcon from '../../../public/chat_icon.svg'
 
 const MainPageContent = () => {
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.slider_wrapper}>
         <div className="container">
-          <Slider />
+          <Carousel />
         </div>
       </div>
       <section className={styles.statistic}>
@@ -59,16 +60,82 @@ const MainPageContent = () => {
                 YourCare+ provides tools to use in the home, send to a family
                 member or friend, or share with health care professionals.
               </p>
-              <button>Caregiver Toolkit</button>
+              <a href="#" className={styles.section_btn}>
+                Caregiver Toolkit
+              </a>
             </div>
             <div className={styles.block_image}>
-              <Image
-                src="/src/assets/images/phone.jpg"
-                width={490}
-                height={400}
-              />
+              <Image src="/phone.png" width={490} height={400} />
             </div>
           </div>
+        </div>
+      </section>
+      <section className={styles.basics}>
+        <div className="container">
+          <div className={styles.wrapper}>
+            <div className={styles.block_text}>
+              <h2>Navigate home care </h2>
+              <p>
+                Learn about the basics of home care and the roles of home care
+                providers.
+              </p>
+              <a href="#" className={styles.section_btn}>
+                The Basics
+              </a>
+            </div>
+            <div className={styles.block_image}>
+              <Image src="/people.png" width={490} height={276} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.caregiver_wellness}>
+        <div className="container">
+          <div className={styles.wrapper}>
+            <div className={styles.block_text}>
+              <h2>Improve caregiver wellness</h2>
+              <p>
+                Learn how to protect personal health and wellness to prevent
+                stress and burnout.
+              </p>
+              <a href="#" className={styles.section_btn}>
+                Caregiver Wellness
+              </a>
+            </div>
+            <div className={styles.block_image}>
+              <Image src="/girl.png" width={490} height={276} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.chronic_diseases}>
+        <div className="container">
+          <div className={styles.wrapper}>
+            <div className={styles.block_text}>
+              <h2>Manage chronic diseases</h2>
+              <p>
+                Learn how to manage COPD and Heart Failure symptoms in the home.
+              </p>
+              <a href="#" className={styles.section_btn}>
+                Managing Symptoms
+              </a>
+            </div>
+            <div className={styles.block_image}>
+              <Image src="/girls.png" width={490} height={276} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.bottom_section}>
+        <div className="container">
+          <ChatIcon />
+          <p>
+            Contact us to see how YourCare+ can be customized for your
+            organization.
+          </p>
+          <a href="#" className={styles.section_btn}>
+            Request a demo
+          </a>
         </div>
       </section>
     </div>
