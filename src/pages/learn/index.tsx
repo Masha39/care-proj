@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from 'layouts/layout'
-import { ArticlePreview } from './types'
+
 import styles from './learn.module.scss'
 
 const Learn = () => {

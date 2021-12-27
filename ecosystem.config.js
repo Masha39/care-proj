@@ -3,13 +3,11 @@ module.exports = {
     {
       name: 'yourcareplus-frontend',
       script: 'npm',
-      args: 'run start',
-      time: true,
-      instances: 1,
-      autorestart: true,
-      max_restarts: 50,
-      watch: false,
-      max_memory_restart: '500M'
+      args: 'run start -- -p 3008',
+      exec_mode: 'fork',
+      env: {
+        PORT: '3008'
+      }
     }
   ],
 

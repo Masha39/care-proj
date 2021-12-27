@@ -1,11 +1,13 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
+
 import Layout from 'layouts/layout'
+import { Information } from 'components/article/information/information'
+import { Picture } from 'components/article/picture/picture'
+import { Banner } from 'components/article/banner/banner'
+
 import { fetchJson } from 'util/fetchJson'
+
 import styles from './article.module.scss'
-import { ArticleJson, ArticlePreview } from './types'
-import { Information } from './components/information/information'
-import { Picture } from './components/picture/picture'
-import { Banner } from './components/banner/banner'
 
 type ArticleProps = {
   article: ArticleJson
