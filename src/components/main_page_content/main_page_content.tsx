@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import useTranslation from 'next-translate/useTranslation'
 import styles from './main_page_content.module.scss'
 import MenIcon from '../../assets/main_page/men_icon.svg'
 import CircleDiagram from '../../assets/main_page/circle_diagram.svg'
@@ -7,6 +8,8 @@ import { Carousel } from '../carousel/carousel'
 import ChatIcon from '../../../public/chat_icon.svg'
 
 const MainPageContent = () => {
+  const { t } = useTranslation('main_page')
+
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.slider_wrapper}>
@@ -15,7 +18,7 @@ const MainPageContent = () => {
         </div>
       </div>
       <section className={styles.statistic}>
-        <h2>Did you know that...</h2>
+        <h2>{t('static/main_page:statistic_title')}</h2>
         <div className={styles.circle_wrapper}>
           <div className={styles.items}>
             <div className={styles.statistic_left}>
@@ -24,8 +27,7 @@ const MainPageContent = () => {
                 <MenIcon />
               </div>
               <p className={styles.description}>
-                In 2018, 1 in 4 Canadians provided unpaid caregiving to a family
-                member or friend.
+                {t('static/main_page:statistic_left')}
               </p>
             </div>
             <div className={styles.devider} />
@@ -37,31 +39,29 @@ const MainPageContent = () => {
                 <CircleDiagram />
               </div>
               <p className={styles.description}>
-                One-third of these caregivers said they had unmet needs.
+                {t('static/main_page:statistic_right')}
               </p>
             </div>
           </div>
-          <p className={styles.label}>Statistics Canada, 2018</p>
+          <p className={styles.label}>
+            {t('static/main_page:statistic_label')}
+          </p>
         </div>
       </section>
       <section className={styles.mission}>
-        <h3>Our Mission</h3>
+        <h3>{t('static/main_page:mission_title')}</h3>
         <div className={styles.mission_description}>
-          YourCare+ provides free information and tools to make caregiving
-          easier.
+          {t('static/main_page:mission_description')}
         </div>
       </section>
       <section className={styles.caregiving_easier}>
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.block_text}>
-              <h2>Make caregiving easier </h2>
-              <p>
-                YourCare+ provides tools to use in the home, send to a family
-                member or friend, or share with health care professionals.
-              </p>
+              <h2>{t('static/main_page:caregiving_easier_title')}</h2>
+              <p>{t('static/main_page:caregiving_easier_description')}</p>
               <a href="#" className={styles.section_btn}>
-                Caregiver Toolkit
+                {t('static/main_page:caregiver_toolkit_button')}
               </a>
             </div>
             <div className={styles.block_image}>
@@ -74,13 +74,10 @@ const MainPageContent = () => {
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.block_text}>
-              <h2>Navigate home care </h2>
-              <p>
-                Learn about the basics of home care and the roles of home care
-                providers.
-              </p>
+              <h2>{t('static/main_page:home_care_title')} </h2>
+              <p>{t('static/main_page:home_care_description')}</p>
               <a href="#" className={styles.section_btn}>
-                The Basics
+                {t('static/main_page:basic_button')}
               </a>
             </div>
             <div className={styles.block_image}>
@@ -93,13 +90,10 @@ const MainPageContent = () => {
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.block_text}>
-              <h2>Improve caregiver wellness</h2>
-              <p>
-                Learn how to protect personal health and wellness to prevent
-                stress and burnout.
-              </p>
+              <h2>{t('static/main_page:caregiver_wellness_title')}</h2>
+              <p>{t('static/main_page:caregiver_wellness_description')}</p>
               <a href="#" className={styles.section_btn}>
-                Caregiver Wellness
+                {t('static/main_page:caregiver_wellness_button')}
               </a>
             </div>
             <div className={styles.block_image}>
@@ -112,12 +106,10 @@ const MainPageContent = () => {
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.block_text}>
-              <h2>Manage chronic diseases</h2>
-              <p>
-                Learn how to manage COPD and Heart Failure symptoms in the home.
-              </p>
+              <h2>{t('static/main_page:chronic_diseases_title')}</h2>
+              <p>{t('static/main_page:chronic_diseases_description')}</p>
               <a href="#" className={styles.section_btn}>
-                Managing Symptoms
+                {t('static/main_page:managing_symptoms_button')}
               </a>
             </div>
             <div className={styles.block_image}>
@@ -129,12 +121,9 @@ const MainPageContent = () => {
       <section className={styles.bottom_section}>
         <div className="container">
           <ChatIcon />
-          <p>
-            Contact us to see how YourCare+ can be customized for your
-            organization.
-          </p>
+          <p>{t('static/main_page:contact_us_title')}</p>
           <a href="#" className={styles.section_btn}>
-            Request a demo
+            {t('static/main_page:request_demo_button')}
           </a>
         </div>
       </section>

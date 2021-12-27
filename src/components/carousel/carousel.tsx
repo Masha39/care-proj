@@ -6,58 +6,61 @@ import 'slick-carousel/slick/slick-theme.css'
 import Item1 from 'icons/slider/slide_1.svg'
 import Item2 from 'icons/slider/slide_2.svg'
 import Tool from 'icons/tool.svg'
+import useTranslation from 'next-translate/useTranslation'
 import styles from './carousel.module.scss'
 import { CustomPaging } from './components/custom-paging/custom-paging'
 
 export const Carousel = () => {
+  const { t } = useTranslation('learn')
+
   const [items] = useState([
     {
       id: 1,
       href: '/learn/what-is-home-care',
       image: <Item1 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     },
     {
       id: 2,
       href: '#',
       image: <Item2 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     },
     {
       id: 3,
       href: '#',
       image: <Item1 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     },
     {
       id: 4,
       href: '#',
       image: <Item1 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     },
     {
       id: 5,
       href: '#',
       image: <Item1 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     },
     {
       id: 6,
       href: '#',
       image: <Item1 />,
       tagImage: <Tool />,
-      tagTitle: 'Tool',
-      textTitle: 'Who is your home care team?'
+      tagTitle: t('static/main_page:tagTitle'),
+      textTitle: t('static/main_page:textTitle')
     }
   ])
 
@@ -116,8 +119,8 @@ export const Carousel = () => {
 
   return (
     <div className={styles.sliderWrapper}>
-      <h3>Content Spotlight</h3>
-      <p>Introduction to Home Care</p>
+      <h3>{t('static/main_page:h2')}</h3>
+      <p>{t('static/main_page:title')}</p>
       <Slider {...settings}>
         {items.map((item) => (
           <div className={styles.item} key={item.id}>
@@ -133,7 +136,7 @@ export const Carousel = () => {
                 </div>
                 <div className={styles.itemText}>
                   <p>{item.textTitle}</p>
-                  <span>Learn more</span>
+                  <span>{t('static/main_page:learn_more')}</span>
                 </div>
               </a>
             </Link>
