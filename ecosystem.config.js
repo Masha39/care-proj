@@ -4,10 +4,7 @@ module.exports = {
       name: 'yourcareplus-frontend',
       script: 'npm',
       args: 'run start -- -p 3008',
-      exec_mode: 'fork',
-      env: {
-        PORT: '3008'
-      }
+      exec_mode: 'fork'
     }
   ],
 
