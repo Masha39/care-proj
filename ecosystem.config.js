@@ -19,7 +19,7 @@ module.exports = {
       fetch: '--all',
       path: '/home/marvin/yourcareplus/frontend',
       'post-deploy':
-        'git checkout develop && npm install --no-optional && npm run build && pm2 reload ecosystem.config.js --env staging'
+        'git checkout develop && npm install --no-optional && npm run build && pm2 reload ecosystem.config.js'
     }
   }
 }
