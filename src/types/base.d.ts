@@ -1,9 +1,9 @@
-export type ArticleJson = {
+type ArticleJson = {
   title: string
   content: ArticleContent[]
 }
 
-export type ArticleContent = InformationContent | ImageContent
+type ArticleContent = InformationContent | ImageContent
 
 type InformationContent = {
   title: string
@@ -16,7 +16,7 @@ type ImageContent = {
   src: string
 }
 
-export type ArticlePreview = {
+type ArticlePreview = {
   url: string
   title: string
   content_type: string
