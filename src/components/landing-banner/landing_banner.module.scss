@@ -1,5 +1,4 @@
 .landing_banner {
-  // background-image: url(../../assets/images/test.png);
   background-image: url(../../assets/images/landing_banner_mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +36,6 @@
   @media (min-width: $xxl) {
     padding-top: 189px;
     padding-left: 157px;
-    // padding-bottom: 366px;
     padding-bottom: 390px;
   }
 }

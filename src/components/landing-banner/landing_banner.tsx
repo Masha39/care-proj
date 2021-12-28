@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-// import styles from "landing_banner.module.scss";
 import styles from "./landing_banner.module.scss";
 import Logo from "../../../public/svg/landing_logo.svg";
 import LogoMobile from "../../../public/svg/landing_logo_mobile.svg";
