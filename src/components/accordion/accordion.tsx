@@ -8,9 +8,28 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 
+const data = [
+  {
+    category_name: "National",
+    items: ["jopka1", "jopka2"],
+  },
+  {
+    category_name: "pizda",
+    items: ["pizda1", "pizda2"],
+  },
+];
+
 const accordion = () => {
   return (
     <div>
+      <div className={styles.accordion_title}>
+        Choose a region to learn more about specific resources.
+      </div>
+      <div className={styles.accordion_title_mobile}>
+        Choose a region to learn more about
+        <br />
+        specific resources.
+      </div>
       <Accordion>
         <AccordionItem>
           <AccordionItemHeading>
@@ -19,7 +38,28 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.national_information}>
+              <div className={styles.national_information_title}>
+                Explore these additional resources:
+              </div>
+              <div className={styles.national_information_content}>
+                <div className={styles.information_content_item}>
+                  Canadian Home Care Association
+                </div>
+                <div className={styles.information_content_item}>
+                  Careers Canada
+                </div>
+                <div className={styles.information_content_item}>
+                  Heart and Stroke Foundation of Canada
+                </div>
+                <div className={styles.information_content_item}>
+                  Government of Canada – Caring for Someone Who is Ill
+                </div>
+                <div className={styles.information_content_item}>
+                  CAMH – Care for the Caregiver
+                </div>
+              </div>
+            </div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -30,7 +70,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.alberta_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -41,7 +81,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.british_colombia_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -52,7 +92,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.manitoba_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -63,7 +103,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.new_brunswick_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -74,7 +114,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.labrador_and_newfoundland_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -85,7 +125,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.nova_scotia_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -96,7 +136,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.northwest_territories_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -107,7 +147,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.nunavut_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -118,7 +158,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.ontario_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -129,7 +169,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.price_edward_island_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -140,7 +180,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.quebec_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -151,7 +191,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.saskatchewan_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -162,7 +202,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <p></p>
+            <div className={styles.yukon_information}></div>
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>

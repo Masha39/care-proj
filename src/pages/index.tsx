@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
-import LandingBanner from "../components/LandingBanner/LandingBanner";
-import Accordion from "../components/accordion/accordion";
+import LandingBanner from "../components/landing-banner/landing_banner";
 
 const Home: NextPage = () => {
   return (
     <div>
       <LandingBanner />
-      <Accordion />
+      {/* <Accordion /> */}
     </div>
   );
 };
