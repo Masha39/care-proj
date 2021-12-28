@@ -1,5 +1,16 @@
-@mixin mobile {
-  @media (max-width: $md) {
-    @content;
+@mixin flexBase {
+  display: flex;
+  align-items: center;
+}
+
+@mixin widthBase {
+  max-width: 100%;
+  width: 100%;
+}
+
+@mixin desktop {
+  @media (min-width: $xl) {
+    padding-left: 157px;
+    padding-right: 157px;
   }
 }

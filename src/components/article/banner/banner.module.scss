@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 240px;
+  padding: 0 16px;
+  background: linear-gradient(
+      93.78deg,
+      rgba(156, 191, 203, 0.1) 0%,
+      rgba(39, 118, 148, 0.2) 100%
+    ),
+    #ffffff;
+  @media (min-width: $xxl) {
+    padding: 0 157px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 56px;
+    color: $text-color;
+    margin: 0 0 10px 0;
+    @media (min-width: $lg) {
+      font-size: 48px;
+    }
+  }
+  &__type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 134px;
+    height: 32px;
+    background: transparent;
+    border-radius: 24px;
+    border: 1px solid rgb(156, 191, 203);
+  }
+  &__typeText {
+    color: $text_color_blue;
+    font-size: 17px;
+    line-height: 21px;
+  }
+}

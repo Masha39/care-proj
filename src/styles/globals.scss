@@ -4,7 +4,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
+#__next {
+  height: 100%;
 }
 
 a {
@@ -12,6 +19,95 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: auto;
+
+  @media (min-width: $xxl) {
+    @include desktop;
+  }
+
+  @media (min-width: $md) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.slick-slide {
+  // max-width: 264px;
+  // width: 100%;
+}
+
+.slick-slider {
+  max-width: 880px;
+  width: 100%;
+  margin: auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 100px;
+
+  @media (min-width: $md) {
+    max-width: 570px;
+  }
+
+  @media (min-width: $xl) {
+    max-width: 880px;
+  }
+}
+
+// .slick-track {
+//     margin:auto!important;
+//     overflow: hidden;
+// }
+
+// .slick-list {
+//   // max-width: 869px;
+// }
+
+li.slick-active div {
+  background-color: #287492;
+}
+
+.slick-prev {
+  width: 48px !important;
+  height: 48px !important;
+  left: -26px !important;
+  z-index: 100;
+  background: url('../assets/icons/arrow_left.svg') center no-repeat !important;
+
+  @media (min-width: $md) {
+    left: -60px !important;
+  }
+}
+
+.slick-next {
+  width: 48px !important;
+  height: 48px !important;
+  right: -26px !important;
+  background: url('../assets/icons/arrow_right.svg') center no-repeat !important;
+
+  @media (min-width: $md) {
+    right: -60px !important;
+  }
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
 }
