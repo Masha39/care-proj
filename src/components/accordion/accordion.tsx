@@ -1,23 +1,12 @@
-import React from "react";
-import styles from "./accordion.module.scss";
+import React from 'react'
+import styles from 'src/components/accordion/accordion.module.scss'
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-
-const data = [
-  {
-    category_name: "National",
-    items: ["jopka1", "jopka2"],
-  },
-  {
-    category_name: "pizda",
-    items: ["pizda1", "pizda2"],
-  },
-];
+  AccordionItemPanel
+} from 'react-accessible-accordion'
 
 const accordion = () => {
   return (
@@ -70,7 +59,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.alberta_information}></div>
+            <div className={styles.alberta_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -81,7 +70,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.british_colombia_information}></div>
+            <div className={styles.british_colombia_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -92,7 +81,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.manitoba_information}></div>
+            <div className={styles.manitoba_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -103,7 +92,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.new_brunswick_information}></div>
+            <div className={styles.new_brunswick_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -114,7 +103,9 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.labrador_and_newfoundland_information}></div>
+            <div className={styles.labrador_and_newfoundland_information}>
+              #
+            </div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -125,7 +116,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.nova_scotia_information}></div>
+            <div className={styles.nova_scotia_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -136,7 +127,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.northwest_territories_information}></div>
+            <div className={styles.northwest_territories_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -147,7 +138,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.nunavut_information}></div>
+            <div className={styles.nunavut_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -158,7 +149,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.ontario_information}></div>
+            <div className={styles.ontario_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -169,7 +160,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.price_edward_island_information}></div>
+            <div className={styles.price_edward_island_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -180,7 +171,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.quebec_information}></div>
+            <div className={styles.quebec_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -191,7 +182,7 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.saskatchewan_information}></div>
+            <div className={styles.saskatchewan_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
 
@@ -202,12 +193,12 @@ const accordion = () => {
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.yukon_information}></div>
+            <div className={styles.yukon_information}>#</div>
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
     </div>
-  );
-};
+  )
+}
 
-export default accordion;
+export default accordion

@@ -1,15 +1,16 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
-import styles from "./landing_banner.module.scss";
-import Logo from "../../../public/svg/landing_logo.svg";
-import LogoMobile from "../../../public/svg/landing_logo_mobile.svg";
-import mobile_logo_1 from "../../../public/assets/images/mobile_footer_logo_1.png";
-import mobile_logo_2 from "../../../public/assets/images/mobile_footer_logo_2.png";
-import mobile_logo_3 from "../../../public/assets/images/mobile_footer_logo_3.png";
-import mobile_logo_4 from "../../../public/assets/images/mobile_footer_logo_4.png";
+import styles from 'src/components/landing-banner/landing_banner.module.scss'
+import Logo from 'public/svg/landing_logo.svg'
+import LogoMobile from 'public/svg/landing_logo_mobile.svg'
 
-const landing_banner = () => {
+import mobileLogo1 from 'public/assets/images/mobile_footer_logo_1.png'
+import mobileLogo2 from 'public/assets/images/mobile_footer_logo_2.png'
+import mobileLogo3 from 'public/assets/images/mobile_footer_logo_3.png'
+import mobileLogo4 from 'public/assets/images/mobile_footer_logo_4.png'
+
+const landingBanner = () => {
   return (
     <div className={styles.landingBannerWrapper}>
       <div className={styles.landing_banner}>
@@ -38,7 +39,7 @@ const landing_banner = () => {
             <div className={styles.left_footer_content}>Presented by</div>
             <div className={styles.mobile_logo_1}>
               <Image
-                src={mobile_logo_1}
+                src={mobileLogo1}
                 alt="Picture"
                 layout="fill"
                 objectFit="contain"
@@ -46,7 +47,7 @@ const landing_banner = () => {
             </div>
             <div className={styles.mobile_logo_2}>
               <Image
-                src={mobile_logo_2}
+                src={mobileLogo2}
                 alt="Picture"
                 layout="fill"
                 objectFit="contain"
@@ -55,7 +56,7 @@ const landing_banner = () => {
             <div className={styles.right_footer_content}>Supported by</div>
             <div className={styles.mobile_logo_3}>
               <Image
-                src={mobile_logo_3}
+                src={mobileLogo3}
                 alt="Picture"
                 layout="fill"
                 objectFit="contain"
@@ -63,7 +64,7 @@ const landing_banner = () => {
             </div>
             <div className={styles.mobile_logo_4}>
               <Image
-                src={mobile_logo_4}
+                src={mobileLogo4}
                 alt="Picture"
                 layout="fill"
                 objectFit="contain"
@@ -73,7 +74,7 @@ const landing_banner = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default landing_banner;
+export default landingBanner
