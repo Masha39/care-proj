@@ -1,20 +1,19 @@
 import type { NextPage } from 'next'
-import useTranslation from 'next-translate/useTranslation'
-import { Carousel } from 'components/carousel/carousel'
-import Layout from 'layouts/layout'
+import Head from 'next/head'
+import Layout from '~/layouts/layout'
+import MainPageContent from '../components/main_page_content/main_page_content'
 
 const Home: NextPage = () => {
-  const { t } = useTranslation('common')
-
   return (
-    <Layout>
-      <h1>{t('title')}</h1>
-      <div className="slider-wrapper">
-        <div className="container">
-          <Carousel />
-        </div>
-      </div>
-    </Layout>
+    <>
+      <Head>
+        <title>YouCare+</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Layout>
+        <MainPageContent />
+      </Layout>
+    </>
   )
 }
 

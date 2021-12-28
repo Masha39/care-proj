@@ -9,6 +9,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
+
 #__next {
   height: 100%;
 }
@@ -36,8 +37,14 @@ li {
   padding-left: 16px;
   padding-right: 16px;
   margin: auto;
+
   @media (min-width: $xxl) {
     @include desktop;
+  }
+
+  @media (min-width: $md) {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -54,9 +61,11 @@ li {
   align-items: center !important;
   justify-content: center !important;
   margin-bottom: 100px;
+
   @media (min-width: $md) {
     max-width: 570px;
   }
+
   @media (min-width: $xl) {
     max-width: 880px;
   }
@@ -74,21 +83,25 @@ li {
 li.slick-active div {
   background-color: #287492;
 }
+
 .slick-prev {
   width: 48px !important;
   height: 48px !important;
   left: -26px !important;
   z-index: 100;
   background: url('../assets/icons/arrow_left.svg') center no-repeat !important;
+
   @media (min-width: $md) {
     left: -60px !important;
   }
 }
+
 .slick-next {
   width: 48px !important;
   height: 48px !important;
   right: -26px !important;
   background: url('../assets/icons/arrow_right.svg') center no-repeat !important;
+
   @media (min-width: $md) {
     right: -60px !important;
   }
