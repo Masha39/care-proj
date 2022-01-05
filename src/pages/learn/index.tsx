@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from 'layouts/layout'
 import { ContentCard } from 'components/learn-page/content-card/content-card'
-import { ArticlePreview } from './types'
+import { Select } from 'components/article/select/select'
 import styles from './learn.module.scss'
 
 const SELECT_OPTION_ALL = 'ALL'
@@ -38,6 +38,16 @@ const Learn = () => {
       ? articlesByTopic
       : { [selectedTopic]: articlesByTopic[selectedTopic] }
 
+  const selectOptions = useCallback(() => {
+    const arr: SelectOption[] = [
+      { value: SELECT_OPTION_ALL, label: t('static/learn:topics') }
+    ]
+    Object.entries(articlesByTopic).map(([topic]) =>
+      arr.push({ value: topic, label: topic })
+    )
+    return arr
+  }, [articlesByTopic, t])
+
   return (
     <Layout>
       <div className={styles.banner}>
@@ -47,18 +57,21 @@ const Learn = () => {
         </h3>
       </div>
       <div className={styles.learn}>
-        <select onChange={(e) => setSelectedTopic(e.target.value)}>
-          <option value={SELECT_OPTION_ALL}>All</option>
-          <option value="Understanding Home Care">
-            Understanding Home Care
-          </option>
-          <option value="Caregiver Wellness">Caregiver Wellness</option>
-        </select>
+        <div className={styles.learn__select}>
+          Topic
+          <Select
+            options={selectOptions()}
+            onChange={(selected: SelectOption) =>
+              setSelectedTopic(selected.value)
+            }
+            defaultValue={selectOptions()[0]}
+          />
+        </div>
 
         {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
           <div key={topicName} className={styles.learn__wrapper}>
             <div>{topicName}</div>
-            {topicArticles.map((item, index) => {
+            {topicArticles?.map((item, index) => {
               return (
                 <Link href={`/learn/${item.url}`} key={index}>
                   <a>
