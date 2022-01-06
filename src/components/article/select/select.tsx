@@ -1,6 +1,5 @@
 import React from 'react'
 import Sel, { StylesConfig } from 'react-select'
-import cn from 'classnames'
 import styles from './select.module.scss'
 
 export const Select = ({
@@ -9,8 +8,7 @@ export const Select = ({
   onChange,
   label,
   placeholder,
-  defaultValue,
-  className
+  defaultValue
 }: {
   value: SelectOption
   options: SelectOption[]
@@ -18,33 +16,77 @@ export const Select = ({
   label?: string
   placeholder?: string
   defaultValue?: SelectOption
-  className?: string
 }) => {
   const customStyles: StylesConfig = {
-    option: (provided: any, state: any) => ({
+    option: (provided) => ({
       ...provided,
       cursor: 'pointer',
-      color: state.isSelected ? '#141C3E' : '#141C3E',
+      fontSize: '16px',
+      color: '#1D526A',
       background: '#ffffff',
+      wordBreak: 'break-word',
       '&:active': {
-        backgroundColor: '#F9F9FA'
+        backgroundColor: '#f6f8f9'
+      },
+      '&:hover': {
+        backgroundColor: '#f6f8f9'
       }
     }),
-    control: (provided: any, state: any) => ({
+    control: (provided, state) => ({
       ...provided,
-      border: state.isFocused ? '1px solid #6DE88E' : '1px solid #cccccc',
+      minHeight: '32px',
+      width: '125px',
+      height: '32px',
+      cursor: 'pointer',
+      background: '#f6f8f9',
+      padding: '0 10px',
+      border: state.isFocused ? '1px solid #1D526A' : '1px solid #f6f8f9',
       boxShadow: state.isFocused
-        ? '0px 0px 10px -3px rgba(0, 187, 138, 0.39)'
+        ? '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
         : 'none',
       '&:hover': {
-        border: '1px solid #6DE88E',
-        boxShadow: '0px 0px 10px -3px rgba(0, 187, 138, 0.39)'
+        border: '1px solid #1D526A',
+        boxShadow: '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
       }
+    }),
+    valueContainer: (provided) => ({
+      ...provided,
+      padding: '0 2px'
+    }),
+    singleValue: (provided) => ({
+      ...provided,
+      fontSize: '16px',
+      lineHeight: '21px',
+      color: '#1D526A'
+    }),
+    indicatorsContainer: (provided) => ({
+      ...provided,
+      height: '30px',
+      padding: 'none'
+    }),
+    indicatorSeparator: () => ({
+      display: 'none'
+    }),
+    dropdownIndicator: (provided, state) => ({
+      ...provided,
+      padding: 'none',
+      '&:active': {
+        color: '#1D526A'
+      },
+      '&:hover': {
+        color: '#1D526A'
+      },
+      color: state.isFocused ? 'rgba(29, 82, 106, 1)' : 'rgba(29, 82, 106, 0.8)'
+    }),
+    menu: (provided) => ({
+      ...provided,
+      border: '1px solid #1D526A',
+      boxShadow: '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
     })
   }
 
   return (
-    <div className={cn(className)}>
+    <div className={styles.select}>
       <label
         className={styles.select__label}
         id="aria-label"
@@ -58,7 +100,7 @@ export const Select = ({
         value={value}
         defaultValue={defaultValue}
         inputId="aria-example-input"
-        instanceId="long-value-select"
+        instanceId="aria-example-input"
         styles={customStyles}
         onChange={(e) => onChange(e)}
         options={options}

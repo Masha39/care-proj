@@ -51,8 +51,14 @@
   &__select {
     display: flex;
     align-items: center;
-    max-width: 200px;
+    width: 175px;
     padding: 32px 0;
     margin-bottom: 64px;
+    &__title {
+      color: $text-color;
+      font-weight: 500;
+      font-size: 18px;
+      margin-right: 8px;
+    }
   }
 }

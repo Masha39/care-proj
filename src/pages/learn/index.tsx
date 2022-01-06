@@ -4,6 +4,7 @@ import useTranslation from 'next-translate/useTranslation'
 import Layout from 'layouts/layout'
 import { ContentCard } from 'components/learn-page/content-card/content-card'
 import { Select } from 'components/article/select/select'
+import groupBy from 'lodash/groupBy'
 import styles from './learn.module.scss'
 import { useLearnSelect } from '~/hooks/useLearnSelect'
 
@@ -18,20 +19,11 @@ const Learn = () => {
     { returnObjects: true }
   )
 
-  const articlesByTopic = articles.reduce<Record<string, ArticlePreview[]>>(
-    (acc, articlePreview) => {
-      const { topic } = articlePreview
+  const articlesByTopic = groupBy(articles, 'topic')
 
-      if (acc[topic]) {
-        acc[topic].push(articlePreview)
-      } else {
-        acc[topic] = [articlePreview]
-      }
+  const articlesByContentType = groupBy(articles, 'content_type')
 
-      return acc
-    },
-    {}
-  )
+  console.log(articlesByContentType)
 
   const topicsToShow =
     selectedTopic.value === defaultValue.value
@@ -56,7 +48,9 @@ const Learn = () => {
       </div>
       <div className={styles.learn}>
         <div className={styles.learn__select}>
-          {t('static/learn:topic')}
+          <div className={styles.learn__select__title}>
+            {t('static/learn:topic')}
+          </div>
           <Select
             value={selectedTopic}
             options={selectOptions()}
