@@ -1,16 +1,16 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback } from 'react'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from 'layouts/layout'
 import { ContentCard } from 'components/learn-page/content-card/content-card'
 import { Select } from 'components/article/select/select'
 import styles from './learn.module.scss'
-
-const SELECT_OPTION_ALL = 'ALL'
+import { useLearnSelect } from '~/hooks/useLearnSelect'
 
 const Learn = () => {
+  const { defaultValue, selectedTopic, setSelectedTopic } = useLearnSelect()
+
   const { t } = useTranslation('articles-list')
-  const [selectedTopic, setSelectedTopic] = useState(SELECT_OPTION_ALL)
 
   const articles = t<ArticlePreview[]>(
     'articles-list:articles',
@@ -34,19 +34,17 @@ const Learn = () => {
   )
 
   const topicsToShow =
-    selectedTopic === SELECT_OPTION_ALL
+    selectedTopic.value === defaultValue.value
       ? articlesByTopic
-      : { [selectedTopic]: articlesByTopic[selectedTopic] }
+      : { [selectedTopic.value]: articlesByTopic[selectedTopic.value] }
 
   const selectOptions = useCallback(() => {
-    const arr: SelectOption[] = [
-      { value: SELECT_OPTION_ALL, label: t('static/learn:topics') }
-    ]
+    const arr: SelectOption[] = [defaultValue]
     Object.entries(articlesByTopic).map(([topic]) =>
       arr.push({ value: topic, label: topic })
     )
     return arr
-  }, [articlesByTopic, t])
+  }, [articlesByTopic, defaultValue])
 
   return (
     <Layout>
@@ -58,13 +56,11 @@ const Learn = () => {
       </div>
       <div className={styles.learn}>
         <div className={styles.learn__select}>
-          Topic
+          {t('static/learn:topic')}
           <Select
+            value={selectedTopic}
             options={selectOptions()}
-            onChange={(selected: SelectOption) =>
-              setSelectedTopic(selected.value)
-            }
-            defaultValue={selectOptions()[0]}
+            onChange={(selected: SelectOption) => setSelectedTopic(selected)}
           />
         </div>
 

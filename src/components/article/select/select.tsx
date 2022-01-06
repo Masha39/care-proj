@@ -4,6 +4,7 @@ import cn from 'classnames'
 import styles from './select.module.scss'
 
 export const Select = ({
+  value,
   options,
   onChange,
   label,
@@ -11,11 +12,12 @@ export const Select = ({
   defaultValue,
   className
 }: {
+  value: SelectOption
   options: SelectOption[]
   onChange: any
   label?: string
   placeholder?: string
-  defaultValue?: any
+  defaultValue?: SelectOption
   className?: string
 }) => {
   const customStyles: StylesConfig = {
@@ -53,11 +55,12 @@ export const Select = ({
       <Sel
         className="control"
         classNamePrefix="select"
+        value={value}
         defaultValue={defaultValue}
         inputId="aria-example-input"
         instanceId="long-value-select"
         styles={customStyles}
-        onChange={(e: React.SyntheticEvent) => onChange(e)}
+        onChange={(e) => onChange(e)}
         options={options}
         placeholder={placeholder}
       />
