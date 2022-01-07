@@ -48,12 +48,16 @@
   &__wrapper {
     display: flex;
   }
+  &__filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin-bottom: 64px;
+  }
   &__select {
     display: flex;
     align-items: center;
     width: 175px;
-    padding: 32px 0;
-    margin-bottom: 64px;
     &__title {
       color: $text-color;
       font-weight: 500;

@@ -7,9 +7,16 @@ import { Select } from 'components/article/select/select'
 import groupBy from 'lodash/groupBy'
 import styles from './learn.module.scss'
 import { useLearnSelect } from '~/hooks/useLearnSelect'
+import { useLearnContentType } from '~/hooks/useLearnContentType'
 
 const Learn = () => {
   const { defaultValue, selectedTopic, setSelectedTopic } = useLearnSelect()
+  const {
+    defaultType,
+    contentTypes,
+    selectedContentType,
+    setSelectedContentType
+  } = useLearnContentType()
 
   const { t } = useTranslation('articles-list')
 
@@ -21,14 +28,12 @@ const Learn = () => {
 
   const articlesByTopic = groupBy(articles, 'topic')
 
-  const articlesByContentType = groupBy(articles, 'content_type')
-
-  console.log(articlesByContentType)
-
   const topicsToShow =
     selectedTopic.value === defaultValue.value
       ? articlesByTopic
       : { [selectedTopic.value]: articlesByTopic[selectedTopic.value] }
+
+  console.log(topicsToShow)
 
   const selectOptions = useCallback(() => {
     const arr: SelectOption[] = [defaultValue]
@@ -47,33 +52,58 @@ const Learn = () => {
         </h3>
       </div>
       <div className={styles.learn}>
-        <div className={styles.learn__select}>
-          <div className={styles.learn__select__title}>
-            {t('static/learn:topic')}
+        <div className={styles.learn__filters}>
+          <div className={styles.learn__select}>
+            <div className={styles.learn__select__title}>
+              {t('static/learn:topic')}
+            </div>
+            <Select
+              value={selectedTopic}
+              options={selectOptions()}
+              onChange={(selected: SelectOption) => setSelectedTopic(selected)}
+            />
           </div>
-          <Select
-            value={selectedTopic}
-            options={selectOptions()}
-            onChange={(selected: SelectOption) => setSelectedTopic(selected)}
-          />
+
+          <div>
+            {t('static/learn:content_type')}
+            {contentTypes.map((type, index) => (
+              <button
+                key={index}
+                onClick={() =>
+                  setSelectedContentType({
+                    label: type.label,
+                    value: type.value
+                  })
+                }
+              >
+                {type.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
           <div key={topicName} className={styles.learn__wrapper}>
             <div>{topicName}</div>
-            {topicArticles?.map((item, index) => {
-              return (
-                <Link href={`/learn/${item.url}`} key={index}>
-                  <a>
-                    <ContentCard
-                      title={item.title}
-                      image={item.image}
-                      type={item.content_type}
-                    />
-                  </a>
-                </Link>
+            {topicArticles
+              ?.filter((article) =>
+                selectedContentType?.value === defaultType?.value
+                  ? article
+                  : article.content_type === selectedContentType?.value
               )
-            })}
+              .map((item, index) => {
+                return (
+                  <Link href={`/learn/${item.url}`} key={index}>
+                    <a>
+                      <ContentCard
+                        title={item.title}
+                        image={item.image}
+                        type={item.content_type}
+                      />
+                    </a>
+                  </Link>
+                )
+              })}
           </div>
         ))}
       </div>

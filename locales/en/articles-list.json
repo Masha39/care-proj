@@ -20,6 +20,13 @@
       "content_type": "information",
       "topic": "Caregiver Wellness",
       "image": "slide_1.svg"
+    },
+    {
+      "url": "what-is-caregiver",
+      "title": "What is a Caregiver?",
+      "content_type": "tool",
+      "topic": "Caregiver Wellness",
+      "image": "slide_1.svg"
     }
   ]
 }

@@ -28,3 +28,8 @@ type SelectOption = {
   label: string
   value: any
 }
+
+type ContentType = {
+  label: string
+  value: string
+}

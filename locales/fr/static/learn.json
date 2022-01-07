@@ -2,5 +2,20 @@
   "title": "Apprendre",
   "description": "Découvrez des informations, des conseils et des ressources pour vous aider à vous sentir plus confiant et plus fort dans votre rôle de soignant.",
   "topic": "Sujet",
-  "topics": "Tous les sujets"
+  "topics": "Tous les sujets",
+  "content_type": "Type de contenu",
+  "content_types": [
+    {
+      "label": "Tout le contenu",
+      "value": "all"
+    },
+    {
+      "label": "Information",
+      "value": "information"
+    },
+    {
+      "label": "Outil",
+      "value": "outil"
+    }
+  ]
 }
