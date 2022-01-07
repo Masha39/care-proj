@@ -5,6 +5,7 @@ import Layout from 'layouts/layout'
 import { ContentCard } from 'components/learn-page/content-card/content-card'
 import { Select } from 'components/article/select/select'
 import groupBy from 'lodash/groupBy'
+import { ContentType } from 'components/article/content-type/content-type'
 import styles from './learn.module.scss'
 import { useLearnSelect } from '~/hooks/useLearnSelect'
 import { useLearnContentType } from '~/hooks/useLearnContentType'
@@ -33,8 +34,6 @@ const Learn = () => {
       ? articlesByTopic
       : { [selectedTopic.value]: articlesByTopic[selectedTopic.value] }
 
-  console.log(topicsToShow)
-
   const selectOptions = useCallback(() => {
     const arr: SelectOption[] = [defaultValue]
     Object.entries(articlesByTopic).map(([topic]) =>
@@ -52,9 +51,9 @@ const Learn = () => {
         </h3>
       </div>
       <div className={styles.learn}>
-        <div className={styles.learn__filters}>
-          <div className={styles.learn__select}>
-            <div className={styles.learn__select__title}>
+        <div className={styles.filters}>
+          <div className={styles.select}>
+            <div className={styles.select__title}>
               {t('static/learn:topic')}
             </div>
             <Select
@@ -64,20 +63,23 @@ const Learn = () => {
             />
           </div>
 
-          <div>
-            {t('static/learn:content_type')}
+          <div className={styles.filters__contentType}>
+            <div className={styles.filters__title}>
+              {t('static/learn:content_type')}
+            </div>
             {contentTypes.map((type, index) => (
-              <button
+              <ContentType
                 key={index}
+                icon={type.icon}
+                type={type.label}
                 onClick={() =>
                   setSelectedContentType({
                     label: type.label,
-                    value: type.value
+                    value: type.value,
+                    icon: type.icon
                   })
                 }
-              >
-                {type.label}
-              </button>
+              />
             ))}
           </div>
         </div>

@@ -11,11 +11,13 @@
     },
     {
       "label": "Information",
-      "value": "information"
+      "value": "information",
+      "icons": "/icons/info.svg"
     },
     {
-      "label": "Outil",
-      "value": "outil"
+      "label": "Outils",
+      "value": "outils",
+      "icons": "/icons/tools.svg"
     }
   ]
 }

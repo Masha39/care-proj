@@ -40,12 +40,14 @@ export const Select = ({
       cursor: 'pointer',
       background: '#f6f8f9',
       padding: '0 10px',
-      border: state.isFocused ? '1px solid #1D526A' : '1px solid #f6f8f9',
+      border: state.isFocused
+        ? '1px solid rgb(156, 191, 203)'
+        : '1px solid #f6f8f9',
       boxShadow: state.isFocused
         ? '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
         : 'none',
       '&:hover': {
-        border: '1px solid #1D526A',
+        border: '1px solid rgb(156, 191, 203)',
         boxShadow: '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
       }
     }),
@@ -80,7 +82,7 @@ export const Select = ({
     }),
     menu: (provided) => ({
       ...provided,
-      border: '1px solid #1D526A',
+      border: '1px solid rgb(156, 191, 203)',
       boxShadow: '0px 0px 4px -3px rgba(29, 82, 106, 0.59)'
     })
   }

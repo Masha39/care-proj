@@ -32,4 +32,5 @@ type SelectOption = {
 type ContentType = {
   label: string
   value: string
+  icon: string
 }

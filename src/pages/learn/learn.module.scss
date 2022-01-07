@@ -42,27 +42,38 @@
   padding: 25px 16px;
   @media (min-width: $xxl) {
     max-width: 1440px;
-    padding: 64px 157px;
+    padding: 0 157px 64px 157px;
     margin: auto;
   }
   &__wrapper {
     display: flex;
   }
-  &__filters {
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 0;
-    margin-bottom: 64px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  margin-bottom: 64px;
+  &__title {
+    color: $text-color;
+    font-weight: 500;
+    font-size: 18px;
   }
-  &__select {
+  &__contentType {
     display: flex;
     align-items: center;
-    width: 175px;
-    &__title {
-      color: $text-color;
-      font-weight: 500;
-      font-size: 18px;
-      margin-right: 8px;
-    }
+  }
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  &__title {
+    color: $text-color;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 8px;
   }
 }

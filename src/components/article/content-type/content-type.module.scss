@@ -1,0 +1,16 @@
+.type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 32px;
+  background: transparent;
+  border-radius: 24px;
+  border: 1px solid rgb(156, 191, 203);
+  margin-left: 8px;
+  &__text {
+    color: $text_color_blue;
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
