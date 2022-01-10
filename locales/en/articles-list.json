@@ -3,28 +3,33 @@
     {
       "url": "what-is-home-care",
       "title": "What is home care?",
-      "content_type": "information",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
       "topic": "Understanding Home Care",
       "image": "slide_1.svg"
     },
     {
       "url": "home-care-teams",
       "title": "What is a home care team?",
-      "content_type": "information",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
       "topic": "Understanding Home Care",
-      "image": "slide_2.svg"
+      "image": "slide_3.svg"
     },
     {
       "url": "what-is-caregiver",
       "title": "What is a Caregiver?",
-      "content_type": "information",
-      "topic": "Caregiver Wellness",
-      "image": "slide_1.svg"
-    },
-    {
-      "url": "what-is-caregiver",
-      "title": "What is a Caregiver?",
-      "content_type": "tools",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "/icons/tool.svg"
+      },
       "topic": "Caregiver Wellness",
       "image": "slide_1.svg"
     }

@@ -3,12 +3,19 @@
   "description": "Explore information, tips, and resources to help you feel confident and stronger in your caregiver role.",
   "topic": "Topic",
   "topics": "All topics",
-  "content_type": "Content type",
-  "content_types": [
+  "topics_description": [
     {
-      "label": "All content",
-      "value": "all"
+      "topic": "Understanding Home Care",
+      "description": "Your starting place for navigating home care, understanding the roles of home care providers, and preparing for common challenges."
     },
+    {
+      "topic": "Caregiver Wellness",
+      "description": "Learn about ways to protect your health and avoid stress and burnout while caring for others."
+    }
+  ],
+  "content_type": "Content type",
+  "all_content": "All content",
+  "content_types": [
     {
       "label": "Information",
       "value": "information",
@@ -17,7 +24,7 @@
     {
       "label": "Tools",
       "value": "tools",
-      "icon": "/icons/tools.svg"
+      "icon": "/icons/tool.svg"
     }
   ]
 }

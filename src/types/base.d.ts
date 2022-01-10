@@ -19,7 +19,7 @@ type ImageContent = {
 type ArticlePreview = {
   url: string
   title: string
-  content_type: string
+  content_type: ContentType
   topic: string
   image: string
 }
@@ -33,4 +33,9 @@ type ContentType = {
   label: string
   value: string
   icon: string
+}
+
+type TopicDescription = {
+  topic: string
+  description: string
 }

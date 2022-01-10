@@ -17,7 +17,11 @@ type ArticleProps = {
 const Article = ({ article, preview }: ArticleProps) => {
   return (
     <Layout>
-      <Banner title={article.title} contentType={preview?.content_type} />
+      <Banner
+        title={article.title}
+        type={preview?.content_type.label}
+        icon={preview?.content_type.icon}
+      />
       <div className={styles.article}>
         {article.content.map((item, index) => {
           switch (item.type) {

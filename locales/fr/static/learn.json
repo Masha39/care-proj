@@ -3,21 +3,28 @@
   "description": "Découvrez des informations, des conseils et des ressources pour vous aider à vous sentir plus confiant et plus fort dans votre rôle de soignant.",
   "topic": "Sujet",
   "topics": "Tous les sujets",
-  "content_type": "Type de contenu",
-  "content_types": [
+  "topics_description": [
     {
-      "label": "Tout le contenu",
-      "value": "all"
+      "topic": "Comprendre les soins à domicile",
+      "description": "Votre point de départ pour naviguer dans les soins à domicile, comprendre les rôles des fournisseurs de soins à domicile et se préparer aux défis communs."
     },
+    {
+      "topic": "Bien-être des aidants",
+      "description": "Découvrez des moyens de protéger votre santé et d'éviter le stress et l'épuisement tout en prenant soin des autres."
+    }
+  ],
+  "content_type": "Type de contenu",
+  "all_content": "Tout le contenu",
+  "content_types": [
     {
       "label": "Information",
       "value": "information",
-      "icons": "/icons/info.svg"
+      "icon": "/icons/info.svg"
     },
     {
       "label": "Outils",
       "value": "outils",
-      "icons": "/icons/tools.svg"
+      "icon": "/icons/tool.svg"
     }
   ]
 }

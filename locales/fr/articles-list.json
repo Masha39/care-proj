@@ -3,16 +3,24 @@
     {
       "url": "what-is-home-care",
       "title": "Qu'est-ce que les soins à domicile?",
-      "content_type": "information",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
       "topic": "Comprendre les soins à domicile",
       "image": "slide_1.svg"
     },
     {
       "url": "home-care-teams",
       "title": "Équipes de soins à domicile",
-      "content_type": "information",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
       "topic": "Comprendre les soins à domicile",
-      "image": "slide_1.svg"
+      "image": "slide_3.svg"
     }
   ]
 }

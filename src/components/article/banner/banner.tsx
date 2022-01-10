@@ -1,19 +1,20 @@
-import InfoIcon from 'public/icons/info.svg'
+import { ContentType } from 'components/content-type/content-type'
 import styles from './banner.module.scss'
 
 export const Banner = ({
   title,
-  contentType
+  type,
+  icon
 }: {
   title: string
-  contentType: string
+  type: string
+  icon?: string
 }) => {
   return (
     <div className={styles.banner}>
       <h1 className={styles.banner__title}>{title}</h1>
       <div className={styles.banner__type}>
-        <InfoIcon />
-        <div className={styles.banner__typeText}>{contentType}</div>
+        <ContentType type={type} icon={icon} />
       </div>
     </div>
   )

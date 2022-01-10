@@ -45,9 +45,6 @@
     padding: 0 157px 64px 157px;
     margin: auto;
   }
-  &__wrapper {
-    display: flex;
-  }
 }
 
 .filters {
@@ -63,6 +60,9 @@
   &__contentType {
     display: flex;
     align-items: center;
+  }
+  &__tag {
+    margin-left: 8px;
   }
 }
 
