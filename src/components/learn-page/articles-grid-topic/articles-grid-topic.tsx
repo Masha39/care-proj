@@ -14,7 +14,7 @@ export const ArticlesGridTopic = ({
       {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
         <div key={topicName} className={styles.articles}>
           <div>
-            {topicArticles.articles.length ? (
+            {topicArticles.articles?.length ? (
               <div className={styles.articles__topic}>{topicName}</div>
             ) : (
               <div className={styles.articles__noTopic}>
@@ -24,7 +24,7 @@ export const ArticlesGridTopic = ({
           </div>
 
           <div className={styles.articles__list}>
-            {topicArticles.articles.map((item, index) => {
+            {topicArticles.articles?.map((item, index) => {
               return (
                 <Link href={`/learn/${item.url}`} key={index}>
                   <a>

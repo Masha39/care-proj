@@ -29,7 +29,7 @@ export const getTopicsToShow = (
       } else {
         acc[topicName] = {
           description,
-          articles: articlesByTopic[topicName].filter(
+          articles: articlesByTopic[topicName]?.filter(
             (article) => article.content_type.value === contentType
           )
         }
