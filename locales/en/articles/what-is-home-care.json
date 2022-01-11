@@ -20,10 +20,24 @@
       ]
     },
     {
+      "type": "image",
+      "src": "/images/whatIsHomeCare.png"
+    },
+    {
       "type": "information",
       "title": "Why is care provided in homes?",
       "paragraphs": [
         "There are many reasons for someone to require home care services. Home care programs can help people recover from short-term (acute) conditions, manage long-term (chronic) conditions, and deliver specialized services such as end-of-life care."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "FOR EXAMPLE",
+      "tips": [
+        "Individuals who have been recently hospitalized with an illness and have not fully recovered.",
+        "Individuals with a medical issue their doctor would like to treat in the community to avoid hospitalization.",
+        "Individuals that require support with personal care to remain in their home."
       ]
     }
   ]

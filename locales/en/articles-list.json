@@ -9,18 +9,20 @@
         "icon": "/icons/info.svg"
       },
       "topic": "Understanding Home Care",
-      "image": "slide_1.svg"
+      "image": "slide_1.svg",
+      "read_time": "3 minute read"
     },
     {
       "url": "home-care-teams",
-      "title": "What is a home care team?",
+      "title": "Home care teams",
       "content_type": {
         "label": "Information",
         "value": "information",
         "icon": "/icons/info.svg"
       },
       "topic": "Understanding Home Care",
-      "image": "slide_3.svg"
+      "image": "slide_3.svg",
+      "read_time": "7 minute read"
     },
     {
       "url": "what-is-caregiver",
@@ -31,7 +33,8 @@
         "icon": "/icons/tool.svg"
       },
       "topic": "Caregiver Wellness",
-      "image": "slide_1.svg"
+      "image": "slide_1.svg",
+      "read_time": "4 minute read"
     }
   ]
 }

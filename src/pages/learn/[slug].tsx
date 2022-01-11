@@ -4,41 +4,68 @@ import Layout from 'layouts/layout'
 import { Information } from 'components/article/information/information'
 import { Picture } from 'components/article/picture/picture'
 import { Banner } from 'components/article/banner/banner'
+import { Sidebar } from 'components/article/sidebar/sidebar'
 
 import { fetchJson } from 'util/fetchJson'
 
+import { Tips } from 'components/article/tips/tips'
+import { Navigation } from 'components/article/navigation/navigation'
 import styles from './article.module.scss'
 
 type ArticleProps = {
   article: ArticleJson
   preview: ArticlePreview
+  articles: ArticlePreview[]
 }
 
-const Article = ({ article, preview }: ArticleProps) => {
+const Article = ({ article, preview, articles }: ArticleProps) => {
   return (
     <Layout>
       <Banner
         title={article.title}
         type={preview?.content_type.label}
         icon={preview?.content_type.icon}
+        image={preview?.image}
+        topic={preview?.topic}
+        url={preview?.url}
+        readTime={preview?.read_time}
       />
-      <div className={styles.article}>
-        {article.content.map((item, index) => {
-          switch (item.type) {
-            case 'information':
-              return (
-                <Information
-                  key={index}
-                  title={item.title}
-                  paragraphs={item.paragraphs}
-                />
-              )
-            case 'image':
-              return <Picture src={item.src} alt={article.title} key={index} />
-            default:
-              return null
-          }
-        })}
+      <div className={styles.container}>
+        <div className={styles.article}>
+          {article.content.map((item, index) => {
+            switch (item.type) {
+              case 'information':
+                return (
+                  <Information
+                    key={index}
+                    title={item.title}
+                    paragraphs={item.paragraphs}
+                  />
+                )
+              case 'image':
+                return (
+                  <Picture src={item.src} alt={article.title} key={index} />
+                )
+              case 'tips':
+                return (
+                  <Tips
+                    title={item.title}
+                    tips={item.tips}
+                    icon={item.icon}
+                    key={index}
+                  />
+                )
+              default:
+                return null
+            }
+          })}
+          <Navigation />
+        </div>
+        <Sidebar
+          topic={preview?.topic}
+          articles={articles.filter((el) => el.topic === preview?.topic)}
+          title={article.title}
+        />
       </div>
     </Layout>
   )
@@ -68,7 +95,8 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   return {
     props: {
       article: data.default,
-      preview: preview || null
+      preview: preview || null,
+      articles: dataPreview.articles
     }
   }
 }
