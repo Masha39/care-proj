@@ -21,13 +21,23 @@
     },
     {
       "type": "image",
-      "src": "https://media.istockphoto.com/photos/view-over-the-city-of-tbilisi-georgia-picture-id534560042"
+      "src": "/images/whatIsHomeCare.png"
     },
     {
       "type": "information",
       "title": "Pourquoi les soins sont-ils dispensés à domicile ?",
       "paragraphs": [
         "Il existe de nombreuses raisons pour lesquelles une personne a besoin de services de soins à domicile. Les programmes de soins à domicile peuvent aider les gens à se remettre d'affections à court terme (aiguës), à gérer des affections à long terme (chroniques) et à fournir des services spécialisés tels que des soins de fin de vie."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "PAR EXEMPLE",
+      "tips": [
+        "Les personnes qui ont été récemment hospitalisées pour une maladie et qui ne se sont pas complètement rétablies.",
+        "Les personnes ayant un problème médical que leur médecin souhaite traiter dans la communauté pour éviter une hospitalisation.",
+        "Les personnes qui ont besoin d'un soutien en matière de soins personnels pour rester chez elles."
       ]
     }
   ]

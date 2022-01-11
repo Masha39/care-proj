@@ -8,6 +8,15 @@
       "paragraphs": [
         "Les soins à domicile sont souvent fournis par une équipe de prestataires de soins de santé. Chaque fournisseur de soins de santé possède des compétences, des connaissances, des rôles et des responsabilités uniques, travaillant ensemble pour fournir des soins complets."
       ]
+    },
+    {
+      "type": "tips",
+      "title": "Avantages potentiels des équipes de soins à domicile:",
+      "tips": [
+        "Des soins peuvent être reçus pour des besoins différents",
+        "Les besoins des patients complexes sont pris en charge par divers prestataires ayant une formation spéciale",
+        "Une équipe de soins plus importante peut offrir un soutien global (physique, mental, émotionnel) à la personne soignée"
+      ]
     }
   ]
 }
