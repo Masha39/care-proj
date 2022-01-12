@@ -20,17 +20,15 @@ export const ContentType = ({
     <div
       onClick={onClick}
       className={cn(styles.type, {
-        [`${styles.type__clickable}`]: isClickable,
-        [`${styles.type__active}`]: isActive,
-        [`${styles.type__disabled}`]: !isClickable
+        [styles.type__clickable]: isClickable,
+        [styles.type__active]: isActive,
+        [styles.type__disabled]: !isClickable
       })}
     >
-      <div className={cn(styles.icon, { [`${styles.icon__empty}`]: !icon })}>
+      <div className={cn(styles.icon, { [styles.icon__empty]: !icon })}>
         {icon ? <Image src={icon} width={30} height={30} /> : null}
       </div>
-      <div
-        className={cn(styles.text, { [`${styles.text__active}`]: isActive })}
-      >
+      <div className={cn(styles.text, { [styles.text__active]: isActive })}>
         {type}
       </div>
     </div>

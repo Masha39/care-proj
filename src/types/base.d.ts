@@ -3,10 +3,14 @@ type ArticleJson = {
   content: ArticleContent[]
 }
 
-type ArticleContent = InformationContent | ImageContent | TipsContent
+type ArticleContent =
+  | InformationContent
+  | ImageContent
+  | TipsContent
+  | VideoContent
 
 type InformationContent = {
-  title: string
+  title?: string
   type: 'information'
   paragraphs: string[]
 }
@@ -21,6 +25,12 @@ type TipsContent = {
   title: string
   tips: string[]
   icon: string
+}
+
+type VideoContent = {
+  type: 'video'
+  text: string
+  src: string
 }
 
 type ArticlePreview = {

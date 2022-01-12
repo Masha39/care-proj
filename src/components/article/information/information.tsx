@@ -4,12 +4,12 @@ export const Information = ({
   title,
   paragraphs
 }: {
-  title: string
+  title?: string
   paragraphs: string[]
 }) => {
   return (
     <div className={styles.info}>
-      <h2 className={styles.info__title}>{title}</h2>
+      {title ? <h2 className={styles.info__title}>{title}</h2> : null}
       {paragraphs.map((el, index) => {
         return (
           <p className={styles.info__text} key={index}>
