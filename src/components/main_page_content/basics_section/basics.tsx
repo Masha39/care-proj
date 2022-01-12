@@ -1,6 +1,8 @@
 import React from 'react'
-import Image from 'next/image'
+
 import useTranslation from 'next-translate/useTranslation'
+import Image from 'next/image'
+
 import styles from './basics.module.scss'
 
 const Basics = () => {

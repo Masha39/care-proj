@@ -1,8 +1,10 @@
 import React from 'react'
-import Youtube from 'svg/youtube.svg'
+
 import Facebook from 'svg/facebook.svg'
 import Instagram from 'svg/instagram.svg'
 import Twitter from 'svg/twitter.svg'
+import Youtube from 'svg/youtube.svg'
+
 import styles from './socials.module.scss'
 
 export const Socials = () => {

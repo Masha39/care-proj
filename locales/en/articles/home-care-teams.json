@@ -1,12 +1,21 @@
 {
   "url": "home-care-teams",
-  "title": "What is a home care team?",
+  "title": "Home care teams",
   "content": [
     {
       "type": "information",
       "title": "What is a home care team?",
       "paragraphs": [
         "Home care is often provided by a team of health care providers. Each health care provider has unique skills, knowledge, roles, and responsibilities, working together to provide comprehensive care."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Potential benefits of home care teams:",
+      "tips": [
+        "Care can be received for different needs",
+        "Complex patients have their needs addressed by various providers with special training",
+        "A larger care team can offer comprehensive support (physical, mental, emotional) for the person receiving care"
       ]
     }
   ]

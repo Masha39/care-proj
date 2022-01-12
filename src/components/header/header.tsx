@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
+
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+
 import Logo from 'svg/header_logo.svg'
-import styles from './header.module.scss'
+
 import { Socials } from '../socials/socials'
+import styles from './header.module.scss'
 
 export const Header = () => {
   const { locales, asPath } = useRouter()

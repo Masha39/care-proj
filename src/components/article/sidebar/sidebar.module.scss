@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 273px;
+  margin-left: 110px;
+  margin-top: 28px;
+  &__topic {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: $text-color;
+    border-bottom: solid 1px $grey;
+    padding-bottom: 10px;
+  }
+  &__container {
+    width: 273px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.item {
+  width: 100%;
+  font-size: 16px;
+  line-height: 120%;
+  color: $text-color;
+  margin-top: 12px;
+  padding: 4px 8px;
+  &__active {
+    font-weight: bold;
+    border-left: solid 2px $text_color_orange;
+  }
+}

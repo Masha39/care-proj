@@ -1,10 +1,12 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 
-import Layout from 'layouts/layout'
-import { Information } from 'components/article/information/information'
-import { Picture } from 'components/article/picture/picture'
 import { Banner } from 'components/article/banner/banner'
-
+import { Information } from 'components/article/information/information'
+import { Navigation } from 'components/article/navigation/navigation'
+import { Picture } from 'components/article/picture/picture'
+import { Sidebar } from 'components/article/sidebar/sidebar'
+import { Tips } from 'components/article/tips/tips'
+import Layout from 'layouts/layout'
 import { fetchJson } from 'util/fetchJson'
 
 import styles from './article.module.scss'
@@ -12,29 +14,57 @@ import styles from './article.module.scss'
 type ArticleProps = {
   article: ArticleJson
   preview: ArticlePreview
+  articles: ArticlePreview[]
 }
 
-const Article = ({ article, preview }: ArticleProps) => {
+const Article = ({ article, preview, articles }: ArticleProps) => {
   return (
     <Layout>
-      <Banner title={article.title} contentType={preview.content_type} />
-      <div className={styles.article}>
-        {article.content.map((item, index) => {
-          switch (item.type) {
-            case 'information':
-              return (
-                <Information
-                  key={index}
-                  title={item.title}
-                  paragraphs={item.paragraphs}
-                />
-              )
-            case 'image':
-              return <Picture src={item.src} alt={article.title} key={index} />
-            default:
-              return null
-          }
-        })}
+      <Banner
+        title={article.title}
+        type={preview?.content_type.label}
+        icon={preview?.content_type.icon}
+        image={preview?.image}
+        topic={preview?.topic}
+        url={preview?.url}
+        readTime={preview?.read_time}
+      />
+      <div className={styles.container}>
+        <div className={styles.article}>
+          {article.content.map((item, index) => {
+            switch (item.type) {
+              case 'information':
+                return (
+                  <Information
+                    key={index}
+                    title={item.title}
+                    paragraphs={item.paragraphs}
+                  />
+                )
+              case 'image':
+                return (
+                  <Picture src={item.src} alt={article.title} key={index} />
+                )
+              case 'tips':
+                return (
+                  <Tips
+                    title={item.title}
+                    tips={item.tips}
+                    icon={item.icon}
+                    key={index}
+                  />
+                )
+              default:
+                return null
+            }
+          })}
+          <Navigation />
+        </div>
+        <Sidebar
+          topic={preview?.topic}
+          articles={articles.filter((el) => el.topic === preview?.topic)}
+          title={article.title}
+        />
       </div>
     </Layout>
   )
@@ -45,12 +75,15 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   locale,
   defaultLocale
 }) => {
-  const data = await fetchJson(
-    `${locale || defaultLocale}/articles/${params?.slug}`
-  )
-  const dataPreview = await fetchJson(
-    `${locale || defaultLocale}/articles-list.json`
-  )
+  let data: any
+
+  try {
+    data = await fetchJson(`${locale}/articles/${params?.slug}`)
+  } catch (e) {
+    data = await fetchJson(`${defaultLocale}/articles/${params?.slug}`)
+  }
+
+  const dataPreview = await fetchJson(`${locale}/articles-list.json`)
 
   const [preview] = dataPreview.articles
     .flatMap((item: ArticlePreview) => {
@@ -61,7 +94,8 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   return {
     props: {
       article: data.default,
-      preview
+      preview: preview || null,
+      articles: dataPreview.articles
     }
   }
 }
