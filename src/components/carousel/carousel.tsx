@@ -73,7 +73,7 @@ export const Carousel = () => {
     speed: 500,
     arrows: true,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     centerMode: true,
     centerPadding: '0',
     adaptiveHeight: true,
@@ -91,7 +91,7 @@ export const Carousel = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
           centerMode: true,
           centerPadding: '0'

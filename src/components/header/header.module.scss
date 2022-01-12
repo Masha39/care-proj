@@ -1,5 +1,8 @@
 .wrapper {
+  min-height: 74px;
+  z-index: 100;
 }
+
 .header {
   @include flexBase;
   display: flex;
@@ -11,6 +14,7 @@
 
 .headerList {
   @include flexBase;
+
   li {
     a {
       color: $text_color;
@@ -21,6 +25,7 @@
 .desktopMenu {
   display: none;
 }
+
 .mobileMenu {
   transform: translate(-100%);
   -webkit-transform: translate(-100%);
@@ -49,11 +54,13 @@
   -o-transform: translate(100);
   background: #f6f8f9;
   box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
+
   .headerList {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 16px;
     padding-right: 16px;
+
     li {
       width: 100%;
       margin-top: 26px;
@@ -61,6 +68,7 @@
       padding-left: 6px;
       padding-right: 6px;
       padding-bottom: 26px;
+
       a {
         font-style: normal;
         font-weight: 500;
@@ -78,6 +86,7 @@
   width: 20px;
   height: 30px;
   cursor: pointer;
+
   span {
     content: '';
     width: 20px;
@@ -173,8 +182,10 @@
 @media (min-width: $xl) {
   .desktopMenu {
     display: block;
+
     .headerList {
       margin-left: 62px;
+
       li {
         margin-left: 40px;
       }
