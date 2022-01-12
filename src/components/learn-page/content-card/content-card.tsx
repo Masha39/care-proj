@@ -1,5 +1,7 @@
 import Image from 'next/image'
+
 import { ContentType } from 'components/content-type/content-type'
+
 import styles from './content-card.module.scss'
 
 export const ContentCard = ({

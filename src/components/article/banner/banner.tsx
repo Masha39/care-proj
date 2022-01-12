@@ -1,6 +1,8 @@
-import { ContentType } from 'components/content-type/content-type'
 import Image from 'next/image'
 import Link from 'next/link'
+
+import { ContentType } from 'components/content-type/content-type'
+
 import styles from './banner.module.scss'
 
 export const Banner = ({

@@ -1,15 +1,14 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 
-import Layout from 'layouts/layout'
-import { Information } from 'components/article/information/information'
-import { Picture } from 'components/article/picture/picture'
 import { Banner } from 'components/article/banner/banner'
+import { Information } from 'components/article/information/information'
+import { Navigation } from 'components/article/navigation/navigation'
+import { Picture } from 'components/article/picture/picture'
 import { Sidebar } from 'components/article/sidebar/sidebar'
-
+import { Tips } from 'components/article/tips/tips'
+import Layout from 'layouts/layout'
 import { fetchJson } from 'util/fetchJson'
 
-import { Tips } from 'components/article/tips/tips'
-import { Navigation } from 'components/article/navigation/navigation'
 import styles from './article.module.scss'
 
 type ArticleProps = {

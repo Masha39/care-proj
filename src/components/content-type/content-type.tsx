@@ -1,5 +1,6 @@
-import Image from 'next/image'
 import cn from 'classnames'
+import Image from 'next/image'
+
 import styles from './content-type.module.scss'
 
 export const ContentType = ({

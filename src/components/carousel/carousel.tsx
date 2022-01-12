@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
-import Slider from 'react-slick'
+
+import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import Slider from 'react-slick'
+
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { ContentType } from 'components/content-type/content-type'
 import Item1 from 'icons/slider/slide_1.svg'
 import Item2 from 'icons/slider/slide_2.svg'
-import useTranslation from 'next-translate/useTranslation'
-import { ContentType } from 'components/content-type/content-type'
+
 import styles from './carousel.module.scss'
 import { CustomPaging } from './components/custom-paging/custom-paging'
 
