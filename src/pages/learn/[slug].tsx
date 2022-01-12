@@ -6,6 +6,7 @@ import { Navigation } from 'components/article/navigation/navigation'
 import { Picture } from 'components/article/picture/picture'
 import { Sidebar } from 'components/article/sidebar/sidebar'
 import { Tips } from 'components/article/tips/tips'
+import { Video } from 'components/article/video/video'
 import Layout from 'layouts/layout'
 import { fetchJson } from 'util/fetchJson'
 
@@ -37,7 +38,7 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 return (
                   <Information
                     key={index}
-                    title={item.title}
+                    title={item?.title}
                     paragraphs={item.paragraphs}
                   />
                 )
@@ -54,6 +55,8 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                     key={index}
                   />
                 )
+              case 'video':
+                return <Video src={item.src} key={index} text={item.text} />
               default:
                 return null
             }
