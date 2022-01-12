@@ -21,10 +21,10 @@ const landingBanner = () => {
           <div className={styles.landing_logo_mobile}>
             <LogoMobile />
           </div>
-          <div className={styles.landing_text}>
+          <p className={styles.landing_text}>
             An online platform helping caregivers care for <br /> themselves and
             others.
-          </div>
+          </p>
           <button className={styles.landing_btn}>
             Explore Caregiver Tookit
           </button>
@@ -36,7 +36,7 @@ const landingBanner = () => {
             Presented and supported by
           </div>
           <div className={styles.banner_footer_content}>
-            <div className={styles.left_footer_content}>Presented by</div>
+            <span className={styles.left_footer_content}>Presented by</span>
             <div className={styles.mobile_logo_1}>
               <Image
                 src={mobileLogo1}
@@ -53,7 +53,7 @@ const landingBanner = () => {
                 objectFit="contain"
               />
             </div>
-            <div className={styles.right_footer_content}>Supported by</div>
+            <span className={styles.right_footer_content}>Supported by</span>
             <div className={styles.mobile_logo_3}>
               <Image
                 src={mobileLogo3}

@@ -1,5 +1,22 @@
+//styles for accardion start
+
+.accordion_content {
+  //1024
+  @media (min-width: $xl) {
+  }
+}
+
 .accordion_title {
   display: none;
+  //1024
+  @media (min-width: $xl) {
+    display: block;
+    padding-top: 32px;
+    padding-left: 100px;
+    padding-bottom: 32px;
+    color: #1d526a;
+    font-size: 18px;
+  }
 }
 
 .accordion_title_mobile {
@@ -9,6 +26,10 @@
   margin-left: 16px;
   margin-top: 24px;
   margin-bottom: 24px;
+  //1024
+  @media (min-width: $xl) {
+    display: none;
+  }
 }
 
 .accordion_button {
@@ -28,10 +49,109 @@
   margin-right: 16px;
 }
 
-.national_information {
+.information {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 4px;
   background-color: #f6f8f9;
   border-radius: 12px;
+}
+
+.category_information_title {
+  color: #1d526a;
+  font-size: 18px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 44px;
+  padding-bottom: 24px;
+}
+
+.information_content_item {
+  display: flex;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  color: #027abe;
+  text-decoration: underline;
+}
+
+.information_content_item::after {
+  content: url(../../../public/svg/accordion_item.svg);
+  padding-left: 8px;
+}
+//styles for accardion ends
+
+.resources_wrapper {
+  background: linear-gradient(
+      93.78deg,
+      rgba(156, 191, 203, 0.1) 0%,
+      rgba(39, 118, 148, 0.2) 100%
+    ),
+    #f6f8f9;
+}
+
+.resources_title {
+  padding-top: 54px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  font-size: 36px;
+  color: #a35f2f;
+  //1200
+  @media (min-width: $xl) {
+    padding-left: 100px;
+  }
+  //1400
+  @media (min-width: $xxl) {
+    padding-top: 72px;
+    padding-bottom: 16px;
+    padding-left: 156px;
+    font-size: 48px;
+  }
+}
+
+.resources_title_text_mobile {
+  padding-left: 16px;
+  padding-bottom: 130px;
+  font-size: 24px;
+  color: #1d526a;
+  //576
+  @media (min-width: $sm) {
+    display: none;
+  }
+}
+
+.resources_title_text {
+  display: none;
+  //576
+  @media (min-width: $sm) {
+    display: block;
+    padding-left: 16px;
+    padding-bottom: 130px;
+    font-size: 24px;
+    color: #1d526a;
+  }
+  //1200
+  @media (min-width: $xl) {
+    padding-left: 100px;
+  }
+  //1400
+  @media (min-width: $xxl) {
+    padding-left: 156px;
+    padding-bottom: 160px;
+    font-size: 28px;
+  }
+}
+
+.resources_logo {
+  background-image: url(../../../public/assets/images/resources_image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  //992
+  @media (min-width: $lg) {
+    background-image: url(../../../public/assets/images/resources_image_tablet.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
 }
