@@ -8,6 +8,8 @@ interface Values {
   firstName: string
   lastName: string
   email: string
+  subject: string
+  message: string
 }
 
 const ContactPageContent = () => {
