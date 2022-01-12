@@ -13,6 +13,7 @@
     "eslint-config-airbnb": "^19.0.2",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "formik": "^2.2.9",
     "i18next": "^21.6.3",
     "i18next-browser-languagedetector": "^6.1.2",
     "lint-staged": "^12.1.3",
