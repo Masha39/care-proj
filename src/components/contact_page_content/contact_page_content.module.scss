@@ -1,0 +1,35 @@
+.banner {
+  background: url('../../../public/contact_banner.png');
+  width: 100%;
+  min-height: 460px;
+  display: flex;
+  background-position: center center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  max-width: calc(58rem);
+  width: calc(100% - 2rem);
+  box-sizing: content-box;
+
+  @media (min-width: $lg) {
+    padding: 0px 1rem;
+    margin: 4rem auto 0px;
+  }
+
+  h1 {
+    color: rgb(29, 85, 106);
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-top: 0;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
+}
