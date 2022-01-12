@@ -1,9 +1,18 @@
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  max-width: 273px;
-  margin-left: 110px;
-  margin-top: 28px;
+  display: none;
+  @media (min-width: $xl) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    min-width: 220px;
+  }
+  @media (min-width: $xxl) {
+    display: flex;
+    flex-direction: column;
+    min-width: 273px;
+    margin-left: 110px;
+    margin-top: 28px;
+  }
   &__topic {
     font-weight: 500;
     font-size: 18px;
@@ -13,7 +22,7 @@
     padding-bottom: 10px;
   }
   &__container {
-    width: 273px;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }

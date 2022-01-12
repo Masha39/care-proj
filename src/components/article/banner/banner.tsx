@@ -44,7 +44,9 @@ export const Banner = ({
           <div className={styles.banner__text}>{readTime}</div>
         </div>
       </div>
-      <Image src={`/images/${image}` || ''} width={360} height={240} />
+      <div className={styles.banner__image}>
+        <Image src={`/images/${image}` || ''} width={360} height={240} />
+      </div>
     </div>
   )
 }
