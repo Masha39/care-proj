@@ -1,16 +1,19 @@
 import React, { useCallback } from 'react'
-import useTranslation from 'next-translate/useTranslation'
-import Layout from 'layouts/layout'
-import { Select } from 'components/learn-page/select/select'
+
 import groupBy from 'lodash/groupBy'
+import useTranslation from 'next-translate/useTranslation'
+
 import { ContentType } from 'components/content-type/content-type'
-import { getTopicsToShow } from 'util/getTopicsToShow'
-import { ArticlesGrid } from 'components/learn-page/articles-grid/articles-grid'
-import { ArticlesGridType } from 'components/learn-page/articles-grid-type/articles-grid-type'
 import { ArticlesGridTopic } from 'components/learn-page/articles-grid-topic/articles-grid-topic'
-import styles from './learn.module.scss'
-import { useLearnSelect } from '~/hooks/useLearnSelect'
+import { ArticlesGridType } from 'components/learn-page/articles-grid-type/articles-grid-type'
+import { ArticlesGrid } from 'components/learn-page/articles-grid/articles-grid'
+import { Select } from 'components/learn-page/select/select'
+import Layout from 'layouts/layout'
+import { getTopicsToShow } from 'util/getTopicsToShow'
 import { useLearnContentType } from '~/hooks/useLearnContentType'
+import { useLearnSelect } from '~/hooks/useLearnSelect'
+
+import styles from './learn.module.scss'
 
 const Learn = () => {
   const { defaultValue, selectedTopic, setSelectedTopic } = useLearnSelect()

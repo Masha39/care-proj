@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import styles from './tips.module.scss'
 
 export const Tips = ({

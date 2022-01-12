@@ -1,8 +1,10 @@
 import React from 'react'
+
 import useTranslation from 'next-translate/useTranslation'
-import styles from './statistic.module.scss'
-import MenIcon from '../../../assets/main_page/men_icon.svg'
+
 import CircleDiagram from '../../../assets/main_page/circle_diagram.svg'
+import MenIcon from '../../../assets/main_page/men_icon.svg'
+import styles from './statistic.module.scss'
 
 const Statistic = () => {
   const { t } = useTranslation('main_page')

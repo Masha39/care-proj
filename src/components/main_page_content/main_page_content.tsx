@@ -1,13 +1,14 @@
 import React from 'react'
-import styles from './main_page_content.module.scss'
+
 import { Carousel } from '../carousel/carousel'
-import Statistic from './statistic_section/statistic'
-import Mission from './mission_section/mission'
-import CaregivingEasier from './caregiving_easier_section/caregiving_easier'
 import Basics from './basics_section/basics'
-import CaregiverWellness from './caregiver_wellness_section/caregiver_wellness'
-import ChronicDiseases from './chronic_diseases_section/chronic_diseases'
 import BottomSection from './bottom_section/bottom_section'
+import CaregiverWellness from './caregiver_wellness_section/caregiver_wellness'
+import CaregivingEasier from './caregiving_easier_section/caregiving_easier'
+import ChronicDiseases from './chronic_diseases_section/chronic_diseases'
+import styles from './main_page_content.module.scss'
+import Mission from './mission_section/mission'
+import Statistic from './statistic_section/statistic'
 
 const MainPageContent = () => {
   return (

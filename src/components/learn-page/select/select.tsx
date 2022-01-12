@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Sel, { StylesConfig } from 'react-select'
+
 import styles from './select.module.scss'
 
 export const Select = ({

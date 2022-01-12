@@ -1,7 +1,10 @@
-import Link from 'next/link'
-import { ContentCard } from 'components/learn-page/content-card/content-card'
 import React from 'react'
+
+import Link from 'next/link'
+
+import { ContentCard } from 'components/learn-page/content-card/content-card'
 import { Topic } from 'util/getTopicsToShow'
+
 import styles from './articles-grid-topic.module.scss'
 
 export const ArticlesGridTopic = ({
