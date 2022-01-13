@@ -26,7 +26,8 @@
     "react-select": "^5.2.1",
     "react-slick": "^0.28.1",
     "sass": "^1.45.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.1.2",
