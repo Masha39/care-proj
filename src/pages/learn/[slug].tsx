@@ -9,6 +9,8 @@ import { Tips } from 'components/article/tips/tips'
 import { Video } from 'components/article/video/video'
 import Layout from 'layouts/layout'
 import { fetchJson } from 'util/fetchJson'
+import { getNextOrPreviousArticle } from 'util/getNextOrPreviousArticle'
+import { getPreviewText } from 'util/getPreviewText'
 
 import styles from './article.module.scss'
 
@@ -19,6 +21,15 @@ type ArticleProps = {
 }
 
 const Article = ({ article, preview, articles }: ArticleProps) => {
+  const filteredArticles = articles.filter((el) => el.topic === preview?.topic)
+
+  const { nextArticle, previousArticle } = getNextOrPreviousArticle(
+    filteredArticles,
+    article.title
+  )
+
+  const { previewText } = getPreviewText(article)
+
   return (
     <Layout>
       <Banner
@@ -61,11 +72,15 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 return null
             }
           })}
-          <Navigation />
+          <Navigation
+            nextArticle={nextArticle}
+            previousArticle={previousArticle}
+            previewText={previewText}
+          />
         </div>
         <Sidebar
           topic={preview?.topic}
-          articles={articles.filter((el) => el.topic === preview?.topic)}
+          articles={filteredArticles}
           title={article.title}
         />
       </div>
