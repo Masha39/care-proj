@@ -1,5 +1,4 @@
 .landing_banner {
-  position: relative;
   background-image: url(../../assets/images/landing_banner_mobile.jpg);
   background-repeat: no-repeat;
   padding-top: 124px;
@@ -57,6 +56,14 @@
       rgba(226, 236, 240, 0) 76.73%
     );
   }
+  //1400
+  @media (min-width: 2000px) {
+    content: linear-gradient(
+      59.57deg,
+      #e2ecf0 56.75%,
+      rgba(226, 236, 240, 0) 76.73%
+    );
+  }
 }
 
 .landing_logo_wrapper {
@@ -78,15 +85,6 @@
   }
   //375
   @media (min-width: 375px) {
-    font-size: 20px;
-  }
-
-  //768
-  @media (min-width: $md) {
-    font-size: 20px;
-  }
-  //1400
-  @media (min-width: $xxl) {
     font-size: 20px;
   }
 }
