@@ -1,11 +1,12 @@
 import React from 'react'
 
-import Layout from 'layouts/layout'
+import Accordion from '~/components/accordion/accordion'
+import Layout from '~/layouts/layout'
 
 const Resources = () => {
   return (
     <Layout>
-      <h1>Resources</h1>
+      <Accordion />
     </Layout>
   )
 }

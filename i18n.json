@@ -5,6 +5,7 @@
     "*": ["common"],
     "/": ["static/main_page"],
     "/learn": ["static/learn", "articles-list"],
+    "/contact-us": ["static/contact_page"],
     "/learn/[slug]": ["static/article"]
   }
 }
