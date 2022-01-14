@@ -1,12 +1,49 @@
 {
   "url": "home-care-teams",
-  "title": "What is a home care team?",
+  "title": "Home care teams",
   "content": [
     {
       "type": "information",
       "title": "What is a home care team?",
       "paragraphs": [
         "Home care is often provided by a team of health care providers. Each health care provider has unique skills, knowledge, roles, and responsibilities, working together to provide comprehensive care."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Potential benefits of home care teams:",
+      "tips": [
+        "Care can be received for different needs",
+        "Complex patients have their needs addressed by various providers with special training",
+        "A larger care team can offer comprehensive support (physical, mental, emotional) for the person receiving care"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "The members of a home care team will depend on the needs of the person receiving care. For example, not all home care clients will require a Speech Language Pathologist or a Registered Dietitian.",
+        "Care Coordinators will assess the needs of the person receiving care and determine what services and providers are needed. If receiving services over a longer period of time, and as care needs change, reassessments are completed."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "Watch the video below to learn about the members of Ruth and Daniel’s care team.",
+      "src": "https://www.youtube.com/embed/OkeYSw8oOPs"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "VIDEO SUMMARY",
+      "tips": [
+        "Ruth is a 71-year old woman who lives alone at home. Her son Daniel lives close-by and helps care for her.",
+        "Ruth and Daniel meet with a Care Coordinator from a home care agency. The Care Coordinator assigns Ruth an Occupational Therapist, Physiotherapist, Community Nurse, and Personal Support Worker.",
+        "Ruth receives care from these providers in her home so she is able to live safely with help from her son."
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "In the next article you can create a custom list of the members of your home care team, or just learn about the various home care providers and what they do."
       ]
     }
   ]

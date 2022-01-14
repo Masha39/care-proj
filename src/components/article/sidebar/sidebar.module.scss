@@ -1,0 +1,42 @@
+.sidebar {
+  display: none;
+  @media (min-width: $xl) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    min-width: 220px;
+  }
+  @media (min-width: $xxl) {
+    display: flex;
+    flex-direction: column;
+    min-width: 273px;
+    margin-left: 110px;
+    margin-top: 28px;
+  }
+  &__topic {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: $text-color;
+    border-bottom: solid 1px $grey;
+    padding-bottom: 10px;
+  }
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.item {
+  width: 100%;
+  font-size: 16px;
+  line-height: 120%;
+  color: $text-color;
+  margin-top: 12px;
+  padding: 4px 8px;
+  &__active {
+    font-weight: bold;
+    border-left: solid 2px $text_color_orange;
+  }
+}

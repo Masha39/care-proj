@@ -1,0 +1,23 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  &__topic {
+    font-weight: 500;
+    font-size: 26px;
+    color: $text_color_orange;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  &__noTopic {
+    color: $text_color_blue;
+    font-weight: 400;
+    margin: 7rem 0 10rem 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  &__list {
+    display: flex;
+  }
+}

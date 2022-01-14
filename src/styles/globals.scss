@@ -88,7 +88,7 @@ li.slick-active div {
   width: 48px !important;
   height: 48px !important;
   left: -26px !important;
-  z-index: 100;
+  z-index: 99;
   background: url('../assets/icons/arrow_left.svg') center no-repeat !important;
 
   @media (min-width: $md) {
