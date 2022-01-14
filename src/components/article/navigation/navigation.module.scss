@@ -87,6 +87,16 @@
   }
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin {
+  margin-bottom: 24px;
+}
+
 .next {
   display: flex;
   justify-content: center;
@@ -105,17 +115,11 @@
     font-size: 16px;
     line-height: 19px;
     color: $text_color_blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   &__topic {
     font-weight: 500;
     font-size: 26px;
     color: $text_color_orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 12px;
   }
   &__description {
@@ -124,16 +128,13 @@
     line-height: 120%;
     color: $text-color;
     max-width: 350px;
+    padding-bottom: 4px;
     margin: auto;
-    margin-bottom: 24px;
   }
   &__next {
     font-size: 20px;
     line-height: 23px;
     color: $text_color_blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 32px;
   }
   &__articles {

@@ -1,3 +1,4 @@
+import cn from 'classnames'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -76,12 +77,21 @@ export const Navigation = ({
             </div>
             {nextTopic && (
               <>
-                <div className={styles.next__next}>
+                <div className={cn(styles.next__next, styles.centered)}>
                   {t('static/article:next_topic')}
                 </div>
-                <div className={styles.next__topic}>{nextTopic}</div>
+                <div className={cn(styles.next__topic, styles.centered)}>
+                  {nextTopic}
+                </div>
                 <div className={styles.next__description}>{description}</div>
                 <div className={styles.next__articles}>
+                  <Link href={`/learn/${nextTopicArticles[0].url}`}>
+                    <a className={styles.centered}>
+                      <button className={cn(styles.nav__button, styles.margin)}>
+                        {t('static/article:start')}
+                      </button>
+                    </a>
+                  </Link>
                   {nextTopicArticles.map((item, index) => {
                     return (
                       <Link href={`/learn/${item.url}`} key={index}>
