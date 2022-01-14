@@ -3,8 +3,8 @@ import Head from 'next/head'
 
 import Layout from '~/layouts/layout'
 
+import Landingbanner from '../components/landing-banner/landing_banner'
 import MainPageContent from '../components/main_page_content/main_page_content'
-import Landingbanner from '~/components/landing-banner/landing_banner'
 
 const Home: NextPage = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'src/components/accordion/accordion.module.scss'
+
 import {
   Accordion,
   AccordionItem,
@@ -7,6 +7,8 @@ import {
   AccordionItemButton,
   AccordionItemPanel
 } from 'react-accessible-accordion'
+
+import styles from 'src/components/accordion/accordion.module.scss'
 
 const accordion = () => {
   return (

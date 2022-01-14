@@ -1,14 +1,14 @@
 import React from 'react'
-import Image from 'next/image'
 
-import styles from 'src/components/landing-banner/landing_banner.module.scss'
-import Logo from 'public/svg/landing_logo.svg'
-import LogoMobile from 'public/svg/landing_logo_mobile.svg'
+import Image from 'next/image'
 
 import mobileLogo1 from 'public/assets/images/mobile_footer_logo_1.png'
 import mobileLogo2 from 'public/assets/images/mobile_footer_logo_2.png'
 import mobileLogo3 from 'public/assets/images/mobile_footer_logo_3.png'
 import mobileLogo4 from 'public/assets/images/mobile_footer_logo_4.png'
+import Logo from 'public/svg/landing_logo.svg'
+import LogoMobile from 'public/svg/landing_logo_mobile.svg'
+import styles from 'src/components/landing-banner/landing_banner.module.scss'
 
 const landingBanner = () => {
   return (
