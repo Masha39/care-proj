@@ -2,6 +2,7 @@ import React from 'react'
 
 import cn from 'classnames'
 import { Formik, Field, Form, FormikHelpers } from 'formik'
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import * as yup from 'yup'
 
@@ -38,16 +39,14 @@ const ContactPageContent = () => {
       .typeError('Должно быть строкой')
       .required('Message is a required field')
   })
+  const { t } = useTranslation('contact_page')
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.banner} />
       <div className="container">
         <div className={styles.content}>
-          <h1>Contact Us</h1>
-          <p>
-            Complete this form to contact a member of our team with feedback,
-            questions, or concerns
-          </p>
+          <h1>{t('static/contact_page:h1')}</h1>
+          <p>{t('static/contact_page:description')}</p>
           <div className={styles.inputWrapper}>
             <Formik
               initialValues={{
@@ -80,7 +79,9 @@ const ContactPageContent = () => {
                 <Form>
                   <div className={styles.row}>
                     <div className={styles.item}>
-                      <label htmlFor="firstName">First Name</label>
+                      <label htmlFor="firstName">
+                        {t('static/contact_page:firstName')}
+                      </label>
                       <Field
                         className={cn(
                           touched.firstName &&
@@ -97,7 +98,9 @@ const ContactPageContent = () => {
                     </div>
 
                     <div className={styles.item}>
-                      <label htmlFor="lastName">Last Name</label>
+                      <label htmlFor="lastName">
+                        {t('static/contact_page:lastName')}
+                      </label>
                       <Field
                         className={cn(
                           touched.lastName &&
@@ -115,7 +118,9 @@ const ContactPageContent = () => {
                   </div>
                   <div className={styles.row}>
                     <div className={styles.item}>
-                      <label htmlFor="email">Email</label>
+                      <label htmlFor="email">
+                        {t('static/contact_page:email')}
+                      </label>
                       <Field
                         className={cn(
                           touched.lastName &&
@@ -131,7 +136,9 @@ const ContactPageContent = () => {
                       )}
                     </div>
                     <div className={styles.item}>
-                      <label htmlFor="subject">Subject</label>
+                      <label htmlFor="subject">
+                        {t('static/contact_page:subject')}
+                      </label>
                       <Field
                         className={cn(
                           touched.email && errors.email && styles.errorColor
@@ -147,7 +154,9 @@ const ContactPageContent = () => {
                   </div>
                   <div className={styles.row}>
                     <div className={styles.item}>
-                      <label htmlFor="message">Message</label>
+                      <label htmlFor="message">
+                        {t('static/contact_page:message')}
+                      </label>
                       <Field
                         className={cn(
                           styles.textarea,
@@ -169,7 +178,7 @@ const ContactPageContent = () => {
                     disabled={!isSubmitting && !dirty}
                     className={styles.submitBtn}
                   >
-                    Submit
+                    {t('static/contact_page:submit')}
                   </button>
                 </Form>
               )}
@@ -177,14 +186,11 @@ const ContactPageContent = () => {
           </div>
           <div className={styles.devider} />
           <div className={styles.imagesWrapper}>
-            <h2>Our Offices</h2>
+            <h2>{t('static/contact_page:h2')}</h2>
             <div className={styles.itemsWrapper}>
               <div className={styles.itemOffice}>
                 <Image src="/office.png" width={320} height={190} />
-                <p>
-                  Kitchener | University of Waterloo IHB-3016 10-B Victoria St.
-                  S., Kitchener, ON
-                </p>
+                <p>{t('static/contact_page:p')}</p>
               </div>
               <div className={styles.itemMap}>
                 <Image src="/map.png" width={350} height={257} />

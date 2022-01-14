@@ -22,6 +22,7 @@ const accordion = () => {
           </div>
           <div className={styles.resources_title_text}>
             Do you have additional questions about home care services? Learn
+            {/* {t('static/contact_page:firstName')} */}
             <br />
             about national and provincial resources.
           </div>
