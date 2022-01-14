@@ -1,8 +1,13 @@
-.article {
-  padding: 0 16px;
+.container {
+  padding: 32px 16px 64px 16px;
+  @media (min-width: $xl) {
+    display: flex;
+  }
   @media (min-width: $xxl) {
     max-width: 1440px;
-    padding: 0 157px;
+    padding: 32px 157px 84px 157px;
     margin: auto;
   }
+}
+.article {
 }

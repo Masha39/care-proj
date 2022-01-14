@@ -1,6 +1,8 @@
 import React from 'react'
+
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
+
 import styles from './caregiving_easier.module.scss'
 
 const CaregivingEasier = () => {

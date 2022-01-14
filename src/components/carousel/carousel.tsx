@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
-import Slider from 'react-slick'
+
+import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import Slider from 'react-slick'
+
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { ContentType } from 'components/content-type/content-type'
 import Item1 from 'icons/slider/slide_1.svg'
 import Item2 from 'icons/slider/slide_2.svg'
-import Tool from 'icons/tool.svg'
-import useTranslation from 'next-translate/useTranslation'
+
 import styles from './carousel.module.scss'
 import { CustomPaging } from './components/custom-paging/custom-paging'
 
@@ -16,9 +19,9 @@ export const Carousel = () => {
   const [items] = useState([
     {
       id: 1,
-      href: '/learn/what-is-home-care',
+      href: '#',
       image: <Item1 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -26,7 +29,7 @@ export const Carousel = () => {
       id: 2,
       href: '#',
       image: <Item2 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -34,7 +37,7 @@ export const Carousel = () => {
       id: 3,
       href: '#',
       image: <Item1 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -42,7 +45,7 @@ export const Carousel = () => {
       id: 4,
       href: '#',
       image: <Item1 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -50,7 +53,7 @@ export const Carousel = () => {
       id: 5,
       href: '#',
       image: <Item1 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -58,7 +61,7 @@ export const Carousel = () => {
       id: 6,
       href: '#',
       image: <Item1 />,
-      tagImage: <Tool />,
+      tagImage: '/icons/tool.svg',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     }
@@ -70,7 +73,7 @@ export const Carousel = () => {
     speed: 500,
     arrows: true,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     centerMode: true,
     centerPadding: '0',
     adaptiveHeight: true,
@@ -88,7 +91,7 @@ export const Carousel = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
           centerMode: true,
           centerPadding: '0'
@@ -130,8 +133,7 @@ export const Carousel = () => {
                   {item.image}
 
                   <div className={styles.tag}>
-                    <div className={styles.tagLogo}>{item.tagImage}</div>
-                    <span>{item.tagTitle}</span>
+                    <ContentType type={item.tagTitle} icon={item.tagImage} />
                   </div>
                 </div>
                 <div className={styles.itemText}>

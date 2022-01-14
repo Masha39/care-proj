@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
 import Layout from '~/layouts/layout'
+
 import MainPageContent from '../components/main_page_content/main_page_content'
 import Landingbanner from '~/components/landing-banner/landing_banner'
 

@@ -5,9 +5,6 @@ const nextTranslate = require('next-translate')
 module.exports = nextTranslate({
   swcMinify: false,
   reactStrictMode: true,
-  images: {
-    domains: ['media.istockphoto.com']
-  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,

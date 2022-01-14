@@ -8,6 +8,43 @@
       "paragraphs": [
         "Les soins à domicile sont souvent fournis par une équipe de prestataires de soins de santé. Chaque fournisseur de soins de santé possède des compétences, des connaissances, des rôles et des responsabilités uniques, travaillant ensemble pour fournir des soins complets."
       ]
+    },
+    {
+      "type": "tips",
+      "title": "Avantages potentiels des équipes de soins à domicile:",
+      "tips": [
+        "Des soins peuvent être reçus pour des besoins différents",
+        "Les besoins des patients complexes sont pris en charge par divers prestataires ayant une formation spéciale",
+        "Une équipe de soins plus importante peut offrir un soutien global (physique, mental, émotionnel) à la personne soignée"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Les membres d'une équipe de soins à domicile dépendront des besoins de la personne qui reçoit les soins. Par exemple, tous les clients des soins à domicile n'auront pas besoin d'un orthophoniste ou d'un diététiste.",
+        "Les coordonnateurs des soins évalueront les besoins de la personne recevant des soins et détermineront quels services et fournisseurs sont nécessaires."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "Regardez la vidéo ci-dessous pour en savoir plus sur les membres de l'équipe de soins de Ruth et Daniel.",
+      "src": "https://www.youtube.com/embed/OkeYSw8oOPs"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "RÉSUMÉ VIDÉO",
+      "tips": [
+        "Ruth est une femme de 71 ans qui vit seule à la maison. Son fils Daniel habite à proximité et aide à prendre soin d'elle.",
+        "Ruth et Daniel rencontrent une coordonnatrice des soins d'une agence de soins à domicile. La coordonnatrice des soins affecte à Ruth une ergothérapeute, une physiothérapeute, une infirmière communautaire et une préposée aux services de soutien personnel.",
+        "Ruth reçoit des soins de ces prestataires à son domicile afin qu'elle puisse vivre en toute sécurité avec l'aide de son fils."
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Dans le prochain article, vous pouvez créer une liste personnalisée des membres de votre équipe de soins à domicile, ou simplement en savoir plus sur les différents prestataires de soins à domicile et ce qu'ils font."
+      ]
     }
   ]
 }

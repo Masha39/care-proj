@@ -1,0 +1,29 @@
+.video {
+  width: 288px;
+  height: 190px;
+  margin: auto;
+  margin-bottom: 2rem;
+  @media (min-width: $sm) {
+    width: 510px;
+    height: 290px;
+  }
+  @media (min-width: $md) {
+    width: 736px;
+    height: 414px;
+  }
+  &__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: $text-color;
+    margin: 24px 0;
+    @media (min-width: $md) {
+      font-size: 22px;
+    }
+  }
+  &__content {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+  }
+}

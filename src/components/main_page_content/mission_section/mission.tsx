@@ -1,5 +1,7 @@
 import React from 'react'
+
 import useTranslation from 'next-translate/useTranslation'
+
 import styles from './mission.module.scss'
 
 const Mission = () => {
