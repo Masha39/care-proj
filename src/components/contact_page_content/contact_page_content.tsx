@@ -1,6 +1,8 @@
 import React from 'react'
 
+import cn from 'classnames'
 import { Formik, Field, Form, FormikHelpers } from 'formik'
+import Image from 'next/image'
 import * as yup from 'yup'
 
 import styles from './contact_page_content.module.scss'
@@ -80,6 +82,11 @@ const ContactPageContent = () => {
                     <div className={styles.item}>
                       <label htmlFor="firstName">First Name</label>
                       <Field
+                        className={cn(
+                          touched.firstName &&
+                            errors.firstName &&
+                            styles.errorColor
+                        )}
                         name="firstName"
                         onBlur={handleBlur}
                         onChange={handleChange}
@@ -92,6 +99,11 @@ const ContactPageContent = () => {
                     <div className={styles.item}>
                       <label htmlFor="lastName">Last Name</label>
                       <Field
+                        className={cn(
+                          touched.lastName &&
+                            errors.lastName &&
+                            styles.errorColor
+                        )}
                         name="lastName"
                         onBlur={handleBlur}
                         onChange={handleChange}
@@ -105,6 +117,11 @@ const ContactPageContent = () => {
                     <div className={styles.item}>
                       <label htmlFor="email">Email</label>
                       <Field
+                        className={cn(
+                          touched.lastName &&
+                            errors.lastName &&
+                            styles.errorColor
+                        )}
                         name="email"
                         onBlur={handleBlur}
                         onChange={handleChange}
@@ -116,6 +133,9 @@ const ContactPageContent = () => {
                     <div className={styles.item}>
                       <label htmlFor="subject">Subject</label>
                       <Field
+                        className={cn(
+                          touched.email && errors.email && styles.errorColor
+                        )}
                         name="subject"
                         onBlur={handleBlur}
                         onChange={handleChange}
@@ -129,10 +149,13 @@ const ContactPageContent = () => {
                     <div className={styles.item}>
                       <label htmlFor="message">Message</label>
                       <Field
+                        className={cn(
+                          styles.textarea,
+                          touched.message && errors.message && styles.errorColor
+                        )}
                         as="textarea"
                         name="message"
                         type="textarea"
-                        className={styles.textarea}
                         onBlur={handleBlur}
                         onChange={handleChange}
                       />
@@ -151,6 +174,22 @@ const ContactPageContent = () => {
                 </Form>
               )}
             </Formik>
+          </div>
+          <div className={styles.devider} />
+          <div className={styles.imagesWrapper}>
+            <h2>Our Offices</h2>
+            <div className={styles.itemsWrapper}>
+              <div className={styles.itemOffice}>
+                <Image src="/office.png" width={320} height={190} />
+                <p>
+                  Kitchener | University of Waterloo IHB-3016 10-B Victoria St.
+                  S., Kitchener, ON
+                </p>
+              </div>
+              <div className={styles.itemMap}>
+                <Image src="/map.png" width={350} height={257} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

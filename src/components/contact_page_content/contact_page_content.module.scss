@@ -27,7 +27,7 @@
 
   h1 {
     color: rgb(29, 85, 106);
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 5px;
   }
 
@@ -120,6 +120,7 @@
   color: #ffffff;
   cursor: pointer;
   background-color: rgb(74, 117, 146);
+  font-size: 16px;
 
   &:disabled {
     pointer-events: none;
@@ -139,4 +140,58 @@
   left: 0;
   padding-top: 10px;
   color: rgb(229, 88, 18) !important;
+}
+
+.errorColor {
+  border-color: rgb(229, 88, 18) !important;
+}
+
+.devider {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(225, 225, 225);
+  margin: 3rem 0px;
+}
+
+.itemsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $lg) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .itemOffice {
+    max-width: 322px;
+    width: 100%;
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      margin: 1rem;
+      color: rgb(96, 96, 96);
+    }
+  }
+
+  .itemMap {
+    margin-top: 20px;
+
+    @media (min-width: $lg) {
+      margin-top: 0;
+      margin-left: 120px;
+    }
+  }
+}
+
+.imagesWrapper {
+  h2 {
+    color: #1d556a;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 }
