@@ -1,6 +1,9 @@
 import React from 'react'
 
+import cn from 'classnames'
 import { Formik, Field, Form, FormikHelpers } from 'formik'
+import Image from 'next/image'
+import * as yup from 'yup'
 
 import styles from './contact_page_content.module.scss'
 
@@ -13,6 +16,28 @@ interface Values {
 }
 
 const ContactPageContent = () => {
+  const validationsSchema = yup.object().shape({
+    firstName: yup
+      .string()
+      .typeError('Должно быть строкой')
+      .required('First Name is a required field'),
+    lastName: yup
+      .string()
+      .typeError('Должно быть строкой')
+      .required('Last Name is a required field'),
+    email: yup
+      .string()
+      .email('Email must be valid.')
+      .required('Email is a required field'),
+    subject: yup
+      .string()
+      .typeError('Должно быть строкой')
+      .required('Subject is a required field'),
+    message: yup
+      .string()
+      .typeError('Должно быть строкой')
+      .required('Message is a required field')
+  })
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.banner} />
@@ -42,43 +67,106 @@ const ContactPageContent = () => {
                   setSubmitting(false)
                 }, 500)
               }}
+              validationSchema={validationsSchema}
             >
-              {({ isSubmitting, handleBlur }) => (
+              {({
+                errors,
+                touched,
+                handleChange,
+                handleBlur,
+                isSubmitting,
+                dirty
+              }) => (
                 <Form>
                   <div className={styles.row}>
                     <div className={styles.item}>
                       <label htmlFor="firstName">First Name</label>
-                      <Field name="firstName" onBlur={handleBlur} />
+                      <Field
+                        className={cn(
+                          touched.firstName &&
+                            errors.firstName &&
+                            styles.errorColor
+                        )}
+                        name="firstName"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                      />
+                      {touched.firstName && errors.firstName && (
+                        <p className={styles.error}>{errors.firstName}</p>
+                      )}
                     </div>
+
                     <div className={styles.item}>
                       <label htmlFor="lastName">Last Name</label>
-                      <Field name="lastName" />
+                      <Field
+                        className={cn(
+                          touched.lastName &&
+                            errors.lastName &&
+                            styles.errorColor
+                        )}
+                        name="lastName"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                      />
+                      {touched.lastName && errors.lastName && (
+                        <p className={styles.error}>{errors.lastName}</p>
+                      )}
                     </div>
                   </div>
                   <div className={styles.row}>
                     <div className={styles.item}>
                       <label htmlFor="email">Email</label>
-                      <Field name="email" type="email" />
+                      <Field
+                        className={cn(
+                          touched.lastName &&
+                            errors.lastName &&
+                            styles.errorColor
+                        )}
+                        name="email"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                      />
+                      {touched.email && errors.email && (
+                        <p className={styles.error}>{errors.email}</p>
+                      )}
                     </div>
                     <div className={styles.item}>
                       <label htmlFor="subject">Subject</label>
-                      <Field name="subject" />
+                      <Field
+                        className={cn(
+                          touched.email && errors.email && styles.errorColor
+                        )}
+                        name="subject"
+                        onBlur={handleBlur}
+                        onChange={handleChange}
+                      />
+                      {touched.subject && errors.subject && (
+                        <p className={styles.error}>{errors.subject}</p>
+                      )}
                     </div>
                   </div>
                   <div className={styles.row}>
                     <div className={styles.item}>
                       <label htmlFor="message">Message</label>
                       <Field
+                        className={cn(
+                          styles.textarea,
+                          touched.message && errors.message && styles.errorColor
+                        )}
                         as="textarea"
                         name="message"
                         type="textarea"
-                        className={styles.textarea}
+                        onBlur={handleBlur}
+                        onChange={handleChange}
                       />
+                      {touched.message && errors.message && (
+                        <p className={styles.error}>{errors.message}</p>
+                      )}
                     </div>
                   </div>
                   <button
                     type="submit"
-                    disabled={isSubmitting}
+                    disabled={!isSubmitting && !dirty}
                     className={styles.submitBtn}
                   >
                     Submit
@@ -86,6 +174,22 @@ const ContactPageContent = () => {
                 </Form>
               )}
             </Formik>
+          </div>
+          <div className={styles.devider} />
+          <div className={styles.imagesWrapper}>
+            <h2>Our Offices</h2>
+            <div className={styles.itemsWrapper}>
+              <div className={styles.itemOffice}>
+                <Image src="/office.png" width={320} height={190} />
+                <p>
+                  Kitchener | University of Waterloo IHB-3016 10-B Victoria St.
+                  S., Kitchener, ON
+                </p>
+              </div>
+              <div className={styles.itemMap}>
+                <Image src="/map.png" width={350} height={257} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
