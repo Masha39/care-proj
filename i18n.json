@@ -4,6 +4,7 @@
   "pages": {
     "*": ["common"],
     "/learn": ["static/learn", "articles-list"],
-    "/": ["static/main_page"]
+    "/": ["static/main_page"],
+    "/contact-us": ["static/contact_page"]
   }
 }
