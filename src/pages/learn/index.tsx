@@ -104,7 +104,10 @@ const Learn = () => {
 
         {selectedContentType.value === defaultType.value &&
           selectedTopic.value === defaultValue.value && (
-            <ArticlesGrid topicsToShow={topicsToShow} />
+            <ArticlesGrid
+              topicsToShow={topicsToShow}
+              setTopic={setSelectedTopic}
+            />
           )}
 
         {selectedTopic.value === defaultValue.value &&

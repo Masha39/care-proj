@@ -1,5 +1,6 @@
 import React from 'react'
 
+import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
 
 import { ContentCard } from 'components/learn-page/content-card/content-card'
@@ -8,10 +9,14 @@ import { Topic } from 'util/getTopicsToShow'
 import styles from './articles-grid.module.scss'
 
 export const ArticlesGrid = ({
-  topicsToShow
+  topicsToShow,
+  setTopic
 }: {
   topicsToShow: Record<string, Topic>
+  setTopic: any
 }) => {
+  const { t } = useTranslation('common')
+
   return (
     <>
       {Object.entries(topicsToShow).map(([topicName, topic]) => {
@@ -22,6 +27,21 @@ export const ArticlesGrid = ({
               <div className={styles.articles__description}>
                 {topic.description}
               </div>
+              <Link href={`/learn/${topic.articles[0].url}`}>
+                <a>
+                  <button className={styles.articles__button}>
+                    {t('common:start')}
+                  </button>
+                </a>
+              </Link>
+              <button
+                className={styles.articles__button}
+                onClick={() => setTopic({ value: topicName, label: topicName })}
+              >
+                {`${t('common:show_all')} ${topic.articles.length} ${t(
+                  'common:resources'
+                )}`}
+              </button>
             </div>
             {topic.articles.map((item, index) => {
               return (

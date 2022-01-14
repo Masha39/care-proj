@@ -1,5 +1,6 @@
 import React from 'react'
 
+import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
 
 import { ContentCard } from 'components/learn-page/content-card/content-card'
@@ -12,13 +13,27 @@ export const ArticlesGridTopic = ({
 }: {
   topicsToShow: Record<string, Topic>
 }) => {
+  const { t } = useTranslation('common')
+
   return (
     <>
-      {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
-        <div key={topicName} className={styles.articles}>
+      {Object.entries(topicsToShow).map(([topic, articles]) => (
+        <div key={topic} className={styles.articles}>
           <div>
-            {topicArticles.articles?.length ? (
-              <div className={styles.articles__topic}>{topicName}</div>
+            {articles.articles?.length ? (
+              <>
+                <div className={styles.articles__topic}>{topic}</div>
+                <div className={styles.articles__description}>
+                  {articles.description}
+                </div>
+                <Link href={`/learn/${articles.articles[0].url}`}>
+                  <a className={styles.articles__wrapper}>
+                    <button className={styles.articles__button}>
+                      {t('common:start')}
+                    </button>
+                  </a>
+                </Link>
+              </>
             ) : (
               <div className={styles.articles__noTopic}>
                 Sorry, we were not able to find any topics.
@@ -27,7 +42,7 @@ export const ArticlesGridTopic = ({
           </div>
 
           <div className={styles.articles__list}>
-            {topicArticles.articles?.map((item, index) => {
+            {articles.articles?.map((item, index) => {
               return (
                 <Link href={`/learn/${item.url}`} key={index}>
                   <a>

@@ -88,7 +88,7 @@ export const Navigation = ({
                   <Link href={`/learn/${nextTopicArticles[0].url}`}>
                     <a className={styles.centered}>
                       <button className={cn(styles.nav__button, styles.margin)}>
-                        {t('static/article:start')}
+                        {t('common:start')}
                       </button>
                     </a>
                   </Link>
