@@ -1,7 +1,9 @@
 export const getPreviewText = (article: ArticleJson) => {
-  const paragraphs = article.content.find(
-    (item) => item.type === 'information'
-  ) as InformationContent
+  const paragraphs = article.content.find((item) => item.type === 'information')
 
-  return { previewText: paragraphs.paragraphs[0] }
+  if (paragraphs?.type === 'information') {
+    return { previewText: paragraphs.paragraphs[0] }
+  }
+
+  return { previewText: '' }
 }

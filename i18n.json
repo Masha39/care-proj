@@ -3,7 +3,8 @@
   "defaultLocale": "en",
   "pages": {
     "*": ["common"],
+    "/": ["static/main_page"],
     "/learn": ["static/learn", "articles-list"],
-    "/": ["static/main_page"]
+    "/learn/[slug]": ["static/article"]
   }
 }

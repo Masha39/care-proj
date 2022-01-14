@@ -1,22 +1,41 @@
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 
 import { ContentType } from 'components/content-type/content-type'
+import { ContentCard } from 'components/learn-page/content-card/content-card'
 
 import styles from './navigation.module.scss'
 
 export const Navigation = ({
+  currentTopic,
   nextArticle,
-  previousArticle,
-  previewText
+  prevArticle,
+  previewText,
+  nextTopicArticles,
+  nextTopic
 }: {
+  currentTopic: string
   nextArticle?: ArticlePreview
-  previousArticle?: ArticlePreview
+  prevArticle?: ArticlePreview
   previewText: string
+  nextTopicArticles: ArticlePreview[]
+  nextTopic: string
 }) => {
+  const { t } = useTranslation('article')
+
+  const descriptions = t<TopicDescription[]>(
+    'static/article:topics_description',
+    { count: 1 },
+    { returnObjects: true }
+  )
+
+  const description =
+    descriptions.find((item) => item.topic === nextTopic)?.description || ''
+
   return (
     <>
-      <div className={styles.border} />
+      {nextArticle ? <div className={styles.border} /> : null}
       <div className={styles.nav}>
         {nextArticle ? (
           <Link href={`/learn/${nextArticle.url}`}>
@@ -27,7 +46,9 @@ export const Navigation = ({
                   <div className={styles.nav__gradient} />
                   {previewText}
                 </div>
-                <button className={styles.nav__button}>Read next</button>
+                <button className={styles.nav__button}>
+                  {t('static/article:read_next')}
+                </button>
               </div>
               <div className={styles.nav__image}>
                 <Image
@@ -45,20 +66,51 @@ export const Navigation = ({
             </a>
           </Link>
         ) : (
-          <div>End of {previousArticle?.topic}</div>
+          <>
+            <div className={styles.next}>
+              <div className={styles.next__border} />
+              <div className={styles.next__text}>
+                {t('static/article:end')} {currentTopic}
+              </div>
+              <div className={styles.next__border} />
+            </div>
+            {nextTopic && (
+              <>
+                <div className={styles.next__next}>
+                  {t('static/article:next_topic')}
+                </div>
+                <div className={styles.next__topic}>{nextTopic}</div>
+                <div className={styles.next__description}>{description}</div>
+                <div className={styles.next__articles}>
+                  {nextTopicArticles.map((item, index) => {
+                    return (
+                      <Link href={`/learn/${item.url}`} key={index}>
+                        <a>
+                          <ContentCard
+                            title={item.title}
+                            image={item.image}
+                            type={item.content_type.label}
+                            icon={item.content_type.icon}
+                          />
+                        </a>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </>
+            )}
+          </>
         )}
 
-        {previousArticle ? (
-          <Link href={`/learn/${previousArticle.url}`}>
+        {prevArticle && nextTopic ? (
+          <Link href={`/learn/${prevArticle.url}`}>
             <a>
               <div className={styles.nav__wrapper}>
                 <div className={styles.nav__column}>
                   <div className={styles.nav__text}>
-                    Go back to previous article:
+                    {t('static/article:back')}
                   </div>
-                  <div className={styles.nav__link}>
-                    {previousArticle.title}
-                  </div>
+                  <div className={styles.nav__link}>{prevArticle.title}</div>
                 </div>
               </div>
             </a>
@@ -68,8 +120,12 @@ export const Navigation = ({
             <a>
               <div className={styles.nav__wrapper}>
                 <div className={styles.nav__column}>
-                  <div className={styles.nav__text}>Explore all topics in:</div>
-                  <div className={styles.nav__link}>Learn</div>
+                  <div className={styles.nav__text}>
+                    {t('static/article:explore_all')}
+                  </div>
+                  <div className={styles.nav__link}>
+                    {t('static/article:learn')}
+                  </div>
                 </div>
               </div>
             </a>

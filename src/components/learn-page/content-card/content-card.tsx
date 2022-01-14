@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 
 import { ContentType } from 'components/content-type/content-type'
@@ -15,6 +16,8 @@ export const ContentCard = ({
   type: string
   icon?: string
 }) => {
+  const { t } = useTranslation('common')
+
   return (
     <div className={styles.card}>
       <div className={styles.card__header}>
@@ -25,7 +28,7 @@ export const ContentCard = ({
       </div>
       <div className={styles.card__footer}>
         <div className={styles.card__title}>{title}</div>
-        <div className={styles.card__link}>Learn more</div>
+        <div className={styles.card__link}>{t('common:learn_more')}</div>
       </div>
     </div>
   )

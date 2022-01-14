@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -11,11 +12,13 @@ import TwitterIcon from 'svg/twitter.svg'
 import styles from './share.module.scss'
 
 export const Share = () => {
+  const { t } = useTranslation('article')
+
   const url = typeof window !== 'undefined' ? window.location.href : ''
 
   return (
     <div className={styles.share}>
-      <div className={styles.share__text}>Share</div>
+      <div className={styles.share__text}>{t('static/article:share')}</div>
       <div className={styles.share__links}>
         <FacebookShareButton url={url} className={styles.share__link}>
           <FacebookIcon />
