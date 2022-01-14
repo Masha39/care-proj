@@ -34,7 +34,7 @@ const accordion = () => {
           <br />
           specific resources.
         </div>
-        <Accordion>
+        <Accordion allowZeroExpanded>
           <div className={styles.accordion_content}>
             <div className={styles.accordion_left_content}>
               <AccordionItem>

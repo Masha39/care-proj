@@ -1,79 +1,67 @@
 .landing_banner {
+  position: relative;
   background-image: url(../../assets/images/landing_banner_mobile.jpg);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-
-  //320
-  @media (min-width: $msm) {
-    background-size: unset;
-  }
-
+  padding-top: 124px;
+  padding-left: 16px;
+  padding-bottom: 31px;
+  position: relative;
+  background-size: contain;
+  background-position: top right;
+  background-size: auto 100%;
   //576
   @media (min-width: $sm) {
     background-image: url(../../assets/images/landing_banner.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  //768
-  @media (min-width: $md) {
-    background-size: contain;
-  }
-  //1400
-  @media (min-width: $xxl) {
-    background-size: cover;
-  }
-}
-
-.landing_logo_wrapper {
-  padding-top: 124px;
-  padding-left: 16px;
-  padding-bottom: 31px;
-  background: linear-gradient(
-    56.36deg,
-    #e2ecf0 38.31%,
-    rgba(226, 236, 240, 0) 80.85%
-  );
-  //320
-  @media (min-width: $msm) {
-  }
-  //576
-  @media (min-width: $sm) {
     padding-bottom: 80px;
-    background: linear-gradient(
-      56.36deg,
-      #e2ecf0 38.31%,
-      rgba(226, 236, 240, 0) 80.85%
-    );
   }
+
   //768
   @media (min-width: $md) {
     padding-bottom: 171px;
     padding-left: 32px;
-    background: linear-gradient(
-      59.57deg,
-      #e2ecf0 38.75%,
-      rgba(226, 236, 240, 0) 76.73%
-    );
   }
-  //1200
+
+  //1024
   @media (min-width: $xl) {
     padding-top: 160px;
     padding-left: 157px;
     padding-bottom: 300px;
   }
+
   //1400
   @media (min-width: $xxl) {
-    padding-top: 189px;
-    padding-left: 156px;
-    padding-bottom: 600px;
-    background: linear-gradient(
-      90deg,
-      #e2ecf0 37.55%,
-      rgba(226, 236, 240, 0) 72.32%
+    padding-left: 181px;
+    padding-top: 201px;
+    padding-bottom: 242px;
+  }
+}
+
+.landing_banner::before {
+  position: absolute;
+  content: linear-gradient(
+    56.36deg,
+    #e2ecf0 38.31%,
+    rgba(226, 236, 240, 0) 80.85%
+  );
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  //768
+  @media (min-width: $md) {
+    content: linear-gradient(
+      59.57deg,
+      #e2ecf0 38.75%,
+      rgba(226, 236, 240, 0) 76.73%
     );
   }
+}
+
+.landing_logo_wrapper {
+  position: relative;
+  z-index: 1;
 }
 
 .landing_btn {
@@ -111,12 +99,19 @@
   @media (min-width: $msm) {
     font-size: 26px;
   }
+  //768
+  @media (min-width: $md) {
+    display: none;
+  }
+
   //992
   @media (min-width: $md) {
+    display: block;
     font-size: 25px;
   }
   //1400
   @media (min-width: $xxl) {
+    margin-top: 34px;
     margin-bottom: 32px;
     font-size: 32px;
   }
@@ -188,8 +183,12 @@
     padding-top: 43px;
     padding-right: 30px;
   }
+  //1024
+  @media (min-width: $xl) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
-
 //style for picture start
 
 .mobile_logo_1 {
@@ -216,11 +215,12 @@
     width: 60px;
     height: 39px;
   }
-  //1200
+  //1024
   @media (min-width: $xl) {
     position: relative;
-    width: 70px;
+    width: 60px;
     height: 39px;
+    margin-left: 20px;
   }
   //1400
   @media (min-width: $xl) {
@@ -260,8 +260,9 @@
   //1200
   @media (min-width: $xl) {
     position: relative;
-    width: 90px;
+    width: 80px;
     height: 29px;
+    margin-left: 20px;
   }
   //1400
   @media (min-width: $xl) {
@@ -301,8 +302,9 @@
   //1200
   @media (min-width: $xl) {
     position: relative;
-    width: 170px;
+    width: 160px;
     height: 29px;
+    margin-left: 20px;
   }
   //1400
   @media (min-width: $xl) {
@@ -344,8 +346,9 @@
   //1200
   @media (min-width: $xl) {
     position: relative;
-    width: 89px;
+    width: 80px;
     height: 25px;
+    margin-left: 20px;
   }
   //1400
   @media (min-width: $xl) {
@@ -375,6 +378,7 @@
   //1200
   @media (min-width: $xl) {
     font-size: 16px;
+    margin-left: 0px;
   }
   //1400
   @media (min-width: $xl) {
@@ -399,7 +403,7 @@
   }
   //1200
   @media (min-width: $xl) {
-    margin-left: 85px;
+    margin-left: 30px;
     font-size: 16px;
   }
   //1440

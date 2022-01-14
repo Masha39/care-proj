@@ -13,21 +13,24 @@ import mobileLogo4 from 'public/assets/images/mobile_footer_logo_4.png'
 const landingBanner = () => {
   return (
     <div className={styles.landingBannerWrapper}>
-      <div className={styles.landing_banner}>
-        <div className={styles.landing_logo_wrapper}>
-          <div className={styles.landing_logo}>
-            <Logo />
+      <div className={styles.banner_content}>
+        <div className={styles.landing_banner}>
+          <div className={styles.landing_logo_wrapper}>
+            <div className={styles.landing_logo}>
+              <Logo />
+            </div>
+            <div className={styles.landing_logo_mobile}>
+              <LogoMobile />
+            </div>
+            <p className={styles.landing_text}>
+              An online platform helping caregivers care <br /> for themselves
+              and others.
+            </p>
+
+            <button className={styles.landing_btn}>
+              Explore Caregiver Tookit
+            </button>
           </div>
-          <div className={styles.landing_logo_mobile}>
-            <LogoMobile />
-          </div>
-          <p className={styles.landing_text}>
-            An online platform helping caregivers care for <br /> themselves and
-            others.
-          </p>
-          <button className={styles.landing_btn}>
-            Explore Caregiver Tookit
-          </button>
         </div>
       </div>
       <div className={styles.banner_footer_wrapper}>

@@ -1,8 +1,28 @@
-//styles for accardion start
-
 .accordion_content {
+  display: block;
   //1024
   @media (min-width: $xl) {
+    display: flex;
+  }
+  //1440
+  @media (min-width: $xxl) {
+    margin-bottom: 68px;
+  }
+}
+
+.accordion_left_content {
+  flex: 1;
+  //1440
+  @media (min-width: $xxl) {
+    margin-left: 157px;
+  }
+}
+
+.accordion_right_content {
+  flex: 1;
+  //1440
+  @media (min-width: $xxl) {
+    margin-right: 157px;
   }
 }
 
@@ -79,7 +99,6 @@
   content: url(../../../public/svg/accordion_item.svg);
   padding-left: 8px;
 }
-//styles for accardion ends
 
 .resources_wrapper {
   background: linear-gradient(
