@@ -1,3 +1,11 @@
+.accordion_item {
+  margin-right: 15px;
+}
+
+[aria-expanded='true'] .accordion_item {
+  transform: rotate(180deg);
+}
+
 .accordion_content {
   display: block;
   //1024
@@ -53,13 +61,14 @@
 }
 
 .accordion_button {
+  display: flex;
+  justify-content: space-between;
   background-color: #f6f8f9;
   color: #1d526a;
   cursor: pointer;
   padding-left: 16px;
   padding-top: 19px;
   padding-bottom: 19px;
-  background-image: url(../../../public/svg/accardion_button_image.svg);
   background-repeat: no-repeat;
   background-position: right center;
   background-position-x: 95%;
@@ -93,6 +102,8 @@
   font-size: 18px;
   color: #027abe;
   text-decoration: underline;
+  transform: translate3d(0px, 0px, 0px);
+  cursor: pointer;
 }
 
 .information_content_item::after {
