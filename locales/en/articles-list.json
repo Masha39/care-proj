@@ -25,6 +25,30 @@
       "read_time": "7 minute read"
     },
     {
+      "url": "my-home-care-team",
+      "title": "My Home Care Team",
+      "content_type": {
+        "label": "Tool",
+        "value": "tool",
+        "icon": "/icons/tool.svg"
+      },
+      "topic": "Understanding Home Care",
+      "image": "slide_4.svg",
+      "read_time": "15 minute read"
+    },
+    {
+      "url": "changing-providers",
+      "title": "Adapting to New or Changing Care Staff",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Understanding Home Care",
+      "image": "slide_5.svg",
+      "read_time": "3 minute read"
+    },
+    {
       "url": "what-is-caregiver",
       "title": "What is a Caregiver?",
       "content_type": {

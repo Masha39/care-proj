@@ -25,6 +25,30 @@
       "read_time": "3 minute de lecture"
     },
     {
+      "url": "my-home-care-team",
+      "title": "Mon équipe de soins à domicile",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_4.svg",
+      "read_time": "15 minute de lecture"
+    },
+    {
+      "url": "changing-providers",
+      "title": "S'adapter au personnel soignant nouveau ou changeant",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_5.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
       "url": "what-is-caregiver",
       "title": "Qu'est-ce qu'un aide-soignant?",
       "content_type": {
