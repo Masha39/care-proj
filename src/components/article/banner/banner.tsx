@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -22,16 +23,18 @@ export const Banner = ({
   url: string
   readTime: string
 }) => {
+  const { t } = useTranslation('article')
+
   return (
     <div className={styles.banner}>
       <div className={styles.banner__wrapper}>
         <div className={styles.banner__breadcrumbs}>
           <Link href="/">
-            <a className={styles.banner__link}>Home</a>
+            <a className={styles.banner__link}>{t('static/article:home')}</a>
           </Link>
           /
           <Link href="/learn/">
-            <a className={styles.banner__link}>Learn</a>
+            <a className={styles.banner__link}>{t('static/article:learn')}</a>
           </Link>
           /
           <Link href={`/learn/${url}`}>

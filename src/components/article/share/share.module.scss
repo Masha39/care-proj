@@ -1,0 +1,13 @@
+.share {
+  margin-top: 64px;
+  &__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: $text-color;
+    margin-bottom: 8px;
+  }
+  &__link {
+    margin-right: 16px;
+  }
+}

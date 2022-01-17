@@ -1,6 +1,8 @@
 import cn from 'classnames'
 import Link from 'next/link'
 
+import { Share } from 'components/article/share/share'
+
 import styles from './sidebar.module.scss'
 
 export const Sidebar = ({
@@ -31,6 +33,8 @@ export const Sidebar = ({
           )
         })}
       </div>
+
+      <Share />
     </div>
   )
 }
