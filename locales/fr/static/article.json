@@ -6,15 +6,5 @@
   "next_topic": "SUJET SUIVANT",
   "explore_all": "Explore tous les sujets dans:",
   "back": "Retour à l'article précédent:",
-  "read_next": "Lire la suite",
-  "topics_description": [
-    {
-      "topic": "Comprendre les soins à domicile",
-      "description": "Votre point de départ pour naviguer dans les soins à domicile, comprendre les rôles des fournisseurs de soins à domicile et se préparer aux défis communs."
-    },
-    {
-      "topic": "Bien-être des aidants",
-      "description": "Découvrez des moyens de protéger votre santé et d'éviter le stress et l'épuisement tout en prenant soin des autres."
-    }
-  ]
+  "read_next": "Lire la suite"
 }
