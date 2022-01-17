@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
 
-import { ContentType } from 'components/content-type/content-type'
+import { ContentType } from 'components/content_type/content_type'
 
 const CONTENT_TYPE_ALL = 'ALL'
 

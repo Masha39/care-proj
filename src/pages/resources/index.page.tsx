@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from 'layouts/layout'
 
-import { Resources } from './components/resources/resources'
+import { Resources } from './resources'
 
 const ResourcesPage = () => {
   return (

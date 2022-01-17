@@ -2,7 +2,7 @@ import React from 'react'
 
 import Image from 'next/image'
 
-import styles from 'components/main-page/landing-banner/landing_banner.module.scss'
+import styles from 'components/main_page/landing-banner/landing_banner.module.scss'
 import mobileLogo1 from 'public/assets/images/mobile_footer_logo_1.png'
 import mobileLogo2 from 'public/assets/images/mobile_footer_logo_2.png'
 import mobileLogo3 from 'public/assets/images/mobile_footer_logo_3.png'

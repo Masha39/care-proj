@@ -107,7 +107,7 @@
 }
 
 .information_content_item::after {
-  content: url('../../../../../public/svg/accordion_item.svg');
+  content: url('../../../public/svg/accordion_item.svg');
   padding-left: 8px;
 }
 
@@ -173,13 +173,13 @@
 }
 
 .resources_logo {
-  background-image: url('../../../../../public/assets/images/resources_image.png');
+  background-image: url('../../../public/assets/images/resources_image.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
   //992
   @media (min-width: $lg) {
-    background-image: url('../../../../../public/assets/images/resources_image_tablet.png');
+    background-image: url('../../../public/assets/images/resources_image_tablet.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;

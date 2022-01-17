@@ -8,8 +8,9 @@ import {
   AccordionItemPanel
 } from 'react-accessible-accordion'
 
-import styles from 'pages/resources/components/resources/resources.module.scss'
 import Item from 'public/svg/accardion_button_image.svg'
+
+import styles from './resources.module.scss'
 
 export const Resources = () => {
   return (

@@ -3,8 +3,8 @@ import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { ContentCard } from 'components/content-card/content-card'
-import { ContentType } from 'components/content-type/content-type'
+import { ContentCard } from 'components/content_card/content_card'
+import { ContentType } from 'components/content_type/content_type'
 
 import styles from './navigation.module.scss'
 

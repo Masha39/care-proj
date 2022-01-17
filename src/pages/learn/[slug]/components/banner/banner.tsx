@@ -2,7 +2,7 @@ import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { ContentType } from 'components/content-type/content-type'
+import { ContentType } from 'components/content_type/content_type'
 
 import styles from './banner.module.scss'
 

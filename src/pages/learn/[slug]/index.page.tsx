@@ -2,7 +2,7 @@ import groupBy from 'lodash/groupBy'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Layout from 'layouts/layout'
-import { fetchJson } from 'util/fetchJson'
+import { fetchJson } from 'util/fetch_json'
 
 import styles from './article.module.scss'
 import { Banner } from './components/banner/banner'
@@ -12,9 +12,9 @@ import { Picture } from './components/picture/picture'
 import { Sidebar } from './components/sidebar/sidebar'
 import { Tips } from './components/tips/tips'
 import { Video } from './components/video/video'
-import { getNextOrPreviousArticle } from './utils/getNextOrPreviousArticle'
-import { getNextTopicArticles } from './utils/getNextTopicArticles'
-import { getPreviewText } from './utils/getPreviewText'
+import { getNextOrPreviousArticle } from './utils/get_next_or_previous_article'
+import { getNextTopicArticles } from './utils/get_next_topic_articles'
+import { getPreviewText } from './utils/get_preview_text'
 
 type ArticleProps = {
   article: ArticleJson

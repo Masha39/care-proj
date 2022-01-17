@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import Image from 'next/image'
 
-import styles from './content-type.module.scss'
+import styles from './content_type.module.scss'
 
 export const ContentType = ({
   type,

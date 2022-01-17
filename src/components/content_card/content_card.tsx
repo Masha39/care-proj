@@ -1,9 +1,9 @@
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 
-import { ContentType } from 'components/content-type/content-type'
+import { ContentType } from 'components/content_type/content_type'
 
-import styles from './content-card.module.scss'
+import styles from './content_card.module.scss'
 
 export const ContentCard = ({
   title,
