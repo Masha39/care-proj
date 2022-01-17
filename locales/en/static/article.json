@@ -6,15 +6,5 @@
   "next_topic": "NEXT TOPIC",
   "explore_all": "Explore all topics in:",
   "back": "Go back to previous article:",
-  "read_next": "Read next",
-  "topics_description": [
-    {
-      "topic": "Understanding Home Care",
-      "description": "Your starting place for navigating home care, understanding the roles of home care providers, and preparing for common challenges."
-    },
-    {
-      "topic": "Caregiver Wellness",
-      "description": "Learn about ways to protect your health and avoid stress and burnout while caring for others."
-    }
-  ]
+  "read_next": "Read next"
 }
