@@ -19,7 +19,7 @@ export const ArticlesGridTopic = ({
     <>
       {Object.entries(topicsToShow).map(([topic, articles]) => (
         <div key={topic} className={styles.articles}>
-          <div>
+          <div className={styles.articles__container}>
             {articles.articles?.length ? (
               <>
                 <div className={styles.articles__topic}>{topic}</div>

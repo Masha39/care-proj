@@ -13,7 +13,7 @@ export const ArticlesGridType = ({
   topicsToShow: Record<string, Topic>
 }) => {
   return (
-    <>
+    <div className={styles.wrapper}>
       {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
         <div key={topicName} className={styles.article}>
           {topicArticles.articles.map((item, index) => {
@@ -32,6 +32,6 @@ export const ArticlesGridType = ({
           })}
         </div>
       ))}
-    </>
+    </div>
   )
 }
