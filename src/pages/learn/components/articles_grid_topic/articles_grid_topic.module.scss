@@ -1,0 +1,42 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  &__topic {
+    font-weight: 500;
+    font-size: 26px;
+    color: $text_color_orange;
+    display: flex;
+    justify-content: center;
+  }
+  &__noTopic {
+    color: $text_color_blue;
+    font-weight: 400;
+    margin: 7rem 0 10rem 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  &__description {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: $text-color;
+    max-width: 600px;
+    margin: 12px auto 32px auto;
+    text-align: center;
+  }
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    cursor: pointer;
+    width: 160px;
+    height: 38px;
+    margin-bottom: 48px;
+  }
+  &__list {
+    display: flex;
+  }
+}

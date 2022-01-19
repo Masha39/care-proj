@@ -1,0 +1,12 @@
+{
+  "h1": "Contact Us",
+  "description": "Complete this form to contact a member of our team with feedback, questions, or concerns",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "submit": "Submit",
+  "h2": "Our Offices",
+  "p": "Kitchener | University of Waterloo IHB-3016 10-B Victoria St. S., Kitchener, ON"
+}

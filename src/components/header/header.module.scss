@@ -1,5 +1,8 @@
 .wrapper {
+  min-height: 74px;
+  z-index: 100;
 }
+
 .header {
   @include flexBase;
   display: flex;
@@ -7,10 +10,15 @@
   justify-content: space-between;
   padding-top: 22px;
   padding-bottom: 22px;
+
+  @media (min-width: $lg) {
+    padding-top: 15px;
+  }
 }
 
 .headerList {
   @include flexBase;
+
   li {
     a {
       color: $text_color;
@@ -21,18 +29,26 @@
 .desktopMenu {
   display: none;
 }
+
 .mobileMenu {
-  transform: translate(-100%);
-  -webkit-transform: translate(-100%);
-  -moz-transform: translate(-100%);
-  -ms-transform: translate(-100%);
-  -o-transform: translate(-100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  transform: translate(-100%) !important;
+  -webkit-transform: translate(-100%) !important;
+  -moz-transform: translate(-100%) !important;
+  -ms-transform: translate(-100%) !important;
+  -o-transform: translate(-100%) !important;
   transition: all 0.2s;
   width: 100%;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
+  background: #f6f8f9;
+  box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
 }
 
 .menuActive {
@@ -49,11 +65,16 @@
   -o-transform: translate(100);
   background: #f6f8f9;
   box-shadow: inset 0px -1px 0px rgba(138, 170, 182, 0.25);
+}
+
+.menuActive,
+.mobileMenu {
   .headerList {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 16px;
     padding-right: 16px;
+
     li {
       width: 100%;
       margin-top: 26px;
@@ -61,6 +82,7 @@
       padding-left: 6px;
       padding-right: 6px;
       padding-bottom: 26px;
+
       a {
         font-style: normal;
         font-weight: 500;
@@ -78,6 +100,7 @@
   width: 20px;
   height: 30px;
   cursor: pointer;
+
   span {
     content: '';
     width: 20px;
@@ -173,16 +196,14 @@
 @media (min-width: $xl) {
   .desktopMenu {
     display: block;
+
     .headerList {
       margin-left: 62px;
+
       li {
         margin-left: 40px;
       }
     }
-  }
-
-  .mobileMenu {
-    display: none;
   }
 
   .burgerBtn {

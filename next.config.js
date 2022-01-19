@@ -1,13 +1,12 @@
 const path = require('path')
+
 const nextTranslate = require('next-translate')
 
 /** @type {import('next').NextConfig} */
 module.exports = nextTranslate({
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
+  swcMinify: false,
   reactStrictMode: true,
-  images: {
-    domains: ['media.istockphoto.com']
-  },
-
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -18,7 +17,6 @@ module.exports = nextTranslate({
     })
     return config
   },
-
   sassOptions: {
     /// Global mixins&variables
     additionalData: [

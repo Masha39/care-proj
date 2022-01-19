@@ -3,14 +3,38 @@
     {
       "url": "what-is-home-care",
       "title": "Qu'est-ce que les soins à domicile?",
-      "content_type": "information",
-      "topic": "Understanding Home Care"
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_1.svg",
+      "read_time": "3 minute de lecture"
     },
     {
       "url": "home-care-teams",
       "title": "Équipes de soins à domicile",
-      "content_type": "information",
-      "topic": "Understanding Home Care"
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_3.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
+      "url": "what-is-caregiver",
+      "title": "Qu'est-ce qu'un aide-soignant?",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "topic": "Bien-être des aidants",
+      "image": "slide_1.svg",
+      "read_time": "4 minute de lecture"
     }
   ]
 }
