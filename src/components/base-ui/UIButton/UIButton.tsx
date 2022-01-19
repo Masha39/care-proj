@@ -1,11 +1,13 @@
 import React from 'react'
+
 import IconAdd from 'components/base-ui/UIButton/img/plus_icon.svg'
 import IconAddSmall from 'components/base-ui/UIButton/img/plus_icon_small.svg'
+
 import styles from './UIButton.module.scss'
 
 export interface ButtonProps {
   title: string
-  size: string
+  size?: string
   buttonStyle: string
   clickButton: Function
 }

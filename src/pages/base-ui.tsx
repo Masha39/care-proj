@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+
 import Layout from 'layouts/layout'
 import { UIButton } from '~/components/base-ui/UIButton/UIButton'
 
