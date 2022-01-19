@@ -45,18 +45,16 @@ export const ArticlesGrid = ({
             <Carousel>
               {topic.articles.map((item, i) => {
                 return (
-                  <div key={i}>
-                    <Link href={`/learn/${item.url}`}>
-                      <a className={styles.articles__content}>
-                        <ContentCard
-                          title={item.title}
-                          image={item.image}
-                          type={item.content_type.label}
-                          icon={item.content_type.icon}
-                        />
-                      </a>
-                    </Link>
-                  </div>
+                  <Link href={`/learn/${item.url}`} key={i}>
+                    <a className={styles.articles__content}>
+                      <ContentCard
+                        title={item.title}
+                        image={item.image}
+                        type={item.content_type.label}
+                        icon={item.content_type.icon}
+                      />
+                    </a>
+                  </Link>
                 )
               })}
             </Carousel>
