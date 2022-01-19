@@ -28,8 +28,8 @@
       "url": "my-home-care-team",
       "title": "My Home Care Team",
       "content_type": {
-        "label": "Tool",
-        "value": "tool",
+        "label": "Tools",
+        "value": "tools",
         "icon": "/icons/tool.svg"
       },
       "topic": "Understanding Home Care",

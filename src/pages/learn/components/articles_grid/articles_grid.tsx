@@ -3,6 +3,7 @@ import React from 'react'
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
 
+import { Carousel } from 'components/carousel/carousel'
 import { ContentCard } from 'components/content_card/content_card'
 
 import { Topic } from '../../utils/get_topics_to_show'
@@ -41,20 +42,24 @@ export const ArticlesGrid = ({
                 {`${t('show_all')} ${topic.articles.length} ${t('resources')}`}
               </button>
             </div>
-            {topic.articles.map((item, index) => {
-              return (
-                <Link href={`/learn/${item.url}`} key={index}>
-                  <a className={styles.articles__content}>
-                    <ContentCard
-                      title={item.title}
-                      image={item.image}
-                      type={item.content_type.label}
-                      icon={item.content_type.icon}
-                    />
-                  </a>
-                </Link>
-              )
-            })}
+            <Carousel>
+              {topic.articles.map((item, i) => {
+                return (
+                  <div key={i}>
+                    <Link href={`/learn/${item.url}`}>
+                      <a className={styles.articles__content}>
+                        <ContentCard
+                          title={item.title}
+                          image={item.image}
+                          type={item.content_type.label}
+                          icon={item.content_type.icon}
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                )
+              })}
+            </Carousel>
           </div>
         )
       })}

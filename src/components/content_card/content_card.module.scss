@@ -4,7 +4,7 @@
   justify-content: space-between;
   max-width: 264px;
   height: 283px;
-  width: 100%;
+  //width: 100%;
   border-radius: 7px;
   background: linear-gradient(
     0deg,
@@ -12,7 +12,7 @@
     rgba(29, 86, 106, 0.1)
   );
   box-shadow: 0 1px 2px 1px rgba(7, 29, 37, 0.08);
-  margin-right: 24px;
+  margin: 0 10px;
   transition: transform 0.3s ease-in 0s;
   &:hover {
     transform: scale(1.01);
