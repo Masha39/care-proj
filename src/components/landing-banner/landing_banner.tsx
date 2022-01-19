@@ -1,5 +1,6 @@
 import React from 'react'
 
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 
 import mobileLogo1 from 'public/assets/images/mobile_footer_logo_1.png'
@@ -11,6 +12,7 @@ import LogoMobile from 'public/svg/landing_logo_mobile.svg'
 import styles from 'src/components/landing-banner/landing_banner.module.scss'
 
 const landingBanner = () => {
+  const { t } = useTranslation('main_page')
   return (
     <div className={styles.landingBannerWrapper}>
       <div className={styles.banner_content}>
@@ -23,12 +25,10 @@ const landingBanner = () => {
               <LogoMobile />
             </div>
             <p className={styles.landing_text}>
-              An online platform helping caregivers care <br /> for themselves
-              and others.
+              {t('static/main_page:main_logo')}
             </p>
-
             <button className={styles.landing_btn}>
-              Explore Caregiver Tookit
+              {t('static/main_page:main_logo_button')}
             </button>
           </div>
         </div>
@@ -36,10 +36,12 @@ const landingBanner = () => {
       <div className={styles.banner_footer_wrapper}>
         <div className={styles.mobile_footer_wrapper}>
           <div className={styles.mobile_footer_title}>
-            Presented and supported by
+            {t('static/main_page:mobile_footer_title')}
           </div>
           <div className={styles.banner_footer_content}>
-            <span className={styles.left_footer_content}>Presented by</span>
+            <span className={styles.left_footer_content}>
+              {t('static/main_page:left_footer_content')}
+            </span>
             <div className={styles.mobile_logo_1}>
               <Image
                 src={mobileLogo1}
@@ -56,7 +58,9 @@ const landingBanner = () => {
                 objectFit="contain"
               />
             </div>
-            <span className={styles.right_footer_content}>Supported by</span>
+            <span className={styles.right_footer_content}>
+              {t('static/main_page:right_footer_content')}
+            </span>
             <div className={styles.mobile_logo_3}>
               <Image
                 src={mobileLogo3}

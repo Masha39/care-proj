@@ -1,0 +1,20 @@
+{
+  "resources_title": "Ressources",
+  "resources_title_text": "Vous avez d'autres questions sur les services de soins à domicile ? Découvrez les ressources nationales et provinciales.",
+  "accardion_main_text": "Choisissez une région pour en savoir plus sur des ressources spécifiques.",
+  "accardion_information_title": "Explorez ces ressources supplémentaires:",
+  "accardion_button_national": "National",
+  "accardion_button_alberta": "Alberta",
+  "accardion_button_british_columbia": "Colombie-Britannique",
+  "accardion_button_manitoba": "Manitoba",
+  "accardion_button_new_brunswick": "Nouveau Brunswick",
+  "accardion_button_labrador_and_newfoundland": "Labrador et Terre-Neuve",
+  "accardion_button_nova_scotia": "Nouvelle-Écosse",
+  "accardion_button_northwest_territories": "Territoires du Nord-Ouest",
+  "accardion_button_nunavut": "Nunavut",
+  "accardion_button_ontario": "Ontario",
+  "accardion_button_prince_edward_island": "Île-du-Prince-Édouard",
+  "accardion_button_quebec": "Québec",
+  "accardion_button_saskatchewan": "Saskatchewan",
+  "accardion_button_yukon": "Yukon"
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 
+import useTranslation from 'next-translate/useTranslation'
 import {
   Accordion,
   AccordionItem,
@@ -12,32 +13,30 @@ import styles from 'src/components/accordion/accordion.module.scss'
 
 import Item from '../../../public/svg/accardion_button_image.svg'
 
-const accordion = () => {
+const ResourcesPage = () => {
+  const { t } = useTranslation('resources_page')
+
   return (
     <div className={styles.resources}>
       <div className={styles.resources_wrapper}>
         <div className={styles.resources_logo}>
-          <div className={styles.resources_title}>Resources</div>
+          <div className={styles.resources_title}>
+            {t('static/resources_page:resources_title')}
+          </div>
           <div className={styles.resources_title_text_mobile}>
-            Do you have additional <br /> questions about home care <br />
-            services? Learn about national <br /> and provincial resources.
+            {t('static/resources_page:resources_title_text')}
           </div>
           <div className={styles.resources_title_text}>
-            Do you have additional questions about home care services? Learn
-            {/* {t('static/contact_page:firstName')} */}
-            <br />
-            about national and provincial resources.
+            {t('static/resources_page:resources_title_text')}
           </div>
         </div>
       </div>
       <div className={styles.accordion}>
         <div className={styles.accordion_title}>
-          Choose a region to learn more about specific resources.
+          {t('static/resources_page:accardion_main_text')}
         </div>
         <div className={styles.accordion_title_mobile}>
-          Choose a region to learn more about
-          <br />
-          specific resources.
+          {t('static/resources_page:accardion_main_text')}
         </div>
         <Accordion allowZeroExpanded>
           <div className={styles.accordion_content}>
@@ -45,14 +44,14 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    National
+                    {t('static/resources_page:accardion_button_national')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.information_content}>
                       <a className={styles.information_content_item}>
@@ -78,14 +77,14 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Alberta
+                    {t('static/resources_page:accardion_button_alberta')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.information_content}>
                       <a
@@ -138,14 +137,16 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    British Columbia
+                    {t(
+                      'static/resources_page:accardion_button_british_columbia'
+                    )}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.information_content}>
                       <a
@@ -170,14 +171,14 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Manitoba
+                    {t('static/resources_page:accardion_button_manitoba')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.information_content}>
                       <a
@@ -195,14 +196,14 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    New Brunswick
+                    {t('static/resources_page:accardion_button_new_brunswick')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -241,14 +242,16 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Labrador and Newfoundland
+                    {t(
+                      'static/resources_page:accardion_button_labrador_and_newfoundland'
+                    )}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -287,14 +290,14 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Nova Scotia
+                    {t('static/resources_page:accardion_button_nova_scotia')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -348,14 +351,16 @@ const accordion = () => {
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Northwest Territories
+                    {t(
+                      'static/resources_page:accardion_button_northwest_territories'
+                    )}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -369,8 +374,7 @@ const accordion = () => {
                       <a
                         target="blank"
                         href="https://www.hss.gov.nt.ca/sites/hsHealth Services in the Yellowknife Region 
-
-s/files/seniors_information_handbook.pdf"
+                            s/files/seniors_information_handbook.pdf"
                         className={styles.information_content_item}
                       >
                         Seniors Information Handbook
@@ -404,14 +408,14 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Nunavut
+                    {t('static/resources_page:accardion_button_nunavut')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -443,14 +447,14 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Ontario
+                    {t('static/resources_page:accardion_button_ontario')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -510,14 +514,16 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Prince Edward Island
+                    {t(
+                      'static/resources_page:accardion_button_prince_edward_island'
+                    )}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -563,14 +569,14 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Quebec
+                    {t('static/resources_page:accardion_button_quebec')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -602,14 +608,14 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Saskatchewan
+                    {t('static/resources_page:accardion_button_saskatchewan')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -656,14 +662,14 @@ s/files/seniors_information_handbook.pdf"
               <AccordionItem>
                 <AccordionItemHeading>
                   <AccordionItemButton className={styles.accordion_button}>
-                    Yukon
+                    {t('static/resources_page:accardion_button_yukon')}
                     <Item className={styles.accordion_item} />
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                   <div className={styles.information}>
                     <div className={styles.category_information_title}>
-                      Explore these additional resources:
+                      {t('static/resources_page:accardion_information_title')}
                     </div>
                     <div className={styles.alberta_information_content}>
                       <a
@@ -685,4 +691,4 @@ s/files/seniors_information_handbook.pdf"
   )
 }
 
-export default accordion
+export default ResourcesPage

@@ -57,7 +57,7 @@
     );
   }
   //1400
-  @media (min-width: 2000px) {
+  @media (min-width: 1700px) {
     content: linear-gradient(
       59.57deg,
       #e2ecf0 56.75%,
@@ -97,22 +97,26 @@
   //320
   @media (min-width: $msm) {
     font-size: 26px;
+    font-weight: 500;
   }
   //768
   @media (min-width: $md) {
-    display: none;
+    font-size: 29px;
+    font-weight: 600;
   }
 
   //992
   @media (min-width: $md) {
-    display: block;
-    font-size: 25px;
+    // display: block;
+    font-size: 24px;
+    font-weight: 500;
   }
   //1400
   @media (min-width: $xxl) {
     margin-top: 34px;
     margin-bottom: 32px;
     font-size: 32px;
+    margin-right: 650px;
   }
 }
 
