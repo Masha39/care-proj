@@ -90,20 +90,24 @@ export const Navigation = ({
                       </button>
                     </a>
                   </Link>
-                  {nextTopicArticles.map((item, index) => {
-                    return (
-                      <Link href={`/learn/${item.url}`} key={index}>
-                        <a>
-                          <ContentCard
-                            title={item.title}
-                            image={item.image}
-                            type={item.content_type.label}
-                            icon={item.content_type.icon}
-                          />
-                        </a>
-                      </Link>
-                    )
-                  })}
+                  <div className={styles.next__row}>
+                    {nextTopicArticles
+                      .map((item, index) => {
+                        return (
+                          <Link href={`/learn/${item.url}`} key={index}>
+                            <a>
+                              <ContentCard
+                                title={item.title}
+                                image={item.image}
+                                type={item.content_type.label}
+                                icon={item.content_type.icon}
+                              />
+                            </a>
+                          </Link>
+                        )
+                      })
+                      .slice(1, 4)}
+                  </div>
                 </div>
               </>
             )}

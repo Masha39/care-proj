@@ -23,14 +23,15 @@ type ImageContent = {
 
 type TipsContent = {
   type: 'tips'
-  title: string
+  title?: string
+  bold_text?: string
   tips: string[]
-  icon: string
+  icon?: string
 }
 
 type VideoContent = {
   type: 'video'
-  text: string
+  text?: string
   src: string
 }
 

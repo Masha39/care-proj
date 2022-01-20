@@ -13,10 +13,10 @@ export const Carousel = ({
   customSettings?: object
 }) => {
   const getSlidersToShow = () => {
-    if (children.length > 3) {
+    if (children.length >= 3) {
       return 3
     }
-    if (children.length > 2) {
+    if (children.length >= 2) {
       return 2
     }
     return 1

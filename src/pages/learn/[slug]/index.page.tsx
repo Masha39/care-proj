@@ -70,6 +70,7 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 return (
                   <Tips
                     title={item.title}
+                    boldText={item.bold_text}
                     tips={item.tips}
                     icon={item.icon}
                     key={index}

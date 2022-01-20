@@ -57,8 +57,44 @@
         "icon": "/icons/tool.svg"
       },
       "topic": "Caregiver Wellness",
-      "image": "slide_1.svg",
+      "image": "daniel.svg",
       "read_time": "4 minute read"
+    },
+    {
+      "url": "caregiver-stressor",
+      "title": "Caregiver Stress & Burnout",
+      "content_type": {
+        "label": "Videos",
+        "value": "videos",
+        "icon": "/icons/videos.svg"
+      },
+      "topic": "Caregiver Wellness",
+      "image": "caregiver_stressor.svg",
+      "read_time": "4 minute read"
+    },
+    {
+      "url": "burnout-assessment",
+      "title": "Stress & Burnout Self-Assessment",
+      "content_type": {
+        "label": "Assessment",
+        "value": "assessment",
+        "icon": "/icons/assessment.svg"
+      },
+      "topic": "Caregiver Wellness",
+      "image": "burnout_assessment.svg",
+      "read_time": "5 minute read"
+    },
+    {
+      "url": "caregiver-health",
+      "title": "Caregiver Health",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Caregiver Wellness",
+      "image": "joanne.svg",
+      "read_time": "6 minute read"
     }
   ]
 }

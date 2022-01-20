@@ -57,8 +57,44 @@
         "icon": "/icons/tool.svg"
       },
       "topic": "Bien-être des aidants",
-      "image": "slide_1.svg",
+      "image": "daniel.svg",
       "read_time": "4 minute de lecture"
+    },
+    {
+      "url": "caregiver-stressor",
+      "title": "Stress et épuisement professionnel des soignants",
+      "content_type": {
+        "label": "Vidéos",
+        "value": "vidéos",
+        "icon": "/icons/videos.svg"
+      },
+      "topic": "Bien-être des aidants",
+      "image": "caregiver_stressor.svg",
+      "read_time": "4 minute de lecture"
+    },
+    {
+      "url": "burnout-assessment",
+      "title": "Auto-évaluation du stress et de l'épuisement professionnel",
+      "content_type": {
+        "label": "Évaluation",
+        "value": "évaluation",
+        "icon": "/icons/assessment.svg"
+      },
+      "topic": "Bien-être des aidants",
+      "image": "burnout_assessment.svg",
+      "read_time": "5 minute de lecture"
+    },
+    {
+      "url": "caregiver-health",
+      "title": "Santé des soignants",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "topic": "Bien-être des aidants",
+      "image": "joanne.svg",
+      "read_time": "6 minute read"
     }
   ]
 }
