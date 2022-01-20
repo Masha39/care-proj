@@ -4,7 +4,7 @@ module.exports = {
   extensionsRgx: /\.page\.(tsx|ts|js|mjs|jsx)$/,
   pages: {
     '*': ['common'],
-    '/': ['static/main_page'],
+    '/': ['static/main_page', 'sections'],
     '/learn': ['static/learn', 'articles-list'],
     '/contact-us': ['static/contact_page'],
     '/learn/[slug]': ['static/article', 'static/learn']
