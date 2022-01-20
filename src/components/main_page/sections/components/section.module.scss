@@ -13,6 +13,11 @@
     padding-bottom: 106px;
   }
 
+  @media (min-width: $xxl) {
+    padding-left: 157px;
+    padding-right: 157px;
+  }
+
   &_white {
     background: white;
   }

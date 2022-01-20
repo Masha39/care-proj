@@ -4,7 +4,7 @@ import BottomSection from './bottom_section/bottom_section'
 import { Carousel } from './carousel/carousel'
 import styles from './main_page_content.module.scss'
 import Mission from './mission_section/mission'
-import { Section } from './section/section'
+import { Sections } from './sections/sections'
 import Statistic from './statistic_section/statistic'
 
 export const MainPageContent = () => {
@@ -17,7 +17,7 @@ export const MainPageContent = () => {
       </div>
       <Statistic />
       <Mission />
-      <Section />
+      <Sections />
       <BottomSection />
     </div>
   )
