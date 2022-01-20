@@ -8,6 +8,7 @@ type ArticleContent =
   | ImageContent
   | TipsContent
   | VideoContent
+  | TextWithImageContent
 
 type InformationContent = {
   title?: string
@@ -32,6 +33,13 @@ type VideoContent = {
   text: string
   src: string
 }
+
+type TextWithImageContent = {
+  type: 'text_with_image'
+  content: TextWIthImageData[]
+}
+
+type TextWIthImageData = { image: string; text: string }
 
 type ArticlePreview = {
   url: string

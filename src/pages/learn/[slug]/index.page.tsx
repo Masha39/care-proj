@@ -2,6 +2,7 @@ import groupBy from 'lodash/groupBy'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Layout from 'layouts/layout'
+import { TextWithImage } from 'pages/learn/[slug]/components/text_with_image/text_with_image'
 import { fetchJson } from 'util/fetch_json'
 
 import styles from './article.module.scss'
@@ -76,6 +77,8 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 )
               case 'video':
                 return <Video src={item.src} key={index} text={item.text} />
+              case 'text_with_image':
+                return <TextWithImage content={item.content} key={index} />
               default:
                 return null
             }
