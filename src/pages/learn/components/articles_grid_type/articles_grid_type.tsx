@@ -18,8 +18,8 @@ export const ArticlesGridType = ({
         <div key={topicName} className={styles.articles}>
           {topicArticles.articles.map((item, index) => {
             return (
-              <div className={styles.articles__item}>
-                <Link href={`/learn/${item.url}`} key={index}>
+              <div className={styles.articles__item} key={index}>
+                <Link href={`/learn/${item.url}`}>
                   <a>
                     <ContentCard
                       title={item.title}
