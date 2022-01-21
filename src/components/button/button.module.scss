@@ -1,9 +1,13 @@
 .button {
   border: 2px solid transparent;
   border-radius: 7px;
-  padding: 12px 24px;
+  padding: 10px;
   color: $white;
   cursor: pointer;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .big_button {

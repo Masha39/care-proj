@@ -32,10 +32,8 @@
     justify-content: center;
   }
   &__button {
-    cursor: pointer;
-    width: 160px;
-    height: 38px;
-    margin-bottom: 48px;
+    width: 215px;
+    margin: 0 auto 48px auto;
   }
   &__list {
     display: flex;
