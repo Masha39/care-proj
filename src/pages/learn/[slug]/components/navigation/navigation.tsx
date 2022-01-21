@@ -1,3 +1,5 @@
+import { useMemo, useState } from 'react'
+
 import cn from 'classnames'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
@@ -23,6 +25,7 @@ export const Navigation = ({
   nextTopicArticles: ArticlePreview[]
   nextTopic: string
 }) => {
+  const [isOpen, setIsOpen] = useState(false)
   const { t } = useTranslation('static/article')
 
   const descriptions = t<TopicDescription[]>(
@@ -33,6 +36,13 @@ export const Navigation = ({
 
   const description =
     descriptions.find((item) => item.topic === nextTopic)?.description || ''
+
+  const nextArticles = useMemo(() => {
+    if (!isOpen) {
+      return nextTopicArticles.slice(0, 3)
+    }
+    return nextTopicArticles
+  }, [isOpen, nextTopicArticles])
 
   return (
     <>
@@ -75,39 +85,44 @@ export const Navigation = ({
             </div>
             {nextTopic && (
               <>
-                <div className={cn(styles.next__next, styles.centered)}>
-                  {t('next_topic')}
-                </div>
-                <div className={cn(styles.next__topic, styles.centered)}>
-                  {nextTopic}
-                </div>
-                <div className={styles.next__description}>{description}</div>
-                <div className={styles.next__articles}>
+                <div className={styles.next__wrapper}>
+                  <div className={styles.next__next}>{t('next_topic')}</div>
+                  <div className={styles.next__topic}>{nextTopic}</div>
+                  <div className={styles.next__description}>{description}</div>
                   <Link href={`/learn/${nextTopicArticles[0].url}`}>
-                    <a className={styles.centered}>
+                    <a>
                       <button className={cn(styles.nav__button, styles.margin)}>
                         {t('common:start')}
                       </button>
                     </a>
                   </Link>
+                </div>
+                <div className={styles.next__articles}>
                   <div className={styles.next__row}>
-                    {nextTopicArticles
-                      .map((item, index) => {
-                        return (
-                          <Link href={`/learn/${item.url}`} key={index}>
-                            <a>
-                              <ContentCard
-                                title={item.title}
-                                image={item.image}
-                                type={item.content_type.label}
-                                icon={item.content_type.icon}
-                              />
-                            </a>
-                          </Link>
-                        )
-                      })
-                      .slice(1, 4)}
+                    {nextArticles.map((item, index) => {
+                      return (
+                        <Link href={`/learn/${item.url}`} key={index}>
+                          <a className={styles.next__card}>
+                            <ContentCard
+                              title={item.title}
+                              image={item.image}
+                              type={item.content_type.label}
+                              icon={item.content_type.icon}
+                            />
+                          </a>
+                        </Link>
+                      )
+                    })}
                   </div>
+                  {!isOpen ? (
+                    <div
+                      className={styles.next__showAll}
+                      onClick={() => setIsOpen(true)}
+                    >
+                      {t('common:show_all')} {nextTopicArticles.length}{' '}
+                      {t('common:resources')}
+                    </div>
+                  ) : null}
                 </div>
               </>
             )}
