@@ -1,0 +1,87 @@
+{
+  "url": "caregiver-stressor",
+  "title": "Caregiver Stress & Burnout",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "The responsibilities caregivers have may increase their likelihood of experiencing stress and burnout. It is important for caregivers to understand warning signs and use coping strategies when they feel stressed or burnt out.",
+        "Watch the video below to learn how Joanne manages stress while still caring for her family and her mother, Peggy."
+      ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/3N6v08ClNxk"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "VIDEO SUMMARY",
+      "tips": [
+        "Peggy is an older woman living with diabetes and COPD. Her husband is her primary caregiver, but he is unable to care for Peggy on his own.",
+        "Peggy is recovering from her recent hospital stay and receives home care to assist with daily tasks. Peggy’s daughter, Joanne, helps care for her parents in their home and attends their appointments.",
+        "Between caring for her parents, working, and having a family of her own, Joanne feels stressed and has no time to herself.",
+        "Joanne speaks to Peggy’s Care Coordinator to discuss her changing needs.The Care Coordinator determines that Peggy qualifies for more personal care visits. She also gives Joanne tips and resources for how to manage stress."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "What are stressors?",
+      "paragraphs": [
+        "Stressors are things that cause a person to feel stressed. Stressors can include a person, situation, or surrounding."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How do stressors impact caregivers?",
+      "paragraphs": [
+        "Caregivers may experience stressors more frequently due to their many responsibilities. Most caregivers are not formally trained to provide care. Aspects of providing care may feel unfamiliar and uncertain which can lead to stress."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "bold_text": "Stressors may include",
+      "title": "EXAMPLES",
+      "tips": [
+        "Changing caregiving demands",
+        "A change in mental or physical health of the person receiving care",
+        "Monitoring the person receiving care constantly",
+        "Feeling unsupported as a caregiver",
+        "Resistance from the person being cared for",
+        "Confusion about home care services",
+        "Conflicts with family members",
+        "Financial constraints",
+        "Lack of sleep",
+        "Social isolation",
+        "Time constraints",
+        "Unfamiliar or inconsistent home care providers"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "What is caregiver burnout?",
+      "paragraphs": [
+        "Burnout is a term used to describe intense levels of long-term stress. It includes extreme mental, physical, and emotional exhaustion. Caregiver burnout can influence mood, productivity, the ability to care for others, and/or the quality of relationships."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "bold_text": "Common signs of burnout include",
+      "title": "EXAMPLES",
+      "tips": [
+        "Fatigue (physical or mental)",
+        "Feeling helpless or hopeless",
+        "Frustration",
+        "Withdrawal from activities or relationships",
+        "Feeling irritable",
+        "Changes in sleep cycles",
+        "Changes in sexual activity",
+        "Increased likelihood of getting sick",
+        "Changes in appetite or weight",
+        "Increased use of drugs or alcohol"
+      ]
+    }
+  ]
+}

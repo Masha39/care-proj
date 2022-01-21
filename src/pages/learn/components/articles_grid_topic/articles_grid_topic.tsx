@@ -19,7 +19,7 @@ export const ArticlesGridTopic = ({
     <>
       {Object.entries(topicsToShow).map(([topic, articles]) => (
         <div key={topic} className={styles.articles}>
-          <div>
+          <div className={styles.articles__container}>
             {articles.articles?.length ? (
               <>
                 <div className={styles.articles__topic}>{topic}</div>
@@ -44,16 +44,18 @@ export const ArticlesGridTopic = ({
           <div className={styles.articles__list}>
             {articles.articles?.map((item, index) => {
               return (
-                <Link href={`/learn/${item.url}`} key={index}>
-                  <a>
-                    <ContentCard
-                      title={item.title}
-                      image={item.image}
-                      type={item.content_type.label}
-                      icon={item.content_type.icon}
-                    />
-                  </a>
-                </Link>
+                <div className={styles.articles__item} key={index}>
+                  <Link href={`/learn/${item.url}`}>
+                    <a>
+                      <ContentCard
+                        title={item.title}
+                        image={item.image}
+                        type={item.content_type.label}
+                        icon={item.content_type.icon}
+                      />
+                    </a>
+                  </Link>
+                </div>
               )
             })}
           </div>

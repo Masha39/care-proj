@@ -1,0 +1,71 @@
+{
+  "url": "caregiver-health",
+  "title": "Santé des soignants",
+  "content": [
+    {
+      "type": "information",
+      "title": "Comment les soignants peuvent-ils prendre soin de leur propre santé tout en prenant soin des autres?",
+      "paragraphs": [
+        "La prestation de soins peut sembler accablante certains jours. Il est facile de mettre de côté ses besoins personnels pour parcourir une liste de choses à faire, mais prendre soin de soi est l'une des meilleures choses que vous puissiez faire pour la personne dont vous vous occupez. Prendre du temps pour ses besoins personnels peut prévenir l'épuisement professionnel et vous aider à continuer à prodiguer des soins sur de plus longues périodes."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Pensez à la prestation de soins comme à la conduite d'une voiture...",
+      "paragraphs": [
+        "Une voiture ne fonctionnera que si elle est correctement alimentée et entretenue régulièrement. De même, les soignants ont besoin de carburant pour le corps, l'esprit et l'esprit pour continuer à prendre soin d'eux-mêmes et des autres sans s'épuiser."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "5 conseils pour la santé des soignants",
+      "paragraphs": [
+        "L'épuisement professionnel est un terme utilisé pour décrire des niveaux intenses de stress à long terme. Cela comprend l'épuisement mental, physique et émotionnel extrême. L'épuisement professionnel des soignants peut influencer l'humeur, la productivité, la capacité de prendre soin des autres et/ou la qualité des relations."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Prenez au moins 15 minutes par jour pour prendre soin de vous",
+      "icon": "/icons/one.svg",
+      "tips": [
+        "Prenez l'habitude de prendre du temps pour vous chaque jour, même si ce n'est que 15 minutes. C'est plus facile à dire qu'à faire, car de nombreux aidants éprouvent un sentiment de culpabilité lorsqu'ils font passer leurs propres besoins avant ceux des autres. Considérez ce moment comme un cadeau pour vous-même et pour la personne dont vous vous occupez. Vous vous sentirez mieux après avoir pris du temps pour vous, et vous prodiguerez des soins encore meilleurs.",
+        "Essayez ceci: visitez la page Stratégies d'autosoins pour en savoir plus sur les différentes activités d'autosoins qui conviennent à votre horaire de soignant."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Vérifiez avec vous-même quotidiennement",
+      "icon": "/icons/two.svg",
+      "tips": [
+        "Faire le point avec soi-même, c'est prendre le temps de la réflexion et être conscient de ses sentiments. Certains peuvent le faire en tenant un journal, mais cela n'a pas besoin d'être aussi formel ou de prendre du temps.",
+        "Essayez ceci: pendant que vous vous préparez à vous coucher, identifiez la meilleure partie de votre journée, la pire partie de votre journée et quelque chose que vous attendez avec impatience demain. Cet exercice peut inciter à une réflexion personnelle quotidienne et peut également être effectué avec la personne dont vous vous occupez."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Trouvez des exutoires sûrs pour exprimer vos sentiments honnêtes",
+      "icon": "/icons/three.svg",
+      "tips": [
+        "Certains jours, il sera plus difficile de gérer les facteurs de stress quotidiens que d'autres. C'est une expérience normale. La suppression des émotions peut vous mettre en colère ou vous frustrer avec la personne dont vous vous occupez. Essayez de trouver des moyens d'exprimer vos sentiments de manière sûre. Cela peut signifier parler à un ami de confiance, écrire dans un journal ou parler à un thérapeute."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Demander de l'aide",
+      "icon": "/icons/four.svg",
+      "tips": [
+        "Personne ne peut tout faire. Si vous vous sentez dépassé, demandez de l'aide. Il y a peut-être des gens dans votre vie qui veulent vous aider. Avoir le courage de demander de l'aide peut ouvrir des canaux de soutien dont vous ignoriez l'existence.",
+        "Essayez ceci: utilisez My Care Plan pour vous aider à déléguer les tâches de soins, les courses, le transport et bien plus encore !"
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Mangez des repas sains",
+      "icon": "/icons/five.svg",
+      "tips": [
+        "Manger des repas sains peut vous donner plus d'énergie et améliorer votre santé globale. Utilisez les recommandations du Guide alimentaire canadien pour vous assurer d'obtenir les calories et les nutriments dont votre corps a besoin.",
+        "Essayez ceci: En tant que soignant, il peut être difficile de trouver le temps dans une journée pour préparer des repas sains et équilibrés. Envisagez de préparer un repas copieux qui peut être facilement congelé et réchauffé plus tard dans la semaine."
+      ]
+    }
+  ]
+}

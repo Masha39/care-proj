@@ -1,6 +1,7 @@
 .articles {
   display: flex;
   flex-direction: column;
+  padding: 0 157px;
   &__topic {
     font-weight: 500;
     font-size: 26px;
@@ -38,5 +39,9 @@
   }
   &__list {
     display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    margin: 0 8px 20px 8px;
   }
 }

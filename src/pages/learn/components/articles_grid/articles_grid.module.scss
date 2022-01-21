@@ -2,7 +2,18 @@
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  margin-bottom: 64px;
+
+  @media (min-width: $xxl) {
+    padding: 64px 32px 64px 157px;
+  }
+  &:hover {
+    background: linear-gradient(
+        0.06deg,
+        rgba(226, 236, 240, 0.3) 0.05%,
+        rgba(226, 236, 240, 0.2) 99.95%
+      ),
+      #ffffff;
+  }
   &__wrapper {
     max-width: 325px;
     margin-right: 30px;

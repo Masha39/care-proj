@@ -1,7 +1,7 @@
 import React from 'react'
 
 import BottomSection from './bottom_section/bottom_section'
-import { Carousel } from './carousel/carousel'
+import { MainPageCarousel } from './main_page_carousel/main_page_carousel'
 import styles from './main_page_content.module.scss'
 import Mission from './mission_section/mission'
 import { Sections } from './sections/sections'
@@ -12,7 +12,7 @@ export const MainPageContent = () => {
     <div className={styles.main_wrapper}>
       <div className={styles.slider_wrapper}>
         <div className="container">
-          <Carousel />
+          <MainPageCarousel />
         </div>
       </div>
       <Statistic />

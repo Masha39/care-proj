@@ -1,0 +1,31 @@
+{
+  "url": "burnout-assessment",
+  "title": "Auto-évaluation du stress et de l'épuisement professionnel",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "L'auto-évaluation du stress et de l'épuisement professionnel aide les soignants à déterminer leur niveau d'épuisement professionnel et de stress. Cet outil ne doit être utilisé qu'à titre indicatif et ne remplace pas les conseils des professionnels de la santé."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "Utilisez les résultats de cette auto-évaluation pour déterminer si les responsabilités de soins (ainsi que d'autres facteurs de stress de la vie) ont un impact négatif sur la santé personnelle."
+      ]
+    },
+    {
+      "type": "tips",
+      "bold_text": "Comment réduire le stress et l'épuisement professionnel des soignants",
+      "tips": [
+        "Donnez la priorité à votre santé: si vous remarquez des changements dans votre état de santé ou si vous ressentez un sentiment d'épuisement professionnel, consultez un médecin.",
+        "Soutenez les soins personnels: consultez la page Santé des aidants pour trouver des conseils pour prendre soin de vous tout en prenant soin des autres.",
+        "Communiquez avec les prestataires de soins de santé: les prestataires de soins de santé (médecins, infirmières, etc.) de la personne dont vous vous occupez peuvent avoir des suggestions pour atténuer l'épuisement professionnel et faciliter la prestation de soins.",
+        "Créez un plan: suivez les prestataires de soins de santé, les rendez-vous et les tâches ménagères et stockez ces informations dans un endroit facilement accessible. Complétez l'outil Mon plan de soins pour commencer.",
+        "Envisagez des soins de relève: lorsque les tâches de soins deviennent écrasantes, envisagez de faire appel à une aide extérieure. Demandez à un membre de la famille, à un ami ou à un voisin de vous aider pour de petites tâches à rendre visite à la personne qui reçoit des soins de temps à autre. Recherchez des programmes ou des activités communautaires de jour qui la personne dont vous vous occupez pourrait participer. Si nécessaire, recherchez des programmes de relève de nuit pour des pauses occasionnelles dans la prestation de soins."
+      ]
+    }
+  ]
+}
