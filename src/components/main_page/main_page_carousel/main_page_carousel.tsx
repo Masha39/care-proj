@@ -2,18 +2,72 @@ import React, { useState } from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
-import Slider from 'react-slick'
 
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import { Carousel } from 'components/carousel/carousel'
 import { ContentType } from 'components/content_type/content_type'
 import Item1 from 'icons/slider/slide_1.svg'
 import Item2 from 'icons/slider/slide_2.svg'
 
-import styles from './carousel.module.scss'
 import { CustomPaging } from './components/custom-paging/custom-paging'
+import styles from './main_page_carousel.module.scss'
 
-export const Carousel = () => {
+const CustomNextArrow = ({
+  className,
+  style,
+  onClick
+}: {
+  className?: string
+  style?: object
+  onClick?: () => {}
+}) => {
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        minWidth: '48px',
+        minHeight: '48px',
+        right: '-56px',
+        border: '#9CBFCB 1px solid',
+        borderRadius: '26px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+      onClick={onClick}
+    />
+  )
+}
+
+const CustomPrevArrow = ({
+  className,
+  style,
+  onClick
+}: {
+  className?: string
+  style?: object
+  onClick?: () => {}
+}) => {
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        minWidth: '48px',
+        minHeight: '48px',
+        left: '-56px',
+        border: '#9CBFCB 1px solid',
+        borderRadius: '26px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+      onClick={onClick}
+    />
+  )
+}
+
+export const MainPageCarousel = () => {
   const { t } = useTranslation('main_page')
 
   const [items] = useState([
@@ -77,11 +131,13 @@ export const Carousel = () => {
     centerMode: true,
     centerPadding: '0',
     adaptiveHeight: true,
+    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -90,7 +146,7 @@ export const Carousel = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
           centerMode: true,
@@ -124,7 +180,7 @@ export const Carousel = () => {
     <div className={styles.sliderWrapper}>
       <h3>{t('static/main_page:h2')}</h3>
       <p>{t('static/main_page:title')}</p>
-      <Slider {...settings}>
+      <Carousel customSettings={settings}>
         {items.map((item) => (
           <div className={styles.item} key={item.id}>
             <Link href={item.href}>
@@ -144,7 +200,7 @@ export const Carousel = () => {
             </Link>
           </div>
         ))}
-      </Slider>
+      </Carousel>
     </div>
   )
 }

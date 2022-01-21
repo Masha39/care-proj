@@ -1,6 +1,6 @@
 import styles from './video.module.scss'
 
-export const Video = ({ src, text }: { src: string; text: string }) => {
+export const Video = ({ src, text }: { src: string; text?: string }) => {
   return (
     <>
       <p className={styles.video__text}>{text}</p>

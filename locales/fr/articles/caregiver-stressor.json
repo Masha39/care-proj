@@ -1,0 +1,87 @@
+{
+  "url": "caregiver-stressor",
+  "title": "Stress et épuisement professionnel des soignants",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Les responsabilités des soignants peuvent augmenter leur risque de stress et d'épuisement professionnel. Il est important que les soignants comprennent les signes avant-coureurs et utilisent des stratégies d'adaptation lorsqu'ils se sentent stressés ou épuisés.",
+        "Regardez la vidéo ci-dessous pour découvrir comment Joanne gère le stress tout en prenant soin de sa famille et de sa mère, Peggy."
+      ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/3N6v08ClNxk"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "RÉSUMÉ VIDÉO",
+      "tips": [
+        "Peggy est une femme âgée atteinte de diabète et de MPOC. Son mari est son principal soignant, mais il est incapable de s'occuper de Peggy tout seul.",
+        "Peggy se remet de son récent séjour à l'hôpital et reçoit des soins à domicile pour l'aider dans ses tâches quotidiennes. La fille de Peggy, Joanne, aide à prendre soin de ses parents à la maison et assiste à leurs rendez-vous.",
+        "Entre s'occuper de ses parents, travailler et avoir sa propre famille, Joanne se sent stressée et n'a pas de temps pour elle.",
+        "Joanne parle à la coordonnatrice des soins de Peggy pour discuter de ses besoins changeants. La coordonnatrice des soins détermine que Peggy est admissible à davantage de visites de soins personnels. Elle donne également à Joanne des conseils et des ressources sur la façon de gérer le stress."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Qu'est-ce que les facteurs de stress?",
+      "paragraphs": [
+        "Les facteurs de stress sont des choses qui font qu'une personne se sent stressée. Les facteurs de stress peuvent inclure une personne, une situation ou un environnement."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment les facteurs de stress affectent-ils les soignants?",
+      "paragraphs": [
+        "Les soignants peuvent être confrontés à des facteurs de stress plus fréquemment en raison de leurs nombreuses responsabilités. La plupart des soignants ne sont pas formellement formés pour fournir des soins. Les aspects de la prestation de soins peuvent sembler inconnus et incertains, ce qui peut entraîner du stress."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "bold_text": "Les facteurs de stress peuvent inclure",
+      "title": "EXEMPLES",
+      "tips": [
+        "L'évolution des demandes de soins",
+        "Un changement dans la santé mentale ou physique de la personne soignée",
+        "Surveiller en permanence la personne soignée",
+        "Se sentir démuni en tant qu'aidant",
+        "Résistance de la personne aidée",
+        "Confusion sur les services de maintien à domicile",
+        "Conflits avec les membres de la famille",
+        "Contraintes financières",
+        "Manque de sommeil",
+        "Isolation sociale",
+        "Contraintes de temps",
+        "Prestataires de soins à domicile inconnus ou incohérents"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Qu'est-ce que l'épuisement professionnel des soignants ?",
+      "paragraphs": [
+        "L'épuisement professionnel est un terme utilisé pour décrire des niveaux intenses de stress à long terme. Cela comprend l'épuisement mental, physique et émotionnel extrême. L'épuisement professionnel des soignants peut influencer l'humeur, la productivité, la capacité de prendre soin des autres et/ou la qualité des relations."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "bold_text": "Les signes courants d'épuisement comprennent",
+      "title": "EXEMPLES",
+      "tips": [
+        "Fatigue (physique ou mentale)",
+        "Se sentir impuissant ou désespéré",
+        "Frustration",
+        "Retrait d'activités ou de relations",
+        "Se sentir irritable",
+        "Modifications des cycles de sommeil",
+        "Modifications de l'activité sexuelle",
+        "Risque accru de tomber malade",
+        "Modifications de l'appétit ou du poids",
+        "Augmentation de la consommation de drogues ou d'alcool"
+      ]
+    }
+  ]
+}

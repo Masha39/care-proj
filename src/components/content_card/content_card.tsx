@@ -27,7 +27,9 @@ export const ContentCard = ({
         </div>
       </div>
       <div className={styles.card__footer}>
-        <div className={styles.card__title}>{title}</div>
+        <div className={styles.card__title}>
+          <h4>{title}</h4>
+        </div>
         <div className={styles.card__link}>{t('common:learn_more')}</div>
       </div>
     </div>

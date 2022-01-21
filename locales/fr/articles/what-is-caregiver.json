@@ -8,6 +8,50 @@
       "paragraphs": [
         "Un aidant naturel est une personne qui prodigue des soins non rémunérés à une autre personne. Au Canada, une personne sur quatre prodigue des soins non rémunérés à un membre de sa famille ou à un ami. Les aidants naturels font économiser au système de santé entre 24 et 31 milliards de dollars par an."
       ]
+    },
+    {
+      "type": "information",
+      "title": "Qui sont les soignants?",
+      "paragraphs": [
+        "Il existe de nombreux types de soignants qui peuvent aider avec divers aspects physiques, émotionnels ou psychologiques des soins."
+      ]
+    },
+    {
+      "type": "text_with_image",
+      "content": [
+        {
+          "image": "daniel.svg",
+          "text": "Daniel habite à une heure de chez sa mère mais contacte régulièrement son équipe de soins à domicile et est au courant de tout changement dans sa santé. Daniel est soignant."
+        },
+        {
+          "image": "joanne.svg",
+          "text": "Joanne vit avec son mari et ses deux jeunes enfants. Elle rend visite à sa mère plusieurs fois par semaine pour effectuer des tâches ménagères. Joanne est aide-soignante."
+        },
+        {
+          "image": "rashon.svg",
+          "text": "Rashon aide son père à s'occuper de son jeune frère qui utilise un fauteuil roulant et a besoin d'aide pour les activités quotidiennes. Rashon est soignant."
+        },
+        {
+          "image": "aki.svg",
+          "text": "Aki s'occupe de sa mère à toute heure de la journée. Elle serait incapable de rester à la maison sans l'aide d'Aki. Aki est un soignant."
+        }
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Il peut être difficile pour les gens de se reconnaître en tant qu'aidants. Ils peuvent avoir l'impression que les emplois qu'ils occupent font partie de la vie normale d'un membre de la famille, d'un ami ou d'un voisin. Chez YourCare+, nous définissons un soignant comme une personne qui fournit des soins ou un soutien non rémunéré à une autre personne.",
+        "Les proches aidants occupent un rôle essentiel dans l’équipe soignante de la personne aidée.",
+        "Voyez comment les soignants s'intègrent à cela, ainsi que d'autres membres critiques, dans la figure ci-dessous."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Our mission",
+      "paragraphs": [
+        "À bien des égards, les soignants sont des experts de la personne dont ils s'occupent. Pourtant, les soignants ne sont pas validés ou reconnus autant qu'ils devraient l'être.",
+        "YourCare+ veut changer cela en fournissant des ressources gratuites et un soutien aux soignants non rémunérés. Notre objectif est de faire en sorte que les soignants soient des membres fiables, dignes de confiance et cruciaux des équipes de soins."
+      ]
     }
   ]
 }

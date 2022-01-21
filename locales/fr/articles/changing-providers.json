@@ -1,0 +1,41 @@
+{
+  "url": "changing-providers",
+  "title": "S'adapter au personnel soignant nouveau ou changeant",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les outils et les stratégies pour y faire face."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Quel est le problème ou le défi?",
+      "paragraphs": [
+        "Dans la plupart des cas, les services de soins à domicile sont fournis par plusieurs prestataires de soins. Les agences de soins à domicile ne peuvent pas garantir les mêmes prestataires de soins pour chaque visite de soins. Les prestataires de soins nouveaux ou changeants peuvent créer des difficultés pour établir de bons rapports et une bonne communication."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Quel impact cela a-t-il sur les soignants?",
+      "paragraphs": [
+        "Les soignants peuvent avoir besoin de décrire les besoins de la personne dont ils s'occupent aux nouveaux prestataires de soins. Cela peut prendre du temps et réduire le temps passé à faire des courses ou à prendre soin de soi."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Pourquoi ce problème existe?",
+      "paragraphs": [
+        "Les agences de soins à domicile peuvent ne pas être en mesure d'affecter un personnel de soins cohérent en raison d'une disponibilité limitée ou de planifier les soins à des moments précis de la journée.",
+        "Avoir un personnel de soins cohérent est idéal, mais cela peut prendre du temps."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Que puis-je faire à propos de ce problème?",
+      "paragraphs": [
+        "Essayez les outils ci-dessous pour vous aider à rencontrer de nouveaux prestataires de soins:"
+      ]
+    }
+  ]
+}

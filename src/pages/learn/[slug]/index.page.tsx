@@ -2,6 +2,7 @@ import groupBy from 'lodash/groupBy'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Layout from 'layouts/layout'
+import { TextWithImage } from 'pages/learn/[slug]/components/text_with_image/text_with_image'
 import { fetchJson } from 'util/fetch_json'
 
 import styles from './article.module.scss'
@@ -14,7 +15,6 @@ import { Tips } from './components/tips/tips'
 import { Video } from './components/video/video'
 import { getNextOrPreviousArticle } from './utils/get_next_or_previous_article'
 import { getNextTopicArticles } from './utils/get_next_topic_articles'
-import { getPreviewText } from './utils/get_preview_text'
 
 type ArticleProps = {
   article: ArticleJson
@@ -30,8 +30,6 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
     filteredArticles,
     article.title
   )
-
-  const { previewText } = getPreviewText(article)
 
   const { nextTopicArticles, nextTopic } = getNextTopicArticles(
     articlesByTopic,
@@ -69,6 +67,7 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 return (
                   <Tips
                     title={item.title}
+                    boldText={item.bold_text}
                     tips={item.tips}
                     icon={item.icon}
                     key={index}
@@ -76,6 +75,8 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
                 )
               case 'video':
                 return <Video src={item.src} key={index} text={item.text} />
+              case 'text_with_image':
+                return <TextWithImage content={item.content} key={index} />
               default:
                 return null
             }
@@ -84,7 +85,7 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
             currentTopic={preview.topic}
             nextArticle={nextArticle}
             prevArticle={prevArticle}
-            previewText={previewText}
+            previewText={nextArticle?.preview_text}
             nextTopicArticles={nextTopicArticles}
             nextTopic={nextTopic}
           />
