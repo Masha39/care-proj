@@ -1,5 +1,3 @@
-@import './../styles/colors';
-
 .button {
   border: 2px solid transparent;
   border-radius: 7px;
@@ -370,7 +368,7 @@
 }
 
 .icon {
-  background: url('img/arrow_icon.svg') no-repeat right 18px center $white;
+  background: url('./img/arrow_icon.svg') no-repeat right 18px center $white;
   border-color: $steelBlue500;
   color: $steelBlue500;
   padding-right: 42px;
@@ -394,7 +392,7 @@
   }
 
   &:hover {
-    background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
       $steelBlue600;
     border-color: transparent;
     color: $white;
@@ -406,7 +404,7 @@
   }
 
   &:active {
-    background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
       $steelBlue650;
     border-color: transparent;
     color: $white;
@@ -419,15 +417,15 @@
 
   &:disabled {
     color: $steelBlue300;
-    background: url('img/arrow_icon_light_blue.svg') no-repeat right 18px center
-      transparent;
+    background: url('./img/arrow_icon_light_blue.svg') no-repeat right 18px
+      center transparent;
     cursor: default;
     border-color: $steelBlue300;
   }
 }
 
 .icon_filled {
-  background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+  background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
     $steelBlue500;
   border-color: $steelBlue500;
   color: $white;
@@ -437,7 +435,7 @@
     outline: 1px dotted $steelBlue500;
     border: 2px solid transparent;
     position: relative;
-    background: url('img/arrow_icon.svg') no-repeat right 18px center $white;
+    background: url('./img/arrow_icon.svg') no-repeat right 18px center $white;
     color: $steelBlue500;
 
     &::before {
@@ -454,7 +452,7 @@
   }
 
   &:hover {
-    background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
       $steelBlue600;
     border-color: transparent;
     color: $white;
@@ -466,7 +464,7 @@
   }
 
   &:active {
-    background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
       $steelBlue650;
     border-color: transparent;
     color: $white;
@@ -479,7 +477,7 @@
 
   &:disabled {
     color: $white;
-    background: url('img/arrow_icon_white.svg') no-repeat right 18px center
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
       $steelBlue300;
     cursor: default;
     border-color: $steelBlue300;
