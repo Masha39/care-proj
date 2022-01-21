@@ -36,10 +36,11 @@
   }
   &__content {
   }
-  &__button {
-    cursor: pointer;
-    width: 160px;
-    height: 38px;
-    margin-bottom: 8px;
+  &__buttons {
+    height: 100px;
+    max-width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

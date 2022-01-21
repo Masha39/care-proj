@@ -4,7 +4,9 @@ import cn from 'classnames'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
+import { Button } from 'components/button/button'
 import { ContentCard } from 'components/content_card/content_card'
 import { ContentType } from 'components/content_type/content_type'
 
@@ -27,6 +29,8 @@ export const Navigation = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false)
   const { t } = useTranslation('static/article')
+
+  const router = useRouter()
 
   const descriptions = t<TopicDescription[]>(
     'static/learn:topics_description',
@@ -57,7 +61,13 @@ export const Navigation = ({
                   <div className={styles.nav__gradient} />
                   {previewText || null}
                 </div>
-                <button className={styles.nav__button}>{t('read_next')}</button>
+                <div className={styles.nav__btn}>
+                  <Button
+                    title={t('read_next')}
+                    buttonStyle="primary_blue"
+                    onClick={() => router.push(`/learn/${nextArticle.url}`)}
+                  />
+                </div>
               </div>
               <div className={styles.nav__image}>
                 <Image
@@ -89,13 +99,15 @@ export const Navigation = ({
                   <div className={styles.next__next}>{t('next_topic')}</div>
                   <div className={styles.next__topic}>{nextTopic}</div>
                   <div className={styles.next__description}>{description}</div>
-                  <Link href={`/learn/${nextTopicArticles[0].url}`}>
-                    <a>
-                      <button className={cn(styles.nav__button, styles.margin)}>
-                        {t('common:start')}
-                      </button>
-                    </a>
-                  </Link>
+                  <div className={cn(styles.nav__button, styles.margin)}>
+                    <Button
+                      title={t('common:start')}
+                      buttonStyle="primary_blue"
+                      onClick={() =>
+                        router.push(`/learn/${nextTopicArticles[0].url}`)
+                      }
+                    />
+                  </div>
                 </div>
                 <div className={styles.next__articles}>
                   <div className={styles.next__row}>

@@ -1,0 +1,489 @@
+.button {
+  border: 2px solid transparent;
+  border-radius: 7px;
+  padding: 10px;
+  color: $white;
+  cursor: pointer;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.big_button {
+  font-size: 20px;
+}
+
+.small_button {
+  font-size: 18px;
+}
+
+.primary_orange {
+  background-color: $orange500;
+
+  &:focus {
+    outline: 1px dotted $orange500;
+    border: 2px solid;
+  }
+
+  &:hover {
+    background-color: $orange600;
+    border-color: $orange600;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $orange650;
+    outline: none;
+    border-color: $orange600;
+  }
+
+  &:disabled {
+    background-color: $orange250;
+    border-color: $orange250;
+    cursor: default;
+  }
+}
+
+.primary_blue {
+  background-color: $steelBlue500;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid;
+  }
+
+  &:hover {
+    background-color: $steelBlue600;
+    border-color: $steelBlue600;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $steelBlue650;
+    border-color: $steelBlue650;
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: $steelBlue300;
+    border-color: $steelBlue300;
+    cursor: default;
+  }
+}
+
+.secondary {
+  background-color: $white;
+  border-color: $steelBlue500;
+  color: $steelBlue500;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue500;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background-color: $steelBlue600;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background-color: $steelBlue650;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $steelBlue300;
+    border-color: $steelBlue300;
+    cursor: default;
+    background-color: transparent;
+    border-color: $steelBlue300;
+  }
+}
+
+.destructive {
+  background-color: $red400;
+
+  &:focus {
+    outline: 1px dotted $red400;
+    border: 2px solid;
+  }
+
+  &:hover {
+    background-color: $red500;
+    border-color: $red500;
+    outline: none;
+  }
+
+  &:active {
+    background-color: $red550;
+    border-color: $red550;
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: $red200;
+    border-color: $red200;
+    cursor: default;
+  }
+}
+
+.tertiary {
+  background-color: transparent;
+  border-color: $steelBlue150;
+  color: $steelBlue600;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue150;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background-color: $steelBlue150;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background-color: $steelBlue200;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $steelBlue300;
+    border-color: $steelBlue150;
+    cursor: default;
+    background-color: transparent;
+  }
+}
+
+.destructive_small {
+  font-size: 18px;
+  background-color: transparent;
+  border-color: $steelBlue150;
+  color: $red400;
+
+  &:focus {
+    outline: 1px dotted $red400;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue150;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background-color: $steelBlue150;
+    border-color: transparent;
+    outline: none;
+    color: $red500;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background-color: $steelBlue200;
+    border-color: transparent;
+    outline: none;
+    color: $red550;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $red200;
+    border-color: $steelBlue150;
+    cursor: default;
+    background-color: transparent;
+  }
+}
+
+.add {
+  background-color: transparent;
+  border-color: $steelBlue150;
+  color: $steelBlue600;
+  padding: 22px 24px;
+  min-width: 257px;
+  font-size: 20px;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue150;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background-color: $steelBlue150;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background-color: $steelBlue200;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $steelBlue300;
+    border-color: $steelBlue150;
+    cursor: default;
+    background-color: transparent;
+  }
+}
+.plus_icon {
+  margin: 0px 13px -1px 0;
+}
+
+.add_small {
+  background-color: transparent;
+  border-color: transparent;
+  color: $steelBlue600;
+  padding: 12px 24px;
+  font-size: 18px;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue150;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background-color: $steelBlue150;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background-color: $steelBlue200;
+    border-color: transparent;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $steelBlue300;
+    border-color: transparent;
+    cursor: default;
+    background-color: transparent;
+  }
+}
+.plus_icon_small {
+  margin-right: 11px;
+}
+
+.icon {
+  background: url('./img/arrow_icon.svg') no-repeat right 18px center $white;
+  border-color: $steelBlue500;
+  color: $steelBlue500;
+  padding-right: 42px;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue500;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+      $steelBlue600;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+      $steelBlue650;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $steelBlue300;
+    background: url('./img/arrow_icon_light_blue.svg') no-repeat right 18px
+      center transparent;
+    cursor: default;
+    border-color: $steelBlue300;
+  }
+}
+
+.icon_filled {
+  background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+    $steelBlue500;
+  border-color: $steelBlue500;
+  color: $white;
+  padding-right: 42px;
+
+  &:focus {
+    outline: 1px dotted $steelBlue500;
+    border: 2px solid transparent;
+    position: relative;
+    background: url('./img/arrow_icon.svg') no-repeat right 18px center $white;
+    color: $steelBlue500;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid $steelBlue500;
+      border-radius: 7px;
+    }
+  }
+
+  &:hover {
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+      $steelBlue600;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:active {
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+      $steelBlue650;
+    border-color: transparent;
+    color: $white;
+    outline: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:disabled {
+    color: $white;
+    background: url('./img/arrow_icon_white.svg') no-repeat right 18px center
+      $steelBlue300;
+    cursor: default;
+    border-color: $steelBlue300;
+  }
+}

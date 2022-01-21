@@ -2,7 +2,9 @@ import React from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
+import { Button } from 'components/button/button'
 import { ContentCard } from 'components/content_card/content_card'
 
 import { Topic } from '../../utils/get_topics_to_show'
@@ -15,6 +17,8 @@ export const ArticlesGridTopic = ({
 }) => {
   const { t } = useTranslation('common')
 
+  const router = useRouter()
+
   return (
     <>
       {Object.entries(topicsToShow).map(([topic, articles]) => (
@@ -26,13 +30,15 @@ export const ArticlesGridTopic = ({
                 <div className={styles.articles__description}>
                   {articles.description}
                 </div>
-                <Link href={`/learn/${articles.articles[0].url}`}>
-                  <a className={styles.articles__wrapper}>
-                    <button className={styles.articles__button}>
-                      {t('start')}
-                    </button>
-                  </a>
-                </Link>
+                <div className={styles.articles__button}>
+                  <Button
+                    title={t('start')}
+                    buttonStyle="primary_blue"
+                    onClick={() =>
+                      router.push(`/learn/${articles.articles[0].url}`)
+                    }
+                  />
+                </div>
               </>
             ) : (
               <div className={styles.articles__noTopic}>

@@ -2,7 +2,9 @@ import React from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
+import { Button } from 'components/button/button'
 import { Carousel } from 'components/carousel/carousel'
 import { ContentCard } from 'components/content_card/content_card'
 
@@ -18,6 +20,8 @@ export const ArticlesGrid = ({
 }) => {
   const { t } = useTranslation('common')
 
+  const router = useRouter()
+
   return (
     <>
       {Object.entries(topicsToShow).map(([topicName, topic]) => {
@@ -28,19 +32,22 @@ export const ArticlesGrid = ({
               <div className={styles.articles__description}>
                 {topic.description}
               </div>
-              <Link href={`/learn/${topic.articles[0].url}`}>
-                <a>
-                  <button className={styles.articles__button}>
-                    {t('start')}
-                  </button>
-                </a>
-              </Link>
-              <button
-                className={styles.articles__button}
-                onClick={() => setTopic({ value: topicName, label: topicName })}
-              >
-                {`${t('show_all')} ${topic.articles.length} ${t('resources')}`}
-              </button>
+              <div className={styles.articles__buttons}>
+                <Button
+                  title={t('start')}
+                  buttonStyle="primary_blue"
+                  onClick={() => router.push(`/learn/${topic.articles[0].url}`)}
+                />
+                <Button
+                  title={`${t('show_all')} ${topic.articles.length} ${t(
+                    'resources'
+                  )}`}
+                  buttonStyle="secondary"
+                  onClick={() =>
+                    setTopic({ value: topicName, label: topicName })
+                  }
+                />
+              </div>
             </div>
             <Carousel>
               {topic.articles.map((item, i) => {
