@@ -15,19 +15,21 @@ export const ArticlesGridType = ({
   return (
     <div className={styles.wrapper}>
       {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
-        <div key={topicName} className={styles.article}>
+        <div key={topicName} className={styles.articles}>
           {topicArticles.articles.map((item, index) => {
             return (
-              <Link href={`/learn/${item.url}`} key={index}>
-                <a>
-                  <ContentCard
-                    title={item.title}
-                    image={item.image}
-                    type={item.content_type.label}
-                    icon={item.content_type.icon}
-                  />
-                </a>
-              </Link>
+              <div className={styles.articles__item}>
+                <Link href={`/learn/${item.url}`} key={index}>
+                  <a>
+                    <ContentCard
+                      title={item.title}
+                      image={item.image}
+                      type={item.content_type.label}
+                      icon={item.content_type.icon}
+                    />
+                  </a>
+                </Link>
+              </div>
             )
           })}
         </div>
