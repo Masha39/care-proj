@@ -19,7 +19,7 @@ export const Navigation = ({
   currentTopic: string
   nextArticle?: ArticlePreview
   prevArticle?: ArticlePreview
-  previewText: string
+  previewText: string | undefined
   nextTopicArticles: ArticlePreview[]
   nextTopic: string
 }) => {
@@ -45,7 +45,7 @@ export const Navigation = ({
                 <div className={styles.nav__link}>{nextArticle.title}</div>
                 <div className={styles.nav__text}>
                   <div className={styles.nav__gradient} />
-                  {previewText}
+                  {previewText || null}
                 </div>
                 <button className={styles.nav__button}>{t('read_next')}</button>
               </div>

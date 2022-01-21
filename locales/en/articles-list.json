@@ -8,6 +8,7 @@
         "value": "information",
         "icon": "/icons/info.svg"
       },
+      "preview_text": "Many people needing health care services prefer to stay close to family and friends in a familiar and comfortable environment, rather than moving into an assisted living or long-term care home.",
       "topic": "Understanding Home Care",
       "image": "slide_1.svg",
       "read_time": "3 minute read"
@@ -20,6 +21,7 @@
         "value": "information",
         "icon": "/icons/info.svg"
       },
+      "preview_text": "Home care is often provided by a team of health care providers. Each health care provider has unique skills, knowledge, roles, and responsibilities, working together to provide comprehensive care.",
       "topic": "Understanding Home Care",
       "image": "slide_3.svg",
       "read_time": "7 minute read"
@@ -32,6 +34,7 @@
         "value": "tools",
         "icon": "/icons/tool.svg"
       },
+      "preview_text": "The “My Home Care Team” tool is a printable sheet that helps with understanding and keeping track of the health care providers that make up a home care team.",
       "topic": "Understanding Home Care",
       "image": "slide_4.svg",
       "read_time": "15 minute read"
@@ -44,6 +47,7 @@
         "value": "information",
         "icon": "/icons/info.svg"
       },
+      "preview_text": "There may be times when care expectations are unmet. Learn about common home care challenges that might be encountered and tools and strategies for dealing with them.",
       "topic": "Understanding Home Care",
       "image": "slide_5.svg",
       "read_time": "3 minute read"
@@ -56,6 +60,7 @@
         "value": "tools",
         "icon": "/icons/tool.svg"
       },
+      "preview_text": "A caregiver is someone who provides unpaid care to another person. Across Canada, one in four people provide unpaid care to a family member or friend. Caregivers save the healthcare system between $24-31 billion annually.",
       "topic": "Caregiver Wellness",
       "image": "daniel.svg",
       "read_time": "4 minute read"
@@ -68,6 +73,7 @@
         "value": "videos",
         "icon": "/icons/videos.svg"
       },
+      "preview_text": "The responsibilities caregivers have may increase their likelihood of experiencing stress and burnout. It is important for caregivers to understand warning signs and use coping strategies when they feel stressed or burnt out.",
       "topic": "Caregiver Wellness",
       "image": "caregiver_stressor.svg",
       "read_time": "4 minute read"
@@ -80,6 +86,7 @@
         "value": "assessment",
         "icon": "/icons/assessment.svg"
       },
+      "preview_text": "The Stress and Burnout Self-Assessment helps caregivers determine their level of burnout and stress. This tool should only be used as a guideline and does not replace the advice of health care professionals.",
       "topic": "Caregiver Wellness",
       "image": "burnout_assessment.svg",
       "read_time": "5 minute read"
@@ -92,6 +99,7 @@
         "value": "information",
         "icon": "/icons/info.svg"
       },
+      "preview_text": "Caregiving can feel overwhelming some days. It's easy to put personal needs aside in order to get through a to-do list, but caring for yourself is one of the best things you can do for the person you care for.",
       "topic": "Caregiver Wellness",
       "image": "joanne.svg",
       "read_time": "6 minute read"

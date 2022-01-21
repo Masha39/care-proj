@@ -46,6 +46,7 @@ type ArticlePreview = {
   url: string
   title: string
   content_type: ContentType
+  preview_text: string
   topic: string
   image: string
   read_time: string
