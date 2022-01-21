@@ -1,0 +1,21 @@
+{
+  "url": "my-home-care-team",
+  "title": "Mon équipe de soins à domicile",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "L'outil “Mon équipe de soins à domicile“, est une feuille imprimable qui aide à comprendre et à suivre les fournisseurs de soins de santé qui composent une équipe de soins à domicile."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "En quoi cela peut-il m'aider?",
+      "paragraphs": [
+        "Il peut être déroutant et accablant de savoir qui fournit des soins à domicile, quels sont leurs rôles et de savoir à quoi s'attendre lorsque les soins sont fournis. Cela peut être particulièrement vrai pour les soignants et les personnes qui accèdent aux soins à domicile pour la première fois.",
+        "“Mon équipe de soins à domicile“ permet de suivre les membres de l'équipe de soins à domicile, de se familiariser avec leurs rôles et de savoir comment les contacter si nécessaire."
+      ]
+    }
+  ]
+}

@@ -12,15 +12,13 @@
     rgba(29, 86, 106, 0.1)
   );
   box-shadow: 0 1px 2px 1px rgba(7, 29, 37, 0.08);
-  margin-right: 24px;
+  //margin: 0 10px;
   transition: transform 0.3s ease-in 0s;
   &:hover {
     transform: scale(1.01);
     box-shadow: rgb(7 29 37 / 15%) 0 2px 5px 2px;
   }
-  @media (min-width: $md) {
-    width: 264px;
-  }
+
   &__title {
     font-weight: 500;
     font-size: 20px;
@@ -35,6 +33,10 @@
   }
   &__header {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
   &__contentType {
     position: absolute;
@@ -42,7 +44,7 @@
     right: 20px;
   }
   &__footer {
-    height: 115px;
+    min-height: 115px;
     background: $steel_blue;
     display: flex;
     flex-direction: column;

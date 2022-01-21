@@ -1,0 +1,21 @@
+{
+  "url": "my-home-care-team",
+  "title": "My Home Care Team",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The “My Home Care Team” tool is a printable sheet that helps with  understanding and keeping track of the health care providers that make up a home care team."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "It can be confusing and overwhelming to keep track of who is providing home care, what their roles are, and knowing what to expect when care is provided. This can be especially true for caregivers and people navigating home care for the first time.",
+        "“My Home Care Team” helps to keep track of home care team members, become familiar with their roles, and know how to contact them if needed."
+      ]
+    }
+  ]
+}

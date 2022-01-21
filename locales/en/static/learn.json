@@ -25,6 +25,16 @@
       "label": "Tools",
       "value": "tools",
       "icon": "/icons/tool.svg"
+    },
+    {
+      "label": "Videos",
+      "value": "videos",
+      "icon": "/icons/videos.svg"
+    },
+    {
+      "label": "Assessment",
+      "value": "assessment",
+      "icon": "/icons/assessment.svg"
     }
   ]
 }
