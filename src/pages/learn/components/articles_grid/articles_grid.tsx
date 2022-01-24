@@ -32,21 +32,25 @@ export const ArticlesGrid = ({
               <div className={styles.articles__description}>
                 {topic.description}
               </div>
-              <div className={styles.articles__buttons}>
-                <Button
-                  title={t('start')}
-                  buttonStyle="primary_blue"
-                  onClick={() => router.push(`/learn/${topic.articles[0].url}`)}
-                />
-                <Button
-                  title={`${t('show_all')} ${topic.articles.length} ${t(
-                    'resources'
-                  )}`}
-                  buttonStyle="secondary"
-                  onClick={() =>
-                    setTopic({ value: topicName, label: topicName })
-                  }
-                />
+              <div className={styles.buttons_desktop}>
+                <div className={styles.articles__buttons}>
+                  <Button
+                    title={t('start')}
+                    buttonStyle="primary_blue"
+                    onClick={() =>
+                      router.push(`/learn/${topic.articles[0].url}`)
+                    }
+                  />
+                  <Button
+                    title={`${t('show_all')} ${topic.articles.length} ${t(
+                      'resources'
+                    )}`}
+                    buttonStyle="secondary"
+                    onClick={() =>
+                      setTopic({ value: topicName, label: topicName })
+                    }
+                  />
+                </div>
               </div>
             </div>
             <Carousel>
@@ -65,6 +69,24 @@ export const ArticlesGrid = ({
                 )
               })}
             </Carousel>
+            <div className={styles.buttons_mobile}>
+              <div className={styles.articles__buttons}>
+                <Button
+                  title={t('start')}
+                  buttonStyle="primary_blue"
+                  onClick={() => router.push(`/learn/${topic.articles[0].url}`)}
+                />
+                <Button
+                  title={`${t('show_all')} ${topic.articles.length} ${t(
+                    'resources'
+                  )}`}
+                  buttonStyle="secondary"
+                  onClick={() =>
+                    setTopic({ value: topicName, label: topicName })
+                  }
+                />
+              </div>
+            </div>
           </div>
         )
       })}
