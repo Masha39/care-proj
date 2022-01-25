@@ -1,8 +1,48 @@
-.accordion_item {
-  margin-right: 15px;
+.accordion_wrapper {
+  display: block;
+  width: 100%;
+  margin-bottom: 96px;
+  //1024
+  @media (min-width: 1103px) {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  //1400
+  @media (min-width: $xxl) {
+    margin-bottom: 64px;
+  }
 }
 
-[aria-expanded='true'] .accordion_item {
+.accordion_right {
+  margin-left: 12px;
+  margin-right: 12px;
+  @media (min-width: 1103px) {
+    width: 50%;
+    margin-right: 156px;
+  }
+}
+
+.accordion_left {
+  margin-right: 12px;
+  margin-left: 12px;
+  @media (min-width: 1103px) {
+    width: 50%;
+    margin-left: 156px;
+  }
+}
+
+.accordion__item {
+  width: 100%;
+  @media (min-width: 1103px) {
+    max-width: 552px;
+  }
+}
+
+.accordion_button_item {
+  margin-right: 16px;
+}
+
+[aria-expanded='true'] .accordion_button_item {
   transform: rotate(180deg);
 }
 
@@ -45,6 +85,11 @@
     color: #1d526a;
     font-size: 18px;
   }
+  //1400
+  @media (min-width: $xxl) {
+    padding-left: 157px;
+    padding-right: 415px;
+  }
 }
 
 .accordion_title_mobile {
@@ -54,6 +99,7 @@
   margin-left: 16px;
   margin-top: 24px;
   margin-bottom: 24px;
+  font-weight: 600;
   //1024
   @media (min-width: $xl) {
     display: none;
@@ -74,13 +120,12 @@
   background-position-x: 95%;
   border-radius: 12px;
   margin-bottom: 10px;
-  margin-left: 16px;
-  margin-right: 16px;
+  @media (min-width: 1103px) {
+    width: 100%;
+  }
 }
 
 .information {
-  margin-left: 16px;
-  margin-right: 16px;
   margin-bottom: 4px;
   background-color: #f6f8f9;
   border-radius: 12px;
@@ -160,7 +205,7 @@
     font-size: 24px;
     color: #1d526a;
   }
-  //1200
+  //1024
   @media (min-width: $xl) {
     padding-left: 100px;
   }

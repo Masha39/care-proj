@@ -1,6 +1,23 @@
 {
   "regions": [
     {
+      "name": "National",
+      "links": [
+        {
+          "title": "Canadian Home Care Association",
+          "link": "https://cdnhomecare.ca/"
+        },
+        {
+          "title": "Carers Canada",
+          "link": "https://www.carerscanada.ca/resources/"
+        },
+        {
+          "title": "Heart and Stroke Foundation of Canada",
+          "link": "https://www.heartandstroke.ca/healthy-living/"
+        }
+      ]
+    },
+    {
       "name": "Alberta",
       "links": [
         {
@@ -266,10 +283,12 @@
 
     {
       "name": "Yukon",
-      "links": {
-        "title": "Home Care Program",
-        "link": "https://yukon.ca/en/health-and-wellness/care-services/learn-about-home-care-program"
-      }
+      "links": [
+        {
+          "title": "Home Care Program",
+          "link": "https://yukon.ca/en/health-and-wellness/care-services/learn-about-home-care-program"
+        }
+      ]
     }
   ]
 }
