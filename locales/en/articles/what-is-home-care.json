@@ -15,8 +15,8 @@
       "title": "Who provides home care?",
       "paragraphs": [
         "Home care services are funded publicly (typically no personal costs) and privately (paid additional services).",
-        "Publicly-funded home care services are offered by provinces and territories. Individuals must qualify to receive these supports. While all provinces and territories offer home care services, coverage may vary.",
-        "Private-pay home care services are provided by for-profit home care agencies. These services are offered to those needing additional care that is paid-out-of-pocket."
+        "<b>Publicly-funded</b> home care services are offered by provinces and territories. Individuals must qualify to receive these supports. While all provinces and territories offer home care services, coverage may vary.",
+        "<b>Private-pay</b> home care services are provided by for-profit home care agencies. These services are offered to those needing additional care that is paid-out-of-pocket."
       ]
     },
     {
@@ -27,7 +27,7 @@
       "type": "information",
       "title": "Why is care provided in homes?",
       "paragraphs": [
-        "There are many reasons for someone to require home care services. Home care programs can help people recover from short-term (acute) conditions, manage long-term (chronic) conditions, and deliver specialized services such as end-of-life care."
+        "There are many reasons for someone to require home care services. Home care programs can help people recover from <b>short-term</b> (acute) conditions, manage <b>long-term</b> (chronic) conditions, and deliver specialized services such as end-of-life care."
       ]
     },
     {

@@ -6,7 +6,7 @@
       "type": "information",
       "paragraphs": [
         "The responsibilities caregivers have may increase their likelihood of experiencing stress and burnout. It is important for caregivers to understand warning signs and use coping strategies when they feel stressed or burnt out.",
-        "Watch the video below to learn how Joanne manages stress while still caring for her family and her mother, Peggy."
+        "<b>Watch the video below to learn how Joanne manages stress while still caring for her family and her mother, Peggy.</b>"
       ]
     },
     {
@@ -28,7 +28,7 @@
       "type": "information",
       "title": "What are stressors?",
       "paragraphs": [
-        "Stressors are things that cause a person to feel stressed. Stressors can include a person, situation, or surrounding."
+        "Stressors are things that cause a person to feel stressed. Stressors can include a <b>person</b>, <b>situation</b>, or <b>surrounding</b>."
       ]
     },
     {
@@ -62,7 +62,7 @@
       "type": "information",
       "title": "What is caregiver burnout?",
       "paragraphs": [
-        "Burnout is a term used to describe intense levels of long-term stress. It includes extreme mental, physical, and emotional exhaustion. Caregiver burnout can influence mood, productivity, the ability to care for others, and/or the quality of relationships."
+        "Burnout is a term used to describe intense levels of long-term stress. It includes extreme mental, physical, and emotional exhaustion. Caregiver burnout can influence <b>mood</b>, <b>productivity</b>, the <b>ability to care for others</b>, and/or the <b>quality of relationships.</b>"
       ]
     },
     {
@@ -81,6 +81,12 @@
         "Increased likelihood of getting sick",
         "Changes in appetite or weight",
         "Increased use of drugs or alcohol"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Take the <a href='#'>Caregiver Stress & Burnout Self-Assessment</a> to see if you’re at risk for experiencing caregiver burnout. "
       ]
     }
   ]

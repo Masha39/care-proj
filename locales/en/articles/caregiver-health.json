@@ -29,7 +29,7 @@
       "icon": "/icons/one.svg",
       "tips": [
         "Make a habit of taking time for yourself each day, even if it's only 15 minutes. This is easier said than done, as many caregivers experience feelings of guilt when prioritizing their own needs before others. Consider this time as a gift to yourself and the person you care for. You will feel better after taking time for yourself, and you will provide even better care.",
-        "Try this: Visit the Self-Care Strategies page to learn about different self-care activities that work with your caregiver schedule."
+        "<b>Try this:</b> Visit the <a href='#'>Self-Care Strategies</a> page to learn about different self-care activities that work with your caregiver schedule."
       ]
     },
     {
@@ -38,7 +38,7 @@
       "icon": "/icons/two.svg",
       "tips": [
         "Checking in with yourself is about taking the time for reflection and being aware of your feelings. Some may do this by journaling, but it doesn’t need to be this formal or time-consuming.",
-        "Try this: As you’re getting ready for bed, identify the best part of your day, the worst part of your day, and something you’re looking forward to tomorrow. This exercise can prompt daily self-reflection, and can also be done with the person you care for."
+        "<b>Try this:</b> As you’re getting ready for bed, identify the best part of your day, the worst part of your day, and something you’re looking forward to tomorrow. This exercise can prompt daily self-reflection, and can also be done with the person you care for."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "icon": "/icons/four.svg",
       "tips": [
         "No one can do everything. If you feel overwhelmed, ask for help. There may be people in your life who want to help. Having courage to ask for help may open up channels of support you didn’t know existed.",
-        "Try this: Use the My Care Plan to help delegate care tasks, shopping, transportation, and more!"
+        "<b>Try this:</b> Use the <a href='#'>My Care Plan</a> to help delegate care tasks, shopping, transportation, and more!"
       ]
     },
     {
@@ -63,8 +63,8 @@
       "title": "Eat healthy meals",
       "icon": "/icons/five.svg",
       "tips": [
-        "Eating healthy meals can give you more energy and improve your overall health. Use recommendations from Canada’s Food Guide to make sure you’re getting the calories and nutrients your body needs.",
-        "Try this: As a caregiver, it can be challenging to find the time in a day to make healthy and balanced meals. Consider making a large meal that can be easily frozen and reheated later in the week."
+        "Eating healthy meals can give you more energy and improve your overall health. Use recommendations from <a href='#'>Canada’s Food Guide</a> to make sure you’re getting the calories and nutrients your body needs.",
+        "<b>Try this:</b> As a caregiver, it can be challenging to find the time in a day to make healthy and balanced meals. Consider making a large meal that can be easily frozen and reheated later in the week."
       ]
     }
   ]

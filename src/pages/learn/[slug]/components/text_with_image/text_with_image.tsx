@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import { safeParse } from '~/utils/safe_parse'
+
 import styles from './text_with_image.module.scss'
 
 export const TextWithImage = ({
@@ -14,7 +16,7 @@ export const TextWithImage = ({
           <div className={styles.content__image}>
             <Image src={`/images/${item.image}`} width={120} height={120} />
           </div>
-          <p className={styles.content__text}>{item.text}</p>
+          <p className={styles.content__text}>{safeParse(item.text)}</p>
         </div>
       ))}
     </div>

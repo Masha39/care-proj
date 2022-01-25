@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import { safeParse } from '~/utils/safe_parse'
+
 import styles from './tips.module.scss'
 
 export const Tips = ({
@@ -24,7 +26,7 @@ export const Tips = ({
         {tips.map((el, index) => {
           return (
             <li className={styles.tips__item} key={index}>
-              {el}
+              {safeParse(el)}
             </li>
           )
         })}

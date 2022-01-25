@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Layout from 'layouts/layout'
 import { TextWithImage } from 'pages/learn/[slug]/components/text_with_image/text_with_image'
-import { fetchJson } from 'util/fetch_json'
+import { fetchJson } from '~/utils/fetch_json'
 
 import styles from './article.module.scss'
 import { Banner } from './components/banner/banner'
