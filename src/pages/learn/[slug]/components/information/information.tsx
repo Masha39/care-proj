@@ -1,3 +1,5 @@
+import { safeParse } from '~/utils/safe_parse'
+
 import styles from './information.module.scss'
 
 export const Information = ({
@@ -13,7 +15,7 @@ export const Information = ({
       {paragraphs.map((el, index) => {
         return (
           <p className={styles.info__text} key={index}>
-            {el}
+            {safeParse(el)}
           </p>
         )
       })}

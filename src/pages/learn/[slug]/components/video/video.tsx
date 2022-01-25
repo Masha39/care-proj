@@ -1,9 +1,11 @@
+import { safeParse } from '~/utils/safe_parse'
+
 import styles from './video.module.scss'
 
 export const Video = ({ src, text }: { src: string; text?: string }) => {
   return (
     <>
-      <p className={styles.video__text}>{text}</p>
+      {text ? <p className={styles.video__text}>{safeParse(text)}</p> : null}
       <div className={styles.video}>
         <iframe
           className={styles.video__content}

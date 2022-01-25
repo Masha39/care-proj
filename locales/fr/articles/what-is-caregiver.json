@@ -6,7 +6,7 @@
       "type": "information",
       "title": "Qu'est-ce qu'un aide-soignant?",
       "paragraphs": [
-        "Un aidant naturel est une personne qui prodigue des soins non rémunérés à une autre personne. Au Canada, une personne sur quatre prodigue des soins non rémunérés à un membre de sa famille ou à un ami. Les aidants naturels font économiser au système de santé entre 24 et 31 milliards de dollars par an."
+        "Un aidant naturel est une personne qui prodigue des soins non rémunérés à une autre personne. Au Canada, <b>une personne sur quatre</b> prodigue des soins non rémunérés à un membre de sa famille ou à un ami. Les aidants naturels font économiser au système de santé entre <b>24 et 31 milliards de dollars par an.</b>"
       ]
     },
     {
@@ -21,28 +21,28 @@
       "content": [
         {
           "image": "daniel.svg",
-          "text": "Daniel habite à une heure de chez sa mère mais contacte régulièrement son équipe de soins à domicile et est au courant de tout changement dans sa santé. Daniel est soignant."
+          "text": "Daniel habite à une heure de chez sa mère mais contacte régulièrement son équipe de soins à domicile et est au courant de tout changement dans sa santé. <b>Daniel est soignant.</b>"
         },
         {
           "image": "joanne.svg",
-          "text": "Joanne vit avec son mari et ses deux jeunes enfants. Elle rend visite à sa mère plusieurs fois par semaine pour effectuer des tâches ménagères. Joanne est aide-soignante."
+          "text": "Joanne vit avec son mari et ses deux jeunes enfants. Elle rend visite à sa mère plusieurs fois par semaine pour effectuer des tâches ménagères. <b>Joanne est aide-soignante.</b>"
         },
         {
           "image": "rashon.svg",
-          "text": "Rashon aide son père à s'occuper de son jeune frère qui utilise un fauteuil roulant et a besoin d'aide pour les activités quotidiennes. Rashon est soignant."
+          "text": "Rashon aide son père à s'occuper de son jeune frère qui utilise un fauteuil roulant et a besoin d'aide pour les activités quotidiennes. <b>Rashon est soignant.</b>"
         },
         {
           "image": "aki.svg",
-          "text": "Aki s'occupe de sa mère à toute heure de la journée. Elle serait incapable de rester à la maison sans l'aide d'Aki. Aki est un soignant."
+          "text": "Aki s'occupe de sa mère à toute heure de la journée. Elle serait incapable de rester à la maison sans l'aide d'Aki. <b>Aki est un soignant.</b>"
         }
       ]
     },
     {
       "type": "information",
       "paragraphs": [
-        "Il peut être difficile pour les gens de se reconnaître en tant qu'aidants. Ils peuvent avoir l'impression que les emplois qu'ils occupent font partie de la vie normale d'un membre de la famille, d'un ami ou d'un voisin. Chez YourCare+, nous définissons un soignant comme une personne qui fournit des soins ou un soutien non rémunéré à une autre personne.",
+        "Il peut être difficile pour les gens de se reconnaître en tant qu'aidants. Ils peuvent avoir l'impression que les emplois qu'ils occupent font partie de la vie normale d'un membre de la famille, d'un ami ou d'un voisin. <b>Chez YourCare+, nous définissons un soignant comme une personne qui fournit des soins ou un soutien non rémunéré à une autre personne.</b>",
         "Les proches aidants occupent un rôle essentiel dans l’équipe soignante de la personne aidée.",
-        "Voyez comment les soignants s'intègrent à cela, ainsi que d'autres membres critiques, dans la figure ci-dessous."
+        "<b>Voyez comment les soignants s'intègrent à cela, ainsi que d'autres membres critiques, dans la figure ci-dessous.</b>"
       ]
     },
     {
