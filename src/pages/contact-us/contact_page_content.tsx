@@ -20,11 +20,11 @@ export const ContactPageContent = () => {
   const validationsSchema = yup.object().shape({
     firstName: yup
       .string()
-      .typeError('Должно быть строкой')
+      .typeError('must be a string')
       .required('First Name is a required field'),
     lastName: yup
       .string()
-      .typeError('Должно быть строкой')
+      .typeError('must be a string')
       .required('Last Name is a required field'),
     email: yup
       .string()
@@ -32,11 +32,11 @@ export const ContactPageContent = () => {
       .required('Email is a required field'),
     subject: yup
       .string()
-      .typeError('Должно быть строкой')
+      .typeError('must be a string')
       .required('Subject is a required field'),
     message: yup
       .string()
-      .typeError('Должно быть строкой')
+      .typeError('must be a string')
       .required('Message is a required field')
   })
   const { t } = useTranslation('static/contact_page')

@@ -13,13 +13,17 @@
     padding-bottom: 106px;
   }
 
-  @media (min-width: $xxl) {
-    padding-left: 157px;
-    padding-right: 157px;
-  }
-
   &_white {
     background: white;
+  }
+}
+
+.section:nth-child(2n) {
+  @media (min-width: $md) {
+    .block_text {
+      margin-right: 0;
+      margin-left: 37px;
+    }
   }
 }
 

@@ -103,24 +103,23 @@ const Learn = () => {
               </div>
             </div>
           </div>
-
-          {selectedContentType.value === defaultType.value &&
-            selectedTopic.value === defaultValue.value && (
-              <ArticlesGrid
-                topicsToShow={topicsToShow}
-                setTopic={setSelectedTopic}
-              />
-            )}
-
-          {selectedTopic.value === defaultValue.value &&
-            selectedContentType.value !== defaultType.value && (
-              <ArticlesGridType topicsToShow={topicsToShow} />
-            )}
-
-          {selectedTopic.value !== defaultValue.value && (
-            <ArticlesGridTopic topicsToShow={topicsToShow} />
-          )}
         </div>
+        {selectedContentType.value === defaultType.value &&
+          selectedTopic.value === defaultValue.value && (
+            <ArticlesGrid
+              topicsToShow={topicsToShow}
+              setTopic={setSelectedTopic}
+            />
+          )}
+
+        {selectedTopic.value === defaultValue.value &&
+          selectedContentType.value !== defaultType.value && (
+            <ArticlesGridType topicsToShow={topicsToShow} />
+          )}
+
+        {selectedTopic.value !== defaultValue.value && (
+          <ArticlesGridTopic topicsToShow={topicsToShow} />
+        )}
       </div>
     </Layout>
   )
