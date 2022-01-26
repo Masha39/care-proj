@@ -1,0 +1,57 @@
+{
+  "url": "chronic-disease-management",
+  "title": "Qu'est-ce que la gestion des maladies chroniques?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Il existe de nombreuses maladies (chroniques) à long terme différentes qui sont courantes chez les personnes âgées. Souvent, les personnes âgées peuvent gérer plusieurs maladies à long terme qui peuvent affecter la qualité de vie."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "Des exemples de maladies chroniques incluent:",
+      "tips": [
+        "Insuffisance cardiaque ou autres maladies cardiaques",
+        "BPCO",
+        "Diabète",
+        "Arthrite",
+        "Trouble cognitif ou démence"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "La gestion des maladies chroniques consiste à prendre soin de sa santé pour mieux gérer les symptômes d'une maladie (chronique) à long terme. De nombreuses maladies chroniques sont incurables, mais la gestion des maladies chroniques aide les gens à vivre une vie pleine et pleine de sens."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment prendre soin d'une personne atteinte d'une maladie chronique",
+      "paragraphs": [
+        "Lorsqu'une personne souffre d'une maladie de longue durée (chronique), les symptômes peuvent changer de jour en jour. Certains jours seront meilleurs que d'autres. Le suivi des symptômes quotidiens peut aider à surveiller ces changements afin qu'ils puissent être partagés avec les professionnels de la santé."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "CONSEIL",
+      "bold_text": "Comment prendre soin d'une personne atteinte d'une maladie chronique:",
+      "tips": [
+        "<b>Renseignez-vous sur la maladie.</b> Assistez aux rendez-vous de la personne soignée (avec sa permission), parlez à des professionnels de la santé qualifiés ou lisez des livres rédigés par des personnes/groupes de confiance.",
+        "<b> Enregistrez-vous chaque jour et suivez les changements de comportement ou de santé.</b> Par exemple, utilisez la feuille de zone MPOC et le journal des symptômes et la feuille de zone d'insuffisance cardiaque et le journal de poids quotidien.",
+        "<b>Écouter et répondre</b> aux besoins de la personne aidée.",
+        "Encouragez la personne soignée à <b>engager des discussions sur la planification préalable des soins</b> pour lier ses besoins à la planification à long terme.",
+        "<b>Trouvez du soutien ou des programmes</b> pour la personne dont vous vous occupez au besoin. Trouvez les services disponibles dans chaque province en visitant la page YourCare+ Resources.",
+        "<b>Préparez-vous pour les moments où vous ne pouvez pas fournir de soins.</b> Partagez les tâches avec d'autres dans la mesure du possible. Utilisez Mon plan de soins pour commencer."
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Dans ce module, apprenez-en plus sur la gestion de la MPOC et de l'insuffisance cardiaque, et sur la façon de prévenir les étourdissements."
+      ]
+    }
+  ]
+}

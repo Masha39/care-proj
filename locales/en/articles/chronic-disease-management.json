@@ -1,0 +1,57 @@
+{
+  "url": "chronic-disease-management",
+  "title": "What is Chronic Disease Management?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "There are many different long-term (chronic) diseases that are common in older adults. Oftentimes, older adults may be managing multiple long-term diseases that can affect quality of life."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "Examples of chronic diseases include:",
+      "tips": [
+        "Heart failure or other heart diseases",
+        "COPD",
+        "Diabetes",
+        "Arthritis",
+        "Cognitive impairment or demetia"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Chronic Disease Management is taking care of one's health to better manage symptoms of a long-term (chronic) disease. Many chronic diseases do not have a cure, however chronic disease management helps people live a full and meaningful life."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How to care for someone with a chronic disease",
+      "paragraphs": [
+        "When someone has a long-term (chronic) disease, symptoms can change day by day. Some days will be better than others. Tracking daily symptoms can help monitor these changes so they can be shared with health care professionals."
+      ]
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/examples.svg",
+      "title": "TIP",
+      "bold_text": "How to care for someone with a chronic disease:",
+      "tips": [
+        "<b>Learn about the condition.</b> Attend appointments of the person being cared for (with their permission), speak to qualified health professionals, or read books from trusted people/groups.",
+        "<b>Check-in each day and keep track of changes in behaviour or health.</b> For example, use the COPD Zone Sheet and Symptom Log and Heart Failure Zone Sheet and Daily Weight Log.",
+        "<b>Listen and respond</b> to the needs of the person being cared for.",
+        "Encourage the person being cared for to <b>engage in advance care planning discussions</b> to link their needs with long-term planning.",
+        "<b>Find support or programming</b> for the person being cared for where needed. Find services available in each province by visiting the YourCare+ Resources page.",
+        "<b>Prepare for times when unable to provide care.</b> Share tasks with others where possible. Use the My Care Plan to get started."
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "In this module, learn more about COPD and Heart Failure management, and how to prevent dizziness."
+      ]
+    }
+  ]
+}

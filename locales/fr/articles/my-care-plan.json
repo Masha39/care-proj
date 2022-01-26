@@ -1,0 +1,20 @@
+{
+  "url": "my-care-plan",
+  "title": "My Care Plan",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The My Care Plan is a customizable tool for primary caregivers to communicate important information about the person being cared for. This tool can be customized to list caregiver tasks, preferences of the person being cared for, and other important information."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "The My Care Plan can assist with organizing important care information in one central location. It can be used to communicate care needs to new or substitute caregivers when a primary caregiver is absent. Personal care tasks can then be easily delegated to a trusted person."
+      ]
+    }
+  ]
+}
