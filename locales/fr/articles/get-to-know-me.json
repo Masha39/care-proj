@@ -1,19 +1,19 @@
 {
   "url": "get-to-know-me",
-  "title": "Get to Know Me",
+  "title": "Apprendre à me connaître",
   "content": [
     {
       "type": "information",
-      "title": "What is it?",
+      "title": "Qu'est-ce que c'est?",
       "paragraphs": [
-        "The Get to Know Me tool is a printable sheet that helps care providers become acquainted with the person they are providing care for. It can be displayed in the home to help home care providers learn about the interests, needs, and care preferences of the person receiving care."
+        "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins."
       ]
     },
     {
       "type": "information",
-      "title": "How can it help me?",
+      "title": "Comment cela peut-il m'aider?",
       "paragraphs": [
-        "Developing positive relationships with home care providers can bring comfort and ease of mind to caregivers and people receiving care. The Get to Know Me tool quickly acquaints new and unfamiliar care providers with the abilities, preferences, and health baseline of the person they are providing care for."
+        "L'établissement de relations positives avec les fournisseurs de soins à domicile peut apporter confort et tranquillité d'esprit aux soignants et aux personnes qui reçoivent des soins. L'outil Apprenez à me connaître informe rapidement les prestataires de soins nouveaux et inconnus des capacités, des préférences et de l'état de santé de base de la personne dont ils s'occupent."
       ]
     }
   ]

@@ -1,44 +1,44 @@
 {
   "url": "what-is-copd",
-  "title": "What is COPD?",
+  "title": "Qu'est-ce que la MPOC?",
   "content": [
     {
       "type": "information",
       "paragraphs": [
-        "COPD (Chronic Obstructive Pulmonary Disease) is a long-term (chronic) condition that makes it hard to breathe and causes mucous build-up in the lungs."
+        "La MPOC (maladie pulmonaire obstructive chronique) est une affection à long terme (chronique) qui rend la respiration difficile et provoque une accumulation de mucus dans les poumons."
       ]
     },
     {
       "type": "tips",
-      "title": "Common symptoms of COPD",
+      "title": "Symptômes courants de la MPOC",
       "tips": [
-        "Hard time breathing or shortness of breath (called dyspnea)",
-        "Cough",
-        "Mucous build-up in the lungs (thick mucous, wet cough)",
-        "Feeling tired"
+        "Difficulté à respirer ou essoufflement (appelé dyspnée)",
+        "Toux",
+        "Accumulation de mucus dans les poumons (mucus épais, toux grasse)",
+        "Se sentir fatigué"
       ]
     },
     {
       "type": "information",
       "paragraphs": [
-        "Sometimes, symptoms become worse or happen more often: this is called a flare-up or an exacerbation. A flare-up may last hours or days. Call a doctor for help when a flare-up occurs."
+        "Parfois, les symptômes s'aggravent ou se produisent plus souvent : c'est ce qu'on appelle une poussée ou une exacerbation. Une poussée peut durer des heures ou des jours. Appelez un médecin pour obtenir de l'aide en cas de poussée."
       ]
     },
     {
       "type": "tips",
-      "title": "Flare-ups can happen due to",
+      "title": "Des poussées peuvent survenir à cause de",
       "tips": [
         "Stress",
-        "Sickness (cold or flu)",
-        "Breathing in very hot or cold air",
-        "Being near smoke, perfume, or pollen"
+        "Maladie (rhume ou grippe)",
+        "Respirer de l'air très chaud ou froid",
+        "Être à proximité de fumée, de parfum ou de pollen"
       ]
     },
     {
       "type": "information",
-      "title": "How to care for someone with COPD",
+      "title": "Comment prendre soin d'une personne atteinte de MPOC",
       "paragraphs": [
-        "Caring for someone with COPD can be challenging. Learning about COPD will make it easier to provide care. The doctor or primary care provider of the person with COPD may make a treatment plan, or plan of care to manage their symptoms with medication and lifestyle changes. Support an individual with COPD by helping them follow their plan of care."
+        "S'occuper d'une personne atteinte de MPOC peut être difficile. En savoir plus sur la MPOC facilitera la prestation de soins. Le médecin ou le fournisseur de soins primaires de la personne atteinte de MPOC peut élaborer un plan de traitement ou un plan de soins pour gérer ses symptômes avec des médicaments et son mode de vie. Soutenez une personne atteinte de MPOC en l'aidant à suivre son plan de soins."
       ]
     },
     {
@@ -47,29 +47,29 @@
       "content": [
         {
           "image": "dumbbell.svg",
-          "text": "<b>Stay Active</b>"
+          "text": "<b>Rester actif</b>"
         },
         {
           "image": "throat.svg",
-          "text": "<b>Practice breathing techniques</b>"
+          "text": "<b>Pratiquer les techniques de respiration</b>"
         },
         {
           "image": "book.svg",
-          "text": "<b>Follow the Plan of Care</b>"
+          "text": "<b>Suivez le programme de soins</b>"
         }
       ]
     },
     {
       "type": "tips",
-      "title": "Healthy habits to help manage COPD symptoms",
+      "title": "Des habitudes saines pour aider à gérer les symptômes de la MPOC",
       "tips": [
-        "Stop smoking",
-        "Take medications as ordered by a doctor or primary care provider",
-        "Stay active and exercise each day",
-        "Practice breathing techniques or use an inhaler when it’s hard to breathe",
-        "Rest when needed",
-        "Split up tasks to make them easier",
-        "Get pneumonia shot and the yearly flu shot"
+        "Arrêter de fumer",
+        "Prenez les médicaments prescrits par un médecin ou un fournisseur de soins primaires",
+        "Restez actif et faites de l'exercice chaque jour",
+        "Pratiquez des techniques de respiration ou utilisez un inhalateur quand vous avez du mal à respirer",
+        "Reposez-vous si nécessaire",
+        "Répartissez les tâches pour les rendre plus faciles",
+        "Faites-vous vacciner contre la pneumonie et le vaccin annuel contre la grippe"
       ]
     }
   ]

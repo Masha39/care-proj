@@ -1,30 +1,30 @@
 {
   "url": "heart-failure",
-  "title": "What is Heart Failure?",
+  "title": "Qu'est-ce que l'insuffisance cardiaque?",
   "content": [
     {
       "type": "information",
       "paragraphs": [
-        "Heart Failure (or Congestive Heart Failure) is a long-term (chronic) condition where the heart does not pump blood as well as it should."
+        "L'insuffisance cardiaque (ou insuffisance cardiaque congestive) est une affection à long terme (chronique) dans laquelle le cœur ne pompe pas le sang aussi bien qu'il le devrait."
       ]
     },
     {
       "type": "tips",
-      "title": "Common symptoms of heart failure",
+      "title": "Symptômes courants de l'insuffisance cardiaque",
       "tips": [
-        "Weight gain or loss",
-        "Swelling in feet, ankles, legs, or stomach (also called edema)",
-        "Hard to breathe",
-        "Feeling tired",
-        "Feeling lightheaded or dizzy",
-        "Fast heartbeat"
+        "Gain ou perte de poids",
+        "Gonflement des pieds, des chevilles, des jambes ou de l'estomac (également appelé œdème)",
+        "Difficile de respirer",
+        "Se sentir fatigué",
+        "Se sentir étourdi ou étourdi",
+        "Pouls rapide"
       ]
     },
     {
       "type": "information",
-      "title": "How to care for someone with Heart Failure",
+      "title": "Comment prendre soin d'une personne souffrant d'insuffisance cardiaque",
       "paragraphs": [
-        "Caring for someone with heart failure can be challenging. Learning about heart failure will make it easier to provide care. The doctor or primary care provider of the person with heart failure may make a plan to manage their symptoms. The treatment plan may include medication and lifestyle changes. Support that person by helping them follow their treatment plan."
+        "S'occuper d'une personne souffrant d'insuffisance cardiaque peut être difficile. En savoir plus sur l'insuffisance cardiaque facilitera la prestation de soins. Le médecin ou le fournisseur de soins primaires de la personne souffrant d'insuffisance cardiaque peut élaborer un plan pour gérer ses symptômes. Le plan de traitement peut inclure des médicaments. et les changements de style de vie. Soutenez cette personne en l'aidant à suivre son plan de traitement."
       ]
     },
     {
@@ -33,31 +33,31 @@
       "content": [
         {
           "image": "dumbbell.svg",
-          "text": "<b>Stay Active</b>"
+          "text": "<b>SRester actif</b>"
         },
         {
           "image": "apple.svg",
-          "text": "<b>Eat Healthy Foods</b>"
+          "text": "<b>Mangez des aliments sains</b>"
         },
         {
           "image": "book.svg",
-          "text": "<b>Follow the Treatment Plan</b>"
+          "text": "<b>Suivez le plan de traitement</b>"
         }
       ]
     },
     {
       "type": "tips",
-      "title": "Healthy habits to help manage heart failure symptoms",
+      "title": "Des habitudes saines pour aider à gérer les symptômes d'insuffisance cardiaque",
       "tips": [
-        "Take weight each day before breakfast; write down on a weight log",
-        "Take medications as ordered by a doctor or primary care provider",
-        "Check each day for swelling in stomach, feet, ankles, and legs",
-        "Eat foods that are low in salt or salt-free",
-        "Have no more than 6-8 cups of fluid each day",
-        "Stay active and exercise each day",
-        "Rest when needed",
-        "Take breaks to sit when feeling short of breath or when feeling dizzy",
-        "Keep stress low"
+        "Prendre du poids chaque jour avant le petit-déjeuner le noter sur un journal de poids",
+        "Prenez les médicaments prescrits par un médecin ou un fournisseur de soins primaires",
+        "Vérifiez chaque jour l'enflure de l'estomac, des pieds, des chevilles et des jambes",
+        "Mangez des aliments pauvres en sel ou sans sel",
+        "Ne consommez pas plus de 6 à 8 tasses de liquide par jour",
+        "Restez actif et faites de l'exercice chaque jour",
+        "Reposez-vous si nécessaire",
+        "Faites des pauses pour vous asseoir lorsque vous vous sentez essoufflé ou lorsque vous vous sentez étourdi",
+        "Gardez le stress bas"
       ]
     }
   ]

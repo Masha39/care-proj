@@ -18,6 +18,7 @@
     },
     {
       "type": "text_with_image",
+      "background": true,
       "content": [
         {
           "image": "daniel.svg",

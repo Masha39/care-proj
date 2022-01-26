@@ -1,44 +1,30 @@
 {
-  "url": "what-is-copd",
-  "title": "What is COPD?",
+  "url": "heart-failure",
+  "title": "What is Heart Failure?",
   "content": [
     {
       "type": "information",
       "paragraphs": [
-        "COPD (Chronic Obstructive Pulmonary Disease) is a long-term (chronic) condition that makes it hard to breathe and causes mucous build-up in the lungs."
+        "Heart Failure (or Congestive Heart Failure) is a long-term (chronic) condition where the heart does not pump blood as well as it should."
       ]
     },
     {
       "type": "tips",
-      "title": "Common symptoms of COPD",
+      "title": "Common symptoms of heart failure",
       "tips": [
-        "Hard time breathing or shortness of breath (called dyspnea)",
-        "Cough",
-        "Mucous build-up in the lungs (thick mucous, wet cough)",
-        "Feeling tired"
+        "Weight gain or loss",
+        "Swelling in feet, ankles, legs, or stomach (also called edema)",
+        "Hard to breathe",
+        "Feeling tired",
+        "Feeling lightheaded or dizzy",
+        "Fast heartbeat"
       ]
     },
     {
       "type": "information",
+      "title": "How to care for someone with Heart Failure",
       "paragraphs": [
-        "Sometimes, symptoms become worse or happen more often: this is called a flare-up or an exacerbation. A flare-up may last hours or days. Call a doctor for help when a flare-up occurs."
-      ]
-    },
-    {
-      "type": "tips",
-      "title": "Flare-ups can happen due to",
-      "tips": [
-        "Stress",
-        "Sickness (cold or flu)",
-        "Breathing in very hot or cold air",
-        "Being near smoke, perfume, or pollen"
-      ]
-    },
-    {
-      "type": "information",
-      "title": "How to care for someone with COPD",
-      "paragraphs": [
-        "Caring for someone with COPD can be challenging. Learning about COPD will make it easier to provide care. The doctor or primary care provider of the person with COPD may make a treatment plan, or plan of care to manage their symptoms with medication and lifestyle changes. Support an individual with COPD by helping them follow their plan of care."
+        "Caring for someone with heart failure can be challenging. Learning about heart failure will make it easier to provide care. The doctor or primary care provider of the person with heart failure may make a plan to manage their symptoms. The treatment plan may include medication and lifestyle changes. Support that person by helping them follow their treatment plan."
       ]
     },
     {
@@ -50,26 +36,28 @@
           "text": "<b>Stay Active</b>"
         },
         {
-          "image": "throat.svg",
-          "text": "<b>Practice breathing techniques</b>"
+          "image": "apple.svg",
+          "text": "<b>Eat Healthy Foods</b>"
         },
         {
           "image": "book.svg",
-          "text": "<b>Follow the Plan of Care</b>"
+          "text": "<b>Follow the Treatment Plan</b>"
         }
       ]
     },
     {
       "type": "tips",
-      "title": "Healthy habits to help manage COPD symptoms",
+      "title": "Healthy habits to help manage heart failure symptoms",
       "tips": [
-        "Stop smoking",
+        "Take weight each day before breakfast; write down on a weight log",
         "Take medications as ordered by a doctor or primary care provider",
+        "Check each day for swelling in stomach, feet, ankles, and legs",
+        "Eat foods that are low in salt or salt-free",
+        "Have no more than 6-8 cups of fluid each day",
         "Stay active and exercise each day",
-        "Practice breathing techniques or use an inhaler when it’s hard to breathe",
         "Rest when needed",
-        "Split up tasks to make them easier",
-        "Get pneumonia shot and the yearly flu shot"
+        "Take breaks to sit when feeling short of breath or when feeling dizzy",
+        "Keep stress low"
       ]
     }
   ]

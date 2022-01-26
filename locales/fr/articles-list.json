@@ -10,7 +10,7 @@
       },
       "preview_text": "De nombreuses personnes ayant besoin de services de santé préfèrent rester près de leur famille et de leurs amis dans un environnement familier et confortable, plutôt que d'emménager dans une résidence-services ou un foyer de soins de longue durée.",
       "topic": "Comprendre les soins à domicile",
-      "image": "slide_1.svg",
+      "image": "slide_3.svg",
       "read_time": "3 minute de lecture"
     },
     {
@@ -23,7 +23,7 @@
       },
       "preview_text": "Les soins à domicile sont souvent fournis par une équipe de prestataires de soins de santé. Chaque fournisseur de soins de santé possède des compétences, des connaissances, des rôles et des responsabilités uniques, travaillant ensemble pour fournir des soins complets.",
       "topic": "Comprendre les soins à domicile",
-      "image": "slide_3.svg",
+      "image": "slide_10.svg",
       "read_time": "3 minute de lecture"
     },
     {
@@ -50,6 +50,58 @@
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les outils et les stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
       "image": "slide_5.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
+      "url": "missed-visits",
+      "title": "Se préparer aux visites de soins manquées",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_6.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
+      "url": "unclear-expectations",
+      "title": "Gérer les attentes de soins peu claires",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_7.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
+      "url": "get-to-know-me",
+      "title": "Apprendre à me connaître",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins.",
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_8.svg",
+      "read_time": "5 minute de lecture"
+    },
+    {
+      "url": "my-care-plan",
+      "title": "Mon plan de soins",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes.",
+      "topic": "Comprendre les soins à domicile",
+      "image": "slide_9.svg",
       "read_time": "3 minute de lecture"
     },
     {
@@ -103,6 +155,58 @@
       "topic": "Bien-être des aidants",
       "image": "joanne.svg",
       "read_time": "6 minute de lecture"
+    },
+    {
+      "url": "self-care-quiz",
+      "title": "Quiz sur les stratégies de soins personnels",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "Prendre soin de soi vous aide à rester en bonne santé et plein d'énergie. Explorez les activités de soins personnels ci-dessous pour en savoir plus sur leurs avantages pour le bien-être cognitif, social, émotionnel, spirituel et physique.",
+      "topic": "Bien-être des aidants",
+      "image": "aki.svg",
+      "read_time": "7 minute de lecture"
+    },
+    {
+      "url": "chronic-disease-management",
+      "title": "Qu'est-ce que la gestion des maladies chroniques?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "Il existe de nombreuses maladies à long terme (chroniques) qui sont courantes chez les personnes âgées. Souvent, les personnes âgées peuvent gérer plusieurs maladies à long terme qui peuvent affecter la qualité de vie.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_11.svg",
+      "read_time": "3 minute de lecture"
+    },
+    {
+      "url": "what-is-copd",
+      "title": "Qu'est-ce que la MPOC?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "La MPOC (maladie pulmonaire obstructive chronique) est une affection à long terme (chronique) qui rend la respiration difficile et provoque une accumulation de mucus dans les poumons.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_12.svg",
+      "read_time": "4 minute de lecture"
+    },
+    {
+      "url": "heart-failure",
+      "title": "Qu'est-ce que l'insuffisance cardiaque?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "L'insuffisance cardiaque (ou insuffisance cardiaque congestive) est une affection à long terme (chronique) dans laquelle le cœur ne pompe pas le sang aussi bien qu'il le devrait.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_13.svg",
+      "read_time": "4 minute de lecture"
     }
   ]
 }

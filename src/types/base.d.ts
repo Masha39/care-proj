@@ -9,6 +9,7 @@ type ArticleContent =
   | TipsContent
   | VideoContent
   | TextWithImageContent
+  | ListContent
 
 type InformationContent = {
   title?: string
@@ -37,10 +38,17 @@ type VideoContent = {
 
 type TextWithImageContent = {
   type: 'text_with_image'
+  background: boolean
   content: TextWIthImageData[]
 }
 
 type TextWIthImageData = { image: string; text: string }
+
+type ListContent = {
+  type: 'list'
+  title: string
+  content: string[]
+}
 
 type ArticlePreview = {
   url: string
