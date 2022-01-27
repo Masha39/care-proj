@@ -6,5 +6,8 @@
   "next_topic": "NEXT TOPIC",
   "explore_all": "Explore all topics in:",
   "back": "Go back to previous article:",
-  "read_next": "Read next"
+  "read_next": "Read next",
+  "green_zone": "GREEN ZONE",
+  "yellow_zone": "YELLOW ZONE",
+  "red_zone": "RED ZONE"
 }

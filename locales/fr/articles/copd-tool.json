@@ -49,6 +49,33 @@
         "Des changements dans leurs crachats (par exemple, des changements de quantité, de couleur, de consistance)?",
         "Des changements dans leur appétit?"
       ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
     }
   ]
 }

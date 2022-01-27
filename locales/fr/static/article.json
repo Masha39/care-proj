@@ -6,5 +6,8 @@
   "next_topic": "SUJET SUIVANT",
   "explore_all": "Explore tous les sujets dans:",
   "back": "Retour à l'article précédent:",
-  "read_next": "Lire la suite"
+  "read_next": "Lire la suite",
+  "green_zone": "ZONE VERTE",
+  "yellow_zone": "ZONE JAUNE",
+  "red_zone": "ZONE ROUGE"
 }

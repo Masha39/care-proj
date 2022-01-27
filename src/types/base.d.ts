@@ -10,6 +10,7 @@ type ArticleContent =
   | VideoContent
   | TextWithImageContent
   | ListContent
+  | ZoneContent
 
 type InformationContent = {
   title?: string
@@ -39,16 +40,24 @@ type VideoContent = {
 type TextWithImageContent = {
   type: 'text_with_image'
   background: boolean
-  content: TextWIthImageData[]
+  content: TextWithImageData[]
 }
 
-type TextWIthImageData = { image: string; text: string }
+type TextWithImageData = { image: string; text: string }
 
 type ListContent = {
   type: 'list'
   title?: string
   content: string[]
 }
+
+type ZoneContent = {
+  type: 'zone'
+  label: ZoneLabel
+  content: string[]
+}
+
+type ZoneLabel = 'green' | 'yellow' | 'red'
 
 type ArticlePreview = {
   url: string

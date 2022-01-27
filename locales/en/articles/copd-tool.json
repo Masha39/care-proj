@@ -49,6 +49,33 @@
         "Any changes in their sputum (e.g., changes in amount, colour, consistency)?",
         "Any changes in their appetite?"
       ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
     }
   ]
 }
