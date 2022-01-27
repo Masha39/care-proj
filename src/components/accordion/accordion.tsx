@@ -11,7 +11,7 @@ import {
 
 import styles from 'src/components/accordion/accordion.module.scss'
 
-import Item from '../../../public/svg/accardion_button_image.svg'
+import Item from '../../../public/svg/accordion_button_image.svg'
 import { regions } from './resources.json'
 
 const ResourcesPage = () => {
@@ -27,7 +27,7 @@ const ResourcesPage = () => {
   const { firstColumn, secondColumn } = getColumns()
   return (
     <div className={styles.resources}>
-      <div className={styles.accardion_header}>
+      <div className={styles.accordion_header}>
         <div className={styles.resourses_banner}>
           <div className={styles.resources_banner_text}>
             <div className={styles.resources_title}>

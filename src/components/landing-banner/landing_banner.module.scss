@@ -29,8 +29,8 @@
 
   //1400
   @media (min-width: $xxl) {
-    max-width: 1440px;
-    margin: auto;
+    // max-width: 1440px;
+    // margin: auto;
     padding-top: 201px;
     padding-bottom: 242px;
   }
@@ -69,6 +69,11 @@
 .landing_logo_wrapper {
   position: relative;
   z-index: 1;
+  @media (min-width: 1441px) {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 15px;
+  }
 }
 
 .landing_btn {
@@ -99,24 +104,31 @@
     font-size: 26px;
     font-weight: 500;
   }
+  //576
+  @media (min-width: $sm) {
+    max-width: 500px;
+  }
   //768
   @media (min-width: $md) {
     font-size: 29px;
     font-weight: 400;
-    // margin-right: 147px;
+    max-width: 607px;
   }
-
   //992
-  @media (min-width: $md) {
-    // display: block;
+  @media (min-width: $lg) {
     font-size: 24px;
     font-weight: 500;
+    max-width: 604px;
   }
   //1400
   @media (min-width: $xxl) {
     margin-top: 34px;
     margin-bottom: 32px;
     font-size: 32px;
+    max-width: 640px;
+  }
+  @media (min-width: 1441px) {
+    max-width: 1000px;
   }
 }
 
