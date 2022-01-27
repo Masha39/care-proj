@@ -1,0 +1,50 @@
+{
+  "url": "dizziness",
+  "title": "Vertiges",
+  "content": [
+    {
+      "type": "information",
+      "title": "Que savoir sur les vertiges",
+      "paragraphs": [
+        "Les personnes vivant avec une maladie chronique sont plus susceptibles de ressentir des étourdissements ou des étourdissements en tant que symptôme de leur maladie ou en raison des effets secondaires des médicaments.",
+        "Cela peut augmenter le risque de chutes et avoir un impact sur les activités quotidiennes."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Que faire en cas de vertige",
+      "tips": [
+        "Asseyez-vous jusqu'à ce que le sentiment s'arrête",
+        "En position assise ou debout, bougez lentement pour éviter les chutes"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "La prévention",
+      "paragraphs": [""]
+    },
+    {
+      "type": "tips",
+      "title": "Comment prévenir les étourdissements et les étourdissements",
+      "tips": [
+        "Assurez-vous que les médicaments sont pris correctement et parlez à un pharmacien, à une infirmière ou à un médecin des effets secondaires",
+        "Restez actif et faites de l'exercice quotidiennement",
+        "Vérifiez chaque jour l'enflure de l'estomac, des pieds, des chevilles et des jambes. Au lieu de manger quelques gros repas, mangez plusieurs petits repas pendant la journée",
+        "Restez hydraté",
+        "Se reposer après avoir mangé",
+        "Dormir la tête sur un ou des oreillers",
+        "Évitez les endroits très chauds (par exemple, les bains à remous, les douches chaudes ou les bains)",
+        "Assurez-vous que la maison dispose d'un éclairage adéquat pour éviter les chutes",
+        "Portez des chaussures bien ajustées",
+        "Ayez des aides à la mobilité (marchette, canne, etc.) à proximité lorsque vous vous levez"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Fiche d'histoire sur les étourdissements",
+      "paragraphs": [
+        "Consultez la feuille d'histoire sur les étourdissements pour en savoir plus sur ce qu'il faut faire lorsqu'une personne éprouve des étourdissements."
+      ]
+    }
+  ]
+}

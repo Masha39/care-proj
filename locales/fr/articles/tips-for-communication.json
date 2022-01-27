@@ -1,0 +1,51 @@
+{
+  "url": "tips-for-communication",
+  "title": "Conseils pour communiquer avec les professionnels de la santé",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Lorsque les patients communiquent bien avec leurs fournisseurs de soins de santé, ils jouent un rôle actif dans leurs soins. Avoir un rôle actif dans les soins signifie que les patients posent des questions, expriment leurs préoccupations et prennent des décisions.",
+        "Les patients sont plus susceptibles d'avoir une meilleure expérience avec le système de santé, d'obtenir de meilleurs résultats de santé et de se sentir plus impliqués dans leurs soins lorsqu'ils jouent un rôle actif."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Quel est le rôle du soignant?",
+      "paragraphs": [
+        "Dans certaines situations, les professionnels de la santé peuvent compter sur les soignants pour être le défenseur, le messager ou la principale source d'informations pour la personne qui reçoit des soins.",
+        "Les soignants qui prodiguent fréquemment des soins peuvent souvent identifier les changements de santé chez la personne dont ils s'occupent. Cette information est utile aux prestataires de soins de santé qui ne voient cette personne que pour de courts rendez-vous souvent à l'extérieur de la maison."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/images/tips_for_communication.png"
+    },
+    {
+      "type": "information",
+      "title": "Comment parvenir à une bonne communication avec les professionnels de santé?",
+      "paragraphs": [
+        "Lorsque vous communiquez avec des professionnels de la santé pour vous-même ou au nom d'une personne soignée, soyez conscient de la façon dont les messages sont envoyés et reçus pour tirer le meilleur parti des visites de soins."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "CONSEILS POUR PARLER:",
+      "tips": [
+        "<b>Soyez prêt</b> — planifiez ce qui doit être discuté avec un professionnel de la santé. Il peut être utile d'écrire des questions ou d'utiliser le <a href='#'>Planificateur de rendez-vous</a>.",
+        "<b>Soyez ouvert et honnête</b> — partagez tous les problèmes de santé ou de soins qui surviennent à la maison afin que les prestataires de soins de santé puissent comprendre ce qui fonctionne ou non avec les traitements et/ou services actuels.",
+        "<b>Soyez confiant</b> — parlez avec confiance et clairement pour vous assurer de ne pas manquer d'informations importantes. Respirez profondément si vous avez du mal à rassembler vos pensées."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "CONSEILS POUR L'ÉCOUTE:",
+      "tips": [
+        "<b>Écouter activement</b> — Prenez des notes, acquiescez ou non et répondez aux questions pour montrer au professionnel de la santé qu'il est écouté.",
+        "<b>Posez des questions</b> — n'ayez pas peur de poser des questions, petites ou grandes. Il est préférable de poser des questions tout de suite pour dissiper toute confusion ou confirmer de nouvelles informations.",
+        "<b>Soyez ouvert d'esprit</b> — tenez compte des suggestions des professionnels de la santé. Changer les routines de soins peut être difficile, mais ces changements peuvent devenir bénéfiques avec le temps.",
+        "<b>Répétez pour vous assurer que vous comprenez</b> — écoutez ce que dit le professionnel de la santé, puis reformulez les points les plus importants qu'il a soulevés. Cela aidera à dissiper les malentendus et à confirmer les nouvelles informations."
+      ]
+    }
+  ]
+}

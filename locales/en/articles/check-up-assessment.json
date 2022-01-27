@@ -1,0 +1,48 @@
+{
+  "url": "check-up-assessment",
+  "title": "Check-Up Assessment",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The Check-Up Assessment is a questionnaire about health and wellbeing. It’s an opportunity to self-assess personal health needs or assess the health needs of someone being cared for. It was developed by interRAI for use in home care and community settings.",
+        "It helps inform healthcare providers about thinking and communication abilities, mood, social interactions, feelings of loneliness, physical functioning, pre-existing health conditions, and recent use of health services."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": ["Results can help healthcare providers and caregivers:"]
+    },
+    {
+      "type": "list",
+      "content": [
+        "Update care routines and address changes in health",
+        "Discover unrecognized or unmet needs",
+        "Prioritize relevant topics of discussion for medical appointments including quality of life, life choices, well-being, and functioning."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Completing the assessment",
+      "paragraphs": [""]
+    },
+    {
+      "type": "list",
+      "content": [
+        "<b>The assessment takes approximately 30 minutes to complete.</b>",
+        "It does not have to be completed in one session. Save progress and take breaks if needed.",
+        "After starting, the assessment must be completed within 48 hours to ensure that answers are current.\n"
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Keep in mind that...",
+      "tips": [
+        "Reflecting on personal health or the health of someone else may be emotional and difficult.",
+        "Results may identify areas where improvements in care are needed. This is not meant to cause guilt or fear. Results are to help caregivers and health professionals recognize what supports are needed to improve health."
+      ]
+    }
+  ]
+}

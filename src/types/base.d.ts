@@ -46,7 +46,7 @@ type TextWIthImageData = { image: string; text: string }
 
 type ListContent = {
   type: 'list'
-  title: string
+  title?: string
   content: string[]
 }
 

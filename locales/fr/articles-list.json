@@ -196,6 +196,19 @@
       "read_time": "4 minute de lecture"
     },
     {
+      "url": "copd-tool",
+      "title": "Fiche de zone MPOC et journal des symptômes",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour aider à surveiller les symptômes de la MPOC. La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour surveiller les symptômes de la MPOC et reconnaître les poussées ou les urgences.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_14.svg",
+      "read_time": "5 minute de lecture"
+    },
+    {
       "url": "heart-failure",
       "title": "Qu'est-ce que l'insuffisance cardiaque?",
       "content_type": {
@@ -207,6 +220,71 @@
       "topic": "Gestion des symptômes",
       "image": "slide_13.svg",
       "read_time": "4 minute de lecture"
+    },
+    {
+      "url": "heart-failure-tool",
+      "title": "Feuille de zone d'insuffisance cardiaque et journal de poids quotidien",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "La feuille de zone d'insuffisance cardiaque et le journal de poids quotidien peuvent être utilisés pour aider à surveiller les symptômes d'insuffisance cardiaque. La feuille de zone d'insuffisance cardiaque et l'outil journal de poids quotidien peuvent être utilisés.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_15.svg",
+      "read_time": "7 minute de lecture"
+    },
+    {
+      "url": "dizziness",
+      "title": "Vertiges",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "Les personnes vivant avec une maladie chronique sont plus susceptibles de ressentir des étourdissements ou des étourdissements en tant que symptôme de leur maladie ou en raison des effets secondaires des médicaments.",
+      "topic": "Gestion des symptômes",
+      "image": "slide_16.svg",
+      "read_time": "5 minute de lecture"
+    },
+    {
+      "url": "tips-for-communication",
+      "title": "Conseils pour communiquer avec les professionnels de la santé",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "Lorsque les patients communiquent bien avec leurs fournisseurs de soins de santé, ils jouent un rôle actif dans leurs soins. Avoir un rôle actif dans les soins signifie que les patients posent des questions, expriment leurs préoccupations et prennent des décisions.",
+      "topic": "Communiquer avec les professionnels de santé",
+      "image": "slide_17.svg",
+      "read_time": "4 minute de lecture"
+    },
+    {
+      "url": "appointment-planner",
+      "title": "Planificateur de rendez-vous",
+      "content_type": {
+        "label": "Outils",
+        "value": "outils",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "L'outil de planification de rendez-vous est un outil personnalisable et imprimable pour aider les soignants et les personnes recevant des soins à se préparer aux prochains rendez-vous médicaux. Cet outil contient des listes de contrôle avant, pendant et après le rendez-vous avec des tâches à accomplir à ces différentes étapes.",
+      "topic": "Communiquer avec les professionnels de santé",
+      "image": "slide_1.svg",
+      "read_time": "2 minute de lecture"
+    },
+    {
+      "url": "check-up-assessment",
+      "title": "Bilan de contrôle",
+      "content_type": {
+        "label": "Évaluation",
+        "value": "évaluation",
+        "icon": "/icons/assessment.svg"
+      },
+      "preview_text": "Le Check-Up Assessment est un questionnaire sur la santé et le bien-être. C'est une occasion d'auto-évaluer les besoins de santé personnels ou d'évaluer les besoins de santé d'une personne dont on s'occupe.",
+      "topic": "Communiquer avec les professionnels de santé",
+      "image": "slide_18.svg",
+      "read_time": "5 minute de lecture"
     }
   ]
 }

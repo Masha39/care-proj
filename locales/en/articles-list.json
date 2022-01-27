@@ -196,6 +196,19 @@
       "read_time": "4 minute read"
     },
     {
+      "url": "copd-tool",
+      "title": "COPD Zone Sheet and Symptom Log",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "The COPD Zone Sheet and Symptom Log can be used to help monitor COPD symptoms. The COPD Zone Sheet and Symptom Log can be used to monitor COPD symptoms and recognize when flare-ups or emergency occurs.",
+      "topic": "Managing Symptoms",
+      "image": "slide_14.svg",
+      "read_time": "5 minute read"
+    },
+    {
       "url": "heart-failure",
       "title": "What is Heart Failure?",
       "content_type": {
@@ -207,6 +220,71 @@
       "topic": "Managing Symptoms",
       "image": "slide_13.svg",
       "read_time": "4 minute read"
+    },
+    {
+      "url": "heart-failure-tool",
+      "title": "Heart Failure Zone Sheet & Daily Weight Log",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "The Heart Failure Zone Sheet and Daily Weight Log can be used to help monitor heart failure symptoms. The Heart Failure Zone Sheet and Daily Weight Log tool can be used to monitor heart failure symptoms and recognize when flare-ups or emergency occurs.",
+      "topic": "Managing Symptoms",
+      "image": "slide_15.svg",
+      "read_time": "7 minute read"
+    },
+    {
+      "url": "dizziness",
+      "title": "Dizziness",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "People living with chronic disease are more likely to feel dizzy or lightheaded as a symptom of their disease or due to medication side effects. This can increase the risk of falls and impact daily activities.",
+      "topic": "Managing Symptoms",
+      "image": "slide_16.svg",
+      "read_time": "5 minute read"
+    },
+    {
+      "url": "tips-for-communication",
+      "title": "Tips for Communicating with Healthcare Professionals",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "/icons/info.svg"
+      },
+      "preview_text": "When patients communicate well with their healthcare providers, they take on an active role in their care. Having an active role in care means patients ask questions, voice their concerns, and make decisions.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_17.svg",
+      "read_time": "4 minute read"
+    },
+    {
+      "url": "appointment-planner",
+      "title": "Appointment Planner",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "/icons/tool.svg"
+      },
+      "preview_text": "The Appointment Planner Tool is a customizable and printable tool to help caregivers and people receiving care prepare for upcoming medical appointments. Within this tool are before, during, and after appointment checklists with tasks to complete at these different stages.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_1.svg",
+      "read_time": "2 minute read"
+    },
+    {
+      "url": "check-up-assessment",
+      "title": "Check-Up Assessment",
+      "content_type": {
+        "label": "Assessment",
+        "value": "assessment",
+        "icon": "/icons/assessment.svg"
+      },
+      "preview_text": "The Check-Up Assessment is a questionnaire about health and wellbeing. It’s an opportunity to self-assess personal health needs or assess the health needs of someone being cared for.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_18.svg",
+      "read_time": "5 minute read"
     }
   ]
 }

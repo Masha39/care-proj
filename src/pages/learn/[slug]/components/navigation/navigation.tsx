@@ -126,7 +126,7 @@ export const Navigation = ({
                       )
                     })}
                   </div>
-                  {!isOpen ? (
+                  {!isOpen && nextTopicArticles.length > 3 ? (
                     <div
                       className={styles.next__showAll}
                       onClick={() => setIsOpen(true)}

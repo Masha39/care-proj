@@ -15,6 +15,10 @@
     {
       "topic": "Gestion des symptômes",
       "description": "Découvrez des conseils et des outils pour gérer les symptômes de la MPOC, de l'insuffisance cardiaque et des étourdissements à la maison."
+    },
+    {
+      "topic": "Communiquer avec les professionnels de santé",
+      "description": "Utilisez une évaluation de santé validée et un outil de planification de rendez-vous pour partager des informations importantes avec les professionnels de la santé."
     }
   ],
   "content_type": "Type de contenu",

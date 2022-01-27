@@ -1,19 +1,19 @@
 {
   "url": "my-care-plan",
-  "title": "My Care Plan",
+  "title": "Mon plan de soins",
   "content": [
     {
       "type": "information",
-      "title": "What is it?",
+      "title": "Qu'est-ce que c'est?",
       "paragraphs": [
-        "The My Care Plan is a customizable tool for primary caregivers to communicate important information about the person being cared for. This tool can be customized to list caregiver tasks, preferences of the person being cared for, and other important information."
+        "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes."
       ]
     },
     {
       "type": "information",
-      "title": "How can it help me?",
+      "title": "Comment cela peut-il m'aider?",
       "paragraphs": [
-        "The My Care Plan can assist with organizing important care information in one central location. It can be used to communicate care needs to new or substitute caregivers when a primary caregiver is absent. Personal care tasks can then be easily delegated to a trusted person."
+        "Mon plan de soins peut aider à organiser les informations importantes sur les soins dans un emplacement central. Il peut être utilisé pour communiquer les besoins en matière de soins aux nouveaux soignants ou aux soignants remplaçants lorsqu'un soignant principal est absent. Les tâches de soins personnels peuvent alors être facilement déléguées à une personne de confiance."
       ]
     }
   ]

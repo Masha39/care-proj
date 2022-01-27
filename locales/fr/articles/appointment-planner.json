@@ -1,0 +1,20 @@
+{
+  "url": "appointment-planner",
+  "title": "Planificateur de rendez-vous",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "L'outil de planification de rendez-vous est un outil personnalisable et imprimable pour aider les soignants et les personnes recevant des soins à se préparer aux prochains rendez-vous médicaux. Cet outil contient des listes de contrôle avant, pendant et après le rendez-vous avec des tâches à accomplir à ces différentes étapes."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "De nombreux patients et soignants ont du mal à établir une bonne communication avec leur fournisseur de soins de santé. Cet outil permet d'améliorer la communication avec les prestataires de soins en encourageant la préparation avant la prise de rendez-vous."
+      ]
+    }
+  ]
+}
