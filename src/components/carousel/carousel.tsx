@@ -25,6 +25,7 @@ export const Carousel = ({
   const settings = {
     speed: 500,
     arrows: true,
+    arrowsClass: 'arrows',
     slidesToShow: getSlidersToShow(),
     slidesToScroll: 1,
     responsive: [
@@ -36,9 +37,9 @@ export const Carousel = ({
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 767,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       },
