@@ -1,6 +1,9 @@
 import cn from 'classnames'
-import Image from 'next/image'
 
+// import AssessmentIcon from '../../../public/icons/assessment.svg'
+import InformationIcon from '../../../public/icons/info.svg'
+// import ToolIcon from '../../../public/icons/tool.svg'
+// import VideoIcon from '../../../public/icons/videos.svg'
 import styles from './content_type.module.scss'
 
 export const ContentType = ({
@@ -16,6 +19,21 @@ export const ContentType = ({
   isClickable?: boolean
   isActive?: boolean
 }) => {
+  // const icons = [
+  //   {
+  //     icon: <AssessmentIcon />
+  //   },
+  //   {
+  //     icon: <InformationIcon />
+  //   },
+  //   {
+  //     icon: <ToolIcon />
+  //   },
+  //   {
+  //     icon: <VideoIcon />
+  //   }
+  // ]
+
   return (
     <div
       onClick={onClick}
@@ -26,7 +44,7 @@ export const ContentType = ({
       })}
     >
       <div className={cn(styles.icon, { [styles.icon__empty]: !icon })}>
-        {icon ? <Image src={icon} width={30} height={30} /> : null}
+        {icon ? <InformationIcon /> : null}
       </div>
       <div className={cn(styles.text, { [styles.text__active]: isActive })}>
         {type}

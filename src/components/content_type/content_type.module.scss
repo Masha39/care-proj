@@ -33,11 +33,9 @@
       color: white;
     }
 
-    .icon {
-      img {
-        svg {
-          fill: white !important;
-        }
+    svg {
+      path {
+        fill: white;
       }
     }
   }
