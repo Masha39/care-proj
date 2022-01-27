@@ -17,20 +17,20 @@
 
   //768
   @media (min-width: $md) {
+    padding-left: 35px;
     padding-bottom: 171px;
-    padding-left: 32px;
   }
 
   //1024
   @media (min-width: $xl) {
     padding-top: 160px;
-    padding-left: 157px;
     padding-bottom: 300px;
   }
 
   //1400
   @media (min-width: $xxl) {
-    padding-left: 181px;
+    max-width: 1440px;
+    margin: auto;
     padding-top: 201px;
     padding-bottom: 242px;
   }
@@ -103,7 +103,7 @@
   @media (min-width: $md) {
     font-size: 29px;
     font-weight: 400;
-    margin-right: 147px;
+    // margin-right: 147px;
   }
 
   //992
@@ -117,7 +117,6 @@
     margin-top: 34px;
     margin-bottom: 32px;
     font-size: 32px;
-    margin-right: 650px;
   }
 }
 
