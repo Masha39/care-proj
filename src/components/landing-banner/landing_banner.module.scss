@@ -29,8 +29,6 @@
 
   //1400
   @media (min-width: $xxl) {
-    // max-width: 1440px;
-    // margin: auto;
     padding-top: 201px;
     padding-bottom: 242px;
   }
@@ -85,14 +83,14 @@
   font-weight: 500;
   font-size: 20px;
   cursor: pointer;
-  //320
-  @media (min-width: $msm) {
-    font-size: 15px;
-  }
-  //375
-  @media (min-width: 375px) {
-    font-size: 20px;
-  }
+  // //320
+  // @media (min-width: $msm) {
+  //   font-size: 15px;
+  // }
+  // //375
+  // @media (min-width: 375px) {
+  //   font-size: 20px;
+  // }
 }
 
 .landing_text {
