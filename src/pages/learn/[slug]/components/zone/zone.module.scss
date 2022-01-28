@@ -5,15 +5,18 @@
   position: relative;
   padding: 12px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   @media (min-width: $md) {
     padding: 24px;
   }
   &__wrapper {
-    max-width: 75%;
+    width: 100%;
   }
   &__header {
-    padding-bottom: 27px;
+    padding-bottom: 15px;
+    @media (min-width: $sm) {
+      padding-bottom: 27px;
+    }
   }
   &__label {
     font-weight: bold;
@@ -51,12 +54,14 @@
 }
 
 .badge {
-  max-width: 200px;
+  min-width: 100px;
+  width: 100px;
   background: $steelBlue100;
   border-radius: 7px;
   height: fit-content;
   @media (min-width: $sm) {
     min-width: 200px;
+    width: 200px;
   }
   &__green {
     border: 2px solid $green400;
@@ -75,14 +80,21 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 120%;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   &__text {
-    margin: 20px 15px;
+    margin: 10px 3px;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
     line-height: 120%;
     color: $steelBlue600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media (min-width: $sm) {
+      margin: 20px 15px;
+    }
   }
 }
 

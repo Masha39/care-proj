@@ -9,5 +9,11 @@
   "read_next": "Read next",
   "green_zone": "GREEN ZONE",
   "yellow_zone": "YELLOW ZONE",
-  "red_zone": "RED ZONE"
+  "red_zone": "RED ZONE",
+  "clear": "All clear",
+  "warning": "Warning Zone",
+  "emergency": "Emergency",
+  "continue_activities": "Continue activities as usual",
+  "call_physician": "Call physician",
+  "call_emergency": "Call 911"
 }

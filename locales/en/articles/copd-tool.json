@@ -63,18 +63,22 @@
       "type": "zone",
       "label": "yellow",
       "content": [
-        "No fever",
-        "No increase in shortness of breath",
-        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)",
+        "New cough, or a cough that is worse than usual",
+        "Increased or new shortness of breath",
+        "A change in colour, amount, or thickness from normal mucous (phlegm or sputum)",
+        "Fever above 38° Celsius (100.4° Fahrenheit)"
       ]
     },
     {
       "type": "zone",
       "label": "red",
       "content": [
-        "No fever",
-        "No increase in shortness of breath",
-        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+        "Struggling to breathe or can't catch their breath",
+        "Heart is 'racing'",
+        "Can't think clearly or feeling confused",
+        "Feeling dizzy or lightheaded",
+        "Have sudden chest pain that won't go away"
       ]
     }
   ]

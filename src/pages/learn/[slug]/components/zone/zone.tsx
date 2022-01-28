@@ -57,14 +57,14 @@ export const Zone = ({
               [styles.bcg__red]: red
             })}
           >
-            {(green && 'All clear') ||
-              (yellow && 'Warning Zone') ||
-              (red && 'Emergency')}
+            {(green && t('clear')) ||
+              (yellow && t('warning')) ||
+              (red && t('emergency'))}
           </div>
           <div className={styles.badge__text}>
-            {(green && 'Continue activities as usual') ||
-              (yellow && 'Call physician') ||
-              (red && 'Call 911')}
+            {(green && t('continue_activities')) ||
+              (yellow && t('call_physician')) ||
+              (red && t('call_emergency'))}
           </div>
         </div>
       </div>
