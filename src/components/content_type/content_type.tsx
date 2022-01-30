@@ -1,9 +1,10 @@
 import cn from 'classnames'
+import { values } from 'lodash'
 
-// import AssessmentIcon from '../../../public/icons/assessment.svg'
+import AssessmentIcon from '../../../public/icons/assessment.svg'
 import InformationIcon from '../../../public/icons/info.svg'
-// import ToolIcon from '../../../public/icons/tool.svg'
-// import VideoIcon from '../../../public/icons/videos.svg'
+import ToolIcon from '../../../public/icons/tool.svg'
+import VideoIcon from '../../../public/icons/videos.svg'
 import styles from './content_type.module.scss'
 
 export const ContentType = ({
@@ -19,21 +20,21 @@ export const ContentType = ({
   isClickable?: boolean
   isActive?: boolean
 }) => {
-  // const icons = [
-  //   {
-  //     icon: <AssessmentIcon />
-  //   },
-  //   {
-  //     icon: <InformationIcon />
-  //   },
-  //   {
-  //     icon: <ToolIcon />
-  //   },
-  //   {
-  //     icon: <VideoIcon />
-  //   }
-  // ]
-
+  const getIcon = () => {
+    if (icon === 'info') {
+      return <InformationIcon />
+    }
+    if (icon === 'tool') {
+      return <ToolIcon />
+    }
+    if (icon === 'videos') {
+      return <VideoIcon />
+    }
+    if (icon === 'assessment') {
+      return <AssessmentIcon />
+    }
+    return values
+  }
   return (
     <div
       onClick={onClick}
@@ -44,7 +45,7 @@ export const ContentType = ({
       })}
     >
       <div className={cn(styles.icon, { [styles.icon__empty]: !icon })}>
-        {icon ? <InformationIcon /> : null}
+        {getIcon()}
       </div>
       <div className={cn(styles.text, { [styles.text__active]: isActive })}>
         {type}

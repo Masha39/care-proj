@@ -6,7 +6,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "De nombreuses personnes ayant besoin de services de santé préfèrent rester près de leur famille et de leurs amis dans un environnement familier et confortable, plutôt que d'emménager dans une résidence-services ou un foyer de soins de longue durée.",
       "topic": "Comprendre les soins à domicile",
@@ -19,7 +19,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "Les soins à domicile sont souvent fournis par une équipe de prestataires de soins de santé. Chaque fournisseur de soins de santé possède des compétences, des connaissances, des rôles et des responsabilités uniques, travaillant ensemble pour fournir des soins complets.",
       "topic": "Comprendre les soins à domicile",
@@ -32,7 +32,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "L'outil “Mon équipe de soins à domicile“, est une feuille imprimable qui aide à comprendre et à suivre les fournisseurs de soins de santé qui composent une équipe de soins à domicile.",
       "topic": "Comprendre les soins à domicile",
@@ -45,7 +45,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les outils et les stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
@@ -58,7 +58,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "Un aidant naturel est une personne qui prodigue des soins non rémunérés à une autre personne. Au Canada, une personne sur quatre prodigue des soins non rémunérés à un membre de sa famille ou à un ami.",
       "topic": "Bien-être des aidants",
@@ -71,7 +71,7 @@
       "content_type": {
         "label": "Vidéos",
         "value": "vidéos",
-        "icon": "/icons/videos.svg"
+        "icon": "videos"
       },
       "preview_text": "Les responsabilités des soignants peuvent augmenter leur risque de stress et d'épuisement professionnel. Il est important que les soignants comprennent les signes avant-coureurs et utilisent des stratégies d'adaptation lorsqu'ils se sentent stressés ou épuisés.",
       "topic": "Bien-être des aidants",
@@ -84,7 +84,7 @@
       "content_type": {
         "label": "Évaluation",
         "value": "évaluation",
-        "icon": "/icons/assessment.svg"
+        "icon": "assessment"
       },
       "preview_text": "L'auto-évaluation du stress et de l'épuisement professionnel aide les soignants à déterminer leur niveau d'épuisement professionnel et de stress. Cet outil ne doit être utilisé qu'à titre indicatif et ne remplace pas les conseils des professionnels de la santé.",
       "topic": "Bien-être des aidants",
@@ -97,7 +97,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "La prestation de soins peut sembler accablante certains jours. Il est facile de mettre de côté ses besoins personnels pour parcourir une liste de choses à faire, mais prendre soin de soi est l'une des meilleures choses que vous puissiez faire pour la personne dont vous vous occupez.",
       "topic": "Bien-être des aidants",
