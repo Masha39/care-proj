@@ -9,7 +9,7 @@ import mobileLogo3 from 'public/assets/images/mobile_footer_logo_3.png'
 import mobileLogo4 from 'public/assets/images/mobile_footer_logo_4.png'
 import Logo from 'public/svg/landing_logo.svg'
 import LogoMobile from 'public/svg/landing_logo_mobile.svg'
-import styles from 'src/components/landing-banner/landing_banner.module.scss'
+import styles from 'src/components/main_page/landing-banner/landing_banner.module.scss'
 
 const landingBanner = () => {
   const { t } = useTranslation('main_page')
