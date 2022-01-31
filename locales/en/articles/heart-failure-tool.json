@@ -49,6 +49,52 @@
         "How many pillows are they sleeping with at night? Have they needed to sleep on a 'lazy boy' chair?",
         "How is their appetite? Is there a change?"
       ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "No changes in weight",
+        "Can perform daily activities as usual",
+        "No new swelling of feet, ankles, legs or stomach"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "2 pounds (1kg) weight gain/loss in one day",
+        "5 pounds (2-3 kg) weight gain/loss in one week",
+        "Increased or new shortness of breath",
+        "Shortness of breath that worsens when lying down or causes them to wake up from sleep",
+        "New swelling of feet, ankles, legs or stomach",
+        "Feeling weak and tired"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Struggling to breathe or can't catch their breath",
+        "Heart is 'racing'",
+        "Can't think clearly or feeling confused",
+        "Feeling dizzy or lightheaded",
+        "Have sudden chest pain that won't go away"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Heart Failure Zone Sheet Preview",
+      "images": [
+        {
+          "url": "heart_failure_tool.png",
+          "description": "Heart Failure Zones"
+        },
+        {
+          "url": "heart_failure_tool_2.png",
+          "description": "Heart Failure Daily Weight Log"
+        }
+      ]
     }
   ]
 }

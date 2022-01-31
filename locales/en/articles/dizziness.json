@@ -45,6 +45,16 @@
       "paragraphs": [
         "View the Dizziness Storysheet to learn more about what to do when someone is experiencing dizziness."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Dizziness Storysheet Preview",
+      "images": [
+        {
+          "url": "dizziness.png",
+          "description": "Printable sheet to share with care team"
+        }
+      ]
     }
   ]
 }

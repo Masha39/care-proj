@@ -26,6 +26,24 @@
         "Créez un plan: suivez les prestataires de soins de santé, les rendez-vous et les tâches ménagères et stockez ces informations dans un endroit facilement accessible. Complétez l'outil Mon plan de soins pour commencer.",
         "Envisagez des soins de relève: lorsque les tâches de soins deviennent écrasantes, envisagez de faire appel à une aide extérieure. Demandez à un membre de la famille, à un ami ou à un voisin de vous aider pour de petites tâches à rendre visite à la personne qui reçoit des soins de temps à autre. Recherchez des programmes ou des activités communautaires de jour qui la personne dont vous vous occupez pourrait participer. Si nécessaire, recherchez des programmes de relève de nuit pour des pauses occasionnelles dans la prestation de soins."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de l'auto-évaluation du stress et de l'épuisement professionnel",
+      "images": [
+        {
+          "url": "burnout_assessment.png",
+          "description": "Répondre aux questions d'auto-évaluation"
+        },
+        {
+          "url": "burnout_assessment_2.png",
+          "description": "Répondre aux questions d'auto-évaluation"
+        },
+        {
+          "url": "burnout_assessment_3.png",
+          "description": "Examiner les résultats et les prochaines étapes"
+        }
+      ]
     }
   ]
 }

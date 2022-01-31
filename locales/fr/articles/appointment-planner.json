@@ -15,6 +15,28 @@
       "paragraphs": [
         "De nombreux patients et soignants ont du mal à établir une bonne communication avec leur fournisseur de soins de santé. Cet outil permet d'améliorer la communication avec les prestataires de soins en encourageant la préparation avant la prise de rendez-vous."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu du planificateur de rendez-vous",
+      "images": [
+        {
+          "url": "appointment_planner.png",
+          "description": "Sélectionnez la raison d'un rendez-vous"
+        },
+        {
+          "url": "appointment_planner_2.png",
+          "description": "Décrire les symptômes à discuter avec un fournisseur de soins primaires"
+        },
+        {
+          "url": "appointment_planner_3.png",
+          "description": "Sélectionnez des sujets à discuter avec un fournisseur de soins primaires"
+        },
+        {
+          "url": "appointment_planner_4.png",
+          "description": "Sortie : Feuilles imprimables à apporter lors d'un rendez-vous"
+        }
+      ]
     }
   ]
 }

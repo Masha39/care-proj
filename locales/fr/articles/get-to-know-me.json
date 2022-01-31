@@ -15,6 +15,20 @@
       "paragraphs": [
         "L'établissement de relations positives avec les fournisseurs de soins à domicile peut apporter confort et tranquillité d'esprit aux soignants et aux personnes qui reçoivent des soins. L'outil Apprenez à me connaître informe rapidement les prestataires de soins nouveaux et inconnus des capacités, des préférences et de l'état de santé de base de la personne dont ils s'occupent."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Apprenez à me connaître Aperçu",
+      "images": [
+        {
+          "url": "get_to_know_me.png",
+          "description": "Fiche imprimable à partager avec l'équipe soignante"
+        },
+        {
+          "url": "get_to_know_me_2.png",
+          "description": "Fiche imprimable à partager avec l'équipe soignante"
+        }
+      ]
     }
   ]
 }

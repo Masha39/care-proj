@@ -19,7 +19,7 @@ export const Modal = ({
     content: {
       top: '50%',
       left: '50%',
-      height: '88vh',
+      height: '95vh',
       width: '85vw',
       transform: 'translate(-50%, -50%)',
       boxShadow: '0px 3px 14px 1px rgba(7, 29, 37, 0.25)',

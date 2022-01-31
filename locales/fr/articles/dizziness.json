@@ -45,6 +45,16 @@
       "paragraphs": [
         "Consultez la feuille d'histoire sur les étourdissements pour en savoir plus sur ce qu'il faut faire lorsqu'une personne éprouve des étourdissements."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de la feuille de récit sur les étourdissements",
+      "images": [
+        {
+          "url": "dizziness.png",
+          "description": "Fiche imprimable à partager avec l'équipe soignante"
+        }
+      ]
     }
   ]
 }

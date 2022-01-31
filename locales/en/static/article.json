@@ -15,5 +15,6 @@
   "emergency": "Emergency",
   "continue_activities": "Continue activities as usual",
   "call_physician": "Call physician",
-  "call_emergency": "Call 911"
+  "call_emergency": "Call 911",
+  "view": "View"
 }

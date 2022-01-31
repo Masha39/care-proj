@@ -11,6 +11,7 @@ type ArticleContent =
   | TextWithImageContent
   | ListContent
   | ZoneContent
+  | ToolPreviewContent
 
 type InformationContent = {
   title?: string
@@ -56,6 +57,14 @@ type ZoneContent = {
   label: ZoneLabel
   content: string[]
 }
+
+type ToolPreviewContent = {
+  type: 'tool_preview'
+  title: string
+  images: ImagesData[]
+}
+
+type ImagesData = { url: string; description?: string }
 
 type ZoneLabel = 'green' | 'yellow' | 'red'
 

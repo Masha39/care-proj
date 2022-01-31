@@ -27,6 +27,24 @@
         "<b>Create a plan:</b> Keep track of health care providers, appointments, and household tasks and store this information in an easily accessible location. Complete the <a href='#'>My Care Plan</a> tool to get started.",
         "<b>Consider respite care:</b> When care tasks become overwhelming, consider getting outside help. Ask a family member, friend, or neighbour to help with small tasks to visit with the person receiving care from time to time. Look into community day programs or activities that the person you care for could participate in. If needed, seek out overnight respite programs for occasional breaks in caregiving."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Stress & Burnout Self-Assessment Preview",
+      "images": [
+        {
+          "url": "burnout_assessment.png",
+          "description": "Answer self-assessment questions"
+        },
+        {
+          "url": "burnout_assessment_2.png",
+          "description": "Answer self-assessment questions"
+        },
+        {
+          "url": "burnout_assessment_3.png",
+          "description": "Review results and next steps"
+        }
+      ]
     }
   ]
 }

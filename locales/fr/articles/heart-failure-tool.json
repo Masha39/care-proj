@@ -49,6 +49,52 @@
         "Avec combien d'oreillers dorment-ils la nuit? Ont-ils eu besoin de dormir sur une chaise 'lazy boy'?",
         "Comment est leur appétit? Y a-t-il un changement?"
       ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "Aucun changement de poids",
+        "Peut effectuer les activités quotidiennes comme d'habitude",
+        "Aucun nouveau gonflement des pieds, des chevilles, des jambes ou du ventre"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "2 livres (1 kg) de gain/perte de poids en une journée",
+        "5 livres (2-3 kg) de gain/perte de poids en une semaine",
+        "Augmentation ou nouvel essoufflement",
+        "L'essoufflement qui s'aggrave en position couchée ou les fait se réveiller du sommeil",
+        "Nouveau gonflement des pieds, des chevilles, des jambes ou du ventre",
+        "Se sentir faible et fatigué"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Lut pour respirer ou ne peut pas reprendre son souffle",
+        "Le cœur s'emballe",
+        "Je n'arrive pas à penser clairement ou je me sens confus",
+        "Se sentir étourdi ou étourdi",
+        "Avez-vous une douleur soudaine à la poitrine qui ne disparaît pas"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de la feuille de zone d'insuffisance cardiaque",
+      "images": [
+        {
+          "url": "heart_failure_tool.png",
+          "description": "Zones d'insuffisance cardiaque"
+        },
+        {
+          "url": "heart_failure_tool_2.png",
+          "description": "Journal de poids quotidien pour l'insuffisance cardiaque"
+        }
+      ]
     }
   ]
 }

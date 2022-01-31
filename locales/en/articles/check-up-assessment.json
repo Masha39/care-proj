@@ -43,6 +43,28 @@
         "Reflecting on personal health or the health of someone else may be emotional and difficult.",
         "Results may identify areas where improvements in care are needed. This is not meant to cause guilt or fear. Results are to help caregivers and health professionals recognize what supports are needed to improve health."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Check-up Assessment Preview",
+      "images": [
+        {
+          "url": "check_up_assessment.png",
+          "description": "Answer assessment questions"
+        },
+        {
+          "url": "check_up_assessment_2.png",
+          "description": "Answer assessment questions"
+        },
+        {
+          "url": "check_up_assessment_3.png",
+          "description": "Output: printable sheets for caregivers and patients"
+        },
+        {
+          "url": "check_up_assessment_4.png",
+          "description": "Output: Printable sheets for health professionals"
+        }
+      ]
     }
   ]
 }

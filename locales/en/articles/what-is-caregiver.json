@@ -47,6 +47,16 @@
       ]
     },
     {
+      "type": "tool_preview",
+      "title": "Caregivers are ...",
+      "images": [
+        {
+          "url": "what_is_caregiver.png",
+          "description": "Who are caregivers?"
+        }
+      ]
+    },
+    {
       "type": "information",
       "title": "Our mission",
       "paragraphs": [

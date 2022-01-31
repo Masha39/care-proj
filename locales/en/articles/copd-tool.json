@@ -80,6 +80,20 @@
         "Feeling dizzy or lightheaded",
         "Have sudden chest pain that won't go away"
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "COPD Zone Sheet Preview",
+      "images": [
+        {
+          "url": "copd_zones.png",
+          "description": "COPD Zones"
+        },
+        {
+          "url": "copd_log.png",
+          "description": "COPD Symptom Log"
+        }
+      ]
     }
   ]
 }

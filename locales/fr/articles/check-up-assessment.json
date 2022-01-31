@@ -45,6 +45,28 @@
         "Réfléchir à sa santé personnelle ou à la santé de quelqu'un d'autre peut être émotif et difficile.",
         "Les résultats peuvent identifier les domaines où des améliorations des soins sont nécessaires. Cela ne vise pas à provoquer la culpabilité ou la peur. Les résultats sont destinés à aider les soignants et les professionnels de la santé à reconnaître les soutiens nécessaires pour améliorer la santé."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de l'évaluation de contrôle",
+      "images": [
+        {
+          "url": "check_up_assessment.png",
+          "description": "Répondre aux questions d'évaluation"
+        },
+        {
+          "url": "check_up_assessment_2.png",
+          "description": "Répondre aux questions d'évaluation"
+        },
+        {
+          "url": "check_up_assessment_3.png",
+          "description": "Sortie: fiches imprimables pour les soignants et les patients"
+        },
+        {
+          "url": "check_up_assessment_4.png",
+          "description": "Sortie: Feuilles imprimables pour les professionnels de la santé"
+        }
+      ]
     }
   ]
 }

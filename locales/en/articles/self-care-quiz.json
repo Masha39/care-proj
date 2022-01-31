@@ -15,6 +15,28 @@
       "paragraphs": [
         "Take the Self-Care Strategy Quiz and receive a customized activity list based on your interests. You may also apply filters below based on interest, time, and location to better fit your caregiving schedule."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Self-Care Strategies Quiz Preview",
+      "images": [
+        {
+          "url": "self_care_quiz.png",
+          "description": "Answer quiz questions"
+        },
+        {
+          "url": "self_care_quiz_2.png",
+          "description": "Explore self-care activities"
+        },
+        {
+          "url": "self_care_quiz_3.png",
+          "description": "Find activities that are right for you"
+        },
+        {
+          "url": "self_care_quiz_4.png",
+          "description": "Find activities that are right for you"
+        }
+      ]
     }
   ]
 }

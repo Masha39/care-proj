@@ -15,6 +15,28 @@
       "paragraphs": [
         "Mon plan de soins peut aider à organiser les informations importantes sur les soins dans un emplacement central. Il peut être utilisé pour communiquer les besoins en matière de soins aux nouveaux soignants ou aux soignants remplaçants lorsqu'un soignant principal est absent. Les tâches de soins personnels peuvent alors être facilement déléguées à une personne de confiance."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de mon plan de soins",
+      "images": [
+        {
+          "url": "my_care_plan.png",
+          "description": "Sélectionnez les rubriques d'informations"
+        },
+        {
+          "url": "my_care_plan_2.png",
+          "description": "Enregistrer les informations sur les soins"
+        },
+        {
+          "url": "my_care_plan_3.png",
+          "description": "Enregistrer les informations importantes sur les soins"
+        },
+        {
+          "url": "my_care_plan_4.png",
+          "description": "Sortie : Feuilles de plan de soins imprimables"
+        }
+      ]
     }
   ]
 }

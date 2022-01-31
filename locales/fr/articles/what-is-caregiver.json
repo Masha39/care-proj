@@ -47,6 +47,16 @@
       ]
     },
     {
+      "type": "tool_preview",
+      "title": "Les soignants sont...",
+      "images": [
+        {
+          "url": "what_is_caregiver.png",
+          "description": "Qui sont les soignants?"
+        }
+      ]
+    },
+    {
       "type": "information",
       "title": "Our mission",
       "paragraphs": [

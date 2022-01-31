@@ -80,6 +80,20 @@
         "Se sentir étourdi ou étourdi",
         "Avez-vous une douleur soudaine à la poitrine qui ne disparaît pas"
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de la feuille de zone MPOC",
+      "images": [
+        {
+          "url": "copd_zones.png",
+          "description": "Zones MPOC"
+        },
+        {
+          "url": "copd_log.png",
+          "description": "Journal des symptômes de MPOC"
+        }
+      ]
     }
   ]
 }

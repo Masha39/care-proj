@@ -16,6 +16,28 @@
         "It can be confusing and overwhelming to keep track of who is providing home care, what their roles are, and knowing what to expect when care is provided. This can be especially true for caregivers and people navigating home care for the first time.",
         "“My Home Care Team” helps to keep track of home care team members, become familiar with their roles, and know how to contact them if needed."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Home Care Team Preview",
+      "images": [
+        {
+          "url": "select_care_provider.png",
+          "description": "Select Care Providers"
+        },
+        {
+          "url": "compare_care_providers.png",
+          "description": "Compare Care providers"
+        },
+        {
+          "url": "info_about_providers.png",
+          "description": "Fill in details of each care provider"
+        },
+        {
+          "url": "printable_sheet.png",
+          "description": "Output: Printable sheets"
+        }
+      ]
     }
   ]
 }
