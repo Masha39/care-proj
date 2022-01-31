@@ -1,8 +1,10 @@
 const path = require('path')
+
 const nextTranslate = require('next-translate')
 
 /** @type {import('next').NextConfig} */
 module.exports = nextTranslate({
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
   swcMinify: false,
   reactStrictMode: true,
   webpack(config) {

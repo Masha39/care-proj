@@ -1,0 +1,43 @@
+.tips {
+  background: $steel_blue;
+  border: 1px solid $blue-2;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 25px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: $text_color;
+    padding-left: 0;
+    margin-left: 10px;
+  }
+  &__text {
+    color: $text_color;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    margin: 12px 0;
+  }
+  &__list {
+    padding-inline-start: 30px;
+  }
+  &__item {
+    list-style-type: disc;
+    margin: 0 0 0.8rem;
+    color: $text_color;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  a {
+    color: $blue400;
+    text-decoration: underline;
+  }
+}

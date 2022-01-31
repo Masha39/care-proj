@@ -4,7 +4,7 @@
   "content": [
     {
       "type": "information",
-      "title": "Qu'est-ce que les soins à domicile??",
+      "title": "Qu'est-ce que les soins à domicile?",
       "paragraphs": [
         "De nombreuses personnes ayant besoin de services de santé préfèrent rester près de leur famille et de leurs amis dans un environnement familier et confortable, plutôt que d'emménager dans une résidence-services ou un foyer de soins de longue durée.",
         "Les soins à domicile permettent aux personnes vivant avec des problèmes de santé de recevoir des soins dans le confort de leur domicile avec l'aide de fournisseurs de soins de santé et de leur aidant naturel."
@@ -21,7 +21,7 @@
     },
     {
       "type": "image",
-      "src": "/images/whatIsHomeCare.png"
+      "src": "/images/what_is_home_care.png"
     },
     {
       "type": "information",

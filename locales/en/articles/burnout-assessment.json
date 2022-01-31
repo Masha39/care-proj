@@ -1,0 +1,32 @@
+{
+  "url": "burnout-assessment",
+  "title": "Stress & Burnout Self-Assessment",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The Stress and Burnout Self-Assessment helps caregivers determine their level of burnout and stress. This tool should only be used as a guideline and does not replace the advice of health care professionals."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "Use the results of this self-assessment to determine if caregiving responsibilities (along with other life stressors) are negatively impacting personal health."
+      ]
+    },
+    {
+      "type": "tips",
+      "bold_text": "How to reduce caregiver stress and burnout",
+      "tips": [
+        "<b>Prioritize your health:</b> If you notice changes in your health or experience feelings of burnout, visit a doctor.",
+        "<b>Support self-care:</b> Check out the <a href='#'>Caregiver Health</a> page to find tips for caring for yourself while caring for others.",
+        "<b>Ask for help:</b> Ask for help from friends, family, neighbours, or a professional. You don’t have to do this alone! Inform your employer about your situation. They may be able to provide options such as flexible or remote working, personal or family leave, or other supports.",
+        "<b>Communicate with health care providers:</b> The health care providers (i.e. doctors, nurses, etc.) of the person you care for may have suggestions for easing burnout and making caregiving easier.",
+        "<b>Create a plan:</b> Keep track of health care providers, appointments, and household tasks and store this information in an easily accessible location. Complete the <a href='#'>My Care Plan</a> tool to get started.",
+        "<b>Consider respite care:</b> When care tasks become overwhelming, consider getting outside help. Ask a family member, friend, or neighbour to help with small tasks to visit with the person receiving care from time to time. Look into community day programs or activities that the person you care for could participate in. If needed, seek out overnight respite programs for occasional breaks in caregiving."
+      ]
+    }
+  ]
+}

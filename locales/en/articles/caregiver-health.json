@@ -1,0 +1,71 @@
+{
+  "url": "caregiver-health",
+  "title": "Caregiver Health",
+  "content": [
+    {
+      "type": "information",
+      "title": "How can caregivers support their own health while caring for others?",
+      "paragraphs": [
+        "Caregiving can feel overwhelming some days. It's easy to put personal needs aside in order to get through a to-do list, but caring for yourself is one of the best things you can do for the person you care for. Taking time for personal needs can prevent burnout and help you continue to provide care over longer periods of time."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Think of caregiving like driving a car...",
+      "paragraphs": [
+        "A car will only run when it is properly fueled and provided regular maintenance. Similarly, caregivers need fuel for the body, mind, and spirit to continue caring for themselves and others without burning out."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "5 tips for caregiver health",
+      "paragraphs": [
+        "Burnout is a term used to describe intense levels of long-term stress. It includes extreme mental, physical, and emotional exhaustion. Caregiver burnout can influence mood, productivity, the ability to care for others, and/or the quality of relationships."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Take at least 15 minutes a day to care for yourself",
+      "icon": "/icons/one.svg",
+      "tips": [
+        "Make a habit of taking time for yourself each day, even if it's only 15 minutes. This is easier said than done, as many caregivers experience feelings of guilt when prioritizing their own needs before others. Consider this time as a gift to yourself and the person you care for. You will feel better after taking time for yourself, and you will provide even better care.",
+        "<b>Try this:</b> Visit the <a href='#'>Self-Care Strategies</a> page to learn about different self-care activities that work with your caregiver schedule."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Check in with yourself daily",
+      "icon": "/icons/two.svg",
+      "tips": [
+        "Checking in with yourself is about taking the time for reflection and being aware of your feelings. Some may do this by journaling, but it doesn’t need to be this formal or time-consuming.",
+        "<b>Try this:</b> As you’re getting ready for bed, identify the best part of your day, the worst part of your day, and something you’re looking forward to tomorrow. This exercise can prompt daily self-reflection, and can also be done with the person you care for."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Find safe outlets to express your honest feelings",
+      "icon": "/icons/three.svg",
+      "tips": [
+        "Some days it will be harder to manage daily stressors than others. This is a normal experience. Suppressing emotions can cause you to get angry or frustrated with the person you care for. Try to find ways to express your feelings in a safe way. This might mean talking to a trusted friend, writing in a journal, or speaking with a therapist."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Ask for help",
+      "icon": "/icons/four.svg",
+      "tips": [
+        "No one can do everything. If you feel overwhelmed, ask for help. There may be people in your life who want to help. Having courage to ask for help may open up channels of support you didn’t know existed.",
+        "<b>Try this:</b> Use the <a href='#'>My Care Plan</a> to help delegate care tasks, shopping, transportation, and more!"
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Eat healthy meals",
+      "icon": "/icons/five.svg",
+      "tips": [
+        "Eating healthy meals can give you more energy and improve your overall health. Use recommendations from <a href='#'>Canada’s Food Guide</a> to make sure you’re getting the calories and nutrients your body needs.",
+        "<b>Try this:</b> As a caregiver, it can be challenging to find the time in a day to make healthy and balanced meals. Consider making a large meal that can be easily frozen and reheated later in the week."
+      ]
+    }
+  ]
+}

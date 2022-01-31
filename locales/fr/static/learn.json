@@ -19,12 +19,22 @@
     {
       "label": "Information",
       "value": "information",
-      "icon": "/icons/info.svg"
+      "icon": "info"
     },
     {
       "label": "Outils",
       "value": "outils",
-      "icon": "/icons/tool.svg"
+      "icon": "tool"
+    },
+    {
+      "label": "Vidéos",
+      "value": "vidéos",
+      "icon": "videos"
+    },
+    {
+      "label": "Évaluation",
+      "value": "évaluation",
+      "icon": "assessment"
     }
   ]
 }

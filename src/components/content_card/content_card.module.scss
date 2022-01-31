@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 264px;
+  min-height: 283px;
+  width: 100%;
+  border-radius: 7px;
+  background: linear-gradient(
+    0deg,
+    rgba(29, 86, 106, 0.1),
+    rgba(29, 86, 106, 0.1)
+  );
+  box-shadow: 0 1px 2px 1px rgba(7, 29, 37, 0.08);
+  transition: transform 0.3s ease-in 0s;
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(7 29 37 / 15%) 0 2px 5px 2px;
+  }
+
+  &__title {
+    height: 4rem;
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: $text-color;
+
+    h4 {
+      margin: 0;
+      max-height: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 15%;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(246, 248, 249));
+      }
+    }
+  }
+  &__link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: $blue-1;
+    margin-top: 1rem;
+  }
+  &__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  &__contentType {
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+  }
+  &__footer {
+    min-height: 115px;
+    background: $steel_blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 20px 20px 20px;
+    border-radius: 0 0 7px 7px;
+  }
+}

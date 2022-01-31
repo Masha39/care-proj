@@ -1,0 +1,45 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  padding: 0 157px;
+  &__topic {
+    font-weight: 500;
+    font-size: 26px;
+    color: $text_color_orange;
+    display: flex;
+    justify-content: center;
+  }
+  &__noTopic {
+    color: $text_color_blue;
+    font-weight: 400;
+    margin: 7rem 0 10rem 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  &__description {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: $text-color;
+    max-width: 600px;
+    margin: 12px auto 32px auto;
+    text-align: center;
+  }
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    width: 215px;
+    margin: 0 auto 48px auto;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    margin: 0 8px 20px 8px;
+  }
+}
