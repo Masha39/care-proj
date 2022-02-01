@@ -3,13 +3,15 @@
   padding-top: 124px;
   padding-left: 16px;
   padding-bottom: 31px;
-  position: relative;
+  background-image: url('../../../../src/assets/images/landing_banner_mobile.jpg');
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: top right;
   background-size: auto 100%;
+
   //576
   @media (min-width: $sm) {
-    background-image: url(../../../assets/images/landing_banner_mobile.jpg);
+    background-image: url('../../../../src/assets/images/landing_banner.jpg');
     background-repeat: no-repeat;
     padding-bottom: 80px;
   }
@@ -18,19 +20,17 @@
   @media (min-width: $md) {
     padding-left: 35px;
     padding-bottom: 171px;
-    padding-left: 32px;
   }
 
   //1024
   @media (min-width: $xl) {
     padding-top: 160px;
-    padding-left: 157px;
     padding-bottom: 300px;
   }
 
   //1400
   @media (min-width: $xxl) {
-    padding-left: 181px;
+    padding-left: 162px;
     padding-top: 201px;
     padding-bottom: 242px;
   }
@@ -41,8 +41,7 @@
   z-index: 1;
   @media (min-width: 1441px) {
     margin: auto;
-    max-width: 1440px;
-
+    max-width: 1344px;
     padding-left: 15px;
   }
 }
@@ -71,7 +70,7 @@
   @media (min-width: 1700px) {
     content: linear-gradient(
       59.57deg,
-      #e2ecf0 56.75%,
+      #e2ecf0 65.75%,
       rgba(226, 236, 240, 0) 76.73%
     );
   }
@@ -116,7 +115,6 @@
   }
   //768
   @media (min-width: $md) {
-    max-width: 607px;
     font-size: 29px;
     font-weight: 400;
   }
@@ -146,10 +144,10 @@
   background: #d87b38;
   color: white;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   //576
-  @media (min-width: $sm) {
+  @media (min-width: $mob) {
     font-size: 20px;
   }
 }
@@ -487,5 +485,3 @@
     font-size: 18px;
   }
 }
-
-//footer end

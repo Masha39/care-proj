@@ -16,6 +16,10 @@
   @media (min-width: $xxl) {
     margin-bottom: 68px;
   }
+  @media (min-width: 1441px) {
+    max-width: 1440px;
+    margin: auto;
+  }
 }
 
 .accordion_left_content {
@@ -40,10 +44,16 @@
   @media (min-width: $xl) {
     display: block;
     padding-top: 32px;
-    padding-left: 100px;
+    padding-left: 26px;
     padding-bottom: 32px;
     color: #1d526a;
     font-size: 18px;
+  }
+  //1440
+  @media (min-width: $xxl) {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 157px;
   }
 }
 
@@ -76,6 +86,10 @@
   margin-bottom: 10px;
   margin-left: 16px;
   margin-right: 16px;
+  //1440
+  @media (min-width: $xxl) {
+    margin-left: 0px;
+  }
 }
 
 .information {
@@ -109,6 +123,7 @@
 .information_content_item::after {
   content: url('../../../public/svg/accordion_item.svg');
   padding-left: 8px;
+  padding-right: 15px;
 }
 
 .resources_wrapper {
@@ -128,10 +143,12 @@
   color: #a35f2f;
   //1200
   @media (min-width: $xl) {
-    padding-left: 100px;
+    padding-left: 26px;
   }
   //1400
   @media (min-width: $xxl) {
+    max-width: 1440px;
+    margin: auto;
     padding-top: 72px;
     padding-bottom: 16px;
     padding-left: 156px;
@@ -144,6 +161,7 @@
   padding-bottom: 130px;
   font-size: 24px;
   color: #1d526a;
+  max-width: 360px;
   //576
   @media (min-width: $sm) {
     display: none;
@@ -162,10 +180,12 @@
   }
   //1200
   @media (min-width: $xl) {
-    padding-left: 100px;
+    padding-left: 26px;
   }
   //1400
   @media (min-width: $xxl) {
+    max-width: 1440px;
+    margin: auto;
     padding-left: 156px;
     padding-bottom: 160px;
     font-size: 28px;

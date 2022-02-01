@@ -9,7 +9,7 @@ import {
   AccordionItemPanel
 } from 'react-accessible-accordion'
 
-import styles from 'src/components/accordion/accordion.module.scss'
+import styles from 'src/pages/resources/resources.module.scss'
 
 import Item from '../../../public/svg/accordion_button_image.svg'
 import { regions } from '../../pages/resources/resources.json'
