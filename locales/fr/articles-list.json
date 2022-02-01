@@ -58,7 +58,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "info.svg"
+        "icon": "info"
       },
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
@@ -71,7 +71,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "info.svg"
+        "icon": "info"
       },
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
@@ -84,7 +84,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "tool.svg"
+        "icon": "tool"
       },
       "preview_text": "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins.",
       "topic": "Comprendre les soins à domicile",
@@ -97,7 +97,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "tool.svg"
+        "icon": "tool"
       },
       "preview_text": "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes.",
       "topic": "Comprendre les soins à domicile",
