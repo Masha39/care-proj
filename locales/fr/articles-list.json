@@ -58,7 +58,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info.svg"
       },
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
@@ -71,7 +71,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info.svg"
       },
       "preview_text": "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face.",
       "topic": "Comprendre les soins à domicile",
@@ -84,7 +84,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool.svg"
       },
       "preview_text": "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins.",
       "topic": "Comprendre les soins à domicile",
@@ -97,7 +97,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool.svg"
       },
       "preview_text": "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes.",
       "topic": "Comprendre les soins à domicile",
@@ -162,7 +162,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "Prendre soin de soi vous aide à rester en bonne santé et plein d'énergie. Explorez les activités de soins personnels ci-dessous pour en savoir plus sur leurs avantages pour le bien-être cognitif, social, émotionnel, spirituel et physique.",
       "topic": "Bien-être des aidants",
@@ -175,7 +175,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "Il existe de nombreuses maladies à long terme (chroniques) qui sont courantes chez les personnes âgées. Souvent, les personnes âgées peuvent gérer plusieurs maladies à long terme qui peuvent affecter la qualité de vie.",
       "topic": "Gestion des symptômes",
@@ -188,7 +188,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "La MPOC (maladie pulmonaire obstructive chronique) est une affection à long terme (chronique) qui rend la respiration difficile et provoque une accumulation de mucus dans les poumons.",
       "topic": "Gestion des symptômes",
@@ -201,7 +201,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour aider à surveiller les symptômes de la MPOC. La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour surveiller les symptômes de la MPOC et reconnaître les poussées ou les urgences.",
       "topic": "Gestion des symptômes",
@@ -214,7 +214,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "L'insuffisance cardiaque (ou insuffisance cardiaque congestive) est une affection à long terme (chronique) dans laquelle le cœur ne pompe pas le sang aussi bien qu'il le devrait.",
       "topic": "Gestion des symptômes",
@@ -227,7 +227,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "La feuille de zone d'insuffisance cardiaque et le journal de poids quotidien peuvent être utilisés pour aider à surveiller les symptômes d'insuffisance cardiaque. La feuille de zone d'insuffisance cardiaque et l'outil journal de poids quotidien peuvent être utilisés.",
       "topic": "Gestion des symptômes",
@@ -240,7 +240,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "Les personnes vivant avec une maladie chronique sont plus susceptibles de ressentir des étourdissements ou des étourdissements en tant que symptôme de leur maladie ou en raison des effets secondaires des médicaments.",
       "topic": "Gestion des symptômes",
@@ -253,7 +253,7 @@
       "content_type": {
         "label": "Information",
         "value": "information",
-        "icon": "/icons/info.svg"
+        "icon": "info"
       },
       "preview_text": "Lorsque les patients communiquent bien avec leurs fournisseurs de soins de santé, ils jouent un rôle actif dans leurs soins. Avoir un rôle actif dans les soins signifie que les patients posent des questions, expriment leurs préoccupations et prennent des décisions.",
       "topic": "Communiquer avec les professionnels de santé",
@@ -266,7 +266,7 @@
       "content_type": {
         "label": "Outils",
         "value": "outils",
-        "icon": "/icons/tool.svg"
+        "icon": "tool"
       },
       "preview_text": "L'outil de planification de rendez-vous est un outil personnalisable et imprimable pour aider les soignants et les personnes recevant des soins à se préparer aux prochains rendez-vous médicaux. Cet outil contient des listes de contrôle avant, pendant et après le rendez-vous avec des tâches à accomplir à ces différentes étapes.",
       "topic": "Communiquer avec les professionnels de santé",
@@ -279,7 +279,7 @@
       "content_type": {
         "label": "Évaluation",
         "value": "évaluation",
-        "icon": "/icons/assessment.svg"
+        "icon": "assessment"
       },
       "preview_text": "Le Check-Up Assessment est un questionnaire sur la santé et le bien-être. C'est une occasion d'auto-évaluer les besoins de santé personnels ou d'évaluer les besoins de santé d'une personne dont on s'occupe.",
       "topic": "Communiquer avec les professionnels de santé",

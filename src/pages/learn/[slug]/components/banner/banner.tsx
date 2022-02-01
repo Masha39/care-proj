@@ -43,7 +43,7 @@ export const Banner = ({
         </div>
         <h1 className={styles.banner__title}>{title}</h1>
         <div className={styles.banner__info}>
-          <ContentType type={type} icon={icon} />
+          <ContentType type={type} icon={icon} classname="border" />
           <div className={styles.banner__text}>{readTime}</div>
         </div>
       </div>

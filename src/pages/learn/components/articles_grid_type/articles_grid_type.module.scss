@@ -1,7 +1,10 @@
 .wrapper {
   display: flex;
-  // padding: 0 157px;
   flex-wrap: wrap;
+  margin: 32px 0;
+  @media (min-width: $xl) {
+    margin: 64px 0;
+  }
 }
 
 .articles {

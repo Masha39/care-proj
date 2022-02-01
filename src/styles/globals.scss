@@ -78,13 +78,11 @@ li {
   .slick-next::before {
     background: url('../assets/icons/arrow_right.svg') center no-repeat !important;
     color: transparent;
-    margin-left: 3px;
   }
 
   .slick-prev::before {
     background: url('../assets/icons/arrow_left.svg') center no-repeat !important;
     color: transparent;
-    margin-right: 3px;
   }
 }
 
@@ -114,4 +112,17 @@ li {
   margin: 0;
   list-style: none;
   text-align: center;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-prev.slick-disabled:before {
+  opacity: 0 !important;
+}
+
+.slick-next.slick-disabled:before {
+  opacity: 0 !important;
 }

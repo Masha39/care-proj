@@ -44,5 +44,6 @@
       "value": "assessment",
       "icon": "assessment"
     }
-  ]
+  ],
+  "sorry": "Sorry, we couldn't find articles in the topic for this content type."
 }
