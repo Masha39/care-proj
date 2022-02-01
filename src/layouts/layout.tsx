@@ -1,9 +1,7 @@
 import React from 'react'
 
-// import { Footer } from '../components/footer/footer'
-import { Footer } from 'components/Footer/footer'
-import { Header } from 'components/Header/header'
-
+import { Footer } from '../components/footer/footer'
+import { Header } from '../components/header/header'
 import styles from './layout.module.scss'
 
 const Layout = ({ children }: { children: React.ReactNode }) => (
