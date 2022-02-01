@@ -1,0 +1,54 @@
+{
+  "h1": "PRIVACY POLICY – yourCARE+",
+  "privacy_policy": [
+    {
+      "title": "Last updated: December 1, 2021 ",
+      "description": "YourCare+ (the “Site”) and  any content, materials, results that are found on or provided by the Site, as a result of any data, including but not limited to Personal Data, that may be provided by you (the “Materials”) (the “Site” and the “materials” shall collectively be known as the “Service”) are owned by McMaster University (referred to as “we”, “us”, or “our”).This document explains how your information and Personal Data, as defined below, will be collected, used, stored and protected in accordance with the terms of this Privacy Policy and any applicable legislation. By using the Service, you consent to the terms and conditions as set out in this Policy."
+    },
+    {
+      "title": "Information we collect",
+      "description": "When you use the Site, information we collect may include, but is not limited to: Diagnostics information with regards to use of the Service and its performance as well as basic web-analytic information about your interactions with the Site. While using the Service, we may ask you to provide us with certain personally identifiable information (“Personal Data”)."
+    },
+    {
+      "title": "How we use your information and Personal Data",
+      "description": "While information and Personal Data is collected, no Personal Data is stored during the use of this Site. This Site will collect analytics and feedback to understand user interactions with the Site and materials. Information collected for these purposes is anonymous, and will be used to inform future improvements made to the function and delivery of our service. Any information and Personal Data entered on the Site is stored and accessible to your device only. We use your information and/or Personal Data to",
+      "list": {
+        "li": "Provide the access to the Service that you request;",
+        "li": "Populate generated documents for information and education with personalized fields;",
+        "li": "Detect and address any technical or other issues with the Site and",
+        "li": "Assess use to improve and maintain the Service."
+      },
+      "description": "Please be aware that your information could be used for research purposes, but only for research projects approved by the research ethics committee and any other authority required by the applicable laws. The information will be coded so that researchers using the data bank, which may contain your information and/or Personal Data, will not have access to any identifying information. Your email address will never be provided to third parties. If you do not want to be contacted please email <(contact@yourcareplus.ca)>"
+    },
+    {
+      "title": "How we store and protect your data",
+      "description": "Access to your information and/or Personal Data is limited, controlled, and managed to make sure that confidentiality is preserved. Maintaining your privacy and appropriate confidentiality is a top priority to us and strict security rules are in place to guarantee privacy is maintained at all times. Despite our security measures, we cannot guarantee total confidentiality in the security of our databases. We may retain your information and/or Personal Data to comply with laws, prevent fraud, resolve disputes, troubleshoot problems, assist with any investigations, enforce our Terms of Use and take other actions otherwise permitted by law."
+    },
+    {
+      "title": "Disclosure to Other Third Parties",
+      "description": "Your information and/or Personal Data may also be disclosed to the following third parties:",
+      "list": {
+        "li": "Government and Regulatory Authorities such as provincial or federal government agencies.",
+        "li": "Law enforcement or other third parties pursuant to valid legal process such as a subpoena, litigation or court order or issues of public importance, where disclosure is necessary or appropriate.",
+        "li": "Others, in the event of a reorganization, merger, or sale we may transfer any and all personal information we collect to the relevant third party.",
+        "li": "We may share de-identified data about usage of the Site for statistical purposes with authorized third parties under specific data transfer or data reporting agreements. In all cases, the information will be fully de-identified to prevent any access to personal information if any and/or identification of individuals."
+      }
+    },
+    {
+      "title": "Users from outside Canada",
+      "description": "If you are using the Service from a location outside of Canada, you consent to all information, analytics, and/or Personal Data you provide to us will be maintained in our servers located within Canada. By providing us with any of your information and/or Personal Data through the Service, you consent to transfer of your information, analytics and/or Personal Data to Canada."
+    },
+    {
+      "title": "Your rights to access and control your information and/or Personal Data",
+      "description": "Very little of your information and/or Personal Data is collected through the Service. At any point in time, you may request complete erasure of your information and/or Personal Data. After deleting your information, and/or Personal Data some of your analytics data may still be stored as part of previously generated aggregated statistics. At any time, and without providing a reason, you may request to obtain a copy, in an intelligible electronic format, of the data stored in your record. Any request to obtain or delete your information and/or Personal Data should be directed to: contact@yourcareplus.ca You understand and agree that you assume all responsibility and risk for your use of the Service, the internet generally, and the documents you post or access and for your conduct. Upon your request, we will take reasonable steps to correct, amend or delete your information and/or Personal Data that is found to be inaccurate, incomplete or processed in a manner non-compliant with this Privacy Policy except where the burden or expense of providing access would be disproportionate to the risks to your privacy, where the rights of persons other than you would be violated or where doing so is otherwise consistent with applicable law."
+    },
+    {
+      "title": "Changes to this privacy policy",
+      "description": "This Privacy Policy is effective as of June 23, 2020 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. McMaster University is committed to assessing, reviewing and updating this Privacy Policy on a case by case basis to meet any changes in regulatory requirements in applicable jurisdictions. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy."
+    },
+    {
+      "title": "Contact us",
+      "description": "If you have any questions about this Privacy Policy, please contact us at: contact@yourcareplus.ca"
+    }
+  ]
+}
