@@ -1,0 +1,51 @@
+{
+  "url": "tips-for-communication",
+  "title": "Tips for Communicating with Healthcare Professionals",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "When patients communicate well with their healthcare providers, they take on an active role in their care. Having an active role in care means patients ask questions, voice their concerns, and make decisions.",
+        "Patients are more likely to have a better experience with the healthcare system, achieve better health outcomes, and feel more involved in their care when they play an active role."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "What is the role of the caregiver?",
+      "paragraphs": [
+        "In some situations, healthcare professionals may rely on caregivers to be the advocate, messenger, or main source of information for the person receiving care.",
+        "Caregivers who provide care frequently can often identify health changes in the person they care for. This information is helpful to healthcare providers who may only see that person for short appointments often outside of the home."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/images/tips_for_communication.png"
+    },
+    {
+      "type": "information",
+      "title": "How to achieve good communication with healthcare professionals?",
+      "paragraphs": [
+        "When communicating with healthcare professionals for yourself, or on behalf of someone being cared for, be mindful of how messages are sent and received to make the most out of care visits."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "TIPS FOR SPEAKING:",
+      "tips": [
+        "<b>Be prepared</b> — Plan what should be discussed with a healthcare provider. It may help to write out questions or use the <a href='/learn/appointment-planner'>Appointment Planner</a>.",
+        "<b>Be open and honest</b> — Share any health or care challenges that are occurring at home so healthcare providers can understand what is or isn't working with current treatments and/or services.",
+        "<b>Be confident</b> — Speak confidently and clearly to make sure important information is not missed. Take a deep breath if you are struggling to gather your thoughts."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "TIPS FOR LISTENING:",
+      "tips": [
+        "<b>Listen actively</b> — Take notes, nod in agreement or disagreement, and answer questions to show the health professional they are being listened to.",
+        "<b>Ask questions</b> — Don't be afraid to ask questions, big or small. It is better to ask questions right away to clear up confusion or confirm new information.",
+        "<b>Be open-minded</b> — Consider the suggestions that health professionals make. Changing care routines can be difficult, but these changes may become beneficial over time.",
+        "<b>Repeat back to ensure you understand</b> — Listen to what the health professional says, then rephrase the most important points they made. This will help to clear up misunderstandings, and confirm new information."
+      ]
+    }
+  ]
+}

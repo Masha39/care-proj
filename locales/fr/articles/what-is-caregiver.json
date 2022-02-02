@@ -18,6 +18,7 @@
     },
     {
       "type": "text_with_image",
+      "background": true,
       "content": [
         {
           "image": "daniel.svg",
@@ -43,6 +44,16 @@
         "Il peut être difficile pour les gens de se reconnaître en tant qu'aidants. Ils peuvent avoir l'impression que les emplois qu'ils occupent font partie de la vie normale d'un membre de la famille, d'un ami ou d'un voisin. <b>Chez YourCare+, nous définissons un soignant comme une personne qui fournit des soins ou un soutien non rémunéré à une autre personne.</b>",
         "Les proches aidants occupent un rôle essentiel dans l’équipe soignante de la personne aidée.",
         "<b>Voyez comment les soignants s'intègrent à cela, ainsi que d'autres membres critiques, dans la figure ci-dessous.</b>"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Les soignants sont...",
+      "images": [
+        {
+          "url": "what_is_caregiver.png",
+          "description": "Qui sont les soignants?"
+        }
       ]
     },
     {

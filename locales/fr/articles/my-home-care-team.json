@@ -16,6 +16,28 @@
         "Il peut être déroutant et accablant de savoir qui fournit des soins à domicile, quels sont leurs rôles et de savoir à quoi s'attendre lorsque les soins sont fournis. Cela peut être particulièrement vrai pour les soignants et les personnes qui accèdent aux soins à domicile pour la première fois.",
         "“Mon équipe de soins à domicile“ permet de suivre les membres de l'équipe de soins à domicile, de se familiariser avec leurs rôles et de savoir comment les contacter si nécessaire."
       ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de l'équipe de soins à domicile",
+      "images": [
+        {
+          "url": "select_care_provider.png",
+          "description": "Sélectionnez les fournisseurs de soins"
+        },
+        {
+          "url": "compare_care_providers.png",
+          "description": "Comparer les prestataires de soins"
+        },
+        {
+          "url": "info_about_providers.png",
+          "description": "Remplissez les détails de chaque fournisseur de soins"
+        },
+        {
+          "url": "printable_sheet.png",
+          "description": "Sortie: Feuilles imprimables"
+        }
+      ]
     }
   ]
 }

@@ -71,7 +71,7 @@ export const Navigation = ({
               </div>
               <div className={styles.nav__image}>
                 <Image
-                  src={`/images/${nextArticle.image}`}
+                  src={`/svg/${nextArticle.image}`}
                   width={264}
                   height={168}
                 />
@@ -126,7 +126,7 @@ export const Navigation = ({
                       )
                     })}
                   </div>
-                  {!isOpen ? (
+                  {!isOpen && nextTopicArticles.length > 3 ? (
                     <div
                       className={styles.next__showAll}
                       onClick={() => setIsOpen(true)}

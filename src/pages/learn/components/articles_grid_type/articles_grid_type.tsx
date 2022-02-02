@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import Link from 'next/link'
 
@@ -13,10 +13,10 @@ export const ArticlesGridType = ({
   topicsToShow: Record<string, Topic>
 }) => {
   return (
-    <div className={styles.wrapper}>
-      <div className="container">
+    <div className="container">
+      <div className={styles.wrapper}>
         {Object.entries(topicsToShow).map(([topicName, topicArticles]) => (
-          <div key={topicName} className={styles.articles}>
+          <Fragment key={topicName}>
             {topicArticles.articles.map((item, index) => {
               return (
                 <div className={styles.articles__item} key={index}>
@@ -33,7 +33,7 @@ export const ArticlesGridType = ({
                 </div>
               )
             })}
-          </div>
+          </Fragment>
         ))}
       </div>
     </div>

@@ -1,0 +1,40 @@
+{
+  "url": "missed-visits",
+  "title": "Se préparer aux visites de soins manquées",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Quel est le problème ou le défi?",
+      "paragraphs": [
+        "Il est probable qu'une visite de soins à domicile manquée se produise. Cela peut être stressant pour les soignants et les personnes qui reçoivent des soins. obligatoire."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Pourquoi ce problème existe-t-il?",
+      "paragraphs": [
+        "Les visites manquées peuvent survenir en raison de la maladie, de la météo, du transport et de l'accès aux prestataires de soins disponibles."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Que puis-je faire à propos de ce problème?",
+      "paragraphs": [
+        "Les visites manquées sont souvent imprévisibles et hors du contrôle des soignants. Cela peut être frustrant et conduire à un sentiment d'impuissance. Cependant, il y a des choses qui peuvent être faites pour s'assurer que le problème est connu et se préparer aux futures visites manquées."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Que puis-je faire à propos de ce problème?",
+      "paragraphs": [
+        "Essayez les outils ci-dessous pour vous aider à rencontrer de nouveaux prestataires de soins: <li>Informez votre coordinateur de soins</li> <li>Créez un <a href='/fr/learn/my-care-plan'>Mon plan de soins</a></li>"
+      ]
+    }
+  ]
+}

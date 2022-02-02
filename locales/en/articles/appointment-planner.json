@@ -1,0 +1,42 @@
+{
+  "url": "appointment-planner",
+  "title": "Appointment Planner",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The Appointment Planner Tool is a customizable and printable tool to help caregivers and people receiving care prepare for upcoming medical appointments. Within this tool are before, during, and after appointment checklists with tasks to complete at these different stages."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "Many patients and caregivers struggle to achieve good communication with their healthcare provider. This tool helps improve communication with healthcare providers by encouraging preparation before entering an appointment."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Appointment Planner Preview",
+      "images": [
+        {
+          "url": "appointment_planner.png",
+          "description": "Select the reason for an appointment"
+        },
+        {
+          "url": "appointment_planner_2.png",
+          "description": "Describe symptoms to discuss with a primary care provider"
+        },
+        {
+          "url": "appointment_planner_3.png",
+          "description": "Select topics to discuss with a primary care provider"
+        },
+        {
+          "url": "appointment_planner_4.png",
+          "description": "Output: Printable sheets to bring to an appointment"
+        }
+      ]
+    }
+  ]
+}

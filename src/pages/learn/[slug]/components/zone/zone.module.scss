@@ -1,0 +1,111 @@
+.zone {
+  border: 1px solid rgb(156, 191, 203);
+  border-radius: 7px;
+  margin: 1.5rem 0;
+  position: relative;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: $md) {
+    padding: 24px;
+  }
+  &__wrapper {
+    width: 100%;
+  }
+  &__header {
+    padding-bottom: 15px;
+    @media (min-width: $sm) {
+      padding-bottom: 27px;
+    }
+  }
+  &__label {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  &__green {
+    border-bottom: 2px solid $green400;
+    color: $green400;
+  }
+  &__yellow {
+    border-bottom: 2px solid $yellow;
+    color: $yellow;
+  }
+  &__red {
+    border-bottom: 2px solid $red400;
+    color: $red400;
+  }
+  &__list {
+    padding-inline-start: 20px;
+    width: 100%;
+    @media (min-width: $md) {
+      width: 80%;
+      padding-inline-start: 30px;
+    }
+  }
+  &__item {
+    list-style-type: disc;
+    margin: 0 0 0.8rem;
+    color: $text_color;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+  }
+}
+
+.badge {
+  min-width: 100px;
+  width: 100px;
+  background: $steelBlue100;
+  border-radius: 7px;
+  height: fit-content;
+  @media (min-width: $sm) {
+    min-width: 200px;
+    width: 200px;
+  }
+  &__green {
+    border: 2px solid $green400;
+  }
+  &__yellow {
+    border: 2px solid $yellow;
+  }
+  &__red {
+    border: 2px solid $red400;
+  }
+  &__header {
+    width: 100%;
+    padding: 15px 0;
+    color: $white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__text {
+    margin: 10px 3px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: $steelBlue600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media (min-width: $sm) {
+      margin: 20px 15px;
+    }
+  }
+}
+
+.bcg {
+  &__green {
+    background-color: $green400;
+  }
+  &__yellow {
+    background-color: $yellow;
+  }
+  &__red {
+    background-color: $red400;
+  }
+}

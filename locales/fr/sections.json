@@ -5,7 +5,7 @@
       "description": "YourCare+ fournit des outils à utiliser à la maison, à envoyer à un membre de la famille ou à un ami, ou à partager avec des professionnels de la santé.",
       "btn": "Boîte à outils pour les aidants",
       "img": {
-        "src": "/phone.png",
+        "src": "phone.png",
         "width": "490",
         "height": "400"
       }
@@ -15,7 +15,7 @@
       "description": "Découvrez les bases des soins à domicile et les rôles des prestataires de soins à domicile.",
       "btn": "Les bases",
       "img": {
-        "src": "/people.png",
+        "src": "people.png",
         "width": "490",
         "height": "276"
       }
@@ -25,7 +25,7 @@
       "description": "Apprenez à protéger votre santé et votre bien-être pour prévenir le stress et l'épuisement professionnel.",
       "btn": "Bien-être des soignants",
       "img": {
-        "src": "/girl.png",
+        "src": "girl.png",
         "width": "490",
         "height": "276"
       }

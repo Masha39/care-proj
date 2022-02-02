@@ -10,7 +10,7 @@
       },
       "preview_text": "Many people needing health care services prefer to stay close to family and friends in a familiar and comfortable environment, rather than moving into an assisted living or long-term care home.",
       "topic": "Understanding Home Care",
-      "image": "slide_1.svg",
+      "image": "slide_3.svg",
       "read_time": "3 minute read"
     },
     {
@@ -23,7 +23,7 @@
       },
       "preview_text": "Home care is often provided by a team of health care providers. Each health care provider has unique skills, knowledge, roles, and responsibilities, working together to provide comprehensive care.",
       "topic": "Understanding Home Care",
-      "image": "slide_3.svg",
+      "image": "slide_10.svg",
       "read_time": "7 minute read"
     },
     {
@@ -50,6 +50,58 @@
       "preview_text": "There may be times when care expectations are unmet. Learn about common home care challenges that might be encountered and tools and strategies for dealing with them.",
       "topic": "Understanding Home Care",
       "image": "slide_5.svg",
+      "read_time": "3 minute read"
+    },
+    {
+      "url": "missed-visits",
+      "title": "Preparing for Missed Care Visits",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "There may be times when care expectations are unmet. Learn about common home care challenges that might be encountered and the various tools and strategies for dealing with them.",
+      "topic": "Understanding Home Care",
+      "image": "slide_6.svg",
+      "read_time": "3 minute read"
+    },
+    {
+      "url": "unclear-expectations",
+      "title": "Managing Unclear Care Expectations",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "There may be times when care expectations are unmet. Learn about common home care challenges that might be encountered and the various tools and strategies for dealing with them.",
+      "topic": "Understanding Home Care",
+      "image": "slide_7.svg",
+      "read_time": "3 minute read"
+    },
+    {
+      "url": "get-to-know-me",
+      "title": "Get to Know Me",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "The Get to Know Me tool is a printable sheet that helps care providers become acquainted with the person they are providing care for. It can be displayed in the home to help home care providers learn about the interests, needs, and care preferences of the person receiving care.",
+      "topic": "Understanding Home Care",
+      "image": "slide_8.svg",
+      "read_time": "5 minute read"
+    },
+    {
+      "url": "my-care-plan",
+      "title": "My Care Plan",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "The My Care Plan is a customizable tool for primary caregivers to communicate important information about the person being cared for. This tool can be customized to list caregiver tasks, preferences of the person being cared for, and other important information.",
+      "topic": "Understanding Home Care",
+      "image": "slide_9.svg",
       "read_time": "3 minute read"
     },
     {
@@ -103,6 +155,136 @@
       "topic": "Caregiver Wellness",
       "image": "joanne.svg",
       "read_time": "6 minute read"
+    },
+    {
+      "url": "self-care-quiz",
+      "title": "Self-Care Strategies Quiz",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "Self-care helps you stay healthy and energized. Explore the self-care activities below to learn about their benefits for cognitive, social, emotional, spiritual, and physical wellbeing.",
+      "topic": "Caregiver Wellness",
+      "image": "aki.svg",
+      "read_time": "7 minute read"
+    },
+    {
+      "url": "chronic-disease-management",
+      "title": "What is Chronic Disease Management?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "There are many different long-term (chronic) diseases that are common in older adults. Oftentimes, older adults may be managing multiple long-term diseases that can affect quality of life.",
+      "topic": "Managing Symptoms",
+      "image": "slide_11.svg",
+      "read_time": "3 minute read"
+    },
+    {
+      "url": "what-is-copd",
+      "title": "What is COPD?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "COPD (Chronic Obstructive Pulmonary Disease) is a long-term (chronic) condition that makes it hard to breathe and causes mucous build-up in the lungs.",
+      "topic": "Managing Symptoms",
+      "image": "slide_12.svg",
+      "read_time": "4 minute read"
+    },
+    {
+      "url": "copd-tool",
+      "title": "COPD Zone Sheet and Symptom Log",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "The COPD Zone Sheet and Symptom Log can be used to help monitor COPD symptoms. The COPD Zone Sheet and Symptom Log can be used to monitor COPD symptoms and recognize when flare-ups or emergency occurs.",
+      "topic": "Managing Symptoms",
+      "image": "slide_14.svg",
+      "read_time": "5 minute read"
+    },
+    {
+      "url": "heart-failure",
+      "title": "What is Heart Failure?",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "Heart Failure (or Congestive Heart Failure) is a long-term (chronic) condition where the heart does not pump blood as well as it should.",
+      "topic": "Managing Symptoms",
+      "image": "slide_13.svg",
+      "read_time": "4 minute read"
+    },
+    {
+      "url": "heart-failure-tool",
+      "title": "Heart Failure Zone Sheet & Daily Weight Log",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "The Heart Failure Zone Sheet and Daily Weight Log can be used to help monitor heart failure symptoms. The Heart Failure Zone Sheet and Daily Weight Log tool can be used to monitor heart failure symptoms and recognize when flare-ups or emergency occurs.",
+      "topic": "Managing Symptoms",
+      "image": "slide_15.svg",
+      "read_time": "7 minute read"
+    },
+    {
+      "url": "dizziness",
+      "title": "Dizziness",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "People living with chronic disease are more likely to feel dizzy or lightheaded as a symptom of their disease or due to medication side effects. This can increase the risk of falls and impact daily activities.",
+      "topic": "Managing Symptoms",
+      "image": "slide_16.svg",
+      "read_time": "5 minute read"
+    },
+    {
+      "url": "tips-for-communication",
+      "title": "Tips for Communicating with Healthcare Professionals",
+      "content_type": {
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
+      },
+      "preview_text": "When patients communicate well with their healthcare providers, they take on an active role in their care. Having an active role in care means patients ask questions, voice their concerns, and make decisions.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_17.svg",
+      "read_time": "4 minute read"
+    },
+    {
+      "url": "appointment-planner",
+      "title": "Appointment Planner",
+      "content_type": {
+        "label": "Tools",
+        "value": "tools",
+        "icon": "tool"
+      },
+      "preview_text": "The Appointment Planner Tool is a customizable and printable tool to help caregivers and people receiving care prepare for upcoming medical appointments. Within this tool are before, during, and after appointment checklists with tasks to complete at these different stages.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_1.svg",
+      "read_time": "2 minute read"
+    },
+    {
+      "url": "check-up-assessment",
+      "title": "Check-Up Assessment",
+      "content_type": {
+        "label": "Assessment",
+        "value": "assessment",
+        "icon": "assessment"
+      },
+      "preview_text": "The Check-Up Assessment is a questionnaire about health and wellbeing. It’s an opportunity to self-assess personal health needs or assess the health needs of someone being cared for.",
+      "topic": "Communicating with Healthcare Professionals",
+      "image": "slide_18.svg",
+      "read_time": "5 minute read"
     }
   ]
 }

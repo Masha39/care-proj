@@ -1,0 +1,34 @@
+{
+  "url": "get-to-know-me",
+  "title": "Apprendre à me connaître",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "L'établissement de relations positives avec les fournisseurs de soins à domicile peut apporter confort et tranquillité d'esprit aux soignants et aux personnes qui reçoivent des soins. L'outil Apprenez à me connaître informe rapidement les prestataires de soins nouveaux et inconnus des capacités, des préférences et de l'état de santé de base de la personne dont ils s'occupent."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Apprenez à me connaître Aperçu",
+      "images": [
+        {
+          "url": "get_to_know_me.png",
+          "description": "Fiche imprimable à partager avec l'équipe soignante"
+        },
+        {
+          "url": "get_to_know_me_2.png",
+          "description": "Fiche imprimable à partager avec l'équipe soignante"
+        }
+      ]
+    }
+  ]
+}

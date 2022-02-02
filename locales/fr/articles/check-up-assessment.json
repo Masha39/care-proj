@@ -1,0 +1,72 @@
+{
+  "url": "check-up-assessment",
+  "title": "Bilan de contrôle",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "L'évaluation Check-Up est un questionnaire sur la santé et le bien-être. C'est une occasion d'auto-évaluer les besoins de santé personnels ou d'évaluer les besoins de santé d'une personne soignée. Il a été développé par interRAI pour être utilisé dans les soins à domicile et les milieux communautaires.",
+        "Il aide à informer les prestataires de soins de santé sur les capacités de réflexion et de communication, l'humeur, les interactions sociales, les sentiments de solitude, le fonctionnement physique, les problèmes de santé préexistants et l'utilisation récente des services de santé."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "Les résultats peuvent aider les fournisseurs de soins de santé et les soignants:"
+      ]
+    },
+    {
+      "type": "list",
+      "content": [
+        "Mettre à jour les routines de soins et faire face aux changements de santé",
+        "Découvrir des besoins méconnus ou non satisfaits",
+        "Prioriser les sujets de discussion pertinents pour les rendez-vous médicaux, y compris la qualité de vie, les choix de vie, le bien-être et le fonctionnement."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Terminer l'évaluation",
+      "paragraphs": [""]
+    },
+    {
+      "type": "list",
+      "content": [
+        "<b>L'évaluation prend environ 30 minutes.</b>",
+        "Il n'est pas nécessaire de le terminer en une seule session. Enregistrez la progression et faites des pauses si nécessaire.",
+        "Après avoir commencé, l'évaluation doit être terminée dans les 48 heures pour s'assurer que les réponses sont à jour."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Garde en tête que...",
+      "tips": [
+        "Réfléchir à sa santé personnelle ou à la santé de quelqu'un d'autre peut être émotif et difficile.",
+        "Les résultats peuvent identifier les domaines où des améliorations des soins sont nécessaires. Cela ne vise pas à provoquer la culpabilité ou la peur. Les résultats sont destinés à aider les soignants et les professionnels de la santé à reconnaître les soutiens nécessaires pour améliorer la santé."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de l'évaluation de contrôle",
+      "images": [
+        {
+          "url": "check_up_assessment.png",
+          "description": "Répondre aux questions d'évaluation"
+        },
+        {
+          "url": "check_up_assessment_2.png",
+          "description": "Répondre aux questions d'évaluation"
+        },
+        {
+          "url": "check_up_assessment_3.png",
+          "description": "Sortie: fiches imprimables pour les soignants et les patients"
+        },
+        {
+          "url": "check_up_assessment_4.png",
+          "description": "Sortie: Feuilles imprimables pour les professionnels de la santé"
+        }
+      ]
+    }
+  ]
+}

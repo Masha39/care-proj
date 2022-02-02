@@ -1,0 +1,64 @@
+{
+  "url": "heart-failure",
+  "title": "Qu'est-ce que l'insuffisance cardiaque?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "L'insuffisance cardiaque (ou insuffisance cardiaque congestive) est une affection à long terme (chronique) dans laquelle le cœur ne pompe pas le sang aussi bien qu'il le devrait."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Symptômes courants de l'insuffisance cardiaque",
+      "tips": [
+        "Gain ou perte de poids",
+        "Gonflement des pieds, des chevilles, des jambes ou de l'estomac (également appelé œdème)",
+        "Difficile de respirer",
+        "Se sentir fatigué",
+        "Se sentir étourdi ou étourdi",
+        "Pouls rapide"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment prendre soin d'une personne souffrant d'insuffisance cardiaque",
+      "paragraphs": [
+        "S'occuper d'une personne souffrant d'insuffisance cardiaque peut être difficile. En savoir plus sur l'insuffisance cardiaque facilitera la prestation de soins. Le médecin ou le fournisseur de soins primaires de la personne souffrant d'insuffisance cardiaque peut élaborer un plan pour gérer ses symptômes. Le plan de traitement peut inclure des médicaments. et les changements de style de vie. Soutenez cette personne en l'aidant à suivre son plan de traitement."
+      ]
+    },
+    {
+      "type": "text_with_image",
+      "background": false,
+      "content": [
+        {
+          "image": "dumbbell.svg",
+          "text": "<b>SRester actif</b>"
+        },
+        {
+          "image": "apple.svg",
+          "text": "<b>Mangez des aliments sains</b>"
+        },
+        {
+          "image": "book.svg",
+          "text": "<b>Suivez le plan de traitement</b>"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Des habitudes saines pour aider à gérer les symptômes d'insuffisance  cardiaque",
+      "tips": [
+        "Prendre du poids chaque jour avant le petit-déjeuner le noter sur un journal de poids",
+        "Prenez les médicaments prescrits par un médecin ou un fournisseur de soins primaires",
+        "Vérifiez chaque jour l'enflure de l'estomac, des pieds, des chevilles et des jambes",
+        "Mangez des aliments pauvres en sel ou sans sel",
+        "Ne consommez pas plus de 6 à 8 tasses de liquide par jour",
+        "Restez actif et faites de l'exercice chaque jour",
+        "Reposez-vous si nécessaire",
+        "Faites des pauses pour vous asseoir lorsque vous vous sentez essoufflé ou lorsque vous vous sentez étourdi",
+        "Gardez le stress bas"
+      ]
+    }
+  ]
+}
