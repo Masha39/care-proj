@@ -12,13 +12,13 @@
     {
       "title": "How we use your information and Personal Data",
       "description": "While information and Personal Data is collected, no Personal Data is stored during the use of this Site. This Site will collect analytics and feedback to understand user interactions with the Site and materials. Information collected for these purposes is anonymous, and will be used to inform future improvements made to the function and delivery of our service. Any information and Personal Data entered on the Site is stored and accessible to your device only. We use your information and/or Personal Data to",
-      "list": {
-        "li": "Provide the access to the Service that you request;",
-        "li": "Populate generated documents for information and education with personalized fields;",
-        "li": "Detect and address any technical or other issues with the Site and",
-        "li": "Assess use to improve and maintain the Service."
-      },
-      "description": "Please be aware that your information could be used for research purposes, but only for research projects approved by the research ethics committee and any other authority required by the applicable laws. The information will be coded so that researchers using the data bank, which may contain your information and/or Personal Data, will not have access to any identifying information. Your email address will never be provided to third parties. If you do not want to be contacted please email <(contact@yourcareplus.ca)>"
+      "list": [
+        "Provide the access to the Service that you request;",
+        "Populate generated documents for information and education with personalized fields;",
+        "Detect and address any technical or other issues with the Site and",
+        "Assess use to improve and maintain the Service."
+      ],
+      "descriptionAdd": "Please be aware that your information could be used for research purposes, but only for research projects approved by the research ethics committee and any other authority required by the applicable laws. The information will be coded so that researchers using the data bank, which may contain your information and/or Personal Data, will not have access to any identifying information. Your email address will never be provided to third parties. If you do not want to be contacted please email <(contact@yourcareplus.ca)>"
     },
     {
       "title": "How we store and protect your data",
@@ -27,12 +27,12 @@
     {
       "title": "Disclosure to Other Third Parties",
       "description": "Your information and/or Personal Data may also be disclosed to the following third parties:",
-      "list": {
-        "li": "Government and Regulatory Authorities such as provincial or federal government agencies.",
-        "li": "Law enforcement or other third parties pursuant to valid legal process such as a subpoena, litigation or court order or issues of public importance, where disclosure is necessary or appropriate.",
-        "li": "Others, in the event of a reorganization, merger, or sale we may transfer any and all personal information we collect to the relevant third party.",
-        "li": "We may share de-identified data about usage of the Site for statistical purposes with authorized third parties under specific data transfer or data reporting agreements. In all cases, the information will be fully de-identified to prevent any access to personal information if any and/or identification of individuals."
-      }
+      "list": [
+        "Government and Regulatory Authorities such as provincial or federal government agencies.",
+        "Law enforcement or other third parties pursuant to valid legal process such as a subpoena, litigation or court order or issues of public importance, where disclosure is necessary or appropriate.",
+        "Others, in the event of a reorganization, merger, or sale we may transfer any and all personal information we collect to the relevant third party.",
+        "We may share de-identified data about usage of the Site for statistical purposes with authorized third parties under specific data transfer or data reporting agreements. In all cases, the information will be fully de-identified to prevent any access to personal information if any and/or identification of individuals."
+      ]
     },
     {
       "title": "Users from outside Canada",

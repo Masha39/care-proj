@@ -9,9 +9,8 @@ import { PrivacyPolicyContent } from './privacy_policy_content'
 export type TypePolicy = {
   title: string
   description: string
-  list: {
-    li: string
-  }
+  descriptionAdd: string
+  list: string[]
 }
 
 const PrivacyPolicy = () => {
