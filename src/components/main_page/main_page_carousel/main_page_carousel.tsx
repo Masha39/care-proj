@@ -75,7 +75,7 @@ export const MainPageCarousel = () => {
       id: 1,
       href: '#',
       image: <Item1 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -83,7 +83,7 @@ export const MainPageCarousel = () => {
       id: 2,
       href: '#',
       image: <Item2 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -91,7 +91,7 @@ export const MainPageCarousel = () => {
       id: 3,
       href: '#',
       image: <Item1 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -99,7 +99,7 @@ export const MainPageCarousel = () => {
       id: 4,
       href: '#',
       image: <Item1 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -107,7 +107,7 @@ export const MainPageCarousel = () => {
       id: 5,
       href: '#',
       image: <Item1 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     },
@@ -115,7 +115,7 @@ export const MainPageCarousel = () => {
       id: 6,
       href: '#',
       image: <Item1 />,
-      tagImage: '/icons/tool.svg',
+      tagImage: 'tool',
       tagTitle: t('static/main_page:tagTitle'),
       textTitle: t('static/main_page:textTitle')
     }

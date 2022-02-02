@@ -2,7 +2,7 @@ import React from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
 
-import ChatIcon from 'public/chat_icon.svg'
+import ChatIcon from 'public/svg/chat_icon.svg'
 
 import styles from './bottom_section.module.scss'
 

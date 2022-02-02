@@ -71,7 +71,7 @@ export const Navigation = ({
               </div>
               <div className={styles.nav__image}>
                 <Image
-                  src={`/images/${nextArticle.image}`}
+                  src={`/svg/${nextArticle.image}`}
                   width={264}
                   height={168}
                 />

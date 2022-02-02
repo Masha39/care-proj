@@ -34,7 +34,7 @@ export const Section = ({ item, isLeft, isWhite }: Props) => {
           </div>
           <div className={styles.block_image}>
             <Image
-              src={item.img.src}
+              src={`/images/${item.img.src}`}
               width={item.img.width}
               height={item.img.height}
             />
