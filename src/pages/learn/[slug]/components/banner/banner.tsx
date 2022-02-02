@@ -48,7 +48,7 @@ export const Banner = ({
         </div>
       </div>
       <div className={styles.banner__image}>
-        <Image src={`/images/${image}` || ''} width={360} height={240} />
+        <Image src={`/svg/${image}` || ''} width={360} height={240} />
       </div>
     </div>
   )

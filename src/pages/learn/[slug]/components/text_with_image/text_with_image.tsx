@@ -21,7 +21,7 @@ export const TextWithImage = ({
               [styles.content__background]: background
             })}
           >
-            <Image src={`/images/${item.image}`} width={120} height={120} />
+            <Image src={`/svg/${item.image}`} width={120} height={120} />
           </div>
           <p className={styles.content__text}>{safeParse(item.text)}</p>
         </div>
