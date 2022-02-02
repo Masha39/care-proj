@@ -11,6 +11,7 @@ export type TypePolicy = {
   description: string
   descriptionAdd: string
   list: string[]
+  h1: string
 }
 
 const PrivacyPolicy = () => {
@@ -22,9 +23,8 @@ const PrivacyPolicy = () => {
   )
   return (
     <Layout>
-      {console.log(policyData)}
-      {policyData.map((item, i) => (
-        <PrivacyPolicyContent item={item} key={i} />
+      {policyData.map((item, index) => (
+        <PrivacyPolicyContent item={item} key={index} />
       ))}
     </Layout>
   )

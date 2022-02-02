@@ -1,7 +1,5 @@
 import React from 'react'
 
-import useTranslation from 'next-translate/useTranslation'
-
 import { TypePolicy } from './index.page'
 import styles from './privacy_policy_content.module.scss'
 
@@ -10,15 +8,20 @@ type Props = {
 }
 
 export const PrivacyPolicyContent = ({ item }: Props) => {
-  const { t } = useTranslation('static/privacy_policy')
+  const isList = item.list
   return (
     <div className="container">
-      {'h1' ? <h1>{t('h1')}</h1> : null}
+      <h1>{item.h1}</h1>
       <p className={styles.title}>{item.title}</p>
       <p>{item.description}</p>
-      {console.log(item.list, 'item_list')}
       <ul className={styles.list}>
-        <li className={styles.list_item}>{item.list}</li>
+        {isList
+          ? isList.map((el, index) => (
+              <li className={styles.list_item} key={index}>
+                {el}
+              </li>
+            ))
+          : null}
       </ul>
       <p>{item.descriptionAdd}</p>
     </div>
