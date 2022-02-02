@@ -31,6 +31,7 @@ staging:
     - chmod 700 ~/.ssh
     - echo "$STAGING_SSH_PRIVATE_KEY" | tr -d '\r' > ./deploy.key
     - chmod 600 ./deploy.key
+    - npm install -g npm@latest
     - npm list -g pm2 || npm i -g pm2
     - pm2 deploy ecosystem.config.js staging
   only:
