@@ -3,9 +3,12 @@ stages:
   - deploy_staging
 
 build_app:
-  image: node:14.17
+  image: node:latest
   stage: build
   script:
+    - node -v && npm - v
+    - npm install -g npm@latest
+    - node -v && npm - v
     - npm install --progress=false
     - npm run build
   artifacts:
