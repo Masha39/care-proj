@@ -3,6 +3,7 @@ import React from 'react'
 import groupBy from 'lodash/groupBy'
 import useTranslation from 'next-translate/useTranslation'
 
+import { Banner } from 'components/banner/banner'
 import { ContentType } from 'components/content_type/content_type'
 import { Filters } from 'components/filters/filters'
 import Layout from 'layouts/layout'
@@ -54,14 +55,7 @@ const Learn = () => {
 
   return (
     <Layout>
-      <div className={styles.banner}>
-        <div className="container">
-          <div className={styles.banner_text}>
-            <h1 className={styles.banner__title}>{t('title')}</h1>
-            <h3 className={styles.banner__description}>{t('description')}</h3>
-          </div>
-        </div>
-      </div>
+      <Banner title={t('title')} description={t('description')} />
       <div className={styles.learn}>
         <Filters
           topics={articlesByTopic}

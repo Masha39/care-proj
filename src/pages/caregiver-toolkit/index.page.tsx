@@ -3,6 +3,7 @@ import React from 'react'
 import groupBy from 'lodash/groupBy'
 import useTranslation from 'next-translate/useTranslation'
 
+import { Banner } from 'components/banner/banner'
 import { ContentType } from 'components/content_type/content_type'
 import { Filters } from 'components/filters/filters'
 import Layout from 'layouts/layout'
@@ -35,7 +36,7 @@ const CaregiverToolkit = () => {
 
   return (
     <Layout>
-      <h1>Caregiver Toolkit</h1>
+      <Banner title="title" description="descr" />
       <Filters
         topics={articlesByTopic}
         contentTypes={contentTypes}
