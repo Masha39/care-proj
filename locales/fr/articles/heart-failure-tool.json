@@ -1,0 +1,100 @@
+{
+  "url": "heart-failure-tool",
+  "title": "Feuille de zone d'insuffisance cardiaque et journal de poids quotidien",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "La feuille de zone d'insuffisance cardiaque et le journal de poids quotidien peuvent être utilisés pour aider à surveiller les symptômes d'insuffisance cardiaque."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "La feuille de zone d'insuffisance cardiaque et l'outil journal de poids quotidien peuvent être utilisés pour surveiller les symptômes d'insuffisance cardiaque et reconnaître les poussées ou les urgences. Ces outils aident à identifier les poussées précoces afin que la personne atteinte d'insuffisance cardiaque puisse obtenir le traitement nécessaire pour rester en bonne santé à la maison et éviter les déplacements aux urgences."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "<b>Regardez la vidéo ci-dessous pour suivre le parcours d'Alaise et de sa fille avec l'insuffisance cardiaque.</b>",
+      "src": "https://www.youtube.com/embed/cFhgdhjTCnQ"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "RÉSUMÉ VIDÉO",
+      "tips": [
+        "Alaise est une femme de 83 ans atteinte de démence à un stade précoce et d'insuffisance cardiaque. Alaise vit avec sa fille.",
+        "La fille d'Alaise utilise la feuille de zone d'insuffisance cardiaque et le journal de poids quotidien pour déterminer si sa mère peut avoir une poussée d'insuffisance cardiaque. Après avoir remarqué un changement dans les symptômes, sa fille identifie qu'Alaise est dans la 'zone jaune' et appelle leur centre de santé communautaire local pour l'assistance médicale.",
+        "Une infirmière communautaire vient à leur domicile et soigne Alaise. L'infirmière communautaire informe l'infirmière praticienne d'Alaise de son état."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Feuille de zone d'insuffisance cardiaque",
+      "paragraphs": [
+        "Utilisez des questions sur la feuille de zone pour savoir quand la personne souffrant d'insuffisance cardiaque va bien (zone verte), quand elle doit appeler un médecin (zone jaune) et quand elle doit aller à l'hôpital (zone rouge) en fonction de leurs symptômes."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Poser quotidiennement les questions ci-dessous peut aider à déterminer dans quelle zone se trouve votre proche:",
+      "content": [
+        "Quel est leur poids quotidien?",
+        "Y a-t-il un changement dans leur respiration?",
+        "Remarquez-vous des difficultés à participer aux activités quotidiennes habituelles?",
+        "Remarquez-vous un gonflement des pieds, des chevilles, des jambes ou du ventre? Est-ce plus que d'habitude (par exemple, avez-vous de la difficulté à enfiler des chaussures ou un pantalon est serré autour du ventre)?",
+        "Avec combien d'oreillers dorment-ils la nuit? Ont-ils eu besoin de dormir sur une chaise 'lazy boy'?",
+        "Comment est leur appétit? Y a-t-il un changement?"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "Aucun changement de poids",
+        "Peut effectuer les activités quotidiennes comme d'habitude",
+        "Aucun nouveau gonflement des pieds, des chevilles, des jambes ou du ventre"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "2 livres (1 kg) de gain/perte de poids en une journée",
+        "5 livres (2-3 kg) de gain/perte de poids en une semaine",
+        "Augmentation ou nouvel essoufflement",
+        "L'essoufflement qui s'aggrave en position couchée ou les fait se réveiller du sommeil",
+        "Nouveau gonflement des pieds, des chevilles, des jambes ou du ventre",
+        "Se sentir faible et fatigué"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Lut pour respirer ou ne peut pas reprendre son souffle",
+        "Le cœur s'emballe",
+        "Je n'arrive pas à penser clairement ou je me sens confus",
+        "Se sentir étourdi ou étourdi",
+        "Avez-vous une douleur soudaine à la poitrine qui ne disparaît pas"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de la feuille de zone d'insuffisance cardiaque",
+      "images": [
+        {
+          "url": "heart_failure_tool.png",
+          "description": "Zones d'insuffisance cardiaque"
+        },
+        {
+          "url": "heart_failure_tool_2.png",
+          "description": "Journal de poids quotidien pour l'insuffisance cardiaque"
+        }
+      ]
+    }
+  ]
+}

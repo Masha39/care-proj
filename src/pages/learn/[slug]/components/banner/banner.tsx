@@ -43,12 +43,12 @@ export const Banner = ({
         </div>
         <h1 className={styles.banner__title}>{title}</h1>
         <div className={styles.banner__info}>
-          <ContentType type={type} icon={icon} />
+          <ContentType type={type} icon={icon} classname="border" />
           <div className={styles.banner__text}>{readTime}</div>
         </div>
       </div>
       <div className={styles.banner__image}>
-        <Image src={`/images/${image}` || ''} width={360} height={240} />
+        <Image src={`/svg/${image}` || ''} width={360} height={240} />
       </div>
     </div>
   )

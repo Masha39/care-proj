@@ -1,0 +1,76 @@
+{
+  "url": "what-is-copd",
+  "title": "What is COPD?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "COPD (Chronic Obstructive Pulmonary Disease) is a long-term (chronic) condition that makes it hard to breathe and causes mucous build-up in the lungs."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Common symptoms of COPD",
+      "tips": [
+        "Hard time breathing or shortness of breath (called dyspnea)",
+        "Cough",
+        "Mucous build-up in the lungs (thick mucous, wet cough)",
+        "Feeling tired"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Sometimes, symptoms become worse or happen more often: this is called a flare-up or an exacerbation. A flare-up may last hours or days. Call a doctor for help when a flare-up occurs."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Flare-ups can happen due to",
+      "tips": [
+        "Stress",
+        "Sickness (cold or flu)",
+        "Breathing in very hot or cold air",
+        "Being near smoke, perfume, or pollen"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How to care for someone with COPD",
+      "paragraphs": [
+        "Caring for someone with COPD can be challenging. Learning about COPD will make it easier to provide care. The doctor or primary care provider of the person with COPD may make a treatment plan, or plan of care to manage their symptoms with medication and lifestyle changes. Support an individual with COPD by helping them follow their plan of care."
+      ]
+    },
+    {
+      "type": "text_with_image",
+      "background": false,
+      "content": [
+        {
+          "image": "dumbbell.svg",
+          "text": "<b>Stay Active</b>"
+        },
+        {
+          "image": "throat.svg",
+          "text": "<b>Practice breathing techniques</b>"
+        },
+        {
+          "image": "book.svg",
+          "text": "<b>Follow the Plan of Care</b>"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Healthy habits to help manage COPD symptoms",
+      "tips": [
+        "Stop smoking",
+        "Take medications as ordered by a doctor or primary care provider",
+        "Stay active and exercise each day",
+        "Practice breathing techniques or use an inhaler when it’s hard to breathe",
+        "Rest when needed",
+        "Split up tasks to make them easier",
+        "Get pneumonia shot and the yearly flu shot"
+      ]
+    }
+  ]
+}

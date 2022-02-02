@@ -1,0 +1,42 @@
+{
+  "url": "my-care-plan",
+  "title": "Mon plan de soins",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "Mon plan de soins peut aider à organiser les informations importantes sur les soins dans un emplacement central. Il peut être utilisé pour communiquer les besoins en matière de soins aux nouveaux soignants ou aux soignants remplaçants lorsqu'un soignant principal est absent. Les tâches de soins personnels peuvent alors être facilement déléguées à une personne de confiance."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de mon plan de soins",
+      "images": [
+        {
+          "url": "my_care_plan.png",
+          "description": "Sélectionnez les rubriques d'informations"
+        },
+        {
+          "url": "my_care_plan_2.png",
+          "description": "Enregistrer les informations sur les soins"
+        },
+        {
+          "url": "my_care_plan_3.png",
+          "description": "Enregistrer les informations importantes sur les soins"
+        },
+        {
+          "url": "my_care_plan_4.png",
+          "description": "Sortie : Feuilles de plan de soins imprimables"
+        }
+      ]
+    }
+  ]
+}

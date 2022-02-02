@@ -1,7 +1,17 @@
 .articles {
   display: flex;
   flex-direction: column;
-  padding: 0 157px;
+  margin-bottom: 30px;
+  @media (min-width: $xl) {
+    margin-top: 32px;
+    margin-bottom: 80px;
+  }
+  &__header {
+    margin-top: 12px;
+    @media (min-width: $xl) {
+      margin-top: 32px;
+    }
+  }
   &__topic {
     font-weight: 500;
     font-size: 26px;

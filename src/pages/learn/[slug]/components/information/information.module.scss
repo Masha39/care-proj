@@ -3,7 +3,7 @@
     color: $text_color;
     font-weight: 500;
     font-size: 28px;
-    margin: 0;
+    //margin: 0;
     @media (min-width: $lg) {
       font-size: 32px;
     }
@@ -19,5 +19,11 @@
   a {
     color: $blue400;
     text-decoration: underline;
+  }
+  b {
+    font-weight: 600;
+  }
+  li {
+    list-style-type: disc;
   }
 }

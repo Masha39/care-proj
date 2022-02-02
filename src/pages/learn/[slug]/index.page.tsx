@@ -2,7 +2,10 @@ import groupBy from 'lodash/groupBy'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
 import Layout from 'layouts/layout'
+import { List } from 'pages/learn/[slug]/components/list/list'
 import { TextWithImage } from 'pages/learn/[slug]/components/text_with_image/text_with_image'
+import { ToolPreview } from 'pages/learn/[slug]/components/tool_preview/tool_preview'
+import { Zone } from 'pages/learn/[slug]/components/zone/zone'
 import { fetchJson } from '~/utils/fetch_json'
 
 import styles from './article.module.scss'
@@ -76,7 +79,29 @@ const Article = ({ article, preview, articles }: ArticleProps) => {
               case 'video':
                 return <Video src={item.src} key={index} text={item.text} />
               case 'text_with_image':
-                return <TextWithImage content={item.content} key={index} />
+                return (
+                  <TextWithImage
+                    content={item.content}
+                    background={item.background}
+                    key={index}
+                  />
+                )
+              case 'list':
+                return (
+                  <List title={item.title} content={item.content} key={index} />
+                )
+              case 'zone':
+                return (
+                  <Zone label={item.label} content={item.content} key={index} />
+                )
+              case 'tool_preview':
+                return (
+                  <ToolPreview
+                    images={item.images}
+                    title={item.title}
+                    key={index}
+                  />
+                )
               default:
                 return null
             }

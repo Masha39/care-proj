@@ -1,0 +1,35 @@
+{
+  "url": "unclear-expectations",
+  "title": "Managing Unclear Care Expectations",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "There may be times when care expectations are unmet. Learn about common home care challenges that might be encountered and the various tools and strategies for dealing with them."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "What is the problem or challenge?",
+      "paragraphs": [
+        "There may be certain expectations around the type and amount of care provided, and the timeframe in which it’s delivered. Stress and frustration may occur if care services do not fulfill expectations."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Why does this problem exist?",
+      "paragraphs": [
+        "The type, amount, and duration of care is often determined by results from clinical assessments.\n\nIn places where the number of people needing care is greater than the number of care providers, there may be delays or shortages. This can disrupt care delivery."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Consider the triage process in emergency departments...",
+      "content": [
+        "First, a triage nurse will assess the severity of the health concern.",
+        "Next, individuals are prioritized based on the severity of needs. The length of wait is determined by how one person’s needs compare to the needs of others.",
+        "Think of the coordination of home care services like going to the emergency department. Similar to when visiting the emergency department, receiving home care services may take time based on the needs of others. Factors that determine service amount and wait time includes: location, care demand, urgency of care, and available care providers."
+      ]
+    }
+  ]
+}

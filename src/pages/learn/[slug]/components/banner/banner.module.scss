@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 240px;
+  min-height: 240px;
+  height: fit-content;
   padding: 0 16px;
   background: linear-gradient(
       93.78deg,
@@ -46,8 +47,8 @@
     color: $text-color;
     margin: 0 0 10px 0;
     @media (min-width: $lg) {
-      font-size: 48px;
-      line-height: 56px;
+      font-size: 45px;
+      line-height: 48px;
     }
   }
   &__info {

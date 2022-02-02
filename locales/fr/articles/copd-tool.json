@@ -1,0 +1,99 @@
+{
+  "url": "copd-tool",
+  "title": "Fiche de zone MPOC et journal des symptômes",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour aider à surveiller les symptômes de la MPOC."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour surveiller les symptômes de la MPOC et reconnaître les poussées ou les urgences. Ces outils aident à identifier les poussées précoces afin qu'une personne atteinte de MPOC puisse obtenir le traitement nécessaire pour rester en bonne santé à la maison et éviter les déplacements aux urgences."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "<b>Regardez la vidéo ci-dessous pour en savoir plus sur le parcours de Malik et de sa femme dans la gestion de la MPOC.</b>",
+      "src": "https://www.youtube.com/embed/Htlfwqan4OU"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "RÉSUMÉ VIDÉO",
+      "tips": [
+        "Malik a 67 ans et vit avec sa femme à la maison. Malik fume des cigarettes mais a réduit ces dernières années.",
+        "Un jour, Malik développe une mauvaise toux et des douleurs à la poitrine. Craignant qu'il ne s'agisse d'une crise cardiaque, sa femme appelle le 911 et Malik est emmené à l'hôpital. On lui diagnostique une pneumonie et une MPOC.",
+        "Malik est référé à une agence de soins à domicile et rencontre un coordinateur de soins. Il est référé à une infirmière qui lui enseigne les compétences et présente la feuille de zone MPOC et le journal des symptômes pour aider à gérer les symptômes et éviter les urgences."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Fiche Zone MPOC",
+      "paragraphs": [
+        "Utilisez les questions sur la feuille de zone pour savoir quand une personne atteinte de MPOC va bien (zone verte), quand elle doit appeler un médecin (zone jaune) et quand elle doit aller à l'hôpital (zone rouge) en fonction de ses symptômes."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Poser quotidiennement les questions ci-dessous peut aider à déterminer dans quelle zone se trouve votre proche:",
+      "content": [
+        "Ont-ils utilisé plus souvent leurs inhalateurs de secours/bleus ou leur oxygène?",
+        "Y a-t-il un changement dans leur respiration (par exemple, prend plus de temps pour marcher, peut avoir plus de difficulté dans les escaliers, incapable de parler après avoir marché)?",
+        "Sont-ils capables de participer aux activités quotidiennes habituelles?",
+        "Est-ce qu'ils se plaignent d'avoir des douleurs thoraciques ? Est-ce nouveau ou plus fréquent?",
+        "Des changements dans leurs crachats (par exemple, des changements de quantité, de couleur, de consistance)?",
+        "Des changements dans leur appétit?"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "Pas de fièvre",
+        "Pas d'augmentation de l'essoufflement",
+        "Aucune augmentation de la quantité, de l'épaisseur ou de la viscosité des muqueuses (mucosités ou crachats)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "Aucune augmentation de la quantité, de l'épaisseur ou de la viscosité des muqueuses (mucosités ou crachats)",
+        "Nouvelle toux, ou une toux qui est pire que d'habitude",
+        "Augmentation ou nouvel essoufflement",
+        "Un changement de couleur, de quantité ou d'épaisseur du mucus normal (mucosités ou crachats)",
+        "Fièvre supérieure à 38° Celsius (100,4° Fahrenheit)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Lut pour respirer ou ne peut pas reprendre son souffle",
+        "Le cœur s'emballe",
+        "Je n'arrive pas à penser clairement ou je me sens confus",
+        "Se sentir étourdi ou étourdi",
+        "Avez-vous une douleur soudaine à la poitrine qui ne disparaît pas"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu de la feuille de zone MPOC",
+      "images": [
+        {
+          "url": "copd_zones.png",
+          "description": "Zones MPOC"
+        },
+        {
+          "url": "copd_log.png",
+          "description": "Journal des symptômes de MPOC"
+        }
+      ]
+    }
+  ]
+}

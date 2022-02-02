@@ -6,5 +6,15 @@
   "next_topic": "SUJET SUIVANT",
   "explore_all": "Explore tous les sujets dans:",
   "back": "Retour à l'article précédent:",
-  "read_next": "Lire la suite"
+  "read_next": "Lire la suite",
+  "green_zone": "ZONE VERTE",
+  "yellow_zone": "ZONE JAUNE",
+  "red_zone": "ZONE ROUGE",
+  "clear": "Tout est clair",
+  "warning": "Zone d'avertissement",
+  "emergency": "Urgence",
+  "continue_activities": "Poursuivre les activités comme d'habitude",
+  "call_physician": "Appeler le médecin",
+  "call_emergency": "Appeler le 911",
+  "view": "Voir"
 }

@@ -1,0 +1,64 @@
+{
+  "url": "heart-failure",
+  "title": "What is Heart Failure?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Heart Failure (or Congestive Heart Failure) is a long-term (chronic) condition where the heart does not pump blood as well as it should."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Common symptoms of heart failure",
+      "tips": [
+        "Weight gain or loss",
+        "Swelling in feet, ankles, legs, or stomach (also called edema)",
+        "Hard to breathe",
+        "Feeling tired",
+        "Feeling lightheaded or dizzy",
+        "Fast heartbeat"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How to care for someone with Heart Failure",
+      "paragraphs": [
+        "Caring for someone with heart failure can be challenging. Learning about heart failure will make it easier to provide care. The doctor or primary care provider of the person with heart failure may make a plan to manage their symptoms. The treatment plan may include medication and lifestyle changes. Support that person by helping them follow their treatment plan."
+      ]
+    },
+    {
+      "type": "text_with_image",
+      "background": false,
+      "content": [
+        {
+          "image": "dumbbell.svg",
+          "text": "<b>Stay Active</b>"
+        },
+        {
+          "image": "apple.svg",
+          "text": "<b>Eat Healthy Foods</b>"
+        },
+        {
+          "image": "book.svg",
+          "text": "<b>Follow the Treatment Plan</b>"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Healthy habits to help manage heart failure symptoms",
+      "tips": [
+        "Take weight each day before breakfast; write down on a weight log",
+        "Take medications as ordered by a doctor or primary care provider",
+        "Check each day for swelling in stomach, feet, ankles, and legs",
+        "Eat foods that are low in salt or salt-free",
+        "Have no more than 6-8 cups of fluid each day",
+        "Stay active and exercise each day",
+        "Rest when needed",
+        "Take breaks to sit when feeling short of breath or when feeling dizzy",
+        "Keep stress low"
+      ]
+    }
+  ]
+}

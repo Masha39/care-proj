@@ -18,6 +18,7 @@
     },
     {
       "type": "text_with_image",
+      "background": true,
       "content": [
         {
           "image": "daniel.svg",
@@ -43,6 +44,16 @@
         "It can be hard for people to recognize themselves as caregivers. They may feel that the jobs they do are a normal part of being a family member, friend, or neighbour. <b>At YourCare+, we define a caregiver as someone who provides unpaid care or support to another person.</b>",
         "Caregivers hold an essential role in the care team of the person receiving care.",
         "<b>See how caregivers fit into this, along with other critical members, in the figure below.</b>"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Caregivers are ...",
+      "images": [
+        {
+          "url": "what_is_caregiver.png",
+          "description": "Who are caregivers?"
+        }
       ]
     },
     {

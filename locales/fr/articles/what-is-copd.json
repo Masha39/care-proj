@@ -1,0 +1,76 @@
+{
+  "url": "what-is-copd",
+  "title": "Qu'est-ce que la MPOC?",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "La MPOC (maladie pulmonaire obstructive chronique) est une affection à long terme (chronique) qui rend la respiration difficile et provoque une accumulation de mucus dans les poumons."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Symptômes courants de la MPOC",
+      "tips": [
+        "Difficulté à respirer ou essoufflement (appelé dyspnée)",
+        "Toux",
+        "Accumulation de mucus dans les poumons (mucus épais, toux grasse)",
+        "Se sentir fatigué"
+      ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Parfois, les symptômes s'aggravent ou se produisent plus souvent : c'est ce qu'on appelle une poussée ou une exacerbation. Une poussée peut durer des heures ou des jours. Appelez un médecin pour obtenir de l'aide en cas de poussée."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Des poussées peuvent survenir à cause de",
+      "tips": [
+        "Stress",
+        "Maladie (rhume ou grippe)",
+        "Respirer de l'air très chaud ou froid",
+        "Être à proximité de fumée, de parfum ou de pollen"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment prendre soin d'une personne atteinte de MPOC",
+      "paragraphs": [
+        "S'occuper d'une personne atteinte de MPOC peut être difficile. En savoir plus sur la MPOC facilitera la prestation de soins. Le médecin ou le fournisseur de soins primaires de la personne atteinte de MPOC peut élaborer un plan de traitement ou un plan de soins pour gérer ses symptômes avec des médicaments et son mode de vie. Soutenez une personne atteinte de MPOC en l'aidant à suivre son plan de soins."
+      ]
+    },
+    {
+      "type": "text_with_image",
+      "background": false,
+      "content": [
+        {
+          "image": "dumbbell.svg",
+          "text": "<b>Rester actif</b>"
+        },
+        {
+          "image": "throat.svg",
+          "text": "<b>Pratiquer les techniques de respiration</b>"
+        },
+        {
+          "image": "book.svg",
+          "text": "<b>Suivez le programme de soins</b>"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "Des habitudes saines pour aider à gérer les symptômes de la MPOC",
+      "tips": [
+        "Arrêter de fumer",
+        "Prenez les médicaments prescrits par un médecin ou un fournisseur de soins primaires",
+        "Restez actif et faites de l'exercice chaque jour",
+        "Pratiquez des techniques de respiration ou utilisez un inhalateur quand vous avez du mal à respirer",
+        "Reposez-vous si nécessaire",
+        "Répartissez les tâches pour les rendre plus faciles",
+        "Faites-vous vacciner contre la pneumonie et le vaccin annuel contre la grippe"
+      ]
+    }
+  ]
+}

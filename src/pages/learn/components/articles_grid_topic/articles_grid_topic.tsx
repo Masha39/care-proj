@@ -20,12 +20,12 @@ export const ArticlesGridTopic = ({
   const router = useRouter()
 
   return (
-    <>
+    <div className="container">
       {Object.entries(topicsToShow).map(([topic, articles]) => (
         <div key={topic} className={styles.articles}>
           <div className={styles.articles__container}>
             {articles.articles?.length ? (
-              <>
+              <div className={styles.articles__header}>
                 <div className={styles.articles__topic}>{topic}</div>
                 <div className={styles.articles__description}>
                   {articles.description}
@@ -39,10 +39,10 @@ export const ArticlesGridTopic = ({
                     }
                   />
                 </div>
-              </>
+              </div>
             ) : (
               <div className={styles.articles__noTopic}>
-                Sorry, we were not able to find any topics.
+                {t('static/learn:sorry')}
               </div>
             )}
           </div>
@@ -67,6 +67,6 @@ export const ArticlesGridTopic = ({
           </div>
         </div>
       ))}
-    </>
+    </div>
   )
 }

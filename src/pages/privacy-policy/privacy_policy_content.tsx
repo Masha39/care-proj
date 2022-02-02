@@ -11,7 +11,7 @@ export const PrivacyPolicyContent = ({ item }: Props) => {
   const isList = item.list
   return (
     <div className="container">
-      <h1>{item.h1}</h1>
+      <h1 className={styles.h1}>{item.h1}</h1>
       <p className={styles.title}>{item.title}</p>
       <p>{item.description}</p>
       <ul className={styles.list}>

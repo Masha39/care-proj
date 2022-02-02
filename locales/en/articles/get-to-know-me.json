@@ -1,0 +1,34 @@
+{
+  "url": "get-to-know-me",
+  "title": "Get to Know Me",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The Get to Know Me tool is a printable sheet that helps care providers become acquainted with the person they are providing care for. It can be displayed in the home to help home care providers learn about the interests, needs, and care preferences of the person receiving care."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "Developing positive relationships with home care providers can bring comfort and ease of mind to caregivers and people receiving care. The Get to Know Me tool quickly acquaints new and unfamiliar care providers with the abilities, preferences, and health baseline of the person they are providing care for."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Get to Know Me Preview",
+      "images": [
+        {
+          "url": "get_to_know_me.png",
+          "description": "Printable sheet to share with care team"
+        },
+        {
+          "url": "get_to_know_me_2.png",
+          "description": "Printable sheet to share with care team"
+        }
+      ]
+    }
+  ]
+}

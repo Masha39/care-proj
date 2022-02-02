@@ -1,0 +1,99 @@
+{
+  "url": "copd-tool",
+  "title": "COPD Zone Sheet and Symptom Log",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The COPD Zone Sheet and Symptom Log can be used to help monitor COPD symptoms."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How can it help me?",
+      "paragraphs": [
+        "The COPD Zone Sheet and Symptom Log can be used to monitor COPD symptoms and recognize when flare-ups or emergency occurs. These tools help identify flare-ups early so an individual with COPD can get the necessary treatment to keep them healthy at home and avoid trips to the emergency department."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "<b>Watch the video below to learn about Malik and his wife’s journey with managing COPD.</b>",
+      "src": "https://www.youtube.com/embed/Htlfwqan4OU"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "VIDEO SUMMARY",
+      "tips": [
+        "Malik is 67 years old and lives with his wife at home. Malik smokes cigarettes but has cut back in recent years.",
+        "One day, Malik develops a bad cough and chest pain. Fearing it may be a heart attack, his wife calls 911 and Malik is taken to the hospital. He is diagnosed with pneumonia and COPD.",
+        "Malik is referred to a home care agency and meets with a Care Coordinator. He is referred to a nurse who teaches him skills and introduces the COPD Zone Sheet and Symptom Log to help manage symptoms and avoid emergencies."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "COPD Zone Sheet",
+      "paragraphs": [
+        "Use questions on the Zone Sheet to know when someone with COPD is doing well (green zone), when they need to call a doctor (yellow zone), and when they need to go to the hospital (red zone) based on their symptoms."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Asking the questions below daily can help determine which zone your loved one is in:",
+      "content": [
+        "Have they used their rescue/blue inhalers or oxygen more often?",
+        "Is there any change in their breathing (e.g., takes longer to walk, may have more difficulty on stairs, unable to speak after walking)?",
+        "Are they able to participate in usual daily activities?",
+        "Are they complaining of having chest pain? Is this new or more frequent?",
+        "Any changes in their sputum (e.g., changes in amount, colour, consistency)?",
+        "Any changes in their appetite?"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "No fever",
+        "No increase in shortness of breath",
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "No increase in the amount, thickness or stickiness of mucous (phlegm or sputum)",
+        "New cough, or a cough that is worse than usual",
+        "Increased or new shortness of breath",
+        "A change in colour, amount, or thickness from normal mucous (phlegm or sputum)",
+        "Fever above 38° Celsius (100.4° Fahrenheit)"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Struggling to breathe or can't catch their breath",
+        "Heart is 'racing'",
+        "Can't think clearly or feeling confused",
+        "Feeling dizzy or lightheaded",
+        "Have sudden chest pain that won't go away"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "COPD Zone Sheet Preview",
+      "images": [
+        {
+          "url": "copd_zones.png",
+          "description": "COPD Zones"
+        },
+        {
+          "url": "copd_log.png",
+          "description": "COPD Symptom Log"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "url": "heart-failure-tool",
+  "title": "Heart Failure Zone Sheet & Daily Weight Log",
+  "content": [
+    {
+      "type": "information",
+      "title": "What is it?",
+      "paragraphs": [
+        "The Heart Failure Zone Sheet and Daily Weight Log can be used to help monitor heart failure symptoms."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "How it can help me?",
+      "paragraphs": [
+        "The Heart Failure Zone Sheet and Daily Weight Log tool can be used to monitor heart failure symptoms and recognize when flare-ups or emergency occurs. These tools help identify flare-ups early so that the person with Heart Failure can get the necessary treatment to keep them healthy at home and avoid trips to the emergency department."
+      ]
+    },
+    {
+      "type": "video",
+      "text": "<b>Watch the video below to follow Alaise and her daughter’s journey with Heart Failure.</b>",
+      "src": "https://www.youtube.com/embed/cFhgdhjTCnQ"
+    },
+    {
+      "type": "tips",
+      "icon": "/icons/video.svg",
+      "title": "VIDEO SUMMARY",
+      "tips": [
+        "Alaise is an 83-year old woman with early-stage dementia and heart failure. Alaise lives with her daughter.",
+        "Alaise’s daughter uses the Heart Failure Zone Sheet and Daily Weight Log to determine if her mother may be experiencing a heart failure flare-up. After noticing a change in symptoms, her daughter identifies that Alaise is in the “yellow zone” and calls their local community health center for medical assistance.",
+        "A community nurse comes to their home and treats Alaise. The community nurse updates Alaise’s nurse practitioner on her condition."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Heart Failure Zone Sheet",
+      "paragraphs": [
+        "Use questions on the Zone Sheet to know when the person with Heart Failure is doing well (green zone), when they need to call a doctor (yellow zone), and when they need to go to the hospital (red zone) based on their symptoms."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Asking the questions below daily can help determine which zone your loved one is in:",
+      "content": [
+        "What is their daily weight?",
+        "Is there any change in their breathing?",
+        "Do you notice any difficulty participating in usual daily activities?",
+        "Do you notice any swelling in the feet, ankles, legs or stomach? Is this more than usual (e.g., have difficulty getting shoes on, or pants are tight around the stomach)?",
+        "How many pillows are they sleeping with at night? Have they needed to sleep on a 'lazy boy' chair?",
+        "How is their appetite? Is there a change?"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "green",
+      "content": [
+        "No changes in weight",
+        "Can perform daily activities as usual",
+        "No new swelling of feet, ankles, legs or stomach"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "yellow",
+      "content": [
+        "2 pounds (1kg) weight gain/loss in one day",
+        "5 pounds (2-3 kg) weight gain/loss in one week",
+        "Increased or new shortness of breath",
+        "Shortness of breath that worsens when lying down or causes them to wake up from sleep",
+        "New swelling of feet, ankles, legs or stomach",
+        "Feeling weak and tired"
+      ]
+    },
+    {
+      "type": "zone",
+      "label": "red",
+      "content": [
+        "Struggling to breathe or can't catch their breath",
+        "Heart is 'racing'",
+        "Can't think clearly or feeling confused",
+        "Feeling dizzy or lightheaded",
+        "Have sudden chest pain that won't go away"
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Heart Failure Zone Sheet Preview",
+      "images": [
+        {
+          "url": "heart_failure_tool.png",
+          "description": "Heart Failure Zones"
+        },
+        {
+          "url": "heart_failure_tool_2.png",
+          "description": "Heart Failure Daily Weight Log"
+        }
+      ]
+    }
+  ]
+}
