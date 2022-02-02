@@ -37,9 +37,7 @@ export const ArticlesGrid = ({
                   <Button
                     title={t('start')}
                     buttonStyle="primary_blue"
-                    onClick={() =>
-                      router.push(`/learn/${topic.articles[0].url}`)
-                    }
+                    onClick={() => router.push(`/${topic.articles[0].url}`)}
                   />
                   <Button
                     title={`${t('show_all')} ${topic.articles.length} ${t(
@@ -56,7 +54,7 @@ export const ArticlesGrid = ({
             <Carousel>
               {topic.articles.map((item, i) => {
                 return (
-                  <Link href={`/learn/${item.url}`} key={i}>
+                  <Link href={`/${item.url}`} key={i}>
                     <a className={styles.articles__content}>
                       <ContentCard
                         title={item.title}
@@ -74,7 +72,7 @@ export const ArticlesGrid = ({
                 <Button
                   title={t('start')}
                   buttonStyle="primary_blue"
-                  onClick={() => router.push(`/learn/${topic.articles[0].url}`)}
+                  onClick={() => router.push(`/${topic.articles[0].url}`)}
                 />
                 <Button
                   title={`${t('show_all')} ${topic.articles.length} ${t(

@@ -34,9 +34,7 @@ export const ArticlesGridTopic = ({
                   <Button
                     title={t('start')}
                     buttonStyle="primary_blue"
-                    onClick={() =>
-                      router.push(`/learn/${articles.articles[0].url}`)
-                    }
+                    onClick={() => router.push(`/${articles.articles[0].url}`)}
                   />
                 </div>
               </div>
@@ -51,7 +49,7 @@ export const ArticlesGridTopic = ({
             {articles.articles?.map((item, index) => {
               return (
                 <div className={styles.articles__item} key={index}>
-                  <Link href={`/learn/${item.url}`}>
+                  <Link href={`/${item.url}`}>
                     <a>
                       <ContentCard
                         title={item.title}
