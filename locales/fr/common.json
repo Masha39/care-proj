@@ -2,5 +2,9 @@
   "learn_more": "Apprendre encore plus",
   "start": "Recommencer depuis le début",
   "show_all": "Afficher tout",
-  "resources": "ressources"
+  "resources": "ressources",
+  "topic": "Sujet",
+  "all_topics": "Tous les sujets",
+  "content_type": "Type de contenu",
+  "all_content": "Tout le contenu"
 }

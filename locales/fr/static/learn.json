@@ -1,8 +1,6 @@
 {
   "title": "Apprendre",
   "description": "Découvrez des informations, des conseils et des ressources pour vous aider à vous sentir plus confiant et plus fort dans votre rôle de soignant.",
-  "topic": "Sujet",
-  "topics": "Tous les sujets",
   "topics_description": [
     {
       "topic": "Comprendre les soins à domicile",
@@ -21,8 +19,6 @@
       "description": "Utilisez une évaluation de santé validée et un outil de planification de rendez-vous pour partager des informations importantes avec les professionnels de la santé."
     }
   ],
-  "content_type": "Type de contenu",
-  "all_content": "Tout le contenu",
   "content_types": [
     {
       "label": "Information",

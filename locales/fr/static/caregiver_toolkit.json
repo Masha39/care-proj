@@ -1,0 +1,14 @@
+{
+  "content_types": [
+    {
+      "label": "Outils",
+      "value": "outils",
+      "icon": "tool"
+    },
+    {
+      "label": "Évaluation",
+      "value": "évaluation",
+      "icon": "assessment"
+    }
+  ]
+}

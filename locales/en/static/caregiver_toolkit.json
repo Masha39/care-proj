@@ -1,0 +1,14 @@
+{
+  "content_types": [
+    {
+      "label": "Tools",
+      "value": "tools",
+      "icon": "tool"
+    },
+    {
+      "label": "Assessment",
+      "value": "assessment",
+      "icon": "assessment"
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 {
   "title": "Learn",
   "description": "Explore information, tips, and resources to help you feel confident and stronger in your caregiver role.",
-  "topic": "Topic",
-  "topics": "All topics",
   "topics_description": [
     {
       "topic": "Understanding Home Care",
@@ -21,8 +19,6 @@
       "description": "Use a validated health assessment and an appointment planning tool to share important information with healthcare professionals."
     }
   ],
-  "content_type": "Content type",
-  "all_content": "All content",
   "content_types": [
     {
       "label": "Information",

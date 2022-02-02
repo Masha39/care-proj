@@ -9,7 +9,7 @@ export const TextWithImage = ({
   content,
   background
 }: {
-  content: TextWIthImageData[]
+  content: TextWithImageData[]
   background: boolean
 }) => {
   return (
