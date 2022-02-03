@@ -1,24 +1,6 @@
 {
   "title": "Learn",
   "description": "Explore information, tips, and resources to help you feel confident and stronger in your caregiver role.",
-  "topics_description": [
-    {
-      "topic": "Understanding Home Care",
-      "description": "Your starting place for navigating home care, understanding the roles of home care providers, and preparing for common challenges."
-    },
-    {
-      "topic": "Caregiver Wellness",
-      "description": "Learn about ways to protect your health and avoid stress and burnout while caring for others."
-    },
-    {
-      "topic": "Managing Symptoms",
-      "description": "Discover tips and tools to manage COPD, heart failure, and dizziness symptoms in the home."
-    },
-    {
-      "topic": "Communicating with Healthcare Professionals",
-      "description": "Use a validated health assessment and an appointment planning tool to share important information with healthcare professionals."
-    }
-  ],
   "content_types": [
     {
       "label": "Information",

@@ -1,0 +1,23 @@
+.tools {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  &__topic {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: $orange500;
+    margin-bottom: 16px;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__item {
+    min-width: 360px;
+    width: 360px;
+    margin-right: 24px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

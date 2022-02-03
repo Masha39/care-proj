@@ -9,12 +9,14 @@ export const ContentCard = ({
   title,
   image,
   type,
-  icon
+  icon,
+  description
 }: {
   title: string
   image: string
   type: string
   icon?: string
+  description?: string
 }) => {
   const { t } = useTranslation('common')
 
@@ -30,6 +32,9 @@ export const ContentCard = ({
         <div className={styles.card__title}>
           <h4>{title}</h4>
         </div>
+        {description ? (
+          <div className={styles.card__description}>{description}</div>
+        ) : null}
         <div className={styles.card__link}>{t('common:learn_more')}</div>
       </div>
     </div>

@@ -36,6 +36,7 @@
       },
       "preview_text": "L'outil “Mon équipe de soins à domicile“, est une feuille imprimable qui aide à comprendre et à suivre les fournisseurs de soins de santé qui composent une équipe de soins à domicile.",
       "topic": "Comprendre les soins à domicile",
+      "description": "Utilisez cet outil pour mieux comprendre les rôles de votre équipe de soins à domicile et organiser leurs coordonnées pour une référence rapide.",
       "image": "slide_4.svg",
       "read_time": "15 minute de lecture"
     },
@@ -88,6 +89,7 @@
       },
       "preview_text": "L'outil Apprenez à me connaître est une feuille imprimable qui aide les fournisseurs de soins à se familiariser avec la personne dont ils s'occupent. Il peut être affiché à domicile pour aider les prestataires de soins à domicile à connaître les intérêts, les besoins et les préférences en matière de soins de la personne qui reçoit des soins.",
       "topic": "Comprendre les soins à domicile",
+      "description": "Utilisez cet outil pour communiquer les besoins, les capacités et les préférences de votre proche en matière de soins aux fournisseurs de soins à domicile.",
       "image": "slide_8.svg",
       "read_time": "5 minute de lecture"
     },
@@ -101,6 +103,7 @@
       },
       "preview_text": "Mon plan de soins est un outil personnalisable permettant aux principaux aidants de communiquer des informations importantes sur la personne dont ils s'occupent. Cet outil peut être personnalisé pour répertorier les tâches de l'aidant, les préférences de la personne soignée et d'autres informations importantes.",
       "topic": "Comprendre les soins à domicile",
+      "description": "Utilisez cet outil pour vous préparer aux visites de soins manquées, au temps planifié/non planifié loin de votre proche et à la délégation de tâches à d'autres.",
       "image": "slide_9.svg",
       "read_time": "3 minute de lecture"
     },
@@ -108,9 +111,9 @@
       "url": "what-is-caregiver",
       "title": "Qu'est-ce qu'un aide-soignant?",
       "content_type": {
-        "label": "Outils",
-        "value": "outils",
-        "icon": "tool"
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
       },
       "preview_text": "Un aidant naturel est une personne qui prodigue des soins non rémunérés à une autre personne. Au Canada, une personne sur quatre prodigue des soins non rémunérés à un membre de sa famille ou à un ami.",
       "topic": "Bien-être des aidants",
@@ -140,6 +143,7 @@
       },
       "preview_text": "L'auto-évaluation du stress et de l'épuisement professionnel aide les soignants à déterminer leur niveau d'épuisement professionnel et de stress. Cet outil ne doit être utilisé qu'à titre indicatif et ne remplace pas les conseils des professionnels de la santé.",
       "topic": "Bien-être des aidants",
+      "description": "Complétez cette auto-évaluation pour déterminer votre niveau de risque d'épuisement professionnel et de stress.",
       "image": "burnout_assessment.svg",
       "read_time": "5 minute de lecture"
     },
@@ -166,6 +170,7 @@
       },
       "preview_text": "Prendre soin de soi vous aide à rester en bonne santé et plein d'énergie. Explorez les activités de soins personnels ci-dessous pour en savoir plus sur leurs avantages pour le bien-être cognitif, social, émotionnel, spirituel et physique.",
       "topic": "Bien-être des aidants",
+      "description": "Répondez à ce quiz pour découvrir des façons saines de faire face au stress en fonction de vos centres d'intérêt.",
       "image": "aki.svg",
       "read_time": "7 minute de lecture"
     },
@@ -205,6 +210,7 @@
       },
       "preview_text": "La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour aider à surveiller les symptômes de la MPOC. La feuille de zone MPOC et le journal des symptômes peuvent être utilisés pour surveiller les symptômes de la MPOC et reconnaître les poussées ou les urgences.",
       "topic": "Gestion des symptômes",
+      "description": "Utilisez cet outil pour aider à surveiller les symptômes quotidiens de la MPOC et à reconnaître quand une poussée ou une urgence se produit.",
       "image": "slide_14.svg",
       "read_time": "5 minute de lecture"
     },
@@ -231,6 +237,7 @@
       },
       "preview_text": "La feuille de zone d'insuffisance cardiaque et le journal de poids quotidien peuvent être utilisés pour aider à surveiller les symptômes d'insuffisance cardiaque. La feuille de zone d'insuffisance cardiaque et l'outil journal de poids quotidien peuvent être utilisés.",
       "topic": "Gestion des symptômes",
+      "description": "Utilisez cet outil pour aider à surveiller les symptômes quotidiens d'insuffisance cardiaque et à reconnaître quand une poussée ou une urgence se produit.",
       "image": "slide_15.svg",
       "read_time": "7 minute de lecture"
     },
@@ -270,6 +277,7 @@
       },
       "preview_text": "L'outil de planification de rendez-vous est un outil personnalisable et imprimable pour aider les soignants et les personnes recevant des soins à se préparer aux prochains rendez-vous médicaux. Cet outil contient des listes de contrôle avant, pendant et après le rendez-vous avec des tâches à accomplir à ces différentes étapes.",
       "topic": "Communiquer avec les professionnels de santé",
+      "description": "Use this tool to prepare for upcoming medical appointments. Plan and organize what to talk about with health professionals before an appointment.",
       "image": "slide_1.svg",
       "read_time": "2 minute de lecture"
     },
@@ -283,6 +291,7 @@
       },
       "preview_text": "Le Check-Up Assessment est un questionnaire sur la santé et le bien-être. C'est une occasion d'auto-évaluer les besoins de santé personnels ou d'évaluer les besoins de santé d'une personne dont on s'occupe.",
       "topic": "Communiquer avec les professionnels de santé",
+      "description": "Le bilan de santé autodéclaré est une évaluation de santé détaillée qui produit un résumé à partager avec les fournisseurs de soins primaires.",
       "image": "slide_18.svg",
       "read_time": "5 minute de lecture"
     }

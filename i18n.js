@@ -5,9 +5,13 @@ module.exports = {
   pages: {
     '*': ['common'],
     '/': ['static/main_page', 'sections'],
-    '/learn': ['static/learn', 'articles-list'],
-    '/[slug]': ['static/article', 'static/learn'],
-    '/caregiver-toolkit': ['static/caregiver_toolkit', 'articles-list'],
+    '/learn': ['static/learn', 'articles-list', 'static/topics_description'],
+    '/[slug]': ['static/article', 'static/topics_description'],
+    '/caregiver-toolkit': [
+      'static/caregiver_toolkit',
+      'static/topics_description',
+      'articles-list'
+    ],
     '/contact-us': ['static/contact_page']
   }
 }

@@ -3,10 +3,10 @@ import React from 'react'
 import groupBy from 'lodash/groupBy'
 import useTranslation from 'next-translate/useTranslation'
 
-import { Banner } from 'components/banner/banner'
 import { ContentType } from 'components/content_type/content_type'
 import { Filters } from 'components/filters/filters'
 import Layout from 'layouts/layout'
+import { getTopicsToShow } from '~/utils/get_topics_to_show'
 import { useContentType } from '~/utils/use_content_type'
 import { useSelect } from '~/utils/use_select'
 
@@ -14,7 +14,6 @@ import { ArticlesGrid } from './components/articles_grid/articles_grid'
 import { ArticlesGridTopic } from './components/articles_grid_topic/articles_grid_topic'
 import { ArticlesGridType } from './components/articles_grid_type/articles_grid_type'
 import styles from './learn.module.scss'
-import { getTopicsToShow } from './utils/get_topics_to_show'
 
 const Learn = () => {
   const { t } = useTranslation('static/learn')
@@ -39,7 +38,7 @@ const Learn = () => {
   const articlesByTopic = groupBy(articles, 'topic')
 
   const descriptions = t<TopicDescription[]>(
-    'topics_description',
+    'static/topics_description:topics_description',
     {},
     { returnObjects: true }
   )
@@ -55,7 +54,14 @@ const Learn = () => {
 
   return (
     <Layout>
-      <Banner title={t('title')} description={t('description')} />
+      <div className={styles.banner}>
+        <div className="container">
+          <div className={styles.banner__text}>
+            <h1 className={styles.banner__title}>{t('title')}</h1>
+            <h3 className={styles.banner__description}>{t('description')}</h3>
+          </div>
+        </div>
+      </div>
       <div className={styles.learn}>
         <Filters
           topics={articlesByTopic}

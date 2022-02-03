@@ -33,7 +33,7 @@ export const Navigation = ({
   const router = useRouter()
 
   const descriptions = t<TopicDescription[]>(
-    'static/learn:topics_description',
+    'static/topics_description:topics_description',
     { count: 1 },
     { returnObjects: true }
   )

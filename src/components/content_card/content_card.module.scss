@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 264px;
   min-height: 283px;
   width: 100%;
   border-radius: 7px;
@@ -42,6 +41,11 @@
         background: linear-gradient(rgba(0, 0, 0, 0), rgb(246, 248, 249));
       }
     }
+  }
+  &__description {
+    font-size: 18px;
+    line-height: 21px;
+    color: $steelBlue600;
   }
   &__link {
     font-weight: normal;

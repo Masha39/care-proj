@@ -7,8 +7,8 @@ import { useRouter } from 'next/router'
 import { Button } from 'components/button/button'
 import { Carousel } from 'components/carousel/carousel'
 import { ContentCard } from 'components/content_card/content_card'
+import { Topic } from '~/utils/get_topics_to_show'
 
-import { Topic } from '../../utils/get_topics_to_show'
 import styles from './articles_grid.module.scss'
 
 export const ArticlesGrid = ({
@@ -55,13 +55,15 @@ export const ArticlesGrid = ({
               {topic.articles.map((item, i) => {
                 return (
                   <Link href={`/${item.url}`} key={i}>
-                    <a className={styles.articles__content}>
-                      <ContentCard
-                        title={item.title}
-                        image={item.image}
-                        type={item.content_type.label}
-                        icon={item.content_type.icon}
-                      />
+                    <a>
+                      <div className={styles.articles__item}>
+                        <ContentCard
+                          title={item.title}
+                          image={item.image}
+                          type={item.content_type.label}
+                          icon={item.content_type.icon}
+                        />
+                      </div>
                     </a>
                   </Link>
                 )
