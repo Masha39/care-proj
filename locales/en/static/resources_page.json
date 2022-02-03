@@ -1,20 +1,6 @@
 {
   "resources_title": "Resources",
   "resources_title_text": "Do you have additional questions about home care services? Learn about national and provincial resources.",
-  "accardion_main_text": "Choose a region to learn more about specific resources.",
-  "accardion_information_title": "Explore these additional resources:",
-  "accardion_button_national": "National",
-  "accardion_button_alberta": "Alberta",
-  "accardion_button_british_columbia": "British Columbia",
-  "accardion_button_manitoba": "Manitoba",
-  "accardion_button_new_brunswick": "New Brunswick",
-  "accardion_button_labrador_and_newfoundland": "Labrador and Newfoundland",
-  "accardion_button_nova_scotia": "Nova Scotia",
-  "accardion_button_northwest_territories": "Northwest Territories",
-  "accardion_button_nunavut": "Nunavut",
-  "accardion_button_ontario": "Ontario",
-  "accardion_button_prince_edward_island": "Prince Edward Island",
-  "accardion_button_quebec": "Quebec",
-  "accardion_button_saskatchewan": "Saskatchewan",
-  "accardion_button_yukon": "Yukon"
+  "accordion_main_text": "Choose a region to learn more about specific resources.",
+  "accordion_information_title": "Explore these additional resources:"
 }

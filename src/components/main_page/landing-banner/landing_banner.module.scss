@@ -2,6 +2,7 @@
   position: relative;
   padding-top: 124px;
   padding-left: 16px;
+  padding-right: 15px;
   padding-bottom: 31px;
   background-image: url('../../../../src/assets/images/landing_banner_mobile.jpg');
   background-repeat: no-repeat;
@@ -144,11 +145,11 @@
   background: #d87b38;
   color: white;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
   //576
   @media (min-width: $mob) {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 

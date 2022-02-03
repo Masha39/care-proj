@@ -12,7 +12,7 @@ import LogoMobile from 'public/svg/landing_logo_mobile.svg'
 import styles from 'src/components/main_page/landing-banner/landing_banner.module.scss'
 
 const landingBanner = () => {
-  const { t } = useTranslation('main_page')
+  const { t } = useTranslation('static/main_page')
   return (
     <div className={styles.landingBannerWrapper}>
       <div className={styles.banner_content}>
@@ -24,11 +24,9 @@ const landingBanner = () => {
             <div className={styles.landing_logo_mobile}>
               <LogoMobile />
             </div>
-            <p className={styles.landing_text}>
-              {t('static/main_page:main_logo')}
-            </p>
+            <p className={styles.landing_text}>{t('main_logo')}</p>
             <button className={styles.landing_btn}>
-              {t('static/main_page:main_logo_button')}
+              {t('main_logo_button')}
             </button>
           </div>
         </div>
@@ -36,11 +34,11 @@ const landingBanner = () => {
       <div className={styles.banner_footer_wrapper}>
         <div className={styles.mobile_footer_wrapper}>
           <div className={styles.mobile_footer_title}>
-            {t('static/main_page:mobile_footer_title')}
+            {t('mobile_footer_title')}
           </div>
           <div className={styles.banner_footer_content}>
             <span className={styles.left_footer_content}>
-              {t('static/main_page:left_footer_content')}
+              {t('left_footer_content')}
             </span>
             <div className={styles.mobile_logo_1}>
               <Image
@@ -59,7 +57,7 @@ const landingBanner = () => {
               />
             </div>
             <span className={styles.right_footer_content}>
-              {t('static/main_page:right_footer_content')}
+              {t('right_footer_content')}
             </span>
             <div className={styles.mobile_logo_3}>
               <Image

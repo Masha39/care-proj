@@ -9,14 +9,12 @@ import {
   AccordionItemPanel
 } from 'react-accessible-accordion'
 
-import styles from 'src/pages/resources/resources.module.scss'
-
 import Item from '../../../public/svg/accordion_button_image.svg'
-import { regions } from '../../pages/resources/resources.json'
+import { regions } from './resources.json'
+import styles from './resources_page.module.scss'
 
 const ResourcesPage = () => {
-  const { t } = useTranslation('resources_page')
-
+  const { t } = useTranslation('static/resources_page')
   const getColumns = () => {
     const firstLength = Math.floor(regions.length / 2)
     const firstColumn = regions.slice(0, firstLength)
@@ -25,30 +23,27 @@ const ResourcesPage = () => {
   }
 
   const { firstColumn, secondColumn } = getColumns()
+
   return (
     <div className={styles.resources}>
       <div className={styles.accordion_header}>
         <div className={styles.resourses_banner}>
           <div className={styles.resources_banner_text}>
-            <div className={styles.resources_title}>
-              {t('static/resources_page:resources_title')}
-            </div>
+            <div className={styles.resources_title}>{t('resources_title')}</div>
             <div className={styles.resources_title_text_mobile}>
-              {t('static/resources_page:resources_title_text')}
+              {t('resources_title_text')}
             </div>
             <div className={styles.resources_title_text}>
-              {t('static/resources_page:resources_title_text')}
+              {t('resources_title_text')}
             </div>
           </div>
         </div>
       </div>
 
       <div>
-        <div className={styles.accordion_title}>
-          {t('static/resources_page:accardion_main_text')}
-        </div>
+        <div className={styles.accordion_title}>{t('accordion_main_text')}</div>
         <div className={styles.accordion_title_mobile}>
-          {t('static/resources_page:accardion_main_text')}
+          {t('accordion_main_text')}
         </div>
         <div className={styles.accordion_wrapper}>
           <section className={styles.section}>
@@ -63,7 +58,7 @@ const ResourcesPage = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel className={styles.information}>
                     <div className={styles.category_information_title}>
-                      {t('static/resources_page:accardion_information_title')}
+                      {t('accordion_information_title')}
                     </div>
                     {r.links.map((l) => (
                       <a
@@ -90,7 +85,7 @@ const ResourcesPage = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel className={styles.information}>
                     <div className={styles.category_information_title}>
-                      {t('static/resources_page:accardion_information_title')}
+                      {t('accardion_information_title')}
                     </div>
                     {r.links.map((l) => (
                       <a
