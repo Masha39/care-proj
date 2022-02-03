@@ -12,10 +12,12 @@
   &__wrapper {
     display: flex;
   }
+  &__card {
+    margin-right: 24px;
+  }
   &__item {
     min-width: 360px;
     width: 360px;
-    margin-right: 24px;
     &:last-child {
       margin-right: 0;
     }

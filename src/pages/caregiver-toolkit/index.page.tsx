@@ -55,7 +55,6 @@ const CaregiverToolkit = () => {
     defaultType.value,
     descriptions
   )
-  console.log(topicsToShow)
   return (
     <Layout>
       <div className={styles.banner}>

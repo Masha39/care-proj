@@ -76,3 +76,15 @@
     border-radius: 0 0 7px 7px;
   }
 }
+
+.footer {
+  &__large {
+    min-height: 238px;
+  }
+}
+
+.header {
+  &__large {
+    min-height: 192px;
+  }
+}

@@ -87,7 +87,6 @@
     "max-classes-per-file": "off",
     "react/jsx-props-no-spreading": ["off"],
     "react/require-default-props": ["off"],
-    "no-unused-vars": "error",
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": [
       "error",
@@ -98,6 +97,10 @@
     "jsx-a11y/anchor-is-valid": "off",
     "react/jsx-pascal-case": "error",
     "no-unused-expressions": "warn",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
     "import/order": [
       "error",
       {

@@ -1,10 +1,14 @@
-import { ContentCard } from 'components/content_card/content_card'
+import Link from 'next/link'
+
+import {
+  ContentCard,
+  ContentCardSize
+} from 'components/content_card/content_card'
 import { Topic } from '~/utils/get_topics_to_show'
 
 import styles from './tools_grid.module.scss'
 
 export const ToolsGrid = ({ topics }: { topics: Record<string, Topic> }) => {
-  console.log(Object.entries(topics))
   return (
     <div className="container">
       {Object.entries(topics).map(([topicName, topic]) => {
@@ -14,15 +18,20 @@ export const ToolsGrid = ({ topics }: { topics: Record<string, Topic> }) => {
             <div className={styles.tools__wrapper}>
               {topic.articles.map((article, index) => {
                 return (
-                  <div className={styles.tools__item} key={index}>
-                    <ContentCard
-                      title={article.title}
-                      image={article.image}
-                      type={article.content_type.label}
-                      icon={article.content_type.icon}
-                      description={article.description}
-                    />
-                  </div>
+                  <Link href={`/${article.url}`} key={index}>
+                    <a className={styles.tools__card}>
+                      <div className={styles.tools__item}>
+                        <ContentCard
+                          title={article.title}
+                          image={article.image}
+                          type={article.content_type.label}
+                          icon={article.content_type.icon}
+                          description={article.description}
+                          size={ContentCardSize.large}
+                        />
+                      </div>
+                    </a>
+                  </Link>
                 )
               })}
             </div>
