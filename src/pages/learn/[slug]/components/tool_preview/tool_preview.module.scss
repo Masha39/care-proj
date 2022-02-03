@@ -1,0 +1,223 @@
+.preview {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__close {
+    cursor: pointer;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 21px;
+    color: $steelBlue500;
+  }
+  &__title {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 500;
+    color: $steelBlue600;
+  }
+
+  &__gallery {
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(
+        93.78deg,
+        rgba(156, 191, 203, 0.05) 0%,
+        rgba(39, 118, 148, 0.1) 100%
+      ),
+      #ffffff;
+    border-radius: 7px;
+    border: 1px solid $steelBlue300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
+
+.images {
+  max-height: 100%;
+  &__main {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px 0;
+  }
+  &__preview {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  &__wrapper {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #9cbfcb;
+    background: linear-gradient(
+        93.78deg,
+        rgba(156, 191, 203, 0.05) 0%,
+        rgba(39, 118, 148, 0.1) 100%
+      ),
+      #ffffff;
+    cursor: pointer;
+    &:hover {
+      background: linear-gradient(
+          0deg,
+          rgba(156, 191, 203, 0.3),
+          rgba(156, 191, 203, 0.3)
+        ),
+        linear-gradient(
+          93.78deg,
+          rgba(156, 191, 203, 0.05) 0%,
+          rgba(39, 118, 148, 0.1) 100%
+        ),
+        #ffffff;
+    }
+    &:first-child {
+      border-radius: 0 0 0 5px;
+    }
+    &:last-child {
+      border-radius: 0 0 5px 0;
+      @media (min-width: $sm) {
+        border-radius: 0 5px 0 0;
+      }
+    }
+  }
+  &__active {
+    background: linear-gradient(
+        0deg,
+        rgba(156, 191, 203, 0.3),
+        rgba(156, 191, 203, 0.3)
+      ),
+      linear-gradient(
+        93.78deg,
+        rgba(156, 191, 203, 0.05) 0%,
+        rgba(39, 118, 148, 0.1) 100%
+      ),
+      #ffffff;
+    border-color: $steelBlue500;
+  }
+  &__item {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.arrow {
+  border: 1px solid $steelBlue300;
+  background: $white;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+  &__left {
+    position: absolute;
+    left: 30px;
+  }
+  &__right {
+    position: absolute;
+    right: 30px;
+  }
+}
+
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid $steelBlue300;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: linear-gradient(
+      93.78deg,
+      rgba(156, 191, 203, 0.05) 0%,
+      rgba(39, 118, 148, 0.1) 100%
+    ),
+    rgb(255, 255, 255);
+  &:hover {
+    .gallery__button {
+      display: block;
+    }
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(156, 191, 203, 0.3);
+    }
+  }
+  &__button {
+    display: none;
+    position: absolute;
+    top: 50%;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    > h3 {
+      margin: 14px 0 14px 10px;
+      color: $steelBlue600;
+    }
+  }
+  &__main {
+    width: 542px;
+  }
+  &__full {
+    width: 100%;
+  }
+  &__img {
+    width: 85%;
+    object-fit: contain;
+    margin: 0 7.5%;
+  }
+  &__images {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-left: 1px solid $steelBlue300;
+    margin-bottom: -2px;
+  }
+  &__item {
+    border-bottom: 1px solid $steelBlue300;
+    display: flex;
+    &:last-child {
+      border-bottom: none;
+    }
+    > img {
+      object-fit: contain;
+      width: 90%;
+      margin: 5%;
+    }
+  }
+  &__one {
+    height: 100%;
+  }
+  &__two {
+    height: 50%;
+  }
+  &__three {
+    height: 33%;
+  }
+}

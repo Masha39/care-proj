@@ -11,6 +11,14 @@
     {
       "topic": "Caregiver Wellness",
       "description": "Learn about ways to protect your health and avoid stress and burnout while caring for others."
+    },
+    {
+      "topic": "Managing Symptoms",
+      "description": "Discover tips and tools to manage COPD, heart failure, and dizziness symptoms in the home."
+    },
+    {
+      "topic": "Communicating with Healthcare Professionals",
+      "description": "Use a validated health assessment and an appointment planning tool to share important information with healthcare professionals."
     }
   ],
   "content_type": "Content type",
@@ -36,5 +44,6 @@
       "value": "assessment",
       "icon": "assessment"
     }
-  ]
+  ],
+  "sorry": "Sorry, we couldn't find articles in the topic for this content type."
 }

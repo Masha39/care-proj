@@ -21,7 +21,7 @@ export const ContentCard = ({
   return (
     <div className={styles.card}>
       <div className={styles.card__header}>
-        <Image src={`/images/${image}`} width={264} height={168} />
+        <Image src={`/svg/${image}`} width={264} height={168} />
         <div className={styles.card__contentType}>
           <ContentType type={type} icon={icon} />
         </div>

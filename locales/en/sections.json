@@ -5,7 +5,7 @@
       "description": "YourCare+ provides tools to use in the home, send to a family member or friend, or share with health care professionals.",
       "btn": "Caregiver Toolkit'",
       "img": {
-        "src": "/phone.png",
+        "src": "phone.png",
         "width": "490",
         "height": "400"
       }
@@ -15,7 +15,7 @@
       "description": "Learn about the basics of home care and the roles of home care providers.",
       "btn": "The Basics",
       "img": {
-        "src": "/people.png",
+        "src": "people.png",
         "width": "490",
         "height": "276"
       }
@@ -25,7 +25,7 @@
       "description": "Learn how to protect personal health and wellness to prevent stress and burnout.",
       "btn": "Caregiver Wellness",
       "img": {
-        "src": "/girl.png",
+        "src": "girl.png",
         "width": "490",
         "height": "276"
       }
@@ -35,7 +35,7 @@
       "description": "Learn how to manage COPD and Heart Failure symptoms in the home.",
       "btn": "Managing Symptoms",
       "img": {
-        "src": "/girls.png",
+        "src": "girls.png",
         "width": "490",
         "height": "276"
       }

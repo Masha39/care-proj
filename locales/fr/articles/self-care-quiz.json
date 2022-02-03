@@ -1,0 +1,42 @@
+{
+  "url": "self-care-quiz",
+  "title": "Quiz sur les stratégies de soins personnels",
+  "content": [
+    {
+      "type": "information",
+      "title": "Qu'est-ce que c'est?",
+      "paragraphs": [
+        "Prendre soin de soi vous aide à rester en bonne santé et plein d'énergie. Explorez les activités de soins personnels ci-dessous pour en savoir plus sur leurs avantages pour le bien-être cognitif, social, émotionnel, spirituel et physique."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Comment cela peut-il m'aider?",
+      "paragraphs": [
+        "Répondez au questionnaire sur la stratégie de soins personnels et recevez une liste d'activités personnalisées en fonction de vos intérêts. Vous pouvez également appliquer des filtres ci-dessous en fonction de vos centres d'intérêt, de l'heure et du lieu pour mieux vous adapter à votre emploi du temps."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Aperçu du quiz sur les stratégies de soins personnels",
+      "images": [
+        {
+          "url": "self_care_quiz.png",
+          "description": "Répondez aux questions du quiz"
+        },
+        {
+          "url": "self_care_quiz_2.png",
+          "description": "Explorer les activités d'auto-soins"
+        },
+        {
+          "url": "self_care_quiz_3.png",
+          "description": "Trouvez les activités qui vous conviennent"
+        },
+        {
+          "url": "self_care_quiz_4.png",
+          "description": "Trouvez les activités qui vous conviennent"
+        }
+      ]
+    }
+  ]
+}

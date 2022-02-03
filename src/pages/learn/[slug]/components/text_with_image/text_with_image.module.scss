@@ -14,12 +14,14 @@
   &__image {
     min-width: 120px;
     min-height: 120px;
-    background: $steel-blue;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
     margin-right: 12px;
+  }
+  &__background {
+    background: $steel-blue;
   }
   &__text {
     color: $text-color;
@@ -28,5 +30,8 @@
     @media (min-width: $lg) {
       font-size: 22px;
     }
+  }
+  b {
+    font-weight: 600;
   }
 }

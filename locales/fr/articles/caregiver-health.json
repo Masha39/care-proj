@@ -29,7 +29,7 @@
       "icon": "/icons/one.svg",
       "tips": [
         "Prenez l'habitude de prendre du temps pour vous chaque jour, même si ce n'est que 15 minutes. C'est plus facile à dire qu'à faire, car de nombreux aidants éprouvent un sentiment de culpabilité lorsqu'ils font passer leurs propres besoins avant ceux des autres. Considérez ce moment comme un cadeau pour vous-même et pour la personne dont vous vous occupez. Vous vous sentirez mieux après avoir pris du temps pour vous, et vous prodiguerez des soins encore meilleurs.",
-        "Essayez ceci: visitez la page Stratégies d'autosoins pour en savoir plus sur les différentes activités d'autosoins qui conviennent à votre horaire de soignant."
+        "<b>Essayez ceci:</b> visitez la page <a href='/fr/learn/self-care-quiz'>Stratégies d'autosoins</a> pour en savoir plus sur les différentes activités d'autosoins qui fonctionnent avec votre soignant programme."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "icon": "/icons/four.svg",
       "tips": [
         "Personne ne peut tout faire. Si vous vous sentez dépassé, demandez de l'aide. Il y a peut-être des gens dans votre vie qui veulent vous aider. Avoir le courage de demander de l'aide peut ouvrir des canaux de soutien dont vous ignoriez l'existence.",
-        "Essayez ceci: utilisez My Care Plan pour vous aider à déléguer les tâches de soins, les courses, le transport et bien plus encore !"
+        "<b>Essayez ceci:</b> utilisez <a href='/fr/learn/my-care-plan'>Mon plan de soins</a> pour aider à déléguer les tâches de soins, les courses, le transport, et plus encore!"
       ]
     },
     {
@@ -63,7 +63,7 @@
       "title": "Mangez des repas sains",
       "icon": "/icons/five.svg",
       "tips": [
-        "Manger des repas sains peut vous donner plus d'énergie et améliorer votre santé globale. Utilisez les recommandations du Guide alimentaire canadien pour vous assurer d'obtenir les calories et les nutriments dont votre corps a besoin.",
+        "Manger des repas sains peut vous donner plus d'énergie et améliorer votre état de santé général. Suivez les recommandations du <a href='https://food-guide.canada.ca/'>Guide alimentaire canadien</a> pour vous assurer que vous obtenir les calories et les nutriments dont votre corps a besoin.",
         "Essayez ceci: En tant que soignant, il peut être difficile de trouver le temps dans une journée pour préparer des repas sains et équilibrés. Envisagez de préparer un repas copieux qui peut être facilement congelé et réchauffé plus tard dans la semaine."
       ]
     }

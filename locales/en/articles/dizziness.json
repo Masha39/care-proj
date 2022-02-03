@@ -1,0 +1,60 @@
+{
+  "url": "dizziness",
+  "title": "Dizziness",
+  "content": [
+    {
+      "type": "information",
+      "title": "What to know about dizziness",
+      "paragraphs": [
+        "People living with chronic disease are more likely to feel dizzy or lightheaded as a symptom of their disease or due to medication side effects.",
+        "This can increase the risk of falls and impact daily activities."
+      ]
+    },
+    {
+      "type": "tips",
+      "title": "What to do when feeling dizzy",
+      "tips": [
+        "Sit down until the feeling stops",
+        "When sitting or standing, move slowly to avoid falls"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Prevention",
+      "paragraphs": [""]
+    },
+    {
+      "type": "tips",
+      "title": "How to prevent dizziness and light-headedness",
+      "tips": [
+        "Ensure medication is taken correctly, and speak to a pharmacist, nurse, or doctor about side effects",
+        "Stay active and exercise daily",
+        "Check each day for swelling in stomach, feet, ankles, and legsInstead of eating a few large meals, eat several small meals during the day",
+        "Stay hydrated",
+        "Rest after eating",
+        "Sleep with head on a pillow(s)",
+        "Avoid very hot places (e.g., hot tubs, hot showers, or baths)",
+        "Make sure the home has proper lighting to avoid falls",
+        "Wear proper fitting footwear",
+        "Have mobility aids (walker, cane, etc.) nearby when standing up"
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Dizziness Storysheet",
+      "paragraphs": [
+        "View the Dizziness Storysheet to learn more about what to do when someone is experiencing dizziness."
+      ]
+    },
+    {
+      "type": "tool_preview",
+      "title": "Dizziness Storysheet Preview",
+      "images": [
+        {
+          "url": "dizziness.png",
+          "description": "Printable sheet to share with care team"
+        }
+      ]
+    }
+  ]
+}

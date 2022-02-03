@@ -11,6 +11,14 @@
     {
       "topic": "Bien-être des aidants",
       "description": "Découvrez des moyens de protéger votre santé et d'éviter le stress et l'épuisement tout en prenant soin des autres."
+    },
+    {
+      "topic": "Gestion des symptômes",
+      "description": "Découvrez des conseils et des outils pour gérer les symptômes de la MPOC, de l'insuffisance cardiaque et des étourdissements à la maison."
+    },
+    {
+      "topic": "Communiquer avec les professionnels de santé",
+      "description": "Utilisez une évaluation de santé validée et un outil de planification de rendez-vous pour partager des informations importantes avec les professionnels de la santé."
     }
   ],
   "content_type": "Type de contenu",
@@ -36,5 +44,6 @@
       "value": "évaluation",
       "icon": "assessment"
     }
-  ]
+  ],
+  "sorry": "Désolé, nous n'avons pas trouvé d'articles dans le sujet pour ce type de contenu."
 }

@@ -82,6 +82,12 @@
         "Modifications de l'appétit ou du poids",
         "Augmentation de la consommation de drogues ou d'alcool"
       ]
+    },
+    {
+      "type": "information",
+      "paragraphs": [
+        "Prendre le <a href='/fr/learn/burnout-assessment'>Auto-évaluation du stress et de l'épuisement professionnel</a> pour voir si vous êtes à risque d'épuisement professionnel."
+      ]
     }
   ]
 }

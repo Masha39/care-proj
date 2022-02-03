@@ -25,6 +25,7 @@ export const Carousel = ({
   const settings = {
     speed: 500,
     arrows: true,
+    infinite: false,
     arrowsClass: 'arrows',
     slidesToShow: getSlidersToShow(),
     slidesToScroll: 1,

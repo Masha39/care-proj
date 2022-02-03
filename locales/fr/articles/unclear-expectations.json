@@ -1,0 +1,35 @@
+{
+  "url": "unclear-expectations",
+  "title": "Gérer les attentes de soins peu claires",
+  "content": [
+    {
+      "type": "information",
+      "paragraphs": [
+        "Il peut y avoir des moments où les attentes en matière de soins ne sont pas satisfaites. Renseignez-vous sur les défis courants en matière de soins à domicile qui pourraient être rencontrés et sur les divers outils et stratégies pour y faire face."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Quel est le problème ou le défi?",
+      "paragraphs": [
+        "Il peut y avoir certaines attentes concernant le type et la quantité de soins fournis, ainsi que le délai dans lequel ils sont dispensés. Le stress et la frustration peuvent survenir si les services de soins ne répondent pas aux attentes."
+      ]
+    },
+    {
+      "type": "information",
+      "title": "Pourquoi ce problème existe-t-il?",
+      "paragraphs": [
+        "Le type, la quantité et la durée des soins sont souvent déterminés par les résultats des évaluations cliniques. Dans les endroits où le nombre de personnes nécessitant des soins est supérieur au nombre de prestataires de soins, il peut y avoir des retards ou des pénuries. Cela peut perturber la prestation des soins."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Considérez le processus de triage dans les services d'urgence...",
+      "content": [
+        "Tout d'abord, une infirmière de triage évaluera la gravité du problème de santé.",
+        "Ensuite, les individus sont priorisés en fonction de la gravité des besoins. La durée de l’attente est déterminée par la façon dont les besoins d’une personne se comparent aux besoins des autres.",
+        "Pensez à la coordination des services de soins à domicile comme aller au service des urgences. Comme lors d'une visite au service des urgences, recevoir des services de soins à domicile peut prendre du temps en fonction des besoins des autres. Les facteurs qui déterminent la quantité de service et le temps d'attente comprennent: l'emplacement, la demande de soins, l'urgence des soins et les fournisseurs de soins disponibles."
+      ]
+    }
+  ]
+}

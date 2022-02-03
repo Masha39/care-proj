@@ -9,6 +9,9 @@ type ArticleContent =
   | TipsContent
   | VideoContent
   | TextWithImageContent
+  | ListContent
+  | ZoneContent
+  | ToolPreviewContent
 
 type InformationContent = {
   title?: string
@@ -37,10 +40,33 @@ type VideoContent = {
 
 type TextWithImageContent = {
   type: 'text_with_image'
-  content: TextWIthImageData[]
+  background: boolean
+  content: TextWithImageData[]
 }
 
-type TextWIthImageData = { image: string; text: string }
+type TextWithImageData = { image: string; text: string }
+
+type ListContent = {
+  type: 'list'
+  title?: string
+  content: string[]
+}
+
+type ZoneContent = {
+  type: 'zone'
+  label: ZoneLabel
+  content: string[]
+}
+
+type ToolPreviewContent = {
+  type: 'tool_preview'
+  title: string
+  images: ImagesData[]
+}
+
+type ImagesData = { url: string; description?: string }
+
+type ZoneLabel = 'green' | 'yellow' | 'red'
 
 type ArticlePreview = {
   url: string
