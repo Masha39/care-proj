@@ -63,7 +63,10 @@
   }
 
   &__item {
-    width: 264px;
+    width: 252px;
+    @media (min-width: $md) {
+      width: 264px;
+    }
   }
 
   &__buttons {

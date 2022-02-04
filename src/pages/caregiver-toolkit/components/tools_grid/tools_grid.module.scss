@@ -9,17 +9,17 @@
     color: $orange500;
     margin-bottom: 16px;
   }
-  &__wrapper {
-    display: flex;
-  }
   &__card {
     margin-right: 24px;
   }
   &__item {
-    min-width: 360px;
-    width: 360px;
+    //min-width: 263px;
+    //width: 100%;
     &:last-child {
       margin-right: 0;
+    }
+    @media (min-width: $sm) {
+      //width: 360px;
     }
   }
 }

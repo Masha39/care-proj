@@ -6,8 +6,8 @@ import { useRouter } from 'next/router'
 
 import { Button } from 'components/button/button'
 import { ContentCard } from 'components/content_card/content_card'
+import { Topic } from '~/utils/get_topics_to_show'
 
-import { Topic } from '../../../../utils/get_topics_to_show'
 import styles from './articles_grid_topic.module.scss'
 
 export const ArticlesGridTopic = ({
@@ -39,9 +39,7 @@ export const ArticlesGridTopic = ({
                 </div>
               </div>
             ) : (
-              <div className={styles.articles__noTopic}>
-                {t('static/learn:sorry')}
-              </div>
+              <div className={styles.articles__noTopic}>{t('sorry')}</div>
             )}
           </div>
 

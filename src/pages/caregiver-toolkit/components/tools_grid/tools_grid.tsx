@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+import { Carousel } from 'components/carousel/carousel'
 import {
   ContentCard,
   ContentCardSize
@@ -15,7 +16,7 @@ export const ToolsGrid = ({ topics }: { topics: Record<string, Topic> }) => {
         return (
           <div key={topicName} className={styles.tools}>
             <div className={styles.tools__topic}>{topicName}</div>
-            <div className={styles.tools__wrapper}>
+            <Carousel className="large">
               {topic.articles.map((article, index) => {
                 return (
                   <Link href={`/${article.url}`} key={index}>
@@ -34,7 +35,7 @@ export const ToolsGrid = ({ topics }: { topics: Record<string, Topic> }) => {
                   </Link>
                 )
               })}
-            </div>
+            </Carousel>
           </div>
         )
       })}

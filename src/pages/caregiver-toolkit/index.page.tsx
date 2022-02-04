@@ -8,6 +8,8 @@ import { ContentType } from 'components/content_type/content_type'
 import { Filters } from 'components/filters/filters'
 import Layout from 'layouts/layout'
 import { ToolsGrid } from 'pages/caregiver-toolkit/components/tools_grid/tools_grid'
+import { ArticlesGridTopic } from 'pages/learn/components/articles_grid_topic/articles_grid_topic'
+import { ArticlesGridType } from 'pages/learn/components/articles_grid_type/articles_grid_type'
 import BannerImage from 'public/images/toolkit_banner.png'
 import { getTopicsToShow } from '~/utils/get_topics_to_show'
 import { useContentType } from '~/utils/use_content_type'
@@ -79,7 +81,19 @@ const CaregiverToolkit = () => {
           setSelectedContentType={setSelectedContentType}
         />
 
-        <ToolsGrid topics={topicsToShow} />
+        {selectedContentType.value === defaultType.value &&
+          selectedTopic.value === defaultValue.value && (
+            <ToolsGrid topics={topicsToShow} />
+          )}
+
+        {selectedTopic.value === defaultValue.value &&
+          selectedContentType.value !== defaultType.value && (
+            <ArticlesGridType topicsToShow={topicsToShow} />
+          )}
+
+        {selectedTopic.value !== defaultValue.value && (
+          <ArticlesGridTopic topicsToShow={topicsToShow} />
+        )}
       </div>
     </Layout>
   )

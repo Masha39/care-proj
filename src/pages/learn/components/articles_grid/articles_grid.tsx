@@ -51,7 +51,7 @@ export const ArticlesGrid = ({
                 </div>
               </div>
             </div>
-            <Carousel>
+            <Carousel className="small">
               {topic.articles.map((item, i) => {
                 return (
                   <Link href={`/${item.url}`} key={i}>

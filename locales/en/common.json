@@ -6,5 +6,7 @@
   "topic": "Topic",
   "all_topics": "All topics",
   "content_type": "Content type",
-  "all_content": "All content"
+  "all_content": "All content",
+  "sorry": "Sorry, we couldn't find articles in the topic for this content type.",
+  "get_started": "Get started"
 }

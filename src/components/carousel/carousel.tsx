@@ -7,10 +7,12 @@ import 'slick-carousel/slick/slick-theme.css'
 
 export const Carousel = ({
   children,
-  customSettings
+  customSettings,
+  className
 }: {
   children: React.ReactNode[]
   customSettings?: object
+  className?: 'small' | 'large'
 }) => {
   const getSlidersToShow = () => {
     if (children.length >= 3) {
@@ -23,6 +25,7 @@ export const Carousel = ({
   }
 
   const settings = {
+    className,
     speed: 500,
     arrows: true,
     infinite: false,
@@ -33,7 +36,7 @@ export const Carousel = ({
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: getSlidersToShow().valueOf() > 2 ? 2 : 1,
+          slidesToShow: getSlidersToShow().valueOf() >= 2 ? 2 : 1,
           slidesToScroll: 1
         }
       },

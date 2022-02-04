@@ -54,7 +54,9 @@ export const ContentCard = ({
         {description ? (
           <div className={styles.card__description}>{description}</div>
         ) : null}
-        <div className={styles.card__link}>{t('common:learn_more')}</div>
+        <div className={styles.card__link}>
+          {large ? t('get_started') : t('learn_more')}
+        </div>
       </div>
     </div>
   )
