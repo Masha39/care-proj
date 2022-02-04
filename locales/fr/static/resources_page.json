@@ -2,5 +2,297 @@
   "resources_title": "Ressources",
   "resources_title_text": "Vous avez d'autres questions sur les services de soins à domicile ? Découvrez les ressources nationales et provinciales.",
   "accordion_main_text": "Choisissez une région pour en savoir plus sur des ressources spécifiques.",
-  "accordion_information_title": "Explorez ces ressources supplémentaires:"
+  "accordion_information_title": "Explorez ces ressources supplémentaires:",
+  "regions": [
+    {
+      "name": "National",
+      "links": [
+        {
+          "title": "Canadian Home Care Association",
+          "link": "https://cdnhomecare.ca/"
+        },
+        {
+          "title": "Carers Canada",
+          "link": "https://www.carerscanada.ca/resources/"
+        },
+        {
+          "title": "Heart and Stroke Foundation of Canada",
+          "link": "https://www.heartandstroke.ca/healthy-living/"
+        }
+      ]
+    },
+    {
+      "name": "Alberta",
+      "links": [
+        {
+          "title": "Alberta Health Services - Home Care",
+          "link": "https://www.albertahealthservices.ca/cc/Page15488.aspx"
+        },
+        { "title": "Alberta 211", "link": "https://ab.211.ca/" },
+        {
+          "title": "Palliative and End-of-Life Care",
+          "link": "https://myhealth.alberta.ca/palliative-care/what-is-it/"
+        },
+        {
+          "title": "Supports for Seniors",
+          "link": "https://www.alberta.ca/supports-for-seniors.aspx"
+        },
+        {
+          "title": "Learn More About Senior Health",
+          "link": "https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=center1031"
+        },
+        {
+          "title": "Family Caregiver Centre",
+          "link": "https://www.albertahealthservices.ca/services/Page13155.aspx"
+        }
+      ]
+    },
+
+    {
+      "name": "British Columbia",
+      "links": [
+        {
+          "title": "Senior BC",
+          "link": "https://www.gov.mb.ca/health/homecare/guide.pdf"
+        },
+        { "title": "BC 211", "link": "https://bc211.ca/" }
+      ]
+    },
+
+    {
+      "name": "Manitoba",
+      "links": [
+        {
+          "title": "Guide to Home Care Service",
+          "link": "https://www.gov.mb.ca/health/homecare/guide.pdf"
+        }
+      ]
+    },
+
+    {
+      "name": "New Brunswick",
+      "links": [
+        {
+          "title": "New Brunswick 211",
+          "link": "https://sk.211.ca/services/211-new-brunswick/"
+        },
+        {
+          "title": "Caregivers Guide",
+          "link": "https://www2.gnb.ca/content/dam/gnb/Departments/sd-ds/pdf/Seniors/CaregiversGuide.pdf"
+        },
+        {
+          "title": "Canadian Red Cross Society",
+          "link": "https://www.redcross.ca/in-your-community/new-brunswick/"
+        },
+        {
+          "title": "New Brunswick Home Support Association",
+          "link": "http://nbhsa.ca/english/"
+        }
+      ]
+    },
+
+    {
+      "name": "Labrador and Newfoundland",
+      "links": [
+        {
+          "title": "Provincial Home Support Program - Client Handbook",
+          "link": "https://westernhealth.nl.ca/uploads/CSI%20Media/Home-%20Support-%20Program-%20Client-Handbook.pdf"
+        },
+        {
+          "title": "Health and Community Services",
+          "link": "https://www.health.gov.nl.ca/health/personsdisabilities/fundingprograms_hcs.html#phsp"
+        },
+        {
+          "title": "Home Support Program Self-Managed Care Provider Handbook",
+          "link": "https://www.gov.nl.ca/hcs/files/personsdisabilities-pdf-home-support-self-managed-care.pdf"
+        },
+        { "title": "Seniors Newfoundland", "link": "http://seniorsnl.ca/" }
+      ]
+    },
+
+    {
+      "name": "Nova Scotia",
+      "links": [
+        {
+          "title": "Nova Scotia 211",
+          "link": "https://ns.211.ca/"
+        },
+        {
+          "title": "Continuing Care",
+          "link": "https://novascotia.ca/dhw/ccs/home-care.asp"
+        },
+        {
+          "title": "Caregivers Nova Scotia",
+          "link": "https://www.caregiversns.org/"
+        },
+        {
+          "title": "The Caregivers Handbook",
+          "link": "https://caregiversns.org/images/uploads/all/Caregivers_Handbook_April_2018_Web.pdf"
+        },
+        {
+          "title": "Living Well - Continuing Care Services",
+          "link": "https://novascotia.ca/dhw/ccs/documents/Living-Wel-%20Continuing-Care-Services.pdf"
+        },
+        {
+          "title": "Continuing Care Programs Fact Sheets and Forms",
+          "link": "https://novascotia.ca/dhw/ccs/fact_sheets.asp"
+        }
+      ]
+    },
+
+    {
+      "name": "Northwest Territories",
+      "links": [
+        {
+          "title": "Who to Contact for Information About Home Care in your Community",
+          "link": "https://www.hss.gov.nt.ca/en/services/continuing-care-services/contact-information-home-care"
+        },
+        {
+          "title": "Seniors Information Handbook",
+          "link": "https://www.hss.gov.nt.ca/sites/hss/files/seniors_information_handbook.pdf"
+        },
+        {
+          "title": "Health Services in the Yellowknife Region",
+          "link": "https://www.nthssa.ca/en/health-services-yellowknife-region"
+        },
+        {
+          "title": "Public Health Services in the Yellowknife Region",
+          "link": "https://www.nthssa.ca/en/public-health-services-yellowknife-region"
+        },
+        {
+          "title": "The Northwest Territories Caregivers Guide",
+          "link": "https://www.hss.gov.nt.ca/sites/hss/files/nwt-caregivers-guide.pdf"
+        }
+      ]
+    },
+
+    {
+      "name": "Nunavut",
+      "links": [
+        {
+          "title": "Nunavut 211",
+          "link": "http://www.nu.211.ca/"
+        },
+        {
+          "title": "Home and Continuing Care",
+          "link": "https://www.gov.nu.ca/health/information/home-and-continuing-care/"
+        },
+        {
+          "title": "Seniors Information Handbook",
+          "link": "https://www.gov.nu.ca/sites/default/files/default_images/nunavutseniorhandbook_eng.pdf"
+        }
+      ]
+    },
+
+    {
+      "name": "Ontario",
+      "links": [
+        {
+          "title": "Home and Community Care",
+          "link": "https://www.ontario.ca/page/home-community-care?_ga=2.115900934.1427165055.1546807729-1000326796.1541518313"
+        },
+        {
+          "title": "Ontario Caregiver Coalition",
+          "link": "https://www.ontariocaregivercoalition.ca/"
+        },
+        {
+          "title": "Sunshine Centres for Seniors",
+          "link": "https://sunshinecentres.com/"
+        },
+        { "title": "211 Ontario", "link": "https://211ontario.ca/" },
+        {
+          "title": "Home Care Ontario",
+          "link": "https://www.homecareontario.ca/about-us/overview/"
+        },
+        {
+          "title": "Ontario Health Coalition",
+          "link": "https://www.ontariohealthcoalition.ca/index.php/category/key-issues/home-care/"
+        },
+        {
+          "title": "Ontario Caregiver Helpline",
+          "link": "https://ontariocaregiver.ca/find-support/helpline/"
+        }
+      ]
+    },
+
+    {
+      "name": "Prince Edward Island",
+      "links": [
+        {
+          "title": "PEI 211",
+          "link": "https://peiunitedway.com/211pei/"
+        },
+        {
+          "title": "Home Care Program",
+          "link": "https://www.princeedwardisland.ca/en/information/health-pei/home-care-program/"
+        },
+        {
+          "title": "Seniors Guide",
+          "link": "http://www.gov.pe.ca/photos/original/Seniors_Guide09.pdf"
+        },
+        {
+          "title": "Caring for Aging Parents",
+          "link": "https://www.princeedwardisland.ca/en/topic/caring-aging-parents/"
+        },
+        {
+          "title": "Health PEI",
+          "link": "https://www.princeedwardisland.ca/en/topic/health-pei/"
+        }
+      ]
+    },
+
+    {
+      "name": "Quebec",
+      "links": [
+        {
+          "title": "Quebec Heart Failure Society",
+          "link": "https://transformhf.com/SQIC/"
+        },
+        {
+          "title": "Lappui Pour Les Proches Aidants DAînés",
+          "link": "https://www.lappui.org/en/"
+        },
+        {
+          "title": "Seniors Guide",
+          "link": "https://santemontreal.qc.ca/en/"
+        }
+      ]
+    },
+
+    {
+      "name": "Saskatchewan",
+      "links": [
+        {
+          "title": "Saskatchewan 211",
+          "link": "https://sk.211.ca/"
+        },
+        {
+          "title": "Saskatchewan Health Authority",
+          "link": "https://www.saskhealthauthority.ca/"
+        },
+        {
+          "title": "Individualized Funding for Home Care",
+          "link": "https://www.saskatchewan.ca/residents/health/accessing-health-care-services/care-at-home-and-outside-the-hospital/individualized-funding-for-home-care/#step-1"
+        },
+        {
+          "title": "HealthLineOnline",
+          "link": "https://www.rqhealth.ca/service-lines/master/files/9050552_8_Home%20Care%20brochure%20revised%20may%202017_FINAL.pdf"
+        },
+        {
+          "title": "Caregiver Information and Support - A Program of the Saskatoon Council on Aging",
+          "link": "http://www.saskatooncaregiver.ca/"
+        }
+      ]
+    },
+
+    {
+      "name": "Yukon",
+      "links": [
+        {
+          "title": "Home Care Program",
+          "link": "https://yukon.ca/en/health-and-wellness/care-services/learn-about-home-care-program"
+        }
+      ]
+    }
+  ]
 }

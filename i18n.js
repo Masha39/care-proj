@@ -8,6 +8,7 @@ module.exports = {
     '/learn': ['static/learn', 'articles-list'],
     '/contact-us': ['static/contact_page'],
     '/learn/[slug]': ['static/article', 'static/learn'],
-    '/resources': ['static/resources_page']
+    '/resources': ['static/resources_page'],
+    '/privacy-policy': ['static/privacy_policy']
   }
 }

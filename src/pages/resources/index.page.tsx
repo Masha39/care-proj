@@ -113,7 +113,7 @@ const ResourcesPage = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel className={styles.information}>
                       <div className={styles.category_information_title}>
-                        {t('accardion_information_title')}
+                        {t('accordion_information_title')}
                       </div>
                       {r.links.map((l) => (
                         <a
