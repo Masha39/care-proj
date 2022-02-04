@@ -5,14 +5,14 @@ import useTranslation from 'next-translate/useTranslation'
 
 import { ContentType } from 'components/content_type/content_type'
 import { Filters } from 'components/filters/filters'
+import { GridTopic } from 'components/grid_topic/grid_topic'
+import { GridType } from 'components/grid_type/grid_type'
 import Layout from 'layouts/layout'
 import { getTopicsToShow } from '~/utils/get_topics_to_show'
 import { useContentType } from '~/utils/use_content_type'
 import { useSelect } from '~/utils/use_select'
 
 import { ArticlesGrid } from './components/articles_grid/articles_grid'
-import { ArticlesGridTopic } from './components/articles_grid_topic/articles_grid_topic'
-import { ArticlesGridType } from './components/articles_grid_type/articles_grid_type'
 import styles from './learn.module.scss'
 
 const Learn = () => {
@@ -82,11 +82,11 @@ const Learn = () => {
 
         {selectedTopic.value === defaultValue.value &&
           selectedContentType.value !== defaultType.value && (
-            <ArticlesGridType topicsToShow={topicsToShow} />
+            <GridType topicsToShow={topicsToShow} />
           )}
 
         {selectedTopic.value !== defaultValue.value && (
-          <ArticlesGridTopic topicsToShow={topicsToShow} />
+          <GridTopic topicsToShow={topicsToShow} />
         )}
       </div>
     </Layout>

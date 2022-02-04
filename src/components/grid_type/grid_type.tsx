@@ -5,9 +5,9 @@ import Link from 'next/link'
 import { ContentCard } from 'components/content_card/content_card'
 import { Topic } from '~/utils/get_topics_to_show'
 
-import styles from './articles_grid_type.module.scss'
+import styles from './grid_type.module.scss'
 
-export const ArticlesGridType = ({
+export const GridType = ({
   topicsToShow
 }: {
   topicsToShow: Record<string, Topic>

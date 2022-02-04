@@ -8,9 +8,9 @@ import { Button } from 'components/button/button'
 import { ContentCard } from 'components/content_card/content_card'
 import { Topic } from '~/utils/get_topics_to_show'
 
-import styles from './articles_grid_topic.module.scss'
+import styles from './grid_topic.module.scss'
 
-export const ArticlesGridTopic = ({
+export const GridTopic = ({
   topicsToShow
 }: {
   topicsToShow: Record<string, Topic>

@@ -14,6 +14,7 @@ module.exports = {
     ],
     '/contact-us': ['static/contact_page'],
     '/resources': ['static/resources_page'],
-    '/privacy-policy': ['static/privacy_policy']
+    '/privacy-policy': ['static/privacy_policy'],
+    '/terms-of-use': ['static/terms_of_use']
   }
 }
