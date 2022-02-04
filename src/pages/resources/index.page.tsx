@@ -1,17 +1,10 @@
 import React from 'react'
 
 import useTranslation from 'next-translate/useTranslation'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel
-} from 'react-accessible-accordion'
 
 import Layout from 'layouts/layout'
 
-import Item from '../../../public/svg/accordion_button_image.svg'
+import { Accordion } from './accordion'
 import styles from './resources_page.module.scss'
 
 type Regions = {
@@ -39,6 +32,7 @@ const ResourcesPage = () => {
     const secondColumn = regions.slice(firstLength, regions.length)
     return { firstColumn, secondColumn }
   }
+
   const { firstColumn, secondColumn } = getColumns()
 
   return (
@@ -69,66 +63,8 @@ const ResourcesPage = () => {
           </div>
           <div className={styles.accordion_wrapper}>
             <section className={styles.section}>
-              <Accordion allowZeroExpanded className={styles.accordion_left}>
-                {firstColumn.map((r) => (
-                  <AccordionItem
-                    className={styles.accordion__item}
-                    key={r.name}
-                  >
-                    <AccordionItemHeading className={styles.accordion_heading}>
-                      <AccordionItemButton className={styles.accordion_button}>
-                        {r.name}
-                        <Item className={styles.accordion_button_item} />
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel className={styles.information}>
-                      <div className={styles.category_information_title}>
-                        {t('accordion_information_title')}
-                      </div>
-                      {r.links.map((l) => (
-                        <a
-                          className={styles.information_content_item}
-                          target="blank"
-                          key={l.link}
-                          href={l.link}
-                        >
-                          {l.title}
-                        </a>
-                      ))}
-                    </AccordionItemPanel>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-              <Accordion allowZeroExpanded className={styles.accordion_right}>
-                {secondColumn.map((r) => (
-                  <AccordionItem
-                    className={styles.accordion__item}
-                    key={r.name}
-                  >
-                    <AccordionItemHeading className={styles.accordion_heading}>
-                      <AccordionItemButton className={styles.accordion_button}>
-                        {r.name}
-                        <Item className={styles.accordion_button_item} />
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel className={styles.information}>
-                      <div className={styles.category_information_title}>
-                        {t('accordion_information_title')}
-                      </div>
-                      {r.links.map((l) => (
-                        <a
-                          className={styles.information_content_item}
-                          target="blank"
-                          key={l.link}
-                          href={l.link}
-                        >
-                          {l.title}
-                        </a>
-                      ))}
-                    </AccordionItemPanel>
-                  </AccordionItem>
-                ))}
-              </Accordion>
+              <Accordion column={firstColumn} />
+              <Accordion column={secondColumn} />
             </section>
           </div>
         </div>
