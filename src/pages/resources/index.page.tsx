@@ -25,9 +25,13 @@ type Regions = {
 
 const ResourcesPage = () => {
   const { t } = useTranslation('static/resources_page')
-  const regions = t<Regions>('regions', undefined, {
-    returnObjects: true
-  })
+  const regions = t<Regions>(
+    'regions',
+    {},
+    {
+      returnObjects: true
+    }
+  )
 
   const getColumns = () => {
     const firstLength = Math.floor(regions.length / 2)
