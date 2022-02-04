@@ -1,42 +1,45 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 
 import groupBy from 'lodash/groupBy'
 import useTranslation from 'next-translate/useTranslation'
 
 import { ContentType } from 'components/content_type/content_type'
-import { Select } from 'components/select/select'
+import { Filters } from 'components/filters/filters'
+import { GridTopic } from 'components/grid_topic/grid_topic'
+import { GridType } from 'components/grid_type/grid_type'
 import Layout from 'layouts/layout'
+import { getTopicsToShow } from '~/utils/get_topics_to_show'
+import { useContentType } from '~/utils/use_content_type'
+import { useSelect } from '~/utils/use_select'
 
 import { ArticlesGrid } from './components/articles_grid/articles_grid'
-import { ArticlesGridTopic } from './components/articles_grid_topic/articles_grid_topic'
-import { ArticlesGridType } from './components/articles_grid_type/articles_grid_type'
-import { useLearnContentType } from './hooks/use_learn_content_type'
-import { useLearnSelect } from './hooks/use_learn_select'
 import styles from './learn.module.scss'
-import { getTopicsToShow } from './utils/get_topics_to_show'
 
 const Learn = () => {
-  const { defaultValue, selectedTopic, setSelectedTopic } = useLearnSelect()
+  const { t } = useTranslation('static/learn')
+
+  const types = t<ContentType[]>('content_types', {}, { returnObjects: true })
+
   const {
     defaultType,
     contentTypes,
     selectedContentType,
     setSelectedContentType
-  } = useLearnContentType()
+  } = useContentType(types)
 
-  const { t } = useTranslation('static/learn')
+  const { defaultValue, selectedTopic, setSelectedTopic } = useSelect()
 
   const articles = t<ArticlePreview[]>(
     'articles-list:articles',
-    { count: 1 },
+    {},
     { returnObjects: true }
   )
 
   const articlesByTopic = groupBy(articles, 'topic')
 
   const descriptions = t<TopicDescription[]>(
-    'static/learn:topics_description',
-    { count: 1 },
+    'static/topics_description:topics_description',
+    {},
     { returnObjects: true }
   )
 
@@ -49,61 +52,26 @@ const Learn = () => {
     descriptions
   )
 
-  const selectOptions = useCallback(() => {
-    const arr: SelectOption[] = [defaultValue]
-    Object.entries(articlesByTopic).map(([topic]) =>
-      arr.push({ value: topic, label: topic })
-    )
-    return arr
-  }, [articlesByTopic, defaultValue])
-
   return (
     <Layout>
       <div className={styles.banner}>
         <div className="container">
-          <div className={styles.banner_text}>
+          <div className={styles.banner__text}>
             <h1 className={styles.banner__title}>{t('title')}</h1>
             <h3 className={styles.banner__description}>{t('description')}</h3>
           </div>
         </div>
       </div>
       <div className={styles.learn}>
-        <div className="container">
-          <div className={styles.filters}>
-            <div className={styles.select}>
-              <div className={styles.select__title}>{t('topic')}</div>
-              <Select
-                value={selectedTopic}
-                options={selectOptions()}
-                onChange={(selected: SelectOption) =>
-                  setSelectedTopic(selected)
-                }
-              />
-            </div>
-            <div className={styles.filters_scroll_wrapper}>
-              <div className={styles.filters__contentType}>
-                <div className={styles.filters__title}>{t('content_type')}</div>
-                {contentTypes.map((type, index) => (
-                  <div className={styles.filters__tag} key={index}>
-                    <ContentType
-                      icon={type.icon}
-                      type={type.label}
-                      isClickable
-                      isActive={selectedContentType?.label === type.label}
-                      onClick={() =>
-                        setSelectedContentType({
-                          label: type.label,
-                          value: type.value,
-                          icon: type.icon
-                        })
-                      }
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <Filters
+          topics={articlesByTopic}
+          contentTypes={contentTypes}
+          defaultSelectValue={defaultValue}
+          selectedTopic={selectedTopic}
+          selectedContentType={selectedContentType}
+          setSelectedTopic={setSelectedTopic}
+          setSelectedContentType={setSelectedContentType}
+        />
         {selectedContentType.value === defaultType.value &&
           selectedTopic.value === defaultValue.value && (
             <ArticlesGrid
@@ -114,11 +82,11 @@ const Learn = () => {
 
         {selectedTopic.value === defaultValue.value &&
           selectedContentType.value !== defaultType.value && (
-            <ArticlesGridType topicsToShow={topicsToShow} />
+            <GridType topicsToShow={topicsToShow} />
           )}
 
         {selectedTopic.value !== defaultValue.value && (
-          <ArticlesGridTopic topicsToShow={topicsToShow} />
+          <GridTopic topicsToShow={topicsToShow} />
         )}
       </div>
     </Layout>

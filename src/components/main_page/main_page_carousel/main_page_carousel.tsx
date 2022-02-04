@@ -122,6 +122,7 @@ export const MainPageCarousel = () => {
   ])
 
   const settings = {
+    className: 'small',
     dots: true,
     infinite: true,
     speed: 500,

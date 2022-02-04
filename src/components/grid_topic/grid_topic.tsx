@@ -6,11 +6,11 @@ import { useRouter } from 'next/router'
 
 import { Button } from 'components/button/button'
 import { ContentCard } from 'components/content_card/content_card'
+import { Topic } from '~/utils/get_topics_to_show'
 
-import { Topic } from '../../utils/get_topics_to_show'
-import styles from './articles_grid_topic.module.scss'
+import styles from './grid_topic.module.scss'
 
-export const ArticlesGridTopic = ({
+export const GridTopic = ({
   topicsToShow
 }: {
   topicsToShow: Record<string, Topic>
@@ -34,16 +34,12 @@ export const ArticlesGridTopic = ({
                   <Button
                     title={t('start')}
                     buttonStyle="primary_blue"
-                    onClick={() =>
-                      router.push(`/learn/${articles.articles[0].url}`)
-                    }
+                    onClick={() => router.push(`/${articles.articles[0].url}`)}
                   />
                 </div>
               </div>
             ) : (
-              <div className={styles.articles__noTopic}>
-                {t('static/learn:sorry')}
-              </div>
+              <div className={styles.articles__noTopic}>{t('sorry')}</div>
             )}
           </div>
 
@@ -51,7 +47,7 @@ export const ArticlesGridTopic = ({
             {articles.articles?.map((item, index) => {
               return (
                 <div className={styles.articles__item} key={index}>
-                  <Link href={`/learn/${item.url}`}>
+                  <Link href={`/${item.url}`}>
                     <a>
                       <ContentCard
                         title={item.title}

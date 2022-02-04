@@ -74,6 +74,7 @@ type ArticlePreview = {
   content_type: ContentType
   preview_text: string
   topic: string
+  description?: string
   image: string
   read_time: string
 }

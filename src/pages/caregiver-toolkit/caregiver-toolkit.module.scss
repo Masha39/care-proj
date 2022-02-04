@@ -1,16 +1,5 @@
-.learn {
-  display: flex;
-  flex-direction: column;
-  padding: 32px 0 100px 0;
-
-  @media (min-width: $xxl) {
-    max-width: 1440px;
-    margin-right: 16px;
-    margin: auto;
-  }
-}
-
 .banner {
+  position: relative;
   margin: auto;
   background: linear-gradient(
       93.78deg,
@@ -24,16 +13,14 @@
   @media (min-width: $xl) {
     padding-top: 54px;
     padding-bottom: 54px;
+    min-height: 370px;
+    display: flex;
   }
   &__text {
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
     width: 100%;
 
     @media (min-width: $xl) {
-      flex-direction: row;
-      align-items: center;
     }
   }
 
@@ -59,4 +46,18 @@
       font-size: 24px;
     }
   }
+
+  &__image {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @media (min-width: $xl) {
+      display: block;
+    }
+  }
+}
+
+.toolkit {
+  padding: 32px 0 100px 0;
 }

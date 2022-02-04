@@ -36,6 +36,7 @@
       },
       "preview_text": "The “My Home Care Team” tool is a printable sheet that helps with understanding and keeping track of the health care providers that make up a home care team.",
       "topic": "Understanding Home Care",
+      "description": "Use this tool to better understand the roles of your home care team and organize their contact information for quick reference.",
       "image": "slide_4.svg",
       "read_time": "15 minute read"
     },
@@ -88,6 +89,7 @@
       },
       "preview_text": "The Get to Know Me tool is a printable sheet that helps care providers become acquainted with the person they are providing care for. It can be displayed in the home to help home care providers learn about the interests, needs, and care preferences of the person receiving care.",
       "topic": "Understanding Home Care",
+      "description": "Use this tool to communicate your loved one's care needs, abilities, and preferences with care providers in the home.",
       "image": "slide_8.svg",
       "read_time": "5 minute read"
     },
@@ -100,6 +102,7 @@
         "icon": "tool"
       },
       "preview_text": "The My Care Plan is a customizable tool for primary caregivers to communicate important information about the person being cared for. This tool can be customized to list caregiver tasks, preferences of the person being cared for, and other important information.",
+      "description": "Use this tool to prepare for missed care visits, planned/unplanned time away from your loved one, and delegating tasks to others.",
       "topic": "Understanding Home Care",
       "image": "slide_9.svg",
       "read_time": "3 minute read"
@@ -108,9 +111,9 @@
       "url": "what-is-caregiver",
       "title": "What is a Caregiver?",
       "content_type": {
-        "label": "Tools",
-        "value": "tools",
-        "icon": "tool"
+        "label": "Information",
+        "value": "information",
+        "icon": "info"
       },
       "preview_text": "A caregiver is someone who provides unpaid care to another person. Across Canada, one in four people provide unpaid care to a family member or friend. Caregivers save the healthcare system between $24-31 billion annually.",
       "topic": "Caregiver Wellness",
@@ -140,6 +143,7 @@
       },
       "preview_text": "The Stress and Burnout Self-Assessment helps caregivers determine their level of burnout and stress. This tool should only be used as a guideline and does not replace the advice of health care professionals.",
       "topic": "Caregiver Wellness",
+      "description": "Complete this self-assessment to determine your level of risk for experiencing caregiver burnout and stress.",
       "image": "burnout_assessment.svg",
       "read_time": "5 minute read"
     },
@@ -166,6 +170,7 @@
       },
       "preview_text": "Self-care helps you stay healthy and energized. Explore the self-care activities below to learn about their benefits for cognitive, social, emotional, spiritual, and physical wellbeing.",
       "topic": "Caregiver Wellness",
+      "description": "Take this quiz to explore healthy ways to cope with stress based on your interests.",
       "image": "aki.svg",
       "read_time": "7 minute read"
     },
@@ -205,6 +210,7 @@
       },
       "preview_text": "The COPD Zone Sheet and Symptom Log can be used to help monitor COPD symptoms. The COPD Zone Sheet and Symptom Log can be used to monitor COPD symptoms and recognize when flare-ups or emergency occurs.",
       "topic": "Managing Symptoms",
+      "description": "Use this tool to help monitor daily COPD symptoms and recognize when a flare-up or emergency occurs.",
       "image": "slide_14.svg",
       "read_time": "5 minute read"
     },
@@ -231,6 +237,7 @@
       },
       "preview_text": "The Heart Failure Zone Sheet and Daily Weight Log can be used to help monitor heart failure symptoms. The Heart Failure Zone Sheet and Daily Weight Log tool can be used to monitor heart failure symptoms and recognize when flare-ups or emergency occurs.",
       "topic": "Managing Symptoms",
+      "description": "Use this tool to help monitor daily heart failure symptoms and recognize when a flare-up or emergency occurs.",
       "image": "slide_15.svg",
       "read_time": "7 minute read"
     },
@@ -270,6 +277,7 @@
       },
       "preview_text": "The Appointment Planner Tool is a customizable and printable tool to help caregivers and people receiving care prepare for upcoming medical appointments. Within this tool are before, during, and after appointment checklists with tasks to complete at these different stages.",
       "topic": "Communicating with Healthcare Professionals",
+      "description": "Use this tool to prepare for upcoming medical appointments. Plan and organize what to talk about with health professionals before an appointment.",
       "image": "slide_1.svg",
       "read_time": "2 minute read"
     },
@@ -283,6 +291,7 @@
       },
       "preview_text": "The Check-Up Assessment is a questionnaire about health and wellbeing. It’s an opportunity to self-assess personal health needs or assess the health needs of someone being cared for.",
       "topic": "Communicating with Healthcare Professionals",
+      "description": "The self-reported Check-Up is a detailed health assessment that produces a summary to share with primary care providers.",
       "image": "slide_18.svg",
       "read_time": "5 minute read"
     }

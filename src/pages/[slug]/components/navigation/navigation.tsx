@@ -33,7 +33,7 @@ export const Navigation = ({
   const router = useRouter()
 
   const descriptions = t<TopicDescription[]>(
-    'static/learn:topics_description',
+    'static/topics_description:topics_description',
     { count: 1 },
     { returnObjects: true }
   )
@@ -53,7 +53,7 @@ export const Navigation = ({
       {nextArticle ? <div className={styles.border} /> : null}
       <div className={styles.nav}>
         {nextArticle ? (
-          <Link href={`/learn/${nextArticle.url}`}>
+          <Link href={`/${nextArticle.url}`}>
             <a className={styles.nav__wrapper}>
               <div className={styles.nav__column}>
                 <div className={styles.nav__link}>{nextArticle.title}</div>
@@ -65,7 +65,7 @@ export const Navigation = ({
                   <Button
                     title={t('read_next')}
                     buttonStyle="primary_blue"
-                    onClick={() => router.push(`/learn/${nextArticle.url}`)}
+                    onClick={() => router.push(`/${nextArticle.url}`)}
                   />
                 </div>
               </div>
@@ -104,7 +104,7 @@ export const Navigation = ({
                       title={t('common:start')}
                       buttonStyle="primary_blue"
                       onClick={() =>
-                        router.push(`/learn/${nextTopicArticles[0].url}`)
+                        router.push(`/${nextTopicArticles[0].url}`)
                       }
                     />
                   </div>
@@ -113,7 +113,7 @@ export const Navigation = ({
                   <div className={styles.next__row}>
                     {nextArticles.map((item, index) => {
                       return (
-                        <Link href={`/learn/${item.url}`} key={index}>
+                        <Link href={`/${item.url}`} key={index}>
                           <a className={styles.next__card}>
                             <ContentCard
                               title={item.title}
@@ -142,7 +142,7 @@ export const Navigation = ({
         )}
 
         {prevArticle && nextTopic ? (
-          <Link href={`/learn/${prevArticle.url}`}>
+          <Link href={`/${prevArticle.url}`}>
             <a>
               <div className={styles.nav__wrapper}>
                 <div className={styles.nav__column}>
@@ -153,7 +153,7 @@ export const Navigation = ({
             </a>
           </Link>
         ) : (
-          <Link href="/learn/">
+          <Link href="/learn">
             <a>
               <div className={styles.nav__wrapper}>
                 <div className={styles.nav__column}>

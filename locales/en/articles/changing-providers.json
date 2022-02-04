@@ -34,7 +34,7 @@
       "type": "information",
       "title": "What can I do about this problem?",
       "paragraphs": [
-        "Try the tools below to help with meeting new care providers: <li><a href='/learn/get-to-know-me'>Get to Know Me</a></li> <li><a href='/learn/my-care-plan'>My Care Plan</a></li>"
+        "Try the tools below to help with meeting new care providers: <li><a href='/get-to-know-me'>Get to Know Me</a></li> <li><a href='/my-care-plan'>My Care Plan</a></li>"
       ]
     }
   ]

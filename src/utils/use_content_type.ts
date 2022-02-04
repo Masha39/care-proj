@@ -6,10 +6,10 @@ import { ContentType } from 'components/content_type/content_type'
 
 const CONTENT_TYPE_ALL = 'ALL'
 
-export const useLearnContentType = () => {
-  const { t } = useTranslation('static/learn')
+export const useContentType = (types: ContentType[]) => {
+  const { t } = useTranslation('common')
 
-  const defaultLabel = t('static/learn:all_content')
+  const defaultLabel = t('all_content')
 
   const defaultType = useMemo(
     () => ({
@@ -18,12 +18,6 @@ export const useLearnContentType = () => {
       icon: ''
     }),
     [defaultLabel]
-  )
-
-  const types = t<ContentType[]>(
-    'static/learn:content_types',
-    { count: 'all' },
-    { returnObjects: true }
   )
 
   const contentTypes = [defaultType, ...types]

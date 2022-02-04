@@ -4,10 +4,10 @@ import useTranslation from 'next-translate/useTranslation'
 
 const SELECT_OPTION_ALL = 'ALL'
 
-export const useLearnSelect = () => {
-  const { t } = useTranslation('static/learn')
+export const useSelect = () => {
+  const { t } = useTranslation('common')
 
-  const defaultLabel = t('topics')
+  const defaultLabel = t('all_topics')
 
   const defaultValue = useMemo(
     () => ({
