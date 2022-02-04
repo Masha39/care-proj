@@ -13,6 +13,7 @@ module.exports = {
       'articles-list'
     ],
     '/contact-us': ['static/contact_page'],
+    '/resources': ['static/resources_page'],
     '/privacy-policy': ['static/privacy_policy']
   }
 }

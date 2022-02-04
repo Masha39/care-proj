@@ -94,3 +94,9 @@ type TopicDescription = {
   topic: string
   description: string
 }
+
+type Column = {
+  name: string
+  links: { link: string; title: string }[]
+  title: string
+}
