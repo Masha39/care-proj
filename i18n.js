@@ -7,6 +7,7 @@ module.exports = {
     '/': ['static/main_page', 'sections'],
     '/learn': ['static/learn', 'articles-list'],
     '/contact-us': ['static/contact_page'],
-    '/learn/[slug]': ['static/article', 'static/learn']
+    '/learn/[slug]': ['static/article', 'static/learn'],
+    '/privacy-policy': ['static/privacy_policy']
   }
 }
