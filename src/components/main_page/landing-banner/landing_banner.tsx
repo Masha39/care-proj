@@ -11,7 +11,7 @@ import Logo from 'public/svg/landing_logo.svg'
 import LogoMobile from 'public/svg/landing_logo_mobile.svg'
 import styles from 'src/components/main_page/landing-banner/landing_banner.module.scss'
 
-const landingBanner = () => {
+export const landingBanner = () => {
   const { t } = useTranslation('static/main_page')
   return (
     <div className={styles.landingBannerWrapper}>
