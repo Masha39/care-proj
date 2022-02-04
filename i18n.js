@@ -12,6 +12,7 @@ module.exports = {
       'static/topics_description',
       'articles-list'
     ],
-    '/contact-us': ['static/contact_page']
+    '/contact-us': ['static/contact_page'],
+    '/privacy-policy': ['static/privacy_policy']
   }
 }
