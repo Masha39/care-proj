@@ -20,7 +20,7 @@ export const GridType = ({
             {topicArticles.articles.map((item, index) => {
               return (
                 <div className={styles.articles__item} key={index}>
-                  <Link href={`/${item.url}`}>
+                  <Link href={`/learn/${item.url}`}>
                     <a>
                       <ContentCard
                         title={item.title}

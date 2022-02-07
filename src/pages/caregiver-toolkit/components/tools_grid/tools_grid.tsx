@@ -19,7 +19,7 @@ export const ToolsGrid = ({ topics }: { topics: Record<string, Topic> }) => {
             <Carousel className="large">
               {topic.articles.map((article, index) => {
                 return (
-                  <Link href={`/${article.url}`} key={index}>
+                  <Link href={`/learn/${article.url}`} key={index}>
                     <a className={styles.tools__card}>
                       <div className={styles.tools__item}>
                         <ContentCard

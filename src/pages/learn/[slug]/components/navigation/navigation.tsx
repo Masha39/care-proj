@@ -53,7 +53,7 @@ export const Navigation = ({
       {nextArticle ? <div className={styles.border} /> : null}
       <div className={styles.nav}>
         {nextArticle ? (
-          <Link href={`/${nextArticle.url}`}>
+          <Link href={`/learn/${nextArticle.url}`}>
             <a className={styles.nav__wrapper}>
               <div className={styles.nav__column}>
                 <div className={styles.nav__link}>{nextArticle.title}</div>
@@ -65,7 +65,7 @@ export const Navigation = ({
                   <Button
                     title={t('read_next')}
                     buttonStyle="primary_blue"
-                    onClick={() => router.push(`/${nextArticle.url}`)}
+                    onClick={() => router.push(`/learn/${nextArticle.url}`)}
                   />
                 </div>
               </div>
@@ -104,7 +104,7 @@ export const Navigation = ({
                       title={t('common:start')}
                       buttonStyle="primary_blue"
                       onClick={() =>
-                        router.push(`/${nextTopicArticles[0].url}`)
+                        router.push(`/learn/${nextTopicArticles[0].url}`)
                       }
                     />
                   </div>
@@ -113,7 +113,7 @@ export const Navigation = ({
                   <div className={styles.next__row}>
                     {nextArticles.map((item, index) => {
                       return (
-                        <Link href={`/${item.url}`} key={index}>
+                        <Link href={`/learn/${item.url}`} key={index}>
                           <a className={styles.next__card}>
                             <ContentCard
                               title={item.title}
@@ -142,7 +142,7 @@ export const Navigation = ({
         )}
 
         {prevArticle && nextTopic ? (
-          <Link href={`/${prevArticle.url}`}>
+          <Link href={`/learn/${prevArticle.url}`}>
             <a>
               <div className={styles.nav__wrapper}>
                 <div className={styles.nav__column}>

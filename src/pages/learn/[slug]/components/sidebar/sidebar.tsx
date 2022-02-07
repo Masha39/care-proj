@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import Link from 'next/link'
 
-import { Share } from 'pages/[slug]/components/share/share'
+import { Share } from 'pages/learn/[slug]/components/share/share'
 
 import styles from './sidebar.module.scss'
 
@@ -21,7 +21,7 @@ export const Sidebar = ({
         {articles.map((article, index) => {
           const isActive = article.title === title
           return (
-            <Link href={`/${article.url}`} key={index}>
+            <Link href={`/learn/${article.url}`} key={index}>
               <a
                 className={cn(styles.item, {
                   [`${styles.item__active}`]: isActive

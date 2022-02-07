@@ -34,7 +34,9 @@ export const GridTopic = ({
                   <Button
                     title={t('start')}
                     buttonStyle="primary_blue"
-                    onClick={() => router.push(`/${articles.articles[0].url}`)}
+                    onClick={() =>
+                      router.push(`/learn/${articles.articles[0].url}`)
+                    }
                   />
                 </div>
               </div>
@@ -47,7 +49,7 @@ export const GridTopic = ({
             {articles.articles?.map((item, index) => {
               return (
                 <div className={styles.articles__item} key={index}>
-                  <Link href={`/${item.url}`}>
+                  <Link href={`/learn/${item.url}`}>
                     <a>
                       <ContentCard
                         title={item.title}

@@ -37,7 +37,7 @@ export const Banner = ({
             <a className={styles.banner__link}>{t('static/article:learn')}</a>
           </Link>
           /
-          <Link href={`/${url}`}>
+          <Link href={`/learn/${url}`}>
             <a className={styles.banner__link}>{topic}</a>
           </Link>
         </div>

@@ -6,7 +6,7 @@ module.exports = {
     '*': ['common'],
     '/': ['static/main_page', 'sections'],
     '/learn': ['static/learn', 'articles-list', 'static/topics_description'],
-    '/[slug]': ['static/article', 'static/topics_description'],
+    '/learn/[slug]': ['static/article', 'static/topics_description'],
     '/caregiver-toolkit': [
       'static/caregiver_toolkit',
       'static/topics_description',
